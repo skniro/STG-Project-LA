@@ -1,0 +1,46 @@
+#本文件为随机传送插件的主配置文件
+Version: 1.5
+#服务器名称
+servername: ''
+#插件名称
+pluginname: '§6[§b随机传送§6]&r'
+#是否提示
+tipplayer: true
+#提示消息
+Message: 
+  Reload: '&a配置文件已重新载入！'
+
+#随机传送提示
+  #默认提示
+  default1: '&5未指定随机范围 使用默认值1000!'
+  default2: '&c正确使用方法/tpr [随机传送范围]!'
+  #提示
+  Tip: '&a您被传送至 &6世界: %s &dX: %s Z: %s !'
+  #警告
+  Wran: '&c超过最大允许传送范围 已限制为%s !'
+  #传送保护提示
+  Protect: '&3传送保护 下方有&c危险&3 已自动生成玻璃(10秒后消失) !'
+  #没有传送的权限
+  NoPerm: '&c当前没有使用随机传送的权限！'
+  #当前世界不允许传送
+  NoPermWorld: '&c当前世界不允许使用随机传送！'
+  #当前世界不允许传送
+  CDs: '&c随机传送冷却中 剩余 {0} 秒！'
+#允许传送的世界(区分大小写)
+AllowWorld: 
+  - world
+  - world_nether
+  - world_the_end
+
+#默认传送距离
+default: 1000
+#最大传送距离
+Limit: 10000
+#命令CD时间(单位Tick 1秒=20Tick)
+CD: 60
+
+#传送保护列表(不区分大小写)
+ProtectBlock: 
+  - WATER 
+  - LAVA 
+  - CACTUS

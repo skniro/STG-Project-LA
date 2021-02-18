@@ -1,0 +1,9 @@
+2018-7-15 20:02:48[Yum 能耗监控] 注意! 玩家 CONSOLE 执行 Yum 插件 yum load BiteSkyWars 命令 耗时 136ms 平均耗时 46ms!
+2018-7-17 11:40:57[Yum 能耗监控] 注意! 玩家 CONSOLE 执行 Yum 插件 yum unload Vault 命令 耗时 205ms 平均耗时 72ms!
+2018-7-17 11:54:57[Yum 能耗监控] 注意! 玩家 CONSOLE 执行 Yum 插件 yum load Vault 命令 耗时 30ms 平均耗时 61ms!
+2018-7-17 11:58:31[Yum 能耗监控] 注意! 插件 BiteSkyWars 处理 ArenaUpdateTask 任务 耗时 24ms 平均耗时 24ms!
+2018-8-7 21:07:36[Yum 能耗监控] 注意! 插件 EssentialsXMPP 处理 PlayerJoinEvent 事件 耗时 23ms 平均耗时 23ms!
+2018-8-7 21:09:53[Yum 能耗监控] 注意! 插件 BiteSkyWars 处理 ArenaUpdateTask 任务 耗时 24ms 平均耗时 24ms!
+2018-8-7 21:10:35[Yum 能耗监控] 注意! 插件 BiteSkyWars 处理 ArenaUpdateTask 任务 耗时 24ms 平均耗时 24ms!
+2018-8-7 21:15:40[Yum 能耗监控] 注意! 插件 BiteSkyWars 处理 ArenaUpdateTask 任务 耗时 26ms 平均耗时 26ms!
+2018-10-2 13:35:06[Yum 能耗监控] 注意! 插件 EssentialsXMPP 处理 PlayerJoinEvent 事件 耗时 26ms 平均耗时 26ms!
