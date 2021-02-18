@@ -1,0 +1,72 @@
+#-------------------------------------------------------------------------
+#                      QUICK CONFIG GUIDE
+#           Here maybe some grammar errors (mistakes?)
+#
+# ========= USAGE - BAR ===========
+# This options only for scrolls with UseTime > 0
+#
+# - Symbol
+# Bar indicator
+#
+# - FirstColor
+# Color of filled symbols
+#
+# - SecondColor
+# Color of unfilled symbols
+#
+# ========= USAGE - CANCEL ===========
+# - OnMove
+# Scroll using will be cancelled on player move.
+#
+# - OnInteract
+# Scroll using will be cancelled on player interact.
+#
+# - OnDrop
+# Scroll using will be cancelled if player drops an item.
+#
+# - OnInventory
+# Scroll using will be cancelled on player open an inventory.
+#
+# ========= DROPS ===========
+# - PreventFrom
+# Entities that spawned by one of reasons listed below wont drop items
+# All valid spawn reasons you can find here: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/event/entity/CreatureSpawnEvent.SpawnReason.html
+#
+# - EntityTypes
+# Entity types that can drop gems
+# Variables are:
+# * ALL - all entities
+# * HOSTILE - only hostile entities
+# * PASSIVE - only passive entities
+# * <ENTITY_TYPE> - only specified entity type
+# You can combine values like HOSTILE and PIG, PASSIVE and ZOMBIE and HUSK, etc.
+#-------------------------------------------------------------------------
+Usage:
+  Bar:
+    Symbol: '-'
+    FirstColor: '&8'
+    SecondColor: '&b'
+  # 哪些情况下 卷轴使用会被取消
+  # 玩家移动 玩家交互 玩家丢出物品 玩家打开GUI  
+  Cancel:
+    OnMove: true
+    OnInteract: true
+    OnDrop: true
+    OnInventory: true
+Drops:
+  # 掉落世界
+  Worlds:
+  - world
+  - world_nether
+  - world_the_end
+  PreventFrom:
+  - EGG
+  - DISPENSE_EGG
+  - SPAWNER
+  - SPAWNER_EGG
+  - SLIME_SPLIT
+  EntityTypes:
+  - ALL
+  # 允许掉落的MM怪物
+  MythicMobs:
+  - SkeletonKing

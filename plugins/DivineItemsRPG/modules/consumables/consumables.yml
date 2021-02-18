@@ -1,0 +1,109 @@
+Consumables:
+  Burger:
+    Cooldown: 10
+    Item:
+      Material: 'SKULL_ITEM:3'
+      Display: '&6&lBurger on a Plate'
+      Lore:
+      - '&8&m-----------&f Info &8&m-----------'
+      - '&f> &7Type: &fFood'
+      - '&7This burger looks appetizing.'
+      - '&8&m-----------&f Stats &8&m-----------'
+      - '&f> Health: &6+5❤&7.'
+      - '&f> Hunger: &6+5☕&7.'
+      - '&f> Absorption I: &645 sec&7.'
+      Extras:
+        Color: '240,240,20'
+        Enchanted: false
+        SkullHash: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjZkM2E3ZTA3ZjVkYWRkNDdiYWRiMTM4MmE1YjE2Mjc4MThlZTE2YTE5YTdjMGJmMjc2OGFlNjI2MjczN2I2In19fQ==\'
+        Flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        Unbreakable: true
+    Effects:
+      Health: 5
+      Hunger: 5
+      Actions:
+      - '[POTION] ABSORPTION 1 45 @Self'
+    Craft:
+      Workbench:
+        Enabled: true
+        Template:
+        - 'AIR:0 , BREAD:0 , AIR:0'
+        - 'CARROT_ITEM:0 , COOKED_BEEF:0 , POTATO_ITEM:0'
+        - 'AIR:0 , BREAD:0 , AIR:0'
+      Furnace:
+        Enabled: false
+        Input: 'ROTTEN_FLESH:0'
+  Strawberry:
+    Cooldown: 15
+    Item:
+      Material: 'SKULL_ITEM:3'
+      Display: '&c&lStrawberry'
+      Lore:
+      - '&8&m-----------&f Info &8&m-----------'
+      - '&f> &7Type: &fBerry'
+      - '&7Amazing strawberry!'
+      - '&8&m-----------&f Stats &8&m-----------'
+      - '&f> Health: &c+1.5❤&7.'
+      - '&f> Hunger: &c+1☕&7.'
+      - '&f> Speed II: &c30 sec&7.'
+      Extras:
+        Color: '240,240,20'
+        Enchanted: false
+        SkullHash: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjk3MDhkODE4YmU5N2RjN2UyYzNiYjVjMzU2NjNlYjM2MjY5MjM2ZTliYzk4Mjg2ZjQyOWRmZGYzNzVhYTkifX19\'
+        Flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        Unbreakable: true
+    Effects:
+      Health: 1.5
+      Hunger: 1
+      Actions:
+      - '[POTION] SPEED 2 30 @Self'
+    Craft:
+      Workbench:
+        Enabled: false
+        Template:
+        - 'AIR:0 , BREAD:0 , AIR:0'
+        - 'CARROT_ITEM:0 , COOKED_BEEF:0 , POTATO_ITEM:0'
+        - 'AIR:0 , BREAD:0 , AIR:0'
+      Furnace:
+        Enabled: false
+        Input: 'ROTTEN_FLESH:0'
+  Fish:
+    Cooldown: 15
+    Item:
+      Material: 'SKULL_ITEM:3'
+      Display: '&9&lFish'
+      Lore:
+      - '&8&m-----------&f Info &8&m-----------'
+      - '&f> &7Type: &fFish'
+      - '&7Looks not bad.'
+      - '&8&m-----------&f Stats &8&m-----------'
+      - '&f> Health: &9+3.5❤&7.'
+      - '&f> Hunger: &9+3☕&7.'
+      - '&f> Strength I: &960 sec&7.'
+      Extras:
+        Color: '240,240,20'
+        Enchanted: false
+        SkullHash: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVkMjljMGI0ZjE3NWI2NDBhZmNhYjQ0NWJkMTI5YzhmYjhiYTdjNDY1MTJjYTU2M2YxMDExOTU5MzJhZDdmNCJ9fX0=\'
+        Flags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        Unbreakable: true
+    Effects:
+      Health: 3.5
+      Hunger: 3
+      Actions:
+      - '[POTION] INCREASE_DAMAGE 1 60 @Self'
+    Craft:
+      Workbench:
+        Enabled: false
+        Template:
+        - 'AIR:0 , BREAD:0 , AIR:0'
+        - 'CARROT_ITEM:0 , COOKED_BEEF:0 , POTATO_ITEM:0'
+        - 'AIR:0 , BREAD:0 , AIR:0'
+      Furnace:
+        Enabled: false
+        Input: 'ROTTEN_FLESH:0'

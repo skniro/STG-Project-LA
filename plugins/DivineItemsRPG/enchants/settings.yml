@@ -1,0 +1,150 @@
+#-------------------------------------------------------------------------
+#                      QUICK CONFIG GUIDE
+#           Here maybe some grammar errors (mistakes?)
+#
+# ========= ITEM ===========
+# - Material
+# Item material. Names only. NOT ID!
+#
+# - Display
+# Item display name
+#
+# - Lore
+# Item lore
+#
+# ========= ENCHANT ===========
+# - SuccessChance
+# Max chance for successful enchanting.
+# Destroy chance will be '100 - <Success>' 
+# For example: With 50% it will be chosen randomly from 1 to 50
+#
+# - DestroyType
+# Defines actions of unsuccessful enchant.
+# Variables are:
+# * ITEM - Destroy the target item of enchanting.
+# * SOURCE - Destroys the source of enchanting.
+# * CLEAR - Replace all item gems with empty slots.
+# * BOTH - Destroys the target and source of enchanting.
+#
+# ========= EFFECTS ===========
+# Particle effects for enchant.
+#
+# ========= SOUNDS ===========
+# No comments.
+#
+# ========= DESIGN ===========
+# Lore design for items.
+#
+# - HideIfNoSlots
+# Hides the design header if item doesn't have slots.
+#
+# ========= DROPS ===========
+# - PreventFrom
+# Entities that spawned by one of reasons listed below wont drop items
+# All valid spawn reasons you can find here: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/event/entity/CreatureSpawnEvent.SpawnReason.html
+#
+# - EntityTypes
+# Entity types that can drop gems
+# Variables are:
+# * ALL - all entities
+# * HOSTILE - only hostile entities
+# * PASSIVE - only passive entities
+# * <ENTITY_TYPE> - only specified entity type
+# You can combine values like HOSTILE and PIG, PASSIVE and ZOMBIE and HUSK, etc.
+#
+# ========= ENCHANTMENT TABLE ===========
+# - Enabled
+# Enable/Disable getting divine enchants on book by using enchantment table
+# NOTE: May conflict with others plugins that adding custom enchants
+#
+# - ChanceToGet
+# Chance to get one of divine enchantments
+# 1.0 is 100% | 0.5 is 50% | 0.05 is 5% | etc.
+#-------------------------------------------------------------------------
+Item:
+  Materials:
+  - BOOK
+  Display: '&c非凡附魔书 - %s'
+  Lore:
+  - '&8&m-----------------'
+  - '&f> &7种类: &f非凡附魔书'
+  - '&f> &7等级: &f%rlevel%'
+  - '&f> &7物品种类: &f%itemtype%'
+  - '&f> &7成功几率: &a%s%% &8| &7失败几率: &c%d%%'
+  - '&8&m-----------------'
+  - '%desc%'
+  - ''
+  - '&c&l将书放在物品上来开始附魔!'
+
+Enchant:
+  # 成功几率最高是百分之多少？
+  # 失败几率将会是 '100 减去这个值'
+  # 例如：设置成50 那么成功几率会在0-50间随机 失败几率将在50-100间随机
+  SuccessChance: 50
+  # 如果失败了...
+  # <ITEM> - 整个物品都会消失 过于残酷 谨慎使用
+  # <GEM> - 附魔书会消失
+  # <CLEAR> - 不但附魔书会消失 该物品被赋予的能力也会全部消失 [推荐]
+  # <BOTH> - 附魔书连同物品都会消失 过于残酷 谨慎使用
+  DestroyType: CLEAR
+
+Effects:
+  # 附魔失败时的粒子效果
+  Destroy:
+    Enabled: true
+    Effect: VILLAGER_ANGRY
+  # 附魔成功时的粒子效果  
+  Success:
+    Enabled: true
+    Effect: VILLAGER_HAPPY
+
+Sounds:
+  # 附魔失败时的音效
+  Destroy:
+    Enabled: true
+    Sound: BLOCK_ANVIL_DESTROY
+  # 附魔成功时的音效  
+  Success:
+    Enabled: true
+    Sound: ENTITY_EXPERIENCE_ORB_PICKUP
+
+Design:
+  Header: '&4ᚐᚑᚒᚓᚔᚍᚎᚏ &c&l附魔 &4ᚏᚎᚍᚔᚓᚒᚑᚐ'
+  EmptySlot: '&c○ 空附魔槽'
+  FilledSlot: '&c◉ 附魔: &f'
+  NoSlots: '&c这个物品没有附魔槽'
+  # 如果物品一个附魔槽都没有，是否不显示标题“附魔”
+  HideIfNoSlots: true
+
+Drops:
+  # 会在哪些世界掉落
+  Worlds:
+  - world
+  - world_nether
+  - world_the_end
+  # 因为以下原因而生成的怪物不会掉落宝石
+  # 你可以在这个链接添加更多限制原因: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/event/entity/CreatureSpawnEvent.SpawnReason.html
+  PreventFrom:
+  - EGG
+  - DISPENSE_EGG
+  - SPAWNER
+  - SPAWNER_EGG
+  - SLIME_SPLIT
+  # 允许掉落宝石的怪物种类
+  # 你可以使用:
+  # - ALL - 所有种类
+  # - HOSTILE - 所有敌对生物
+  # - PASSIVE - 所有被动生物
+  # - <实体名称> - 指定生物种类，比如PIG    
+  EntityTypes:
+  - ALL
+  # 允许掉落的MM怪物
+  MythicMobs:
+  - SkeletonKing
+
+EnchantmentTable:
+  # 是否可以在附魔台上得到
+  # 请注意，如果你安装了其它更改附魔台附魔结果的插件，可能会冲突！
+  Enabled: true
+  # 几率 1代表100%
+  ChanceToGet: 0.1

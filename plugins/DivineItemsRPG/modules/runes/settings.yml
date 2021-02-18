@@ -1,0 +1,34 @@
+cfg_version: 1.0
+Item:
+  Display: '&b(Rune) %s'
+  Lore:
+  - '&8&m-----------&f  Info  &8&m-----------'
+  - '&f> &7Type: &fRune'
+  - '&f> &7Level: &f%rlevel%'
+  - '&f> &7Item type: &f%type%'
+  - '&f> &7Sucess: &a&l%s%% &8| &7Failure: &c&l%d%%'
+  - '&8&m----------&f  Effects  &8&m----------'
+  - '%desc%'
+  - ''
+  - '&7(Drag on Item to enchant)'
+
+Enchant:
+  MinSuccessChance: 10
+  MaxSuccessChance: 75
+  DestroyType: CLEAR
+  StackLevels: true
+
+Effects:
+  Enabled: true
+  Failure: VILLAGER_ANGRY
+  Success: VILLAGER_HAPPY
+
+Sounds:
+  Enabled: true
+  Failure: BLOCK_ANVIL_DESTROY
+  Success: ENTITY_EXPERIENCE_ORB_PICKUP
+
+Design:
+  Header: '&3ᚐᚑᚒᚓᚔᚍᚎᚏ &b&lRunes &3ᚏᚎᚍᚔᚓᚒᚑᚐ'
+  EmptySlot: '&b◇ (Slot) Rune'
+  FilledSlot: '&b◈ Rune: &f'

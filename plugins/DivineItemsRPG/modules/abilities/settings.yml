@@ -1,0 +1,33 @@
+cfg_version: 1.0
+Item:
+  Display: '&d(Ability) %s'
+  Lore:
+  - '&8&m-----------&f  Info  &8&m-----------'
+  - '&f> &7Type: &fAbility'
+  - '&f> &7Key: &f%key%'
+  - '&f> &7Shift only: &f%shift%'
+  - '&f> &7Sucess: &a&l%s%% &8| &7Failure: &c&l%d%%'
+  - '&8&m----------&f  Effects  &8&m----------'
+  - '%desc%'
+  - ''
+  - '&7(Drag on Item to enchant)'
+Enchant:
+  MinSuccessChance: 10
+  MaxSuccessChance: 75
+  DestroyType: CLEAR
+Effects:
+  Enabled: true
+  Failure: VILLAGER_ANGRY
+  Success: VILLAGER_HAPPY
+Sounds:
+  Enabled: true
+  Failure: BLOCK_ANVIL_DESTROY
+  Success: ENTITY_EXPERIENCE_ORB_PICKUP
+Design:
+  Header: '&5ᚑᚒᚓᚔᚍᚎᚏ &d&lAbilities &5ᚏᚎᚍᚔᚓᚒᚑᚐ'
+  EmptySlot: '&d♯ (Slot) Ability'
+  FilledSlot: '&d⚡ Ability: &f'
+  RightClick: '&7[&5RMB&7]'
+  LeftClick: '&7[&5LMB&7]'
+  Shift: '&7[&cShift&7]'
+  Cooldown: '&7[&d%s sec.&7]'

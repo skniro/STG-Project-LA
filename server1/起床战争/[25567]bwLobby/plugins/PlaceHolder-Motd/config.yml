@@ -1,6 +1,0 @@
-interval_ticks: 20
-close: server closed
-servers:
-  ooxx:
-    address: 127.0.0.1
-    port: 8888

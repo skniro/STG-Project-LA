@@ -1,0 +1,25 @@
+IdentifyTomes:
+  common:
+    Material: 'ENCHANTED_BOOK:0'
+    Display: '&f&lIdentify Tome [Common]'
+    Lore:
+    - '&8&m-----------&f  Info  &8&m-----------'
+    - '&f> &7Type: &fIdentify Tome'
+    - '&f> &7Tier: &fCommon'
+    - '&8&m----------&f  Effects  &8&m----------'
+    - '&7This tome can identify the'
+    - '&7common items only.'
+    - ''
+    - '&7(Drag on &fItem &7to identify)'
+  rare:
+    Material: 'ENCHANTED_BOOK:0'
+    Display: '&a&lIdentify Tome [Rare]'
+    Lore:
+    - '&8&m-----------&f  Info  &8&m-----------'
+    - '&f> &7Type: &fIdentify Tome'
+    - '&f> &7Tier: &aRare'
+    - '&8&m----------&f  Effects  &8&m----------'
+    - '&7This tome can identify the'
+    - '&7rare items only.'
+    - ''
+    - '&7(Drag on &fItem &7to identify)'

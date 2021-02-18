@@ -1,0 +1,50 @@
+cfg_version: 1.0
+Anvil:
+  Enabled: true
+  Action:
+    Click: RIGHT
+    isShiftOnly: true
+  Currency:
+    EXP: true
+    Material: true
+    Vault: true
+  RepairCost:
+    EXP: 0.1
+    MATERIAL: 0.02
+    VAULT: 1.25
+  MaterialsTable:
+    DIAMOND:
+    - 'DIAMOND_*'
+    IRON_INGOT:
+    - 'IRON_*'
+    GOLD_INGOT:
+    - 'GOLD_*'
+    STONE:
+    - 'STONE_*'
+    LOG:
+    - 'WOOD_*'
+    STICK:
+    - 'BOW'
+Item:
+  Enabled: true
+  Material: 'FIREWORK_CHARGE:0'
+  Display: '&d&lRepair Gem [%s]'
+  Lore:
+  - '&8&m-----------------------'
+  - '&f> &7Type: &fRepair Gem'
+  - '&f> &7Level: &f%level%'
+  - '&f> &7Durability: &d&l+%s%%'
+  - '&8&m-----------------------'
+  - ''
+  - '&7&l[Drag on &f&lItem &7to repair]'
+  ItemFlags:
+  - HIDE_ENCHANTS
+  - HIDE_ATTRIBUTES
+  SetUnbreakable: false
+  RepairMode: 0
+  Levels:
+    1: 10
+    2: 20
+    3: 30
+    4: 40
+    5: 50

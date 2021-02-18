@@ -1,0 +1,123 @@
+#-------------------------------------------------------------------------
+#                      QUICK CONFIG GUIDE
+#           Here maybe some grammar errors (mistakes?)
+#
+# ========= ITEM ===========
+# - Material
+# Item material. Names only. NOT ID!
+#
+# - Display
+# Item display name
+#
+# - Lore
+# Item lore
+#
+# ========= ENCHANT ===========
+# - SuccessChance
+# Max chance for successful enchanting.
+# Destroy chance will be '100 - <Success>' 
+# For example: With 50% it will be chosen randomly from 1 to 50
+#
+# - DestroyType
+# Defines actions of unsuccessful enchant.
+# Variables are:
+# * ITEM - Destroy the target item of enchanting.
+# * SOURCE - Destroys the source of enchanting.
+# * CLEAR - Replace all item abilities with empty slots.
+# * BOTH - Destroys the target and source of enchanting.
+#
+# ========= EFFECTS ===========
+# Particle effects for enchant.
+#
+# ========= SOUNDS ===========
+# No comments.
+#
+# ========= DESIGN ===========
+# Lore design for items.
+#
+# - HideIfNoSlots
+# Hides the design header if item doesn't have slots.
+#
+# ========= DROPS ===========
+# - PreventFrom
+# Entities that spawned by one of reasons listed below wont drop items
+# All valid spawn reasons you can find here: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/event/entity/CreatureSpawnEvent.SpawnReason.html
+#
+# - EntityTypes
+# Entity types that can drop gems
+# Variables are:
+# * ALL - all entities
+# * HOSTILE - only hostile entities
+# * PASSIVE - only passive entities
+# * <ENTITY_TYPE> - only specified entity type
+# You can combine values like HOSTILE and PIG, PASSIVE and ZOMBIE and HUSK, etc.
+#-------------------------------------------------------------------------
+Item:
+  Materials:
+  - NETHER_STAR
+  Display: '&d能力宝石 - %s'
+  Lore: 
+  - '&8&m-----------------'
+  - '&f> &7种类: &f能力宝石'
+  - '&f> &7按键: &f%key%'
+  - '&f> &7是否按Shift: &f%shift%'
+  - '&f> &7成功几率: &a%s%% &8| &7失败几率: &c%d%%'
+  - '&8&m-----------------'
+  - '%desc%'
+  - ''
+  - '&7[&d&l*&7] &d将它放到物品上开始赋予能力!'
+
+Enchant:
+  # 成功几率最高是百分之多少？
+  # 失败几率将会是 '100 减去这个值'
+  # 例如：设置成50 那么成功几率会在1-50间随机 失败几率将在50-99间随机
+  SuccessChance: 50
+  # 如果失败了...
+  # <ITEM> - 整个物品都会消失 过于残酷 谨慎使用
+  # <GEM> - 宝石会消失
+  # <CLEAR> - 不但宝石会消失 该物品被赋予的能力也会全部消失 [推荐]
+  # <BOTH> - 宝石连同物品都会消失 过于残酷 谨慎使用
+  DestroyType: CLEAR
+
+Effects:
+  Destroy:
+    Enabled: true
+    Effect: VILLAGER_ANGRY
+  Success:
+    Enabled: true
+    Effect: VILLAGER_HAPPY
+
+Sounds:
+  Destroy:
+    Enabled: true
+    Sound: BLOCK_ANVIL_DESTROY
+  Success:
+    Enabled: true
+    Sound: ENTITY_EXPERIENCE_ORB_PICKUP
+
+Design:
+  Header: '&5ᚑᚒᚓᚔᚍᚎᚏ &d&l能力宝石 &5ᚏᚎᚍᚔᚓᚒᚑᚐ'
+  EmptySlot: '&d♯ 空能力槽'
+  FilledSlot: '&d⚡ 能力: &f'
+  NoSlots: '&d这个物品没有能力宝石槽'
+  HideIfNoSlots: true
+  RightClick: '&7[&5右键&7]'
+  LeftClick: '&7[&5左键&7]'
+  Shift: '&7[&c按住Shift&7]'
+  Cooldown: '&7[&d%s 秒&7]'
+
+Drops:
+  Worlds:
+  - world
+  - world_nether
+  - world_the_end
+  PreventFrom:
+  - EGG
+  - DISPENSE_EGG
+  - SPAWNER
+  - SPAWNER_EGG
+  - SLIME_SPLIT
+  EntityTypes:
+  - ALL
+  MythicMobs:
+  - SkeletonKing

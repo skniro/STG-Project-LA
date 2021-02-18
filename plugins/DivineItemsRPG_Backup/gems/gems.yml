@@ -1,0 +1,247 @@
+Gems:
+  Damage:
+    Enabled: true
+    Name: '攻击 [+%value%%]'
+    Desc: 
+    - '&7增加攻击力 &a%value%%'
+    # 基础的值
+    Value: 5.0
+    # 宝石每升一级，增加多少值
+    ValuePerLvl: 1.5
+    # 最小和最大等级
+    LevelMin: 1
+    LevelMax: 5
+    # 如果掉落镶嵌宝石，有多大几率掉落这种宝石
+    DropChance: 0.15
+    # 与哪个属性有关
+    Attribute: DAMAGE
+    # 适用的物品大类 WEAPON是武器大类
+    Type: WEAPON
+  Critical:
+    Enabled: true
+    Name: '暴击 [+%value%%]'
+    Desc: 
+    - '&7增加暴击伤害 &a%value%%'
+    Value: 0.25
+    ValuePerLvl: 0.15
+    LevelMin: 1
+    LevelMax: 5
+    DropChance: 0.05
+    Attribute: CRITICAL_DAMAGE
+    Type: WEAPON
+  CritChance:
+    Enabled: true
+    Name: '暴击几率 [+%value%%]'
+    Desc: 
+    - '&7增加暴击几率 &a%value%%'
+    Value: 2.0
+    ValuePerLvl: 1.5
+    LevelMin: 1
+    LevelMax: 5
+    DropChance: 0.45
+    Attribute: CRITICAL_RATE
+    Type: WEAPON
+  BlockDamage:
+    Enabled: true
+    Name: '格挡伤害 [+%value%%]'
+    Desc: 
+    - '&7增加格挡伤害 &a%value%%'
+    Value: 1.0
+    ValuePerLvl: 1.0
+    LevelMin: 1
+    LevelMax: 5
+    DropChance: 0.45
+    Attribute: BLOCK_DAMAGE
+    Type: ARMOR
+  BlockRate:
+    Enabled: true
+    Name: '格挡 [+%value%%]'
+    Desc: 
+    - '&7增加格挡几率 &a%value%%'
+    Value: 1.0
+    ValuePerLvl: 1.0
+    LevelMin: 1
+    LevelMax: 5
+    DropChance: 0.25
+    Attribute: BLOCK_RATE
+    Type: ARMOR
+  Defense:
+    Enabled: true
+    Name: '防御 [+%value%%]'
+    Desc: 
+    - '&7增加防御力 &a%value%%'
+    Value: 1.0
+    ValuePerLvl: 1.0
+    LevelMin: 1
+    LevelMax: 5
+    DropChance: 0.35
+    Attribute: DEFENSE
+    Type: ARMOR
+  MagicDefense:
+    Enabled: true
+    Name: '魔法防御 [+%value%%]'
+    Desc: 
+    - '&7增加魔法防御 &a%value%%'
+    Value: 1.0
+    ValuePerLvl: 1.0
+    LevelMin: 1
+    LevelMax: 5
+    DropChance: 0.45
+    Attribute: MAGIC_DEFENSE
+    Type: ARMOR
+  FireDefense:
+    Enabled: true
+    Name: '火属防御 [+%value%%]'
+    Desc: 
+    - '&7增加火属防御 &a%value%%'
+    Value: 1.0
+    ValuePerLvl: 1.0
+    LevelMin: 1
+    LevelMax: 5
+    DropChance: 0.45
+    Attribute: FIRE_DEFENSE
+    Type: ARMOR
+  PoisonDefense:
+    Enabled: true
+    Name: '毒属防御 [+%value%%]'
+    Desc: 
+    - '&7增加毒属防御 &a%value%%'
+    Value: 1.0
+    ValuePerLvl: 1.0
+    LevelMin: 1
+    LevelMax: 5
+    DropChance: 0.45
+    Attribute: POISON_DEFENSE
+    Type: ARMOR
+  WaterDefense:
+    Enabled: true
+    Name: '水属防御 [+%value%%]'
+    Desc: 
+    - '&7增加水属防御 &a%value%%'
+    Value: 1.0
+    ValuePerLvl: 1.0
+    LevelMin: 1
+    LevelMax: 5
+    DropChance: 0.45
+    Attribute: WATER_DEFENSE
+    Type: ARMOR
+  WindDefense:
+    Enabled: true
+    Name: '风属防御 [+%value%%]'
+    Desc: 
+    - '&7增加风属防御 &a%value%%'
+    Value: 1.0
+    ValuePerLvl: 1.0
+    LevelMin: 1
+    LevelMax: 5
+    DropChance: 0.45
+    Attribute: WIND_DEFENSE
+    Type: ARMOR
+  PvPDefense:
+    Enabled: true
+    Name: 'PVP 防御 [+%value%%]'
+    Desc: 
+    - '&7增加 PVP 防御 &a%value%%'
+    Value: 1.0
+    ValuePerLvl: 1.0
+    LevelMin: 1
+    LevelMax: 5
+    DropChance: 0.45
+    Attribute: PVP_DEFENSE
+    Type: ARMOR
+  PvEDefense:
+    Enabled: true
+    Name: 'PVE 防御 [+%value%%]'
+    Desc: 
+    - '&7增加 PVE 防御 &a%value%%'
+    Value: 1.0
+    ValuePerLvl: 1.0
+    LevelMin: 1
+    LevelMax: 5
+    DropChance: 0.45
+    Attribute: PVE_DEFENSE
+    Type: ARMOR
+  PvEDamage:
+    Enabled: true
+    Name: 'PVE 攻击 [+%value%%]'
+    Desc: 
+    - '&7增加 PVE 攻击力 &a%value%%'
+    Value: 1.0
+    ValuePerLvl: 1.0
+    LevelMin: 1
+    LevelMax: 5
+    DropChance: 0.45
+    Attribute: PVE_DAMAGE
+    Type: WEAPON
+  PvPDamage:
+    Enabled: true
+    Name: 'PVP 攻击 [+%value%%]'
+    Desc: 
+    - '&7增加 PVP 攻击力 &a%value%%'
+    Value: 1.0
+    ValuePerLvl: 1.0
+    LevelMin: 1
+    LevelMax: 5
+    DropChance: 0.45
+    Attribute: PVP_DAMAGE
+    Type: WEAPON
+  DodgeChance:
+    Enabled: true
+    Name: '躲闪 [+%value%%]'
+    Desc: 
+    - '&7增加躲闪几率 &a%value%%'
+    Value: 1.0
+    ValuePerLvl: 0.45
+    LevelMin: 1
+    LevelMax: 5
+    DropChance: 0.45
+    Attribute: DODGE_RATE
+    Type: ARMOR
+  MovementSpeed:
+    Enabled: true
+    Name: '移动速度 [+%value%%]'
+    Desc: 
+    - '&7增加移动速度 &a%value%%'
+    Value: 1.0
+    ValuePerLvl: 1.15
+    LevelMin: 1
+    LevelMax: 5
+    DropChance: 0.45
+    Attribute: MOVEMENT_SPEED
+    Type: ARMOR
+  Penetration:
+    Enabled: true
+    Name: '盔甲穿透 [+%value%%]'
+    Desc: 
+    - '&7增加盔甲穿透 &a%value%%'
+    Value: 1.0
+    ValuePerLvl: 0.75
+    LevelMin: 1
+    LevelMax: 5
+    DropChance: 0.45
+    Attribute: PENETRATION
+    Type: WEAPON
+  Vampirism:
+    Enabled: true
+    Name: '吸血 [+%value%%]'
+    Desc: 
+    - '&7增加吸血 &a%value%%'
+    Value: 1.0
+    ValuePerLvl: 0.35
+    LevelMin: 1
+    LevelMax: 5
+    DropChance: 0.45
+    Attribute: VAMPIRISM
+    Type: WEAPON
+  Accuracy:
+    Enabled: true
+    Name: '命中率 [+%value%%]'
+    Desc: 
+    - '&7增加命中率 &a%value%%'
+    Value: 1.0
+    ValuePerLvl: 0.5
+    LevelMin: 1
+    LevelMax: 5
+    DropChance: 0.45
+    Attribute: ACCURACY_RATE
+    Type: WEAPON

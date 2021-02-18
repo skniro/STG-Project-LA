@@ -1,0 +1,458 @@
+# -----------------------------------------------------------------------------------------------------------
+#There are maybe some grammar errors(mistakes?). Sorry.
+#
+# - IDName
+# It's a tier identifier. Should be unique.
+#
+# - Display
+# It will be displayed at items lore
+#
+# - Color
+# This color can be used for item lore design.
+# Variable is: %c%
+#
+# - Item -> Display
+# Display name of the item.
+# Variables are:
+# * %c% - Tier color
+# * %prefix_tier% - Random prefix of tier from ../prefixes/tiers/<tiername>.txt
+# * %prefix_material% - Random prefix of item material from ../prefixes/materials/<material>.txt
+# * %prefix_type% - Random prefix of item type like SWORD, AXE, etc. from ../prefixes/types/<type>.txt
+# * %suffix_tier% - Random suffix of tier from ../suffixes/tiers/<tiername>.txt
+# * %suffix_material% - Random suffix of item material from ../suffixes/materials/<tiername>.txt
+# * %suffix_type% - Random suffix of item type like SWORD, AXE, etc. from ../suffixes/types/<type>.txt
+# * %itemtype% - Item type like Boots, Pickaxe, etc. without material name
+#
+# - Item -> Lore
+# Lore of the item.
+# Variables are:
+# * %c% - Tier color
+# * %ATTRIBUTE_NAME% - Attribute name
+# * %TYPE% - Item type
+# * %TIER% - Tier name
+# * %DAMAGE_TYPES% - Damage types
+# * %SOULBOUND% - Soulbound/Untradeable
+# * %CLASS% - Class restrictions
+# * %LEVEL% - Level restrictions
+#
+# - Item -> DisabledMaterials
+# Items types listed here will/won't be used in this tier
+# You can disable the item material group using type like this: WOOD* (DON'T FORGET TO USE '*')
+# You can disable the specified item type like this: WOOD_SWORD
+# You can disable the item group like this: ARMOR/WEAPON/TOOL
+#
+# - Item -> DisabledItemData
+# Numbers listed here will/won't be applied to items as item data/durability
+#
+# - Item -> Enchants
+# Here you can set enchants for the items
+# Set list to Enchants: [] if no enchants or set Min and Max to negative like '-1'
+#
+# - Item -> Flags
+# Here you can add specified flags to items
+#
+# - Item -> DamageTypes
+# Here you can set the damage types for item.
+# If the item doen't have Physical damage modifier and other damage types are lower than 100%, remainder of the damage will be as Physical
+#
+# - Item -> Restrictions
+# Here you can define if item will require soulbound to use it
+# Or if the item will be fully untradeable.
+# Also you can set the levels requirements to use this item.
+# To use class restrictions you need to have any plugin with classes that supports DivineItems
+#
+# - Item -> Attributes
+# Here you can define how many and how attributes will be applied to item.
+# Default means 'base' attribute. So, for example, DAMAGE will be apllied on weapons only.
+# Bonus means base attribute modifier. So, for example, armour can get Bonus attribute with 25% to DAMAGE. Bonus is percent only.
+#
+# - Item -> Slots
+# Here you can define how many and how slots will be apllied to item.
+#
+# - Drops -> Chance
+# Chance to drop item from this tier. It's NOT a global drop rate!
+#
+# - Drops -> Broadcast
+# Will broadcast a message when someone found item with this tier.
+#
+# - Drops -> EquipOnEntity
+# Entities around players will be equipped in random item from this tier. (Only if chance is success)
+#
+# - Drops -> Worlds
+# Worlds, where items with this tier can be dropped from mobs.
+#
+# - Drops -> PreventFrom
+# Mobs, that spawned by one of reasons from list won't be drop items with this tier.
+#
+# - Drops -> Entities
+# Entities, that will able to drop items with this tier.
+# Combining values is allowed.
+# Variables are:
+# * ALL - All entity types
+# * PASSIVE - Passive mobs only
+# * HOSTILE - Hostile mobs only
+# * <ENTITY_TYPE> - Specified entity
+# -----------------------------------------------------------------------------------------------------------
+######################################
+#                                    #
+#       汉化注释请参common.yml       #
+#                                    #
+######################################
+IDName: rare
+Display: 稀有
+Color: '&a'
+Item:
+  Display: '%c%%prefix_tier%%prefix_material%%prefix_type%%itemtype%%suffix_material%%suffix_type%%suffix_tier%'
+  Lore:
+  - '&7ᚐᚑᚒᚓᚔᚍᚎᚏ&r %c%&l描述 &7ᚏᚎᚍᚔᚓᚒᚑᚐ'
+  - '&7种类: &f%TYPE%'
+  - '&7品质:%c% %TIER%'
+  - '%DAMAGE_TYPES%'
+  - '%SOULBOUND%'
+  - '%CLASS%'
+  - '%LEVEL%'
+  - '&7ᚐᚑᚒᚓᚔᚍᚎᚏ&r %c%&l属性 &7ᚏᚎᚍᚔᚓᚒᚑᚐ'
+  - '%DAMAGE%'
+  - '%CRITICAL_RATE%'
+  - '%CRITICAL_DAMAGE%'
+  - '%PENETRATION%'
+  - '%VAMPIRISM%'
+  - '%ACCURACY_RATE%'
+  - '%DODGE_RATE%'
+  - '%BLOCK_RATE%'
+  - '%BLOCK_DAMAGE%'
+  - '%MOVEMENT_SPEED%'
+  - '%ATTACK_SPEED%'
+  - '%DEFENSE%'
+  - '%FIRE_DEFENSE%'
+  - '%MAGIC_DEFENSE%'
+  - '%WATER_DEFENSE%'
+  - '%WIND_DEFENSE%'
+  - '%POISON_DEFENSE%'
+  - '%PVP_DAMAGE%'
+  - '%PVE_DAMAGE%'
+  - '%PVP_DEFENSE%'
+  - '%PVE_DEFENSE%'
+  - ''
+  - '%DURABILITY%'
+  - '%DURABILITY_UNBREAK%'
+  - ''
+  - '%BONUS_STATS%'
+  - '%GEM%'
+  - '%ENCHANT%'
+  - '%RUNE%'
+  - '%ABILITY%'
+  # 皮革装的颜色 Random代表随机颜色 Value是颜色范围
+  Color:
+    Random: true
+    Value: 255,255,255
+  DisabledMaterials:
+    Reverse: false
+    List:
+    - WOOD*
+    - DIAMOND*
+  DisabledItemData:
+    Reverse: true
+    SetUnbreakable: true
+    List:
+    - 1
+    - 2
+    - 3
+  Enchants:
+    Min: 1
+    Max: 5
+    SafeOnly: false
+    List:
+    - ARROW_KNOCKBACK:1:5
+    - ARROW_INFINITE:1:5
+    - ARROW_FIRE:1:5
+    - DAMAGE_ALL:1:5
+    - DAMAGE_ARTHROPODS:1:5
+    - DAMAGE_UNDEAD:1:5
+    - DIG_SPEED:1:5
+    - DURABILITY:1:5
+    - FIRE_ASPECT:1:5
+    - KNOCKBACK:1:5
+    - LOOT_BONUS_BLOCKS:1:2
+    - LOOT_BONUS_MOBS:1:5
+    - OXYGEN:1:5
+    - PROTECTION_ENVIRONMENTAL:1:5
+    - PROTECTION_FALL:1:5
+    - PROTECTION_FIRE:1:5
+    - PROTECTION_PROJECTILE:1:5
+    - PROTECTION_EXPLOSIONS:1:5
+    - SILK_TOUCH:1:5
+    - THORNS:1:5
+  Flags:
+  - HIDE_ATTRIBUTES
+  - HIDE_ENCHANTS
+  - HIDE_UNBREAKABLE
+  DamageTypes:
+    PHYSICAL:
+      Chance: 100.0
+      Min: 50.0
+      Max: 100.0
+    MAGICAL:
+      Chance: 25.0
+      Min: 10.0
+      Max: 30.0
+  Restrictions:
+    Soulbound: true
+    Untradeable: false
+    Levels: 10-25
+    LevelScaleValues: 1.025
+    Classes:
+    - Warrior
+    - Templar
+    - Cleric
+    # 该品质物品最多能有几个普通属性？设置为-1无限制
+    MaxAttributes: -1
+    # 该品质物品最多能有几个增益属性？
+    MaxBonuses: 5
+  Attributes:
+    DAMAGE: 
+      Default:
+        Chance: 100.0
+        Min: 2.4
+        Max: 7.2
+      Bonus:
+        Chance: 10.0
+        Min: 3.6
+        Max: 7.2
+    PVP_DAMAGE: 
+      Default:
+        Chance: 0.0
+        Min: -1
+        Max: -1
+      Bonus:
+        Chance: 0.0
+        Min: -1
+        Max: -1
+    PVE_DAMAGE: 
+      Default:
+        Chance: 0.0
+        Min: -1
+        Max: -1
+      Bonus:
+        Chance: 0.0
+        Min: -1
+        Max: -1
+    CRITICAL_RATE: 
+      Default:
+        Chance: 10.0
+        Min: 1.0
+        Max: 7.25
+      Bonus:
+        Chance: 5.0
+        Min: 0.5
+        Max: 1.5
+    CRITICAL_DAMAGE: 
+      Default:
+        Chance: 10.0
+        Min: 1.0
+        Max: 1.25
+      Bonus:
+        Chance: 3.0
+        Min: 0.1
+        Max: 0.5
+    DODGE_RATE: 
+      Default:
+        Chance: 10.0
+        Min: 2.5
+        Max: 4.0
+      Bonus:
+        Chance: 5.0
+        Min: 0.5
+        Max: 1.0
+    ACCURACY_RATE: 
+      Default:
+        Chance: 10.0
+        Min: 4.5
+        Max: 7.5
+      Bonus:
+        Chance: 4.0
+        Min: 1.5
+        Max: 2.0
+    BLOCK_RATE: 
+      Default:
+        Chance: 10.0
+        Min: 1.5
+        Max: 7.0
+      Bonus:
+        Chance: 6.0
+        Min: 0.25
+        Max: 1.75
+    BLOCK_DAMAGE: 
+      Default:
+        Chance: 10.0
+        Min: 3.0
+        Max: 10.0
+      Bonus:
+        Chance: 10.0
+        Min: 0.35
+        Max: 0.75
+    DEFENSE: 
+      Default:
+        Chance: 100.0
+        Min: 6.0
+        Max: 14.0
+      Bonus:
+        Chance: 10.0
+        Min: 5.0
+        Max: 9.5
+    PVP_DEFENSE: 
+      Default:
+        Chance: 0.0
+        Min: -1
+        Max: -1
+      Bonus:
+        Chance: 0.0
+        Min: -1
+        Max: -1
+    PVE_DEFENSE: 
+      Default:
+        Chance: 0.0
+        Min: -1
+        Max: -1
+      Bonus:
+        Chance: 0.0
+        Min: -1
+        Max: -1
+    POISON_DEFENSE: 
+      Default:
+        Chance: 10.0
+        Min: 3.0
+        Max: 6.0
+      Bonus:
+        Chance: 5.0
+        Min: 5.0
+        Max: 8.0
+    FIRE_DEFENSE: 
+      Default:
+        Chance: 10.0
+        Min: 3.0
+        Max: 6.0
+      Bonus:
+        Chance: 5.0
+        Min: 5.0
+        Max: 8.0
+    MAGIC_DEFENSE: 
+      Default:
+        Chance: 10.0
+        Min: 3.0
+        Max: 6.0
+      Bonus:
+        Chance: 5.0
+        Min: 5.0
+        Max: 8.0
+    WATER_DEFENSE:
+      Default:
+        Chance: 10.0
+        Min: 3.0
+        Max: 6.0
+      Bonus:
+        Chance: 5.0
+        Min: 5.0
+        Max: 8.0
+    WIND_DEFENSE:
+      Default:
+        Chance: 10.0
+        Min: 3.0
+        Max: 6.0
+      Bonus:
+        Chance: 5.0
+        Min: 5.0
+        Max: 8.0
+    VAMPIRISM:
+      Default:
+        Chance: 5.0
+        Min: 1.5
+        Max: 4.5
+      Bonus:
+        Chance: 2.0
+        Min: 1.0
+        Max: 3.0
+    DURABILITY: 
+      Default:
+        Chance: 100.0
+        Min: 150
+        Max: 700
+      Bonus:
+        Chance: -1
+        Min: -1
+        Max: -1
+    DURABILITY_UNBREAK: 
+      Default:
+        Chance: 0.0
+        Min: 1
+        Max: 1
+      Bonus:
+        Chance: -1
+        Min: -1
+        Max: -1
+    PENETRATION: 
+      Default:
+        Chance: 6.0
+        Min: 4.5
+        Max: 10.0
+      Bonus:
+        Chance: 3.0
+        Min: 2.0
+        Max: 4.0
+    MOVEMENT_SPEED: 
+      Default:
+        Chance: 3.5
+        Min: 7.5
+        Max: 15.0
+      Bonus:
+        Chance: 2.0
+        Min: 5.0
+        Max: 7.5
+    ATTACK_SPEED: 
+      Default:
+        Chance: 4.75
+        Min: 5.0
+        Max: 10.0
+      Bonus:
+        Chance: 3.0
+        Min: 5.0
+        Max: 10.0
+  Slots:
+    GEM:
+      Chance: 75.0
+      Min: 1
+      Max: 3
+    ENCHANT:
+      Chance: 45.0
+      Min: 0
+      Max: 2
+    RUNE:
+      Chance: 20.0
+      Min: 0
+      Max: 2
+    ABILITY:
+      Chance: 5.0
+      Min: 0
+      Max: 1
+Drops:
+  Chance: 0.5
+  Broadcast: false
+  EquipOnEntity: true
+  Worlds:
+    world:
+      enabled: true
+      levels: 10-15
+    world_nether:
+      enabled: true
+      levels: 15-20
+    world_the_end:
+      enabled: true
+      levels: 20-25
+  PreventFrom:
+    EGG: true
+    DISPENSE_EGG: true
+    SPAWNER: true
+    SPAWNER_EGG: true
+    SLIME_SPLIT: true
+  EntityTypes:
+  - ALL

@@ -1,0 +1,465 @@
+# MCBBS PCD小组 秋风残叶 不想汉化了 你们谁汉化完了可以把文件传至MCBBS搬运帖一份 有金粒奖励
+Material:
+  AIR: 空气
+  STONE: 石头
+  GRASS: 草方块
+  DIRT: 泥土
+  COBBLESTONE: 圆石
+  WOOD: 木板
+  SAPLING: 树苗
+  BEDROCK: 基岩
+  WATER: 水
+  STATIONARY_WATER: 流动水
+  LAVA: 岩浆
+  STATIONARY_LAVA: 流动岩浆
+  SAND: 沙子
+  GRAVEL: 砂砾
+  GOLD_ORE: 金矿石
+  IRON_ORE: 铁矿石
+  COAL_ORE: 煤矿石
+  LOG: 木头
+  LEAVES: 树叶
+  SPONGE: 海绵
+  GLASS: 玻璃
+  LAPIS_ORE: 青金石矿石
+  LAPIS_BLOCK: 青金石块
+  DISPENSER: 投掷器
+  SANDSTONE: 沙石
+  NOTE_BLOCK: 音符盒
+  BED_BLOCK: 床
+  POWERED_RAIL: 充能铁轨
+  DETECTOR_RAIL: 探测铁轨
+  PISTON_STICKY_BASE: 粘性活塞
+  WEB: 网
+  LONG_GRASS: 高草丛
+  DEAD_BUSH: 枯死的灌木
+  PISTON_BASE: 活塞
+  PISTON_EXTENSION: 活塞臂
+  WOOL: 羊毛
+  PISTON_MOVING_PIECE: 被活塞推动的方块
+  YELLOW_FLOWER: 蒲公英
+  RED_ROSE: 虞美人
+  BROWN_MUSHROOM: 棕色蘑菇
+  RED_MUSHROOM: 红色蘑菇
+  GOLD_BLOCK: 金块
+  IRON_BLOCK: 铁块
+  DOUBLE_STEP: 双台阶
+  STEP: 台阶
+  BRICK: 砖块
+  TNT: TNT
+  BOOKSHELF: 书架
+  MOSSY_COBBLESTONE: 苔石
+  OBSIDIAN: 黑曜石
+  TORCH: 火把
+  FIRE: 火
+  MOB_SPAWNER: 刷怪笼
+  WOOD_STAIRS: 木质楼梯
+  CHEST: 箱子
+  REDSTONE_WIRE: 红石线
+  DIAMOND_ORE: 钻石矿石
+  DIAMOND_BLOCK: 钻石块
+  WORKBENCH: 工作台
+  CROPS: 农作物
+  SOIL: 耕地
+  FURNACE: 熔炉
+  BURNING_FURNACE: 燃烧的熔炉
+  SIGN_POST: 木牌
+  WOODEN_DOOR: 木门
+  LADDER: 梯子
+  RAILS: 铁轨
+  COBBLESTONE_STAIRS: 圆石楼梯
+  WALL_SIGN: 墙上的木牌
+  LEVER: 拉杆
+  STONE_PLATE: 石制压力板
+  IRON_DOOR_BLOCK: 铁制压力板
+  WOOD_PLATE: 木制压力板
+  REDSTONE_ORE: 红石矿石
+  GLOWING_REDSTONE_ORE: 发光的红石矿石
+  REDSTONE_TORCH_OFF: 熄灭的红石火把
+  REDSTONE_TORCH_ON: 红石火把
+  STONE_BUTTON: 石制按钮
+  SNOW: 雪
+  ICE: 冰
+  SNOW_BLOCK: 雪块
+  CACTUS: 仙人掌
+  CLAY: 黏土
+  SUGAR_CANE_BLOCK: 甘蔗方块
+  JUKEBOX: 唱片机
+  FENCE: 栅栏
+  PUMPKIN: 南瓜
+  NETHERRACK: 地狱疣
+  SOUL_SAND: 灵魂沙
+  GLOWSTONE: 萤石
+  PORTAL: 传送门
+  JACK_O_LANTERN: 南瓜灯
+  CAKE_BLOCK: 蛋糕
+  DIODE_BLOCK_OFF: 关闭的比较器
+  DIODE_BLOCK_ON: 开启的比较器
+  STAINED_GLASS: 染色玻璃
+  TRAP_DOOR: 活板门
+  MONSTER_EGGS: 刷怪蛋
+  SMOOTH_BRICK: 平滑石砖
+  HUGE_MUSHROOM_1: 蘑菇块
+  HUGE_MUSHROOM_2: 蘑菇块
+  IRON_FENCE: 铁栅栏
+  THIN_GLASS: 玻璃片
+  MELON_BLOCK: 西瓜块
+  PUMPKIN_STEM: 南瓜梗
+  MELON_STEM: 西瓜梗
+  VINE: 藤蔓
+  FENCE_GATE: 栅栏门
+  BRICK_STAIRS: Brick Stairs
+  SMOOTH_STAIRS: Smooth Stairs
+  MYCEL: Mycel
+  WATER_LILY: Water Lily
+  NETHER_BRICK: Nether Brick
+  NETHER_FENCE: Nether Fence
+  NETHER_BRICK_STAIRS: Nether Brick Stairs
+  NETHER_WARTS: Nether Warts
+  ENCHANTMENT_TABLE: Enchantment Table
+  BREWING_STAND: Brewing Stand
+  CAULDRON: Cauldron
+  ENDER_PORTAL: Ender Portal
+  ENDER_PORTAL_FRAME: Ender Portal Frame
+  ENDER_STONE: Ender Stone
+  DRAGON_EGG: Dragon Egg
+  REDSTONE_LAMP_OFF: Redstone Lamp Off
+  REDSTONE_LAMP_ON: Redstone Lamp On
+  WOOD_DOUBLE_STEP: Wood Double Step
+  WOOD_STEP: Wood Step
+  COCOA: Cocoa
+  SANDSTONE_STAIRS: Sandstone Stairs
+  EMERALD_ORE: Emerald Ore
+  ENDER_CHEST: Ender Chest
+  TRIPWIRE_HOOK: Tripwire Hook
+  TRIPWIRE: Tripwire
+  EMERALD_BLOCK: Emerald Block
+  SPRUCE_WOOD_STAIRS: Spruce Wood Stairs
+  BIRCH_WOOD_STAIRS: Birch Wood Stairs
+  JUNGLE_WOOD_STAIRS: Jungle Wood Stairs
+  COMMAND: Command
+  BEACON: Beacon
+  COBBLE_WALL: Cobble Wall
+  FLOWER_POT: Flower Pot
+  CARROT: Carrot
+  POTATO: Potato
+  WOOD_BUTTON: Wood Button
+  SKULL: Skull
+  ANVIL: Anvil
+  TRAPPED_CHEST: Trapped Chest
+  GOLD_PLATE: Gold Plate
+  IRON_PLATE: Iron Plate
+  REDSTONE_COMPARATOR_OFF: Redstone Comparator Off
+  REDSTONE_COMPARATOR_ON: Redstone Comparator On
+  DAYLIGHT_DETECTOR: Daylight Detector
+  REDSTONE_BLOCK: Redstone Block
+  QUARTZ_ORE: Quartz Ore
+  HOPPER: Hopper
+  QUARTZ_BLOCK: Quartz Block
+  QUARTZ_STAIRS: Quartz Stairs
+  ACTIVATOR_RAIL: Activator Rail
+  DROPPER: Dropper
+  STAINED_CLAY: Stained Clay
+  STAINED_GLASS_PANE: Stained Glass Pane
+  LEAVES_2: Leaves 2
+  LOG_2: Log 2
+  ACACIA_STAIRS: Acacia Stairs
+  DARK_OAK_STAIRS: Dark Oak Stairs
+  SLIME_BLOCK: Slime Block
+  BARRIER: Barrier
+  IRON_TRAPDOOR: Iron Trapdoor
+  PRISMARINE: Prismarine
+  SEA_LANTERN: Sea Lantern
+  HAY_BLOCK: Hay Block
+  CARPET: Carpet
+  HARD_CLAY: Hard Clay
+  COAL_BLOCK: Coal Block
+  PACKED_ICE: Packed Ice
+  DOUBLE_PLANT: Double Plant
+  STANDING_BANNER: Standing Banner
+  WALL_BANNER: Wall Banner
+  DAYLIGHT_DETECTOR_INVERTED: Daylight Detector Inverted
+  RED_SANDSTONE: Red Sandstone
+  RED_SANDSTONE_STAIRS: Red Sandstone Stairs
+  DOUBLE_STONE_SLAB2: Double Stone Slab2
+  STONE_SLAB2: Stone Slab2
+  SPRUCE_FENCE_GATE: Spruce Fence Gate
+  BIRCH_FENCE_GATE: Birch Fence Gate
+  JUNGLE_FENCE_GATE: Jungle Fence Gate
+  DARK_OAK_FENCE_GATE: Dark Oak Fence Gate
+  ACACIA_FENCE_GATE: Acacia Fence Gate
+  SPRUCE_FENCE: Spruce Fence
+  BIRCH_FENCE: Birch Fence
+  JUNGLE_FENCE: Jungle Fence
+  DARK_OAK_FENCE: Dark Oak Fence
+  ACACIA_FENCE: Acacia Fence
+  SPRUCE_DOOR: Spruce Door
+  BIRCH_DOOR: Birch Door
+  JUNGLE_DOOR: Jungle Door
+  ACACIA_DOOR: Acacia Door
+  DARK_OAK_DOOR: Dark Oak Door
+  END_ROD: End Rod
+  CHORUS_PLANT: Chorus Plant
+  CHORUS_FLOWER: Chorus Flower
+  PURPUR_BLOCK: Purpur Block
+  PURPUR_PILLAR: Purpur Pillar
+  PURPUR_STAIRS: Purpur Stairs
+  PURPUR_DOUBLE_SLAB: Purpur Double Slab
+  PURPUR_SLAB: Purpur Slab
+  END_BRICKS: End Bricks
+  BEETROOT_BLOCK: Beetroot Block
+  GRASS_PATH: Grass Path
+  END_GATEWAY: End Gateway
+  COMMAND_REPEATING: 循环命令方块
+  COMMAND_CHAIN: 连锁命令方块
+  FROSTED_ICE: 霜冰
+  MAGMA: 岩浆块
+  NETHER_WART_BLOCK: 地狱疣块
+  RED_NETHER_BRICK: 红色地狱砖块
+  BONE_BLOCK: 骨块
+  STRUCTURE_VOID: 结构空位
+  OBSERVER: 侦测器
+  WHITE_SHULKER_BOX: White Shulker Box
+  ORANGE_SHULKER_BOX: Orange Shulker Box
+  MAGENTA_SHULKER_BOX: Magenta Shulker Box
+  LIGHT_BLUE_SHULKER_BOX: Light Blue Shulker Box
+  YELLOW_SHULKER_BOX: Yellow Shulker Box
+  LIME_SHULKER_BOX: Lime Shulker Box
+  PINK_SHULKER_BOX: Pink Shulker Box
+  GRAY_SHULKER_BOX: Gray Shulker Box
+  SILVER_SHULKER_BOX: Silver Shulker Box
+  CYAN_SHULKER_BOX: Cyan Shulker Box
+  PURPLE_SHULKER_BOX: Purple Shulker Box
+  BLUE_SHULKER_BOX: Blue Shulker Box
+  BROWN_SHULKER_BOX: Brown Shulker Box
+  GREEN_SHULKER_BOX: Green Shulker Box
+  RED_SHULKER_BOX: Red Shulker Box
+  BLACK_SHULKER_BOX: Black Shulker Box
+  WHITE_GLAZED_TERRACOTTA: White Glazed Terracotta
+  ORANGE_GLAZED_TERRACOTTA: Orange Glazed Terracotta
+  MAGENTA_GLAZED_TERRACOTTA: Magenta Glazed Terracotta
+  LIGHT_BLUE_GLAZED_TERRACOTTA: Light Blue Glazed Terracotta
+  YELLOW_GLAZED_TERRACOTTA: Yellow Glazed Terracotta
+  LIME_GLAZED_TERRACOTTA: Lime Glazed Terracotta
+  PINK_GLAZED_TERRACOTTA: Pink Glazed Terracotta
+  GRAY_GLAZED_TERRACOTTA: Gray Glazed Terracotta
+  SILVER_GLAZED_TERRACOTTA: Silver Glazed Terracotta
+  CYAN_GLAZED_TERRACOTTA: Cyan Glazed Terracotta
+  PURPLE_GLAZED_TERRACOTTA: Purple Glazed Terracotta
+  BLUE_GLAZED_TERRACOTTA: Blue Glazed Terracotta
+  BROWN_GLAZED_TERRACOTTA: Brown Glazed Terracotta
+  GREEN_GLAZED_TERRACOTTA: Green Glazed Terracotta
+  RED_GLAZED_TERRACOTTA: Red Glazed Terracotta
+  BLACK_GLAZED_TERRACOTTA: Black Glazed Terracotta
+  CONCRETE: Concrete
+  CONCRETE_POWDER: Concrete Powder
+  STRUCTURE_BLOCK: Structure Block
+  IRON_SPADE: Iron Spade
+  IRON_PICKAXE: Iron Pickaxe
+  IRON_AXE: Iron Axe
+  FLINT_AND_STEEL: Flint And Steel
+  APPLE: Apple
+  BOW: Bow
+  ARROW: Arrow
+  COAL: Coal
+  DIAMOND: Diamond
+  IRON_INGOT: Iron Ingot
+  GOLD_INGOT: Gold Ingot
+  IRON_SWORD: Iron Sword
+  WOOD_SWORD: Wood Sword
+  WOOD_SPADE: Wood Spade
+  WOOD_PICKAXE: Wood Pickaxe
+  WOOD_AXE: Wood Axe
+  STONE_SWORD: Stone Sword
+  STONE_SPADE: Stone Spade
+  STONE_PICKAXE: Stone Pickaxe
+  STONE_AXE: Stone Axe
+  DIAMOND_SWORD: Diamond Sword
+  DIAMOND_SPADE: Diamond Spade
+  DIAMOND_PICKAXE: Diamond Pickaxe
+  DIAMOND_AXE: Diamond Axe
+  STICK: Stick
+  BOWL: Bowl
+  MUSHROOM_SOUP: Mushroom Soup
+  GOLD_SWORD: Gold Sword
+  GOLD_SPADE: Gold Spade
+  GOLD_PICKAXE: Gold Pickaxe
+  GOLD_AXE: Gold Axe
+  STRING: String
+  FEATHER: Feather
+  SULPHUR: Sulphur
+  WOOD_HOE: Wood Hoe
+  STONE_HOE: Stone Hoe
+  IRON_HOE: Iron Hoe
+  DIAMOND_HOE: Diamond Hoe
+  GOLD_HOE: Gold Hoe
+  SEEDS: Seeds
+  WHEAT: Wheat
+  BREAD: Bread
+  LEATHER_HELMET: Leather Helmet
+  LEATHER_CHESTPLATE: Leather Chestplate
+  LEATHER_LEGGINGS: Leather Leggings
+  LEATHER_BOOTS: Leather Boots
+  CHAINMAIL_HELMET: Chainmail Helmet
+  CHAINMAIL_CHESTPLATE: Chainmail Chestplate
+  CHAINMAIL_LEGGINGS: Chainmail Leggings
+  CHAINMAIL_BOOTS: Chainmail Boots
+  IRON_HELMET: Iron Helmet
+  IRON_CHESTPLATE: Iron Chestplate
+  IRON_LEGGINGS: Iron Leggings
+  IRON_BOOTS: Iron Boots
+  DIAMOND_HELMET: Diamond Helmet
+  DIAMOND_CHESTPLATE: Diamond Chestplate
+  DIAMOND_LEGGINGS: Diamond Leggings
+  DIAMOND_BOOTS: Diamond Boots
+  GOLD_HELMET: Gold Helmet
+  GOLD_CHESTPLATE: Gold Chestplate
+  GOLD_LEGGINGS: Gold Leggings
+  GOLD_BOOTS: Gold Boots
+  FLINT: Flint
+  PORK: Pork
+  GRILLED_PORK: Grilled Pork
+  PAINTING: Painting
+  GOLDEN_APPLE: Golden Apple
+  SIGN: Sign
+  WOOD_DOOR: Wood Door
+  BUCKET: Bucket
+  WATER_BUCKET: Water Bucket
+  LAVA_BUCKET: Lava Bucket
+  MINECART: Minecart
+  SADDLE: Saddle
+  IRON_DOOR: Iron Door
+  REDSTONE: Redstone
+  SNOW_BALL: Snow Ball
+  BOAT: Boat
+  LEATHER: Leather
+  MILK_BUCKET: Milk Bucket
+  CLAY_BRICK: Clay Brick
+  CLAY_BALL: Clay Ball
+  SUGAR_CANE: Sugar Cane
+  PAPER: Paper
+  BOOK: Book
+  SLIME_BALL: Slime Ball
+  STORAGE_MINECART: Storage Minecart
+  POWERED_MINECART: Powered Minecart
+  EGG: Egg
+  COMPASS: Compass
+  FISHING_ROD: Fishing Rod
+  WATCH: Watch
+  GLOWSTONE_DUST: Glowstone Dust
+  RAW_FISH: Raw Fish
+  COOKED_FISH: Cooked Fish
+  INK_SACK: Ink Sack
+  BONE: Bone
+  SUGAR: Sugar
+  CAKE: Cake
+  BED: Bed
+  DIODE: Diode
+  COOKIE: Cookie
+  MAP: Map
+  SHEARS: Shears
+  MELON: Melon
+  PUMPKIN_SEEDS: Pumpkin Seeds
+  MELON_SEEDS: Melon Seeds
+  RAW_BEEF: Raw Beef
+  COOKED_BEEF: Cooked Beef
+  RAW_CHICKEN: Raw Chicken
+  COOKED_CHICKEN: Cooked Chicken
+  ROTTEN_FLESH: Rotten Flesh
+  ENDER_PEARL: Ender Pearl
+  BLAZE_ROD: Blaze Rod
+  GHAST_TEAR: Ghast Tear
+  GOLD_NUGGET: Gold Nugget
+  NETHER_STALK: Nether Stalk
+  POTION: Potion
+  GLASS_BOTTLE: Glass Bottle
+  SPIDER_EYE: Spider Eye
+  FERMENTED_SPIDER_EYE: Fermented Spider Eye
+  BLAZE_POWDER: Blaze Powder
+  MAGMA_CREAM: Magma Cream
+  BREWING_STAND_ITEM: Brewing Stand Item
+  CAULDRON_ITEM: Cauldron Item
+  EYE_OF_ENDER: Eye Of Ender
+  SPECKLED_MELON: Speckled Melon
+  MONSTER_EGG: Monster Egg
+  EXP_BOTTLE: Exp Bottle
+  FIREBALL: Fireball
+  BOOK_AND_QUILL: Book And Quill
+  WRITTEN_BOOK: Written Book
+  EMERALD: Emerald
+  ITEM_FRAME: Item Frame
+  FLOWER_POT_ITEM: Flower Pot Item
+  CARROT_ITEM: Carrot Item
+  POTATO_ITEM: Potato Item
+  BAKED_POTATO: Baked Potato
+  POISONOUS_POTATO: Poisonous Potato
+  EMPTY_MAP: Empty Map
+  GOLDEN_CARROT: Golden Carrot
+  SKULL_ITEM: Skull Item
+  CARROT_STICK: Carrot Stick
+  NETHER_STAR: Nether Star
+  PUMPKIN_PIE: Pumpkin Pie
+  FIREWORK: Firework
+  FIREWORK_CHARGE: Firework Charge
+  ENCHANTED_BOOK: Enchanted Book
+  REDSTONE_COMPARATOR: Redstone Comparator
+  NETHER_BRICK_ITEM: Nether Brick Item
+  QUARTZ: Quartz
+  EXPLOSIVE_MINECART: Explosive Minecart
+  HOPPER_MINECART: Hopper Minecart
+  PRISMARINE_SHARD: Prismarine Shard
+  PRISMARINE_CRYSTALS: Prismarine Crystals
+  RABBIT: Rabbit
+  COOKED_RABBIT: Cooked Rabbit
+  RABBIT_STEW: Rabbit Stew
+  RABBIT_FOOT: Rabbit Foot
+  RABBIT_HIDE: Rabbit Hide
+  ARMOR_STAND: Armor Stand
+  IRON_BARDING: Iron Barding
+  GOLD_BARDING: Gold Barding
+  DIAMOND_BARDING: Diamond Barding
+  LEASH: Leash
+  NAME_TAG: Name Tag
+  COMMAND_MINECART: Command Minecart
+  MUTTON: Mutton
+  COOKED_MUTTON: Cooked Mutton
+  BANNER: Banner
+  END_CRYSTAL: End Crystal
+  SPRUCE_DOOR_ITEM: Spruce Door Item
+  BIRCH_DOOR_ITEM: Birch Door Item
+  JUNGLE_DOOR_ITEM: Jungle Door Item
+  ACACIA_DOOR_ITEM: Acacia Door Item
+  DARK_OAK_DOOR_ITEM: Dark Oak Door Item
+  CHORUS_FRUIT: Chorus Fruit
+  CHORUS_FRUIT_POPPED: Chorus Fruit Popped
+  BEETROOT: Beetroot
+  BEETROOT_SEEDS: Beetroot Seeds
+  BEETROOT_SOUP: Beetroot Soup
+  DRAGONS_BREATH: Dragons Breath
+  SPLASH_POTION: Splash Potion
+  SPECTRAL_ARROW: Spectral Arrow
+  TIPPED_ARROW: Tipped Arrow
+  LINGERING_POTION: Lingering Potion
+  SHIELD: Shield
+  ELYTRA: Elytra
+  BOAT_SPRUCE: Boat Spruce
+  BOAT_BIRCH: Boat Birch
+  BOAT_JUNGLE: Boat Jungle
+  BOAT_ACACIA: Boat Acacia
+  BOAT_DARK_OAK: Boat Dark Oak
+  TOTEM: Totem
+  SHULKER_SHELL: Shulker Shell
+  IRON_NUGGET: Iron Nugget
+  KNOWLEDGE_BOOK: Knowledge Book
+  GOLD_RECORD: Gold Record
+  GREEN_RECORD: Green Record
+  RECORD_3: Record 3
+  RECORD_4: Record 4
+  RECORD_5: Record 5
+  RECORD_6: Record 6
+  RECORD_7: Record 7
+  RECORD_8: Record 8
+  RECORD_9: Record 9
+  RECORD_10: Record 10
+  RECORD_11: Record 11
+  RECORD_12: Record 12

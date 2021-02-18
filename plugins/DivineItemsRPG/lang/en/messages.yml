@@ -1,0 +1,524 @@
+Prefix: '&aDivineItems &8›› &7'
+Help:
+  Main:
+  - '&8&m-----------&8&l[ &aDivine Items RPG &8&l]&8&m-----------'
+  - '&2> &a/di gems &7- Gems module.'
+  - '&2> &a/di enchants &7- Enchants module.'
+  - '&2> &a/di runes &7- Runes module.'
+  - '&2> &a/di abilities &7- Abilities module.'
+  - '&2> &a/di abyssdust &7- Abyss dust module.'
+  - '&2> &a/di magicdust &7- Magic dust module.'
+  - '&2> &a/di tiers &7- Tiers module.'
+  - '&2> &a/di repair &7- Repair module.'
+  - '&2> &a/di identify &7- Identify module.'
+  - '&2> &a/di buffs &7- Buffs module.'
+  - '&2> &a/di customitems &7- Custom items module.'
+  - '&2> &a/di soulbound &7- Soulbound module.'
+  - '&2> &a/di scrolls &7- Scrolls module.'
+  - '&2> &a/di sets &7- Item sets module.'
+  - '&2> &a/di resolve &7- Open resolve GUI.'
+  - '&2> &a/di modify &7- Modify the item in hand.'
+  - '&2> &a/di reload full &7- Reload the plugin and modules.'
+  - '&2> &a/di reload cfg &7- Reload the configs only.'
+  - '&2> &a/di info &7- Plugin info.'
+  Gems:
+  - '&8&m-----------&8&l[ &aDivine Items RPG &7- &aGems &8&l]&8&m-----------'
+  - '&2&l&nModule Info: '
+  - '&7> &fFull name: &a&l%m_name%'
+  - '&7> &fStatus: %m_state%'
+  - '&7> &fVersion: &a&l%m_ver%'
+  - '&2'
+  - '&7&l&nCommand List:'
+  - '&2> &a/di gems get <ID> <Level> <Amount> &7- Get a specified gem.'
+  - '&2> &a/di gems give <Player> <ID> <Level> <Amount> &7- Give a gem to player.'
+  - '&2> &a/di gems drop <World> <X> <Y> <Z> <ID> <Level> <Amount> &7- Drop a gem
+    in the world.'
+  - '&2> &a/di gems list &7- List of all gems.'
+  Enchants:
+  - '&8&m-----------&8&l[ &aDivine Items RPG &7- &aEnchants &8&l]&8&m-----------'
+  - '&2&l&nModule Info: '
+  - '&7> &fFull name: &a&l%m_name%'
+  - '&7> &fStatus: %m_state%'
+  - '&7> &fVersion: &a&l%m_ver%'
+  - '&2'
+  - '&7&l&nCommand List:'
+  - '&2> &a/di enchants get <ID> <Level> <Amount> &7- Get an specified enchant.'
+  - '&2> &a/di enchants give <Player> <ID> <Level> <Amount> &7- Give an enchant to
+    player.'
+  - '&2> &a/di enchants drop <World> <X> <Y> <Z> <ID> <Level> <Amount> &7- Drop an
+    enchant in the world.'
+  - '&2> &a/di enchants list &7- List of all enchants.'
+  Runes:
+  - '&8&m-----------&8&l[ &aDivine Items RPG &7- &aRunes &8&l]&8&m-----------'
+  - '&2&l&nModule Info: '
+  - '&7> &fFull name: &a&l%m_name%'
+  - '&7> &fStatus: %m_state%'
+  - '&7> &fVersion: &a&l%m_ver%'
+  - '&2'
+  - '&7&l&nCommand List:'
+  - '&2> &a/di runes get <ID> <Level> <Amount> &7- Get an specified rune.'
+  - '&2> &a/di runes give <Player> <ID> <Level> <Amount> &7- Give an rune to player.'
+  - '&2> &a/di runes drop <World> <X> <Y> <Z> <ID> <Level> <Amount> &7- Drop an rune
+    in the world.'
+  - '&2> &a/di runes list &7- List of all runes.'
+  Abilities:
+  - '&8&m-----------&8&l[ &aDivine Items RPG &7- &aAbilities &8&l]&8&m-----------'
+  - '&2&l&nModule Info: '
+  - '&7> &fFull name: &a&l%m_name%'
+  - '&7> &fStatus: %m_state%'
+  - '&7> &fVersion: &a&l%m_ver%'
+  - '&2'
+  - '&7&l&nCommand List:'
+  - '&2> &a/di abilities get <ID> <Level> <Amount> &7- Get an specified ability.'
+  - '&2> &a/di abilities give <Player> <ID> <Level> <Amount> &7- Give an ability to
+    player.'
+  - '&2> &a/di abilities drop <World> <X> <Y> <Z> <ID> <Level> <Amount> &7- Drop an
+    ability in the world.'
+  - '&2> &a/di abilities list &7- List of all abilities.'
+  AbyssDust:
+  - '&8&m-----------&8&l[ &aDivine Items RPG &7- &aAbyss Dust &8&l]&8&m-----------'
+  - '&2&l&nModule Info: '
+  - '&7> &fFull name: &a&l%m_name%'
+  - '&7> &fStatus: %m_state%'
+  - '&7> &fVersion: &a&l%m_ver%'
+  - '&2'
+  - '&7&l&nCommand List:'
+  - '&2> &a/di abyssdust get <ID> <Amount> &7- Get a specified dust.'
+  - '&2> &a/di abyssdust give <Player> <ID> <Amount> &7- Give a dust to player.'
+  - '&2> &a/di abyssdust drop <World> <X> <Y> <Z> <ID> <Amount> &7- Drop a dust in
+    the world.'
+  - '&2> &a/di abyssdust list &7- List of all dusts.'
+  Consumables:
+  - '&8&m-----------&8&l[ &aDivine Items RPG &7- &aConsumables &8&l]&8&m-----------'
+  - '&2&l&nModule Info: '
+  - '&7> &fFull name: &a&l%m_name%'
+  - '&7> &fStatus: %m_state%'
+  - '&7> &fVersion: &a&l%m_ver%'
+  - '&2'
+  - '&7&l&nCommand List:'
+  - '&2> &a/di consumables get <ID> <Amount> &7- Get a specified consumable.'
+  - '&2> &a/di consumables give <Player> <ID> <Amount> &7- Give a consumable to player.'
+  - '&2> &a/di consumables drop <World> <X> <Y> <Z> <ID> <Amount> &7- Drop a consumable
+    in the world.'
+  - '&2> &a/di consumables list &7- List of all consumables.'
+  MagicDust:
+  - '&8&m-----------&8&l[ &aDivine Items RPG &7- &aMagic Dust &8&l]&8&m-----------'
+  - '&2&l&nModule Info: '
+  - '&7> &fFull name: &a&l%m_name%'
+  - '&7> &fStatus: %m_state%'
+  - '&7> &fVersion: &a&l%m_ver%'
+  - '&2'
+  - '&7&l&nCommand List:'
+  - '&2> &a/di magicdust get <ID> <Level> <Amount> &7- Get a specified dust.'
+  - '&2> &a/di magicdust give <Player> <ID> <Level> <Amount> &7- Give a dust to player.'
+  - '&2> &a/di magicdust drop <World> <X> <Y> <Z> <ID> <Level> <Amount> &7- Drop a
+    dust in the world.'
+  - '&2> &a/di magicdust list &7- List of all dusts.'
+  Tiers:
+  - '&8&m-----------&8&l[ &aDivine Items RPG &7- &aTiers &8&l]&8&m-----------'
+  - '&2&l&nModule Info: '
+  - '&7> &fFull name: &a&l%m_name%'
+  - '&7> &fStatus: %m_state%'
+  - '&7> &fVersion: &a&l%m_ver%'
+  - '&2'
+  - '&7&l&nCommand List:'
+  - '&2> &a/di tiers get <ID> <Level> <Amount> &7- Get an item with specified tier.'
+  - '&2> &a/di tiers give <Player> <ID> <Level> <Amount> &7- Give an item to player.'
+  - '&2> &a/di tiers drop <World> <X> <Y> <Z> <ID> <Level> <Amount> &7- Drop an item
+    in the world.'
+  - '&2> &a/di tiers list &7- List of all tiers.'
+  Repair:
+  - '&8&m-----------&8&l[ &aDivine Items RPG &7- &aRepair &8&l]&8&m-----------'
+  - '&2&l&nModule Info: '
+  - '&7> &fFull name: &a&l%m_name%'
+  - '&7> &fStatus: %m_state%'
+  - '&7> &fVersion: &a&l%m_ver%'
+  - '&2'
+  - '&7&l&nCommand List:'
+  - '&2> &a/di repair get <Level> <Amount> &7- Get a repair gem.'
+  - '&2> &a/di repair give <Player> <Level> <Amount> &7- Give a repair gem to player.'
+  - '&2> &a/di repair drop <World> <X> <Y> <Z> <Level> <Amount> &7- Drop a repair
+    gem in the world.'
+  - '&2> &a/di repair item [Amount] &7- Repair an item in your hand.'
+  Identify:
+  - '&8&m-----------&8&l[ &aDivine Items RPG &7- &aIdentify &8&l]&8&m-----------'
+  - '&2&l&nModule Info: '
+  - '&7> &fFull name: &a&l%m_name%'
+  - '&7> &fStatus: %m_state%'
+  - '&7> &fVersion: &a&l%m_ver%'
+  - '&2'
+  - '&7&l&nCommand List:'
+  - '&2> &a/di identify tome get <ID> <Amount> &7- Get an identify tome.'
+  - '&2> &a/di identify tome give <Player> <ID> <Amount> &7- Give an identify tome
+    to player.'
+  - '&2> &a/di identify tome drop <World> <X> <Y> <Z> <ID> <Amount> &7- Drop an identify
+    tome in the world.'
+  - '&2> &a/di identify tome list &7- List of all identify tomes.'
+  - '&2> &a/di identify item get <ID> <Level> <Amount> &7- Get an unidentified item.'
+  - '&2> &a/di identify item give <Player> <ID> <Level> <Amount> &7- Give an unidentified
+    item to player.'
+  - '&2> &a/di identify item drop <World> <X> <Y> <Z> <ID> <Level> <Amount> &7- Drop
+    an unidentified item in the world.'
+  - '&2> &a/di identify item list &7- List of all unidentified items.'
+  - '&2> &a/di identify force &7- Force identify the item in your hand.'
+  Buffs:
+  - '&8&m-----------&8&l[ &aDivine Items RPG &7- &aBuffs &8&l]&8&m-----------'
+  - '&2&l&nModule Info: '
+  - '&7> &fFull name: &a&l%m_name%'
+  - '&7> &fStatus: %m_state%'
+  - '&7> &fVersion: &a&l%m_ver%'
+  - '&2'
+  - '&7&l&nCommand List:'
+  - '&2> &a/di buffs add <Player> <Attribute> <Amount> <Duration> &7- Adds a buff
+    to a player.'
+  - '&2> &a/di buffs reset <Player> <Attribute> &7- Reset a buff from a player.'
+  - '&2> &a/di buffs resetall &7- Reset all buffs from a player.'
+  CustomItems:
+  - '&8&m-----------&8&l[ &aDivine Items RPG &7- &aCustom Items &8&l]&8&m-----------'
+  - '&2&l&nModule Info: '
+  - '&7> &fFull name: &a&l%m_name%'
+  - '&7> &fStatus: %m_state%'
+  - '&7> &fVersion: &a&l%m_ver%'
+  - '&2'
+  - '&7&l&nCommand List:'
+  - '&2> &a/di customitems get <ID> <Amount> &7- Get a specified custom item.'
+  - '&2> &a/di customitems give <Player> <ID> <Amount> &7- Give a custom item to a
+    player.'
+  - '&2> &a/di customitems drop <World> <X> <Y> <Z> <ID> <Amount> &7- Drop a custom
+    item in the world.'
+  - '&2> &a/di customitems save <Name/Path> &7- Saves a custom item in your hand.'
+  - '&2> &a/di customitems delete <Name/Path> &7- Deletes a custom item.'
+  - '&2> &a>/di customitems list &7- List of all custom items.'
+  Soulbound:
+  - '&8&m-----------&8&l[ &aDivine Items RPG &7- &aSoulbound &8&l]&8&m-----------'
+  - '&2&l&nModule Info: '
+  - '&7> &fFull name: &a&l%m_name%'
+  - '&7> &fStatus: %m_state%'
+  - '&7> &fVersion: &a&l%m_ver%'
+  - '&2'
+  - '&7&l&nCommand List:'
+  - '&2> &a/di soulbound set <True/False> [Position] &7- Marks/Unmarks an item with
+    soulbound.'
+  - '&2> &a/di soulbound untrade <True/False> [Position] &7- Marks/Unmarks the item
+    as untradable.'
+  Scrolls:
+  - '&8&m-----------&8&l[ &aDivine Items RPG &7- &aScrolls &8&l]&8&m-----------'
+  - '&2&l&nModule Info: '
+  - '&7> &fFull name: &a&l%m_name%'
+  - '&7> &fStatus: %m_state%'
+  - '&7> &fVersion: &a&l%m_ver%'
+  - '&2'
+  - '&7&l&nCommand List:'
+  - '&2> &a/di scrolls get <ID> <Level> <Amount> &7- Get a specified scroll.'
+  - '&2> &a/di scrolls give <Player> <ID> <Level> <Amount> &7- Give a scroll to player.'
+  - '&2> &a/di scrolls drop <World> <X> <Y> <Z> <ID> <Level> <Amount> &7- Drop a scroll
+    in the world.'
+  - '&2> &a/di scrolls list &7- List of all scrolls.'
+  Modify:
+  - '&8&m-----------&8&l[ &aDivine Items RPG &7- &aModify &8&l]&8&m-----------'
+  - '&7&l&nCommand List:'
+  - '&2> &a/di modify name <Name> &7- Change display name of the item.'
+  - '&2> &a/di modify lore add [String] [Position] &7- Add lore line.'
+  - '&2> &a/di modify lore del [Position] &7- Remove lore line.'
+  - '&2> &a/di modify lore clear &7- Clear item lore.'
+  - '&2> &a/di modify flag add <ItemFlag> &7- Add a flag to item.'
+  - '&2> &a/di modify flag del <ItemFlag> &7- Remove a flag from the item.'
+  - '&2> &a/di modify nbt add <NBTTag> <Value> &7- Add an NBT Tag to item.'
+  - '&2> &a/di modify nbt del <NBTTag> &7- Remove NBT Tag from item.'
+  - '&2> &a/di modify enchant <Enchantment> <Level> &7- Enchants item.'
+  - '&2> &a/di modify potion <Effect> <Level> <Duration> [Ambient(true/false)] [Particles(true/false)]
+    [Icon(true/false)] &7- Modify potion effects.'
+  - '&2> &a/di modify eggtype <EntityType> &7- Change the monster egg type.'
+  - '&2> &a/di modify color <R,G,B> &7- Change the color of leather armor.'
+  Set:
+  - '&8&m-----------&8&l[ &aDivine Items RPG &7- &aSet &8&l]&8&m-----------'
+  - '&7&l&nCommand List:'
+  - '&2> &a/di set attribute <Atrribute> <Value> <Second Value> [Position] &7- Set
+    the attribute to item.'
+  - '&2> &a/di set bonus <Atrribute> <Value> [Position] &7- Set the attribute to item.'
+  - '&2> &a/di set level <Number> [Position] &7- Add level requirements to item.'
+  - '&2> &a/di set class <Class1,Class2,Etc> [Position] &7- Add class requirements
+    to item.'
+  - '&2> &a/di set ability <Ability> <Level> <LEFT/RIGHT> <true/false> <Cooldown>
+    [Position] &7- Add an ability to item.'
+  - '&2> &a/di set damagetype <Type> <Min> <Max> [Position] &7- Add the damage type
+    to item.'
+  - '&2> &a/di set defensetype <Type> <Min> <Max> [Position] &7- Add the defense type
+    to item.'
+  - '&2> &a/di set ammotype <Type> [Position] &7- Set the type of ammo to bow.'
+  - '&2> &a/di set slot <SlotType> [Position] &7- Add an empty slot to item.'
+  Sets:
+  - '&8&m-----------&8&l[ &aDivine Items RPG &7- &aSets &8&l]&8&m-----------'
+  - '&2&l&nModule Info: '
+  - '&7> &fFull name: &a&l%m_name%'
+  - '&7> &fStatus: %m_state%'
+  - '&7> &fVersion: &a&l%m_ver%'
+  - '&2'
+  - '&7&l&nCommand List:'
+  - '&2> &a/di sets get <ID> <Item> <Amount> &7- Get an specified set item.'
+  - '&2> &a/di sets give <Player> <ID> <Item> <Amount> &7- Give an item to player.'
+  - '&2> &a/di sets drop <World> <X> <Y> <Z> <ID> <Item> <Amount> &7- Drop an item
+    in the world.'
+  - '&2> &a/di sets list &7- List of all sets.'
+  Arrows:
+  - '&8&m-----------&8&l[ &aDivine Items RPG &7- &aArrows &8&l]&8&m-----------'
+  - '&2&l&nModule Info: '
+  - '&7> &fFull name: &a&l%m_name%'
+  - '&7> &fStatus: %m_state%'
+  - '&7> &fVersion: &a&l%m_ver%'
+  - '&2'
+  - '&7&l&nCommand List:'
+  - '&2> &a/di arrows get <ID> <Amount> &7- Get a specified arrow.'
+  - '&2> &a/di arrows give <Player> <ID> <Amount> &7- Give an arrow to player.'
+  - '&2> &a/di arrows drop <World> <X> <Y> <Z> <ID> <Amount> &7- Drop an arrow in
+    the world.'
+  - '&2> &a/di arrows list &7- List of all arrows.'
+Buffs:
+  Get: You just got the %type% buff for %time% seconds. Your %type% has been increased for %value%%
+  End: Your %type% buff's time ended.
+  Give: You just gave the %value%% %type% buff for %time% seconds to %p.
+  Invalid: '%type% can not be buffed.'
+CombatLog:
+  Deal: '&e*** You dealt &7%s &edamage to &7%e&e. ***'
+  DealCrit: '&e*** &lCritical! &eYou dealt &7%s &edamage to &7%e&e. ***'
+  Get: '&c*** &7%e &cdealt &7%s &cdamage to you. ***'
+  GetCrit: '&d*** &lCritical! &7%e &ddealt &7%s &ddamage to you. ***'
+  DodgeEnemy: '&6*** &7%e &6has dodged your attack! ***'
+  Dodge: '&6*** You has dodged &7%e &6attack! ***'
+  BlockEnemy: '&6*** &7%e &6has blocked &7%d% &6of your attack! ***'
+  Block: '&6*** You blocked &7%d% &6of &7%e &6attack! ***'
+Restrictions:
+  NotOwner: '&7You &ccan not &7use this item because you are not the owner of them.'
+  Level: '&7Your level is too low &7(&6%s&7) for using this item.'
+  Class: '&7Your class &c(%s) &7is not allowed to use this item!'
+  NoCommands: '&cYou can not type this command while holding untradable item.'
+  Usage: '&7You must set the &6Soulbound&7 to use this item. Do &6Right-Click &7on
+    this item in your inventory (press E).'
+  SoulAccept: '&7Soulbound have been set &asuccessfully&7!'
+  SoulDecline: '&4&lCanceled.'
+Soulbound:
+  NoDrop: '&cYou can not drop untradeable item!'
+CustomItems:
+  Invalid: '&cItem &7%s &cdoes not exists.'
+Gems:
+  Invalid: '&cGem &7%s &cdoes not exists.'
+  Enchanting:
+    MultipleNotAllowed: Your item is already have gem &c%gem%&7!
+    InvalidType: '&c&lOops! &7This gem can not be applied to this item type!'
+    NoSlots: '&c&lOops! &7This item do not contains empty gem slots!'
+    FullInventory: '&c&lOops! Your inventory must contains at least 1 free slot to
+      do it!'
+    Result: '&a&l[RESULT]'
+    Cancel: '&4&lCanceled!'
+    Success: '&a&lSuccess! &7Your item have been improved!'
+    Failure:
+      Item: '&c&lFailure! &7Your item have been destroyed!'
+      Source: '&c&lFailure! &7Your gem have been destroyed!'
+      Both: '&c&lFailure! &7Your item and gem has been destroyed!'
+      Clear: '&c&lFailure! &7Your item have lost all active gems!'
+      None: '&c&lFailure! &7Try again!'
+    NoItem: '&c&lOops! &7It seems your inventory does not contains an item to enchanting
+      anymore.'
+Enchants:
+  Invalid: '&cEnchant &7%s &cdoes not exists.'
+  Enchanting:
+    InvalidType: '&c&lOops! &7This enchant can not be applied to this item type!'
+    NoSlots: '&c&lOops! &7This item do not contains empty enchant slots!'
+    AlreadyHave: '&c&lOops! &7This item already have this enchant with higher level!'
+    FullInventory: '&c&lOops! Your inventory must contains at least 1 free slot to
+      do it!'
+    Result: '&a&l[RESULT]'
+    Cancel: '&4&lCanceled!'
+    Success: '&a&lSuccess! &7Your item have been enchanted!'
+    Failure:
+      Item: '&c&lFailure! &7Your item have been destroyed!'
+      Source: '&c&lFailure! &7Your enchant have been destroyed!'
+      Both: '&c&lFailure! &7Your item and enchant has been destroyed!'
+      Clear: '&c&lFailure! &7Your item have lost all active enchants!'
+      None: '&c&lFailure! &7Try again!'
+    NoItem: '&c&lOops! &7It seems your inventory does not contains an item to enchanting
+      anymore.'
+  Misc:
+    SpawnerName: '&c&lMob Spawner &7(%type%)'
+    GTM:
+      Steal: '&aYou stealed %s%$ from &2%p&a!'
+      Robbed: '&4%p &cstealed %s$ from you!'
+    SkullName: '&c&l%name%'
+Runes:
+  Invalid: '&cRune &7%s &cdoes not exists.'
+  Enchanting:
+    InvalidType: '&c&lOops! &7This rune can not be applied to this item type!'
+    NoSlots: '&c&lOops! &7This item do not contains empty rune slots!'
+    AlreadyHave: '&c&lOops! &7This item already have this rune with higher level!'
+    FullInventory: '&c&lOops! Your inventory must contains at least 1 free slot to
+      do it!'
+    Result: '&a&l[RESULT]'
+    Cancel: '&4&lCanceled!'
+    Success: '&a&lSuccess! &7Your item have been enchanted!'
+    Failure:
+      Item: '&c&lFailure! &7Your item have been destroyed!'
+      Source: '&c&lFailure! &7Your rune have been destroyed!'
+      Both: '&c&lFailure! &7Your item and rune has been destroyed!'
+      Clear: '&c&lFailure! &7Your item have lost all active runes!'
+      None: '&c&lFailure! &7Try again!'
+    NoItem: '&c&lOops! &7It seems your inventory does not contains an item to enchanting
+      anymore.'
+Abilities:
+  Invalid: '&cAbility &7%s &cdoes not exists.'
+  Cooldown: '&eYou must wait &c%s &eseconds to use this ability again.'
+  Enchanting:
+    InvalidType: '&c&lOops! &7This ability can not be applied to this item type!'
+    NoSlots: '&c&lOops! &7This item do not contains empty ability slots!'
+    AlreadyHave: '&c&lOops! &7This item already have this ability with higher level!'
+    FullInventory: '&c&lOops! Your inventory must contains at least 1 free slot to
+      do it!'
+    Result: '&a&l[RESULT]'
+    Cancel: '&4&lCanceled!'
+    Success: '&a&lSuccess! &7Your item have been enchanted!'
+    Failure:
+      Item: '&c&lFailure! &7Your item have been destroyed!'
+      Source: '&c&lFailure! &7Your ability have been destroyed!'
+      Both: '&c&lFailure! &7Your item and ability has been destroyed!'
+      Clear: '&c&lFailure! &7Your item have lost all active abilities!'
+      None: '&c&lFailure! &7Try again!'
+    NoItem: '&c&lOops! &7It seems your inventory does not contains an item to enchanting
+      anymore.'
+Identify:
+  Invalid:
+    Item: '&cItem &7%s &cdoes not exists.'
+    Tome: '&cTome &7%s &cdoes not exists.'
+  WrongTome: '&clOops! &7This &cIdentify Tome &7can not identify this item.'
+  NoEquip: You can not equip the unidentified item!
+Scrolls:
+  Invalid: '&cScroll &7%s &cdoes not exists.'
+  Cooldown: Scroll is on cooldown. You need to wait &c%s &7seconds to use it again.
+  Using: '&r&lUsing scroll... Don''t move.'
+  Cancelled: '&4&lCanceled.'
+Sets:
+  Invalid: '&cSet &7%s &cdoes not exitst.'
+Tiers:
+  Invalid: '&cTier &7%s &cdoes not exists.'
+Arrows:
+  Invalid: '&cArrow &7%s &cdoes not exists.'
+AbyssDust:
+  Invalid: '&cAbyss dust &7%s &cdoes not exists.'
+  NoGems: '&c&lOops! &7This item does not have any gems.'
+  NoEnchants: '&c&lOops! &7This item does not have any enchants.'
+  NoRunes: '&c&lOops! &7This item does not have any runes.'
+  NoAbilities: '&c&lOops! &7This item does not have any abilities.'
+  NoSoulbound: '&c&lOops! &7This item does not have soulbound.'
+  Applied:
+    Gem: '&a&lSuccess! &7Your %item% &7have lost &a%s Gem(s)&7.'
+    Enchant: '&a&lSuccess! &7Your %item% &7have lost &a%s Enchant(s)&7.'
+    Rune: '&a&lSuccess! &7Your %item% &7have lost &a%s Rune(s)&7.'
+    Ability: '&a&lSuccess! &7Your %item% &7have lost &a%s Ability(es)&7.'
+    Soul: '&a&lSuccess! &7Your %item% &7have lost &aSoulbound&7.'
+Repair:
+  Cancel: '&4&lCancelled.'
+  Result: '&a&l[RESULT]'
+  FullInventory: '&c&lOops! Your inventory must contains at least 1 free slot to do
+    it!'
+  NoItem: '&cYou must hold an item to repair!'
+  NoDurability: '&cItem does not have custom durability.'
+  Done: '&aYour item have been repaired.'
+  CantAfford: '&cYou can''t afford the repair!'
+MagicDust:
+  Done: '&a&lSuccess! &7The success rate have been increased!'
+  Invalid: '&cMagic dust &7%s &cdoes not exists.'
+  Maximum: The success rate of the item equals &c%s%&7. You cant add more!
+  NoStack: You can not apply Magic Dust on more than 1 item in stack!
+  WrongItem: '&c&lOops! &7This &eMagic Dust&7 can not be applied to this item.'
+Consumables:
+  Invalid: '&cConsume &7%s &cdoes not exists.'
+  Cooldown: '&cYou must wait &f%s &cseconds to consume it again.'
+  FullHunger: '&cYou can not consume it because your food level is full.'
+  FullHp: '&cYou can not consume it because your health is full.'
+Resolve:
+  Title:
+    Resolved: '&a&lResolved!'
+  SubTitle:
+    Resolved: '&7You resolved &f%item%&7!'
+Other:
+  'true': '&aTrue'
+  'false': '&cFalse'
+  Right: '&fRight'
+  Left: '&fLeft'
+  BrokenItem: Your item is broken! You can not use it!
+  Broadcast: Player &6%p &7found the item &6%item%&7!
+  Disabled: This item is disabled!
+  NoPerm: You dont have permissions to do that!
+  Get: 'You received: &7<%item%&7>'
+  NotAPotion: The item must be a potion!
+  NotAnEgg: The item must be an monster egg!
+  NotALeather: The item must be a leather armor!
+  InvalidType: '&cInvalid type! Available types: %s'
+  InvalidPlayer: '&cPlayer not found!'
+  InvalidNumber: '&f%s &cis invalid number!'
+  InvalidWorld: '&cWorld &7%s &cdoes not exists!'
+  InvalidSender: '&cYou must be a player!'
+  InvalidItem: '&cYou must hold an item!'
+  InvalidCoordinates: '&7%s &care not a valid coordinates!'
+  InvalidRGB: '&7%s &care not a valid RGB colors!'
+  Internal: '&cInternal error! Contact administration.'
+Admin:
+  NBTSet: NBT Tag &a%s &7successfully setted!
+  AttributeSet: Attribute &a%s &7successfully setted!
+  Set: Done!
+  WrongUsage: Wrong usage! Type &a/di help&7 for help.
+  Reload:
+    Full: Reload complete!
+    Cfg: Config files are reloaded!
+ItemTypes:
+  ALL: Any
+  WEAPON: Weapon
+  ARMOR: Armor
+  TOOL: Tool
+  ROD: Fishing Rod
+  SWORD: Sword
+  PICKAXE: Pickaxe
+  AXE: Axe
+  SPADE: Spade
+  HOE: Hoe
+  BOW: Bow
+  SHIELD: Shield
+  HELMET: Helmet
+  CHESTPLATE: Chestplate
+  LEGGINGS: Leggings
+  BOOTS: Boots
+  ELYTRA: Elytra
+EntityNames:
+  ARMOR_STAND: Armor Stand
+  CREEPER: Creeper
+  SKELETON: Skeleton
+  SPIDER: Spider
+  GIANT: Giant
+  ZOMBIE: Zombie
+  SLIME: Slime
+  GHAST: Ghast
+  PIG_ZOMBIE: Pig Zombie
+  ENDERMAN: Enderman
+  CAVE_SPIDER: Cave Spider
+  SILVERFISH: Silverfish
+  BLAZE: Blaze
+  MAGMA_CUBE: Magma Cube
+  ENDER_DRAGON: Ender Dragon
+  WITHER: Wither
+  BAT: Bat
+  WITCH: Witch
+  ENDERMITE: Endermite
+  GUARDIAN: Guardian
+  SHULKER: Shulker
+  PIG: Pig
+  SHEEP: Sheep
+  COW: Cow
+  CHICKEN: Chicken
+  SQUID: Squid
+  WOLF: Wolf
+  MUSHROOM_COW: Mushroom Cow
+  SNOWMAN: Snowman
+  OCELOT: Ocelot
+  IRON_GOLEM: Iron Golem
+  HORSE: Horse
+  RABBIT: Rabbit
+  VILLAGER: Villager
+  PLAYER: Player

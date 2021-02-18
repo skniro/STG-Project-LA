@@ -1,0 +1,127 @@
+#-------------------------------------------------------------------------
+#                      QUICK CONFIG GUIDE
+#           Here maybe some grammar errors (mistakes?)
+#
+# - Enabled
+# Set this to 'false' to completely disable repair module
+#
+# ========= ANVIL ===========
+# - Enabled
+# Set this to 'false' to disable repair by using anvil (it doesn't touch the default minecraft repair)
+#
+# - Action
+# Value: Do not touch.
+# isShiftOnly: <true/false>
+#
+# - Currency
+# Enable/Disable currency for repair
+#
+# - RepairCost
+# Formula is '%cost% * (%max_durability% - %current_durability%)'
+# For example: to repair item with durability 100/500 for EXP it will cost 40 levels
+#
+# ========= ITEM ===========
+# - Material
+# Item material. Names only. NOT ID!
+#
+# - Display
+# Item display name
+#
+# - Lore
+# Item lore
+#
+# - RepairMode
+# 0 - repair amount of current item durability
+# 1 - repair amount of maximal item durability
+#
+# - Levels
+# Amount of durability that will be repaired in percent 
+# For example: Gem 1 level will restore 10% of durability.
+# Format is: 'LEVEL:VALUE' Integers only.
+#
+# - PreventFrom
+# Entities that spawned by one of reasons listed below wont drop items
+# All valid spawn reasons you can find here: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/event/entity/CreatureSpawnEvent.SpawnReason.html
+#
+# - EntityTypes
+# Entity types that can drop gems
+# Variables are:
+# * ALL - all entities
+# * HOSTILE - only hostile entities
+# * PASSIVE - only passive entities
+# * <ENTITY_TYPE> - only specified entity type
+# You can combine values like HOSTILE and PIG, PASSIVE and ZOMBIE and HUSK, etc.
+#-------------------------------------------------------------------------
+# 想要完全禁止修复机制请设置为 'false' 
+Enabled: true
+Anvil:
+  # 想要禁止使用铁砧进行维修请设置为 'false' (这里的"维修"不是原版MC的用铁砧维修)
+  Enabled: true
+  # 怎样点击才能打开 GUI 以下为右键点击方块+按住Shift
+  Action:
+    Value: RIGHT_CLICK_BLOCK
+    isShiftOnly: true
+  # 修复物品需要花费什么？  
+  # 以下分别是经验级 物品 Vault金钱
+  Currency:
+    EXP: true
+    Material: true
+    Vault: true
+  # 修复计算方法 下列花费 x (总耐久 - 当前耐久)
+  # 例如 我要用经验修复一个耐久（100/500）的物品 我需要花费 0.1x(500-100)=40经验级  
+  RepairCost:
+    EXP: 0.1
+    MATERIAL: 0.02
+    VAULT: 1.25
+Item:
+  # 想要完全禁止宝石修复机制请设置为false
+  Enabled: true
+  # 修复宝石的物品种类 名称 lore
+  Material: FIREWORK_CHARGE
+  Display: '&d修复宝石 - %s'
+  Lore:
+  - '&8&m-----------------'
+  - '&f> &7种类: &f修复宝石'
+  - '&f> &7等级: &f%level%'
+  - '&f> &7修复: &d+%s%%'
+  - '&8&m-----------------'
+  - ''
+  - '&d&o将宝石放到物品上来修复'
+  # 修理模式
+    # 0 - 按照当前物品耐久为100%耐久 来增加耐久
+    # 1 - 按照物品最大耐久为100%耐久 来增加耐久
+  RepairMode: 0
+  # 百分之多少的耐久将会被修复
+  # 例如:  I 级宝石可以修复 10% 耐久
+  Levels:
+    1: 10
+    2: 20
+    3: 30
+    4: 40
+    5: 50
+  Drops:
+    # 从怪物身上掉落宝石的几率
+    Chance: 0.05
+    # 这种掉落会在哪些世界发生
+    Worlds:
+    - world
+    - world_nether
+    - world_the_end
+    # 因为以下原因而生成的怪物不会掉落宝石
+    # 你可以在这个链接添加更多限制原因: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/event/entity/CreatureSpawnEvent.SpawnReason.html
+    PreventFrom:
+    - EGG
+    - DISPENSE_EGG
+    - SPAWNER
+    - SPAWNER_EGG
+    - SLIME_SPLIT
+    # 允许掉落宝石的怪物种类
+    # 你可以使用:
+    # - ALL - 所有种类
+    # - HOSTILE - 所有敌对生物
+    # - PASSIVE - 所有被动生物
+    # - <实体名称> - 指定生物种类，比如PIG  
+    EntityTypes:
+    - ALL
+    MythicMobs:
+    - SkeletonKing

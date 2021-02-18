@@ -1,0 +1,80 @@
+Abilities:
+  HellFire:
+    Enabled: true
+    Material: 'NETHER_STAR:0'
+    Name: 'HellFire %rlevel%'
+    Desc: 
+    - '&7Launch a &d&lFireball&7 and'
+    - '&7and ignite the enemy for &d&l%var_2% &7sec.'
+    Variables:
+      1: 2.0
+      2: 2.0
+    VariablesLvl:
+      1: 0.35
+      2: 1.0
+    Actions:
+    - '[EFFECT] FLAME 0.5 0.5 0.5 0.05 50 @Self'
+    - '[DELAY] 20'
+    - '[FIREBALL] %var_1% @Self'
+    - '[IGNITE] %var_2% @Target'
+    Cooldown: 10
+    CooldownLvl: -1
+    MinLevel: 1
+    MaxLevel: 5
+  Volley:
+    Enabled: true
+    Material: 'NETHER_STAR:0'
+    Name: 'Volley %rlevel%'
+    Desc: 
+    - '&7Launch 4 arrows in a row with'
+    - '&7interval in &d&l%var_a% &7ticks.'
+    Variables:
+      a: 6.0
+      b: 2.5
+    VariablesLvl:
+      a: -0.5
+      b: 0.25
+    Actions:
+    - '[ARROW] %var_b% @Self'
+    - '[DELAY] %var_a%'
+    - '[ARROW] %var_b% @Self'
+    - '[DELAY] %var_a%'
+    - '[ARROW] %var_b% @Self'
+    - '[DELAY] %var_a%'
+    - '[ARROW] %var_b% @Self'
+    Cooldown: 10
+    CooldownLvl: -1
+    MinLevel: 1
+    MaxLevel: 6
+  HealWind:
+    Enabled: true
+    Material: 'NETHER_STAR:0'
+    Name: 'Heal Wind %rlevel%'
+    Desc: 
+    - '&7Resotres your health.'
+    Variables: {}
+    VariablesLvl: {}
+    Actions:
+    - '[COMMAND] heal %p @self'
+    - '[EFFECT] VILLAGER_HAPPY 0.5 0.5 0.5 0.05 50 @self'
+    - '[MESSAGE] &aYou have been healed!'
+    Cooldown: 10
+    CooldownLvl: -1
+    MinLevel: 1
+    MaxLevel: 1
+  IceSnake:
+    Enabled: true
+    Material: 'NETHER_STAR:0'
+    Name: 'Ice Snake %rlevel%'
+    Desc: 
+    - '&7Creates an ice snake that'
+    - '&7will damage all entities'
+    - '&7on the way.'
+    Variables: {}
+    VariablesLvl: {}
+    Actions:
+    - '[SPELL] ICE_SNAKE @Self'
+    Cooldown: 20
+    CooldownLvl: -1
+    MinLevel: 1
+    MaxLevel: 5

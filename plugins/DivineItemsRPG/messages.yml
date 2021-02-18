@@ -1,0 +1,351 @@
+Prefix: '&a非凡RPG &8›› &7'
+Help:
+- '&8&m--------------&8&l[ &a非凡RPG &8&l]&8&m--------------'
+- '&2> &a/di get item <品质> <数量> &7- 获得非凡RPG物品'
+- '&2> &a/di get <Gem/Enchbook/Rune/AbilityGem> <Type/Random> <等级> <数量> &7- 获得宝石/书/技能石/能力宝石'
+- '&2> &a/di get <RepairGem/MagicDust> <等级> <数量> &7- 获得修理宝石或祝福粉末'
+- '&2> &a/di get AbyssGem <数量> &7- 获得隔绝宝石'
+- '&2> &a/di give item <玩家> <品质> <数量> &7- 给玩家一个非凡RPG物品'
+- '&2> &a/di give <Gem/Enchbook/Rune/AbilityGem> <玩家> <种类> <等级> <数量> &7- 给特定玩家物品/宝石/书/技能石/能力宝石'
+- '&2> &a/di give <RepairGem/MagicDust> <玩家> <等级> <数量> &7- 给玩家修理宝石/祝福粉末'
+- '&2> &a/di give AbyssGem <玩家> <数量> &7- 给玩家隔绝宝石'
+- '&2> &a/di drop item <世界> <X> <Y> <Z> <品质> <数量> &7- 在特定世界特定坐标掉落RPG物品'
+- '&2> &a/di drop <Gem/Enchbook/Rune/AbilityGem> <世界> <X> <Y> <Z> <种类> <等级> <数量> &7-
+  在特定世界特定坐标掉落宝石/书/技能石/能力宝石'
+- '&2> &a/di drop <RepairGem/MagicDust> <世界> <X> <Y> <Z> <等级> <数量> &7- 在特定世界特定坐标掉落修理宝石/祝福粉末'
+- '&2> &a/di drop AbyssGem <世界> <X> <Y> <Z> <数量> &7- 在特定世界特定坐标掉落隔绝宝石'
+- '&2> &a/di set attribute <属性名> <值> [行数位置] &7- 设置物品属性'
+- '&2> &a/di set level <等级> &7- 设置使用物品所需等级'
+- '&2> &a/di set class <阵营1,阵营2,以此类推> &7- 设置使用物品所需阵营'
+- '&2> &a/di set ability <能力名> <等级> <LEFT/RIGHT> <true/false> <冷却> [行数位置] &7- 设置物品技能'
+- '&2> &a/di set damagetype <伤害种类> [行数位置] &7- 设置物品伤害种类'
+- '&2> &a/di set nbt <NBT标签> <值> &7- 设置物品NBT'
+- '&2> &a/di set transfer <true/false> [行数位置] &7- 设置物品交易状态'
+- '&2> &a/di set soulbound <true/false> [行数位置] &7- 设置物品绑定状态'
+- '&2> &a/di buff <add | reset | resetall> &7- 添加/移除玩家的buff'
+- '&2> &a/di custom save <保存名> &7- 保存自定义物品'
+- '&2> &a/di custom get <保存名> &7- 获得自定义物品'
+- '&2> &a/di custom give <保存名> <玩家> &7- 给予玩家自定义物品'
+- '&2> &a/di add slot <宝石插槽名> &7- 增加某种类的空插槽'
+- '&2> &a/di add flag <ItemFlag> &7- 给物品增加属性'
+- '&2> &a/di modify display <物品名称> &7- 修改手中物品的名称'
+- '&2> &a/di modify lore <add/remove> <lore内容> [增删位置] &7- 修改物品的lore'
+- '&2> &a/di fix &7- 修理你手中的物品'
+- '&2> &a/di reload &7- 重载插件'
+- '&2> &e汉化 by PCD小组 秋风残叶'
+- '&2> &e教程链接 http://www.mcbbs.net/thread-710189-1-1.html'
+Buff:
+  Get: 你获得了buff %type% ,将持续 %time% 秒，在这期间内你的 %type% 将会增加 %value%%
+  End: 你的 %type% buff 时间到了
+  Give: 你给予了 %value%% 的 %type% buff 给玩家%p ,持续 %time% 秒
+  Invalid: '%type% 不是一个合法的buff'
+Combat:
+  Deal: '&e*** 你打出了 &7%s &e伤害 伤害对象： &7%e&e. ***'
+  DealCrit: '&e*** &l暴击! &e你打出了 &7%s &e伤害 伤害对象： &7%e&e. ***'
+  Get: '&c*** &7%e &c给你造成了 &7%s &c伤害 ***'
+  GetCrit: '&d*** &l被暴击了! &7%e &d给你造成了 &7%s &d伤害 ***'
+  DodgeEnemy: '&6*** &7%e &6躲开了你的攻击! ***'
+  Dodge: '&6*** 你躲开了 &7%e &6的攻击! ***'
+  BlockEnemy: '&6*** &7%e &6格挡回了 &7%d% &6的攻击! ***'
+  Block: '&6*** 你格挡了 &7%d% &6的来自 &7%e &6的攻击! ***'
+Restrictions:
+  NotOwner: '&7你不是这个物品的主人 不要偷偷使用别人的东西！'
+  Level: '&7你的等级太低了 &7(&6%s&7) 快去找长者学点人生经验来'
+  Class: '&7你所在的阵营 &c(%s) &7禁止使用这个物品!'
+  NoCommands: '&c你手里拿着禁止交易的物品，你不能使用这个指令'
+  Usage: '&7想使用这个物品必须先进行 &6灵魂绑定&7. 请按E打开物品栏并 &6右键点击 &7这个物品'
+  SoulAccept: '&a灵魂绑定成功'
+  SoulDecline: '&c灵魂绑定取消'
+Enchanting:
+  Decline: '&4&l取消'
+  InvalidType: '&c&l这种附魔不能被用于这个物品!'
+  NoSlots: '&c&l这个物品没有空附魔槽'
+  HighLevel: '&7这件物品已经有了这种附魔的最高等级'
+  FullInventory: '&7你的背包满了! 你需要你的背包至少空出1格'
+  Result: '&a&l[附魔结果]'
+Success:
+  GEM: '&a&l镶嵌成功!&f 你的 %item% &f属性得到提升'
+  ENCHANT: '&a&l附魔成功!&f 你的 %item% &f有了新的附魔'
+  RUNE: '&a&l镶嵌属性石成功!&f 你的 %item% &f有了被动buff'
+  ABILITY: '&a&l镶嵌能力宝石成功!&f 你的 %item% &f现在有了新技能'
+  ABYSSGEM: '&a&l隔绝宝石已生效!&f 你的 %item% &f绑定已解除'
+  REPAIRGEM: '&a&l修复宝石使用成功!&f 你的 %item% &f已被修复'
+  MAGICDUST: '&a&l已使用祝福粉末!&f 你的 %item% &f成功率增加了'
+Destroy:
+  ITEM: '&c&l哎呀~失败了!&f 你的 %item% &f随着一道白光而消失了...'
+  SOURCE: '&c&l哎呀~失败了!&f 你的 %item% &f也因此破裂而消失了'
+  CLEAR: '&c&l哎呀~失败了!&f 你的 %item% &f失去了所有 %type% 属性加成'
+  BOTH: '&c&l哎呀~失败了~!&f 你的 %item% &f和 %source% &f伴随着剧烈的爆炸而灰飞烟灭'
+Types:
+  GEM: 宝石
+  ENCHANT: 非凡附魔书
+  RUNE: 属性石
+  ABILITY: 能力宝石
+  ABYSSGEM: 隔绝宝石
+  REPAIRGEM: 修复宝石
+  MAGICDUST: 祝福粉末
+Repair:
+  NoItem: '&c你必须把要修复的物品拿在手上!'
+  NoDurability: '&c这个物品不存在耐久'
+  CantAfford: '&c你付不起维修费!'
+MagicDust:
+  HighRate: 成功率已经到达 &c100%&7. 已经不能再增加了!
+  NoStack: 你不可以把祝福粉末用在堆叠的物品上
+Scroll:
+  Cooldown: 卷轴还在冷却中 你需要等待 &c%s &7秒才能使用
+  Using: '&r&l准备使用卷轴... 不要移动...'
+  Cancelled: '&4&l取消'
+Indicators:
+  PHYSICAL: '&c&l-%dmg%'
+  POISON: '&a&l-%dmg%'
+  FIRE: '&4&l-%dmg%'
+  MAGICAL: '&d&l-%dmg%'
+  WATER: '&9&l-%dmg%'
+  WIND: '&7&l-%dmg%'
+  DODGE: '&b&lMISS!'
+  CRIT: '&e&l暴击! -%dmg%'
+  BLOCK: '&6&l格挡! -%dmg%'
+Sell:
+  Title: '&l物品回收'
+  Msg: '你出售了该物品并获得了金钱: &a%s$'  
+Other:
+  'true': '&a是'
+  'false': '&c否'
+  Right: '&f右'
+  Left: '&f左'
+  BrokenItem: 你的物品已经损坏 你不能再用了
+  Broadcast: 玩家 &6%p &7获得了物品 &6%item%&7!
+  Disabled: 该物品已禁用
+  NoPerm: 你没有权限这么做
+  Get: '你获得了: &7<%item%&7>'
+  InvalidType: '&c非法种类! 可用种类: %types%'
+  InvalidPlayer: '&c玩家未找到!'
+  InvalidNumber: '&f%s &c不是一个合法的数字!'
+  Internal: '&c插件出现错误! 请立刻联系管理员'
+Command:
+  Set:
+    Usage: '&c用法: &f/di set <level|class|transfer|soulbound|damagetype|attribute|ability>'
+  SetLevel:
+    Usage: '&c用法: &f/di set level <level> [pos]'
+  SetClass:
+    Usage: '&c用法: &f/di set class <class1,class2,etc> [pos]'
+  SetTransfer:
+    Usage: '&c用法: &f/di set transfer <true/false> [pos]'
+  SetSoul:
+    Usage: '&c用法: &f/di set soulbound <true/false> [pos]'
+  SetDamage:
+    Usage: '&c用法: &f/di set damagetype <type> <amount> [pos]'
+  SetAttribute:
+    Usage: '&c用法: &f/di set attribute <type> <value> <value2> [pos]'
+  SetAbility:
+    Usage: '&c用法: &f/di set ability <type> <level> <LEFT/RIGHT> <true/false> <cooldown>'
+  SetNBT:
+    Usage: '&c用法: &f/di set nbt <tag> <value>'
+  Give:
+    Usage: '&c用法: &f/di give <item|gem|enchant|rune|ability|scroll|repairgem|abyssgem|magicdust>'
+  GiveGem:
+    Usage: '&c用法: &f/di give gem <player> <id> <level> <amount>'
+  GiveEnchant:
+    Usage: '&c用法: &f/di give enchant <player> <id> <level> <amount>'
+  GiveRune:
+    Usage: '&c用法: &f/di give rune <player> <id> <level> <amount>'
+  GiveAbility:
+    Usage: '&c用法: &f/di giev ability <player> <id> <level> <amount>'
+  GiveMagicdust:
+    Usage: '&c用法: &f/di give magicdust <player> <level> <amount>'
+  GiveAbyssgem:
+    Usage: '&c用法: &f/di give abyssgem <player> <amount>'
+  GiveRepairgem:
+    Usage: '&c用法: &f/di give repairgem <player> <level> <amount>'
+  GiveScroll:
+    Usage: '&c用法: &f/di give scroll <player> <id> <level> <amount>'
+  GiveItem:
+    Usage: '&c用法: &f/di give item <player> <tier> <amount>'
+  Get:
+    Usage: '&c用法: &f/di get <item|gem|enchant|rune|ability|scroll|repairgem|abyssgem|magicdust>'
+  GetGem:
+    Usage: '&c用法: &f/di get gem <id> <level> <amount>'
+  GetEnchant:
+    Usage: '&c用法: &f/di get enchant <id> <level> <amount>'
+  GetRune:
+    Usage: '&c用法: &f/di get rune <id> <level> <amount>'
+  GetAbility:
+    Usage: '&c用法: &f/di get ability <id> <level> <amount>'
+  GetMagicdust:
+    Usage: '&c用法: &f/di get magicdust <level> <amount>'
+  GetAbyssgem:
+    Usage: '&c用法: &f/di get abyssgem <amount>'
+  GetRepairgem:
+    Usage: '&c用法: &f/di get repairgem <level> <amount>'
+  GetScroll:
+    Usage: '&c用法: &f/di get scroll <id> <level> <amount>'
+  GetItem:
+    Usage: '&c用法: &f/di get item <tier> <amount>'
+  Drop:
+    Usage: '&c用法: &f/di drop <item|gem|enchant|rune|ability|scroll|repairgem|abyssgem|magicdust>'
+  DropGem:
+    Usage: '&c用法: &f/di drop gem <world> <x> <y> <z> <id> <level> <amount>'
+  DropEnchant:
+    Usage: '&c用法: &f/di drop enchant <world> <x> <y> <z> <id> <level> <amount>'
+  DropRune:
+    Usage: '&c用法: &f/di drop rune <world> <x> <y> <z> <id> <level> <amount>'
+  DropAbility:
+    Usage: '&c用法: &f/di drop ability <world> <x> <y> <z> <id> <level> <amount>'
+  DropMagicdust:
+    Usage: '&c用法: &f/di drop magicdust <world> <x> <y> <z> <level> <amount>'
+  DropAbyssgem:
+    Usage: '&c用法: &f/di drop abyssgem <world> <x> <y> <z> <amount>'
+  DropRepairgem:
+    Usage: '&c用法: &f/di drop repairgem <world> <x> <y> <z> <level> <amount>'
+  DropScroll:
+    Usage: '&c用法: &f/di drop scroll <world> <x> <y> <z> <id> <level> <amount>'
+  DropItem:
+    Usage: '&c用法: &f/di drop item <world> <x> <y> <z> <tier> <amount>'
+  Custom:
+    Usage: '&c用法: &f/di custom <save|get|delete|give>'
+  CustomSave:
+    Usage: '&c用法: &f/di custom save <name>'
+  CustomGet:
+    Usage: '&c用法: &f/di custom get <name>'
+  CustomDelete:
+    Usage: '&c用法: &f/di custom delete <name>'
+  CustomGive:
+    Usage: '&c用法: &f/di custom give <player> <name>'
+  Add:
+    Usage: '&c用法: &f/di add <slot|flag>'
+  AddSlot:
+    Usage: '&c用法: &f/di add slot <type>'
+  AddFlag:
+    Usage: '&c用法: &f/di add flag <flag>'
+  Buff:
+    Usage: '&c用法: &f/di buff <add|reset|resetall>'
+  AddBuff:
+    Usage: '&c用法: &f/di buff add <player> <type> <amount> <seconds>'
+  ResetBuff:
+    Usage: '&c用法: &f/di buff reset <player> <type>'
+  ResetAllBuff:
+    Usage: '&c用法: &f/di buff resetall <player>'
+Admin:
+  InvalidItem: 你必须把合适的物品拿在手上才能使用这个指令
+  NBTSet: NBT Tag &a%s &7成功设置
+  AttributeSet: 属性 &a%s &7成功设置
+  Set: 完成!
+  WrongUsage: 错误用法! 请输入 &a/di help&7 查看帮助
+  Reload: 插件已重载 汉化 by 秋风残叶
+ItemTypes:
+  ARMOR: 护甲
+  WEAPON: 武器
+  TOOL: 工具
+  SWORD: 剑
+  PICKAXE: 镐子
+  AXE: 斧子
+  SPADE: 铲子
+  HOE: 锄头
+  BOW: 弓
+  BOOK: 书
+  SHIELD: 盾牌
+  HELMET: 头盔
+  CHESTPLATE: 胸甲
+  LEGGINGS: 护腿
+  BOOTS: 靴子
+  ELYTRA: 鞘翅
+  WOOD_SWORD: 木剑
+  WOOD_SPADE: 木铲
+  WOOD_PICKAXE: 木镐
+  WOOD_AXE: 木斧
+  WOOD_HOE: 木锄
+  STONE_SWORD: 石剑
+  STONE_SPADE: 石铲
+  STONE_PICKAXE: 石镐
+  STONE_AXE: 石斧
+  STONE_HOE: 石锄
+  LEATHER_HELMET: 皮革帽子
+  LEATHER_CHESTPLATE: 皮革外套
+  LEATHER_LEGGINGS: 皮革裤子
+  LEATHER_BOOTS: 皮革靴子
+  GOLD_HELMET: 金头盔
+  GOLD_CHESTPLATE: 金胸甲
+  GOLD_LEGGINGS: 金护腿
+  GOLD_BOOTS: 金靴子
+  GOLD_HOE: 金锄
+  GOLD_SWORD: 金剑
+  GOLD_SPADE: 金铲
+  GOLD_PICKAXE: 金镐
+  GOLD_AXE: 金斧
+  CHAINMAIL_HELMET: 锁链头盔
+  CHAINMAIL_CHESTPLATE: 锁链胸甲
+  CHAINMAIL_LEGGINGS: 锁链护腿
+  CHAINMAIL_BOOTS: 锁链靴子
+  IRON_HELMET: 铁头盔
+  IRON_CHESTPLATE: 铁胸甲
+  IRON_LEGGINGS: 铁护腿
+  IRON_BOOTS: 铁靴子
+  IRON_SPADE: 铁铲
+  IRON_PICKAXE: 铁镐
+  IRON_AXE: 铁斧
+  IRON_SWORD: 铁剑
+  IRON_HOE: 铁锄
+  DIAMOND_SWORD: 钻石剑
+  DIAMOND_SPADE: 钻石铲
+  DIAMOND_PICKAXE: 钻石镐
+  DIAMOND_AXE: 钻石斧
+  DIAMOND_HELMET: 钻石头盔
+  DIAMOND_CHESTPLATE: 钻石胸甲
+  DIAMOND_LEGGINGS: 钻石护腿
+  DIAMOND_BOOTS: 钻石靴子
+  DIAMOND_HOE: 钻石锄
+  SHEARS: 剪刀
+  FISHING_ROD: 钓鱼竿
+EntityNames:
+  BAT: 蝙蝠
+  BLAZE: 烈焰人
+  CAVE_SPIDER: 洞穴蜘蛛
+  CHICKEN: 鸡
+  COW: 牛
+  CREEPER: 爬行者
+  DONKEY: 驴
+  ELDER_GUARDIAN: 远古守卫者
+  ENDER_DRAGON: 末影龙
+  ENDERMAN: 末影人
+  ENDERMITE: 末影螨
+  EVOKER: 唤魔者
+  GHAST: 恶魂
+  GIANT: 巨人
+  GUARDIAN: 守卫者
+  HORSE: 马
+  HUSK: 尸壳
+  ILLUSIONER: 幻术师
+  IRON_GOLEM: 铁傀儡
+  LLAMA: 羊驼
+  MAGMA_CUBE: 岩浆怪
+  MULE: 骡
+  MUSHROOM_COW: 哞菇
+  OCELOT: 豹猫
+  PIG: 猪
+  PIG_ZOMBIE: 僵尸猪人
+  PLAYER: 玩家
+  POLAR_BEAR: 北极熊
+  RABBIT: 兔子
+  SHEEP: 羊
+  SHULKER: 潜影贝
+  SILVERFISH: 蠹虫
+  SKELETON: 骷髅
+  SKELETON_HORSE: 骷髅马
+  SLIME: 史莱姆
+  SNOWBALL: 雪球
+  SNOWMAN: 雪傀儡
+  SPIDER: 蜘蛛
+  SQUID: 鱿鱼
+  STRAY: 流髑
+  VEX: 恼鬼
+  VILLAGER: 村民
+  VINDICATOR: 卫道士
+  WITCH: 女巫
+  WITHER: 凋灵
+  WITHER_SKELETON: 凋灵骷髅
+  WOLF: 狼
+  ZOMBIE: 僵尸
+  ZOMBIE_HORSE: 僵尸马
+  ZOMBIE_VILLAGER: 僵尸村民
+  ARMOR_STAND: 盔甲架
+  PARROT: 鹦鹉

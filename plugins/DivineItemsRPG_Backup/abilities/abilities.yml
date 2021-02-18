@@ -1,0 +1,96 @@
+# 可用技能 Actions 列表:
+# Actions最后可以写上@Self 代表以使用者身份执行，也可写上@Target 代表以敌人身份执行，也可写上@Radius-<半径>来作用于一定半径内所有实体，例如@Radius-12.5
+# 缺省默认是@Self
+# 可用变量：
+# %p代表执行者 %t代表目标敌人
+# - [BUFF] <属性名> <增加值> <时间> - 属性加成
+# - [POTION] <药水效果> <等级> <持续时长> - 添加药水效果
+# - [MESSAGE] <内容> - 给玩家发送一条消息
+# - [ACTION_BAR] <内容> - 给玩家发送一条Actionbar消息
+# - [TITLE] <内容> <渐入时间> <持续时间> <渐出时间> - 给玩家发送Title标题
+# - [SUB_TITLE] <内容> <渐入时间> <持续时间> <渐出时间> - 给玩家发送subtitle副标题
+# - [EFFECT] <粒子效果名> <X-OFFSET> <Y-OFFSET> <Z-OFFSET> <速度> <数量> - 粒子效果
+# - [COMMAND] <指令> - 执行控制台指令
+# - [PLAYER_COMMAND] <指令> - 以玩家身份执行指令
+# - [TELEPORT] <世界名> <X> <Y> <Z> - 传送玩家到某世界
+# - [SOUND] <音效名> - 播放声音
+#
+# - [DELAY] <延迟tick> - 延迟一段时间再进行下一个动作
+# - [FIREBALL] <速度> [@Self] - 发射火球
+# - [IGNITE] <持续时间> [@Target] - 点燃敌人
+# - [ARROW] <速度> [@Self] - 射出箭
+# - [WITHER_SKULL] <速度> [@Self] - 射出凋灵之首
+# - [BLOCK] <速度> <方块种类> [@Self] - 射出方块
+# - [LIGHTNING] - 召唤雷击
+Abilities:
+  HellFire:
+    # 是否启用？
+    Enabled: true
+    Name: 地狱炙炎 %level%
+    Desc:
+    - '&7发射一个火球'
+    - '&7点燃敌人 &d%var_2% &7秒'
+    # 在技能描述中，变量1（var_1）和变量2（var_2）的初始值
+    Variables:
+      '1': 2.0
+      '2': 2.0
+    # 每升一级，变量1和变量2增加多少  
+    VariablesLvl:
+      '1': 0.35
+      '2': 1.0
+    # 技能列表  
+    Actions:
+    - '[EFFECT] FLAME 0.5 0.5 0.5 0.05 50 @Self'
+    - '[DELAY] 20'
+    - '[FIREBALL] %var_1% @Self'
+    - '[IGNITE] %var_2% @Target'
+    # 冷却时间
+    Cooldown: 10
+    # 每升一级 冷却时间减少多少
+    CooldownLvl: -1
+    # 最小/最大等级
+    MinLevel: 1
+    MaxLevel: 5
+    # 如果掉落能力宝石，有多大几率掉落本宝石
+    DropChance: 0.03
+  Volley:
+    Enabled: true
+    Name: 万箭齐发 %level%
+    Desc:
+    - '&7每 &d%var_a% &7ticks 射出一箭'
+    - '&7一共射出4箭'
+    Variables:
+      a: 6.0
+      b: 2.5
+    VariablesLvl:
+      a: -0.5
+      b: 0.25
+    Actions:
+    - '[ARROW] %var_b% @Self'
+    - '[DELAY] %var_a%'
+    - '[ARROW] %var_b% @Self'
+    - '[DELAY] %var_a%'
+    - '[ARROW] %var_b% @Self'
+    - '[DELAY] %var_a%'
+    - '[ARROW] %var_b% @Self'
+    Cooldown: 10
+    CooldownLvl: -1
+    MinLevel: 1
+    MaxLevel: 6
+    DropChance: 0.03
+  HealWind:
+    Enabled: true
+    Name: 祝福之风 %level%
+    Desc:
+    - '&7治愈自己'
+    Variables: {}
+    VariablesLvl: {}
+    Actions:
+    - '[COMMAND] heal %p @self'
+    - '[EFFECT] VILLAGER_HAPPY 0.5 0.5 0.5 0.05 50 @self'
+    - '[MESSAGE] &a你被祝福之风治愈了!'
+    Cooldown: 10
+    CooldownLvl: -1
+    MinLevel: 1
+    MaxLevel: 1
+    DropChance: 0.02

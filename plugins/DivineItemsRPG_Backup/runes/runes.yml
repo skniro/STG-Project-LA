@@ -1,0 +1,107 @@
+Runes:
+  Strength:
+    # 是否启用？
+    Enabled: true
+    Name: '力量 %level%'
+    Desc: 
+    - '&7获得 &b力量 %level% &7效果'
+    # 效果名
+    # 你可以通过添加合法的buff名称，来制作自定义的属性石
+    Effect: INCREASE_DAMAGE
+    # buff最低和最高等级
+    LevelMin: 1
+    LevelMax: 3
+    # 如果掉落属性石 有多大几率掉落这种属性石
+    DropChance: 0.15
+    # 适用的物品大类
+    Type: WEAPON
+  Regen:
+    Enabled: true
+    Name: '再生 %level%'
+    Desc: 
+    - '&7获得 &b生命恢复 %level% &7效果'
+    Effect: REGENERATION
+    LevelMin: 1
+    LevelMax: 2
+    DropChance: 0.07
+    Type: ARMOR
+  Speed:
+    Enabled: true
+    Name: '速度 %level%'
+    Desc: 
+    - '&7获得 &b速度 %level% &7效果'
+    Effect: SPEED
+    LevelMin: 1
+    LevelMax: 2
+    DropChance: 0.09
+    Type: ARMOR
+  Jump:
+    Enabled: true
+    Name: '跳跃 %level%'
+    Desc: 
+    - '&7获得 &b跳跃 %level% &7效果'
+    Effect: JUMP
+    LevelMin: 1
+    LevelMax: 3
+    DropChance: 0.11
+    Type: ARMOR
+  Shield:
+    Enabled: true
+    Name: '抗性提升 %level%'
+    Desc: 
+    - '&7获得 &b抗性提升 %level% &7效果'
+    Effect: DAMAGE_RESISTANCE
+    LevelMin: 1
+    LevelMax: 3
+    DropChance: 0.04
+    Type: ARMOR
+  Haste:
+    Enabled: true
+    Name: '急迫 %level%'
+    Desc: 
+    - '&7获得 &b急迫 %level% &7效果'
+    Effect: FAST_DIGGING
+    LevelMin: 1
+    LevelMax: 3
+    DropChance: 0.06
+    Type: TOOL
+  TigerEye:
+    Enabled: true
+    Name: '夜视 %level%'
+    Desc: 
+    - '&7获得 &b夜视 %level% &7效果'
+    Effect: NIGHT_VISION
+    LevelMin: 1
+    LevelMax: 1
+    DropChance: 0.06
+    Type: ARMOR
+  FlameCloak:
+    Enabled: true
+    Name: '抗火 %level%'
+    Desc: 
+    - '&7获得 &b防火 %level% &7效果'
+    Effect: FIRE_RESISTANCE
+    LevelMin: 1
+    LevelMax: 3
+    DropChance: 0.03
+    Type: ARMOR
+  Fish:
+    Enabled: true
+    Name: '水肺 %level%'
+    Desc: 
+    - '&7获得 &b水下呼吸 %level% &7效果'
+    Effect: WATER_BREATHING
+    LevelMin: 1
+    LevelMax: 1
+    DropChance: 0.02
+    Type: HELMET
+  Assasin:
+    Enabled: true
+    Name: '隐身 %level%'
+    Desc: 
+    - '&7获得 &b隐身 %level% &7效果'
+    Effect: INVISIBILITY
+    LevelMin: 1
+    LevelMax: 1
+    DropChance: 0.01
+    Type: WEAPON

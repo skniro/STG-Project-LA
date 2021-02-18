@@ -1,0 +1,41 @@
+Enabled: true
+UnidentifiedItem:
+  Display: '&d&k封印之物'
+  Lore:
+  - '&7你需要找到 &d解封之书&7'
+  - '&7来解除该物品的封印!'
+  Drops:
+    Worlds:
+    - world
+    - world_nether
+    - world_the_end
+    PreventFrom:
+    - EGG
+    - DISPENSE_EGG
+    - SPAWNER
+    - SPAWNER_EGG
+    - SLIME_SPLIT
+    EntityTypes:
+    - ALL
+    MythicMobs:
+    - SkeletonKing
+IdentifyTome:
+  Material: 'ENCHANTED_BOOK:0'
+  Display: '&d解封之书'
+  Lore:
+  - '&7将它放在封印的物品上来解除封印'
+  Drops:
+    Worlds:
+    - world
+    - world_nether
+    - world_the_end
+    PreventFrom:
+    - EGG
+    - DISPENSE_EGG
+    - SPAWNER
+    - SPAWNER_EGG
+    - SLIME_SPLIT
+    EntityTypes:
+    - ALL
+    MythicMobs:
+    - SkeletonKing

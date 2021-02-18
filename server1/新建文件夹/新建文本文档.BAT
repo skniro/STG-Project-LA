@@ -1,1 +1,0 @@
-java -jar dragonproxy-0.3.4.6-SNAPSHOT.jar

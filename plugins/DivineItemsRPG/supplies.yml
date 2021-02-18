@@ -1,0 +1,103 @@
+#-------------------------------------------------------------------------
+#                      QUICK CONFIG GUIDE
+#           Here maybe some grammar errors (mistakes?)
+#
+# ========= ITEM ===========
+# - Material
+# Item material. Names only. NOT ID!
+#
+# - Display
+# Item display name
+#
+# - Lore
+# Item lore
+#
+# ========= EFFECTS ===========
+# Particle effects for enchant.
+#
+# ========= SOUNDS ===========
+# No comments.
+#
+# ========= DROPS ===========
+# - PreventFrom
+# Entities that spawned by one of reasons listed below wont drop items
+# All valid spawn reasons you can find here: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/event/entity/CreatureSpawnEvent.SpawnReason.html
+#
+# - EntityTypes
+# Entity types that can drop gems
+# Variables are:
+# * ALL - all entities
+# * HOSTILE - only hostile entities
+# * PASSIVE - only passive entities
+# * <ENTITY_TYPE> - only specified entity type
+# You can combine values like HOSTILE and PIG, PASSIVE and ZOMBIE and HUSK, etc.
+#-------------------------------------------------------------------------
+MagicDust:
+  # 是否启用祝福粉末系统？
+  Enabled: true
+  Material: GLOWSTONE_DUST
+  Display: '&e祝福粉末 - %s'
+  Lore:
+  - '&8&m-----------------'
+  - '&f> &7种类: &f祝福粉末'
+  - '&f> &7等级: &f%level%'
+  - '&8&m-----------------'
+  - '&7增加成功率 &e%value%%&7.'
+  - ''
+  - '&c&oTIP: &e&o(把它放在物品上来增加成功率!)'
+  MaxLevel: 30
+  Values:
+    Random: false
+    RandomRange: '1:3'
+    Default: 1
+    PerLevel: 0.75
+  Enchant:
+    Sound: ENTITY_EXPERIENCE_ORB_PICKUP
+    Effect: SPELL_WITCH
+  # 掉落几率以及掉落世界   
+  Drops:
+    Worlds:
+    - world
+    - world_nether
+    - world_the_end
+    PreventFrom:
+    - EGG
+    - DISPENSE_EGG
+    - SPAWNER
+    - SPAWNER_EGG
+    - SLIME_SPLIT
+    EntityTypes:
+    - ALL
+    MythicMobs:
+    - SkeletonKing
+AbyssGem:
+  # 是否启用隔绝宝石系统？
+  Enabled: true
+  Material: SULPHUR
+  Display: '&9隔绝宝石 - I'
+  Lore:
+  - '&8&m-----------------'
+  - '&f> &7种类: &f隔绝宝石'
+  - '&8&m-----------------'
+  - '&7移除物品的灵魂绑定'
+  - ''
+  - '&f&oTIP: &9&o(把它放在物品上来生效!)'
+  Enchant:
+    Sound: ITEM_FIRECHARGE_USE
+    Effect: SMOKE_NORMAL
+  # 掉落几率以及掉落世界  
+  Drops:
+    Worlds:
+    - world
+    - world_nether
+    - world_the_end
+    PreventFrom:
+    - EGG
+    - DISPENSE_EGG
+    - SPAWNER
+    - SPAWNER_EGG
+    - SLIME_SPLIT
+    EntityTypes:
+    - ALL
+    MythicMobs:
+    - SkeletonKing

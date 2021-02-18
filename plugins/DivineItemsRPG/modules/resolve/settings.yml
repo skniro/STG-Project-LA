@@ -1,0 +1,23 @@
+GUI:
+  Title: '&2&lResolving'
+  ResolveButton:
+    Resolve:
+      Material: STAINED_GLASS_PANE
+      Data: 5
+      Name: '&a&l[Resolve!]'
+      Lore: []
+      Enchanted: false
+    Unresolvable:
+      Material: STAINED_GLASS_PANE
+      Data: 3
+      Name: '&e&l[Unresolvable]'
+      Lore:
+      - '&7This item can not be resolved.'
+      Enchanted: false
+    Nothing:
+      Material: STAINED_GLASS_PANE
+      Data: 14
+      Name: '&c&l[Nothing]'
+      Lore:
+      - '&7Nothing to resolve.'
+      Enchanted: false

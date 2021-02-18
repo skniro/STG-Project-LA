@@ -1,0 +1,10 @@
+cfg_version: 0.1
+DynamicLore: true
+ItemHave: '%c%- %name% &a✓'
+ItemMiss: '%c%- %name% &c✗'
+LoreHeader: '&1&2&3&r&7Set Info:'
+LoreFooter: '&1&2&3&r&7&8&8&8'
+Lore:
+- '&7The %set%:'
+- '%parts%'
+- '%effects%'

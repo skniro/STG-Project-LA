@@ -1,0 +1,44 @@
+General:
+  Chance: 3.6
+  Multipliers:
+    VIP: 1.25
+    Premium: 1.5
+    Gold: 1.75
+  Worlds:
+  - world
+  - world_nether
+  - world_the_end
+  NoDropInRegions:
+    Reverse: false
+    List:
+    - mob_arena
+  EntityTypes:
+  - ALL
+  MythicMobs:
+  - SkeletonKing
+  PreventFrom:
+  - EGG
+  - DISPENSE_EGG
+  - SPAWNER
+  - SPAWNER_EGG
+  - SLIME_SPLIT
+  RollOnce: false
+Items:
+  Random:
+    Chance: 75
+    Worlds:
+      world:
+        levels: 1-2
+      world_nether:
+        levels: 2-3
+      world_the_end:
+        levels: 3-5
+    NoDropInRegions:
+      Reverse: false
+      List:
+        mob_arena:
+          levels: 0-0
+    EntityTypes:
+    - PIG
+    MythicMobs:
+    - SkeletonKing

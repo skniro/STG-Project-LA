@@ -1,0 +1,293 @@
+[11:37:30] [Server thread/INFO]: Starting minecraft server version 1.9.4
+[11:37:30] [Server thread/INFO]: Loading properties
+[11:37:30] [Server thread/INFO]: Default game type: SURVIVAL
+[11:37:30] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-798f32d-0cd0397 (MC: 1.9.4) (Implementing API version 1.9.4-R0.1-SNAPSHOT)
+[11:37:30] [Server thread/INFO]: Debug logging is disabled
+[11:37:30] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[11:37:30] [Server thread/INFO]: Using 4 threads for Netty based IO
+[11:37:30] [Server thread/INFO]: Generating keypair
+[11:37:30] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:37:30] [Server thread/INFO]: Using default channel type
+[11:37:31] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[11:37:31] [Server thread/INFO]: [Yum] Loading Yum v2.7.10-git-fcf06780f0196bfb77ed26d9c792cda10547bfb4
+[11:37:31] [Server thread/INFO]: [0;33;22m[[0;32;1mÍøÂç¹ÜÀí[0;33;22m] [0;32;1m×¢ÈëÍøÂç¹ÜÀíÏµÍ³ ½«ÍĞ¹Ü·şÎñÆ÷ÍøÂç![m
+[11:37:31] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v1.5.0
+[11:37:31] [Server thread/INFO]: [ViaVersion] ViaVersion 1.5.0 is now loaded, injecting!
+[11:37:31] [Server thread/INFO]: [ViaVersion] Loading block mapping...
+[11:37:31] [Server thread/INFO]: [ViaVersion] Loading item mapping...
+[11:37:31] [Server thread/INFO]: [ViaVersion] Loading new tags...
+[11:37:31] [Server thread/INFO]: [ViaVersion] Loading enchantments...
+[11:37:31] [Server thread/INFO]: [ViaVersion] Loading sound mapping...
+[11:37:31] [Server thread/INFO]: [Vault] Loading Vault v1.6.6-b${env.TRAVIS_BUILD_NUMBER}
+[11:37:31] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v4.0.2
+[11:37:31] [Server thread/INFO]: [DivineItemsRPG] Loading DivineItemsRPG v3.8.8-Beta
+[11:37:31] [Server thread/INFO]: [Essentials] Loading Essentials v2.0.1-b604
+[11:37:31] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.0.1-b604
+[11:37:31] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.0.1-b604
+[11:37:31] [Server thread/INFO]: [EssentialsAntiBuild] Loading EssentialsAntiBuild v2.0.1-b604
+[11:37:31] [Server thread/INFO]: [EssentialsXMPP] Loading EssentialsXMPP v2.0.1-b604
+[11:37:31] [Server thread/INFO]: [Yum] Enabling Yum v2.7.10-git-fcf06780f0196bfb77ed26d9c792cda10547bfb4
+[11:37:31] [Server thread/INFO]: [0;33;22m[[0;36;1mYum[0;33;22m][m [0;31;1m·şÎñ¶ËÎ´×¢Èë°²È«À¹½ØÆ÷ ¹Ø±Õ¹¦ÄÜ...[m
+[11:37:31] [Server thread/INFO]: [0;33;22m[[0;36;1mYum[0;33;22m][m [0;32;1mÍøÂç¹ÜÀíÏµÍ³ÒÑÆôÓÃ...[m
+[11:37:31] [Server thread/INFO]: [0;33;22m[[0;36;1mYum[0;33;22m][m [0;32;1mÏß³Ì¹ÜÀíÏµÍ³ÒÑÆôÓÃ...[m
+[11:37:31] [Server thread/INFO]: [0;33;22m[[0;36;1mYum[0;33;22m][m [0;32;1mĞÔÄÜ¼à¿ØÏµÍ³ÒÑÆôÓÃ...[m
+[11:37:31] [Server thread/INFO]: [0;33;22m[[0;36;1mYum[0;33;22m][m [0;32;1mI O ¹ÜÀíÏµÍ³ÒÑÆôÓÃ...[m
+[11:37:31] [Server thread/INFO]: [Vault] Enabling Vault v1.6.6-b${env.TRAVIS_BUILD_NUMBER}
+[11:37:31] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[11:37:31] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[11:37:31] [Server thread/INFO]: [Vault] Enabled Version 1.6.6-b${env.TRAVIS_BUILD_NUMBER}
+[11:37:31] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v4.0.2
+[11:37:31] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
+[11:37:31] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[11:37:31] [Server thread/INFO]: Preparing level "world"
+[11:37:31] [Server thread/INFO]: -------- World Settings For [world] --------
+[11:37:31] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:37:31] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:37:31] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:37:31] [Server thread/INFO]: View Distance: 10
+[11:37:31] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:37:31] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[11:37:31] [Server thread/INFO]: Max Entity Collisions: 8
+[11:37:31] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[11:37:31] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:37:31] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:37:31] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:37:31] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:37:31] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:37:31] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:37:31] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:37:31] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:37:31] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:37:31] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:37:31] [Server thread/INFO]: Mob Spawn Range: 4
+[11:37:31] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[11:37:31] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[11:37:31] [Server thread/INFO]: Max TNT Explosions: 100
+[11:37:31] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[11:37:31] [Server thread/INFO]: Random Lighting Updates: false
+[11:37:31] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[11:37:31] [Server thread/INFO]: Structure Info Saving: true
+[11:37:31] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[11:37:31] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:37:31] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:37:31] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:37:31] [Server thread/INFO]: View Distance: 10
+[11:37:31] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:37:31] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[11:37:31] [Server thread/INFO]: Max Entity Collisions: 8
+[11:37:31] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[11:37:31] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:37:31] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:37:31] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:37:31] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:37:31] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:37:31] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:37:31] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:37:31] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:37:31] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:37:31] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:37:31] [Server thread/INFO]: Mob Spawn Range: 4
+[11:37:31] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[11:37:31] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[11:37:31] [Server thread/INFO]: Max TNT Explosions: 100
+[11:37:31] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[11:37:31] [Server thread/INFO]: Random Lighting Updates: false
+[11:37:31] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[11:37:31] [Server thread/INFO]: Structure Info Saving: true
+[11:37:31] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[11:37:31] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:37:31] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:37:31] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:37:31] [Server thread/INFO]: View Distance: 10
+[11:37:31] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:37:31] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[11:37:31] [Server thread/INFO]: Max Entity Collisions: 8
+[11:37:31] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[11:37:31] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:37:31] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:37:31] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:37:31] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:37:31] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:37:31] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:37:31] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:37:31] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:37:31] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:37:31] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:37:31] [Server thread/INFO]: Mob Spawn Range: 4
+[11:37:31] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[11:37:31] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[11:37:31] [Server thread/INFO]: Max TNT Explosions: 100
+[11:37:31] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[11:37:31] [Server thread/INFO]: Random Lighting Updates: false
+[11:37:31] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[11:37:31] [Server thread/INFO]: Structure Info Saving: true
+[11:37:31] [Server thread/INFO]: Preparing start region for level 0 (Seed: 4529593149822742629)
+[11:37:32] [Server thread/INFO]: Preparing start region for level 1 (Seed: 4529593149822742629)
+[11:37:33] [Server thread/INFO]: Preparing start region for level 2 (Seed: 4529593149822742629)
+[11:37:33] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v1.5.0
+[11:37:33] [Server thread/INFO]: [DivineItemsRPG] Enabling DivineItemsRPG v3.8.8-Beta
+[11:37:33] [Server thread/INFO]: [0;32;22m---------[ [0;32;1mPlugin Initializing [0;32;22m]---------[m
+[11:37:33] [Server thread/INFO]: [0;37;22m> [0;37;1mPlugin name: [0;32;1mDivineItemsRPG[m
+[11:37:33] [Server thread/INFO]: [0;37;22m> [0;37;1mAuthor: [0;32;1mNightExpress[m
+[11:37:33] [Server thread/INFO]: [0;37;22m> [0;37;1mVersion: [0;32;1m3.8.8-Beta[m
+[11:37:33] [Server thread/INFO]: [0;37;22m> [0;37;1mServer version: [0;32;1mv1_9_R2 / OK![m
+[11:37:33] [Server thread/INFO]: [[0;32;1mDivineItems[0;37;22m] [0;31;1m================================[m
+[11:37:33] [Server thread/INFO]: [[0;32;1mDivineItems[0;37;22m] [0;33;1m    DIVINE   ITEMS  RPG  3.0 [m
+[11:37:33] [Server thread/INFO]: [[0;32;1mDivineItems[0;37;22m] [0;37;1m     Preparing to update...[m
+[11:37:33] [Server thread/INFO]: [[0;32;1mDivineItems[0;37;22m] [0;37;1m    Don't worry, you won't[m
+[11:37:33] [Server thread/INFO]: [[0;32;1mDivineItems[0;37;22m] [0;37;1m      lose anything.[m
+[11:37:33] [Server thread/INFO]: [[0;32;1mDivineItems[0;37;22m] [0;31;1m================================[m
+[11:37:33] [Server thread/INFO]: [[0;32;1mDivineItems[0;37;22m] [0;31;1m================================[m
+[11:37:33] [Server thread/INFO]: [[0;32;1mDivineItems[0;37;22m] [0;37;1mUpdate finished. [m
+[11:37:33] [Server thread/INFO]: [[0;32;1mDivineItems[0;37;22m] [0;37;1mOld configs were moved to[m
+[11:37:33] [Server thread/INFO]: [[0;32;1mDivineItems[0;37;22m] [0;37;1mDivineItemsRPG_Backup[m
+[11:37:33] [Server thread/INFO]: [[0;32;1mDivineItems[0;37;22m] [m
+[11:37:33] [Server thread/INFO]: [[0;32;1mDivineItems[0;37;22m] [0;37;1mPlease, check the configuration changes[m
+[11:37:33] [Server thread/INFO]: [[0;32;1mDivineItems[0;37;22m] [0;37;1mBefore using your old settings.[m
+[11:37:33] [Server thread/INFO]: [[0;32;1mDivineItems[0;37;22m] [0;31;1m================================[m
+[11:37:33] [Server thread/INFO]: [ReflectionHelper] Version is v1_9_R2 (10902)
+[11:37:33] [Server thread/INFO]: Injected custom channel handlers.
+[11:37:33] [Server thread/INFO]: Adding channels for online players...
+[11:37:33] [Server thread/INFO]: [0;36;22m---------[ [0;36;1mHooks Initializing [0;36;22m]---------[m
+[11:37:33] [Server thread/INFO]: [0;37;22m> [0;37;1mCitizens: [0;31;1mNot found / Error.[m
+[11:37:33] [Server thread/INFO]: [0;37;22m> [0;37;1mBattleLevels: [0;31;1mNot found / Error.[m
+[11:37:33] [Server thread/INFO]: [0;37;22m> [0;37;1mDivineClassesRPG: [0;31;1mNot found / Error.[m
+[11:37:33] [Server thread/INFO]: [0;37;22m> [0;37;1mSkillAPI: [0;31;1mNot found / Error.[m
+[11:37:33] [Server thread/INFO]: [0;37;22m> [0;37;1mSkills: [0;31;1mNot found / Error.[m
+[11:37:33] [Server thread/INFO]: [0;37;22m> [0;37;1mWorldGuard: [0;31;1mNot found / Error.[m
+[11:37:33] [Server thread/INFO]: [0;37;22m> [0;37;1mHolographicDisplays: [0;31;1mNot found / Error.[m
+[11:37:33] [Server thread/INFO]: [0;37;22m> [0;37;1mMythicMobs: [0;31;1mNot found / Error.[m
+[11:37:33] [Server thread/INFO]: [0;37;22m> [0;37;1mHeroes: [0;31;1mNot found / Error.[m
+[11:37:33] [Server thread/INFO]: [0;37;22m> [0;37;1mVault: [0;32;1mSuccess![m
+[11:37:33] [Server thread/INFO]: [0;37;22m> [0;37;1mPlaceholderAPI: [0;31;1mNot found / Error.[m
+[11:37:33] [Server thread/INFO]: [0;37;22m> [0;37;1mRPGInventory: [0;31;1mNot found / Error.[m
+[11:37:33] [Server thread/INFO]: [0;37;22m> [0;37;1mmcMMO: [0;31;1mNot found / Error.[m
+[11:37:33] [Server thread/INFO]: [0;37;22m> [0;37;1mRPGme: [0;31;1mNot found / Error.[m
+[11:37:33] [Server thread/INFO]: [0;37;22m> [0;37;1mRacesOfThana: [0;31;1mNot found / Error.[m
+[11:37:34] [Server thread/INFO]: [0;33;22m---------[ [0;33;1mModules Initializing [0;33;22m]---------[m
+[11:37:34] [Server thread/INFO]: [0;37;22m> [0;37;1mGems[0;37;22m v1.0: [0;32;1mOK![m
+[11:37:34] [Server thread/INFO]: [0;37;22m> [0;37;1mEnchants[0;37;22m v1.0: [0;32;1mOK![m
+[11:37:34] [Server thread/INFO]: [0;37;22m> [0;37;1mRunes[0;37;22m v1.0: [0;32;1mOK![m
+[11:37:34] [Server thread/INFO]: [0;37;22m> [0;37;1mAbilities[0;37;22m v1.0: [0;32;1mOK![m
+[11:37:34] [Server thread/INFO]: [0;37;22m> [0;37;1mScrolls[0;37;22m v1.0: [0;32;1mOK![m
+[11:37:34] [Server thread/INFO]: [0;37;22m> [0;37;1mRepair[0;37;22m v1.0: [0;32;1mOK![m
+[11:37:34] [Server thread/INFO]: [0;37;22m> [0;37;1mIdentify[0;37;22m v1.0: [0;32;1mOK![m
+[11:37:34] [Server thread/INFO]: [0;37;22m> [0;37;1mCustom Items[0;37;22m v1.0: [0;32;1mOK![m
+[11:37:34] [Server thread/INFO]: [0;37;22m> [0;37;1mTiers[0;37;22m v1.0: [0;32;1mOK![m
+[11:37:34] [Server thread/INFO]: [0;37;22m> [0;37;1mAbyss Dust[0;37;22m v1.0: [0;32;1mOK![m
+[11:37:34] [Server thread/INFO]: [0;37;22m> [0;37;1mMagic Dust[0;37;22m v1.0: [0;32;1mOK![m
+[11:37:34] [Server thread/INFO]: [0;37;22m> [0;37;1mConsumables[0;37;22m v1.0: [0;32;1mOK![m
+[11:37:34] [Server thread/INFO]: [0;37;22m> [0;37;1mSoulbound[0;37;22m v1.0: [0;32;1mOK![m
+[11:37:34] [Server thread/INFO]: [0;37;22m> [0;37;1mNotifications[0;37;22m v1.0: [0;32;1mOK![m
+[11:37:34] [Server thread/INFO]: [0;37;22m> [0;37;1mBuffs[0;37;22m v1.0: [0;32;1mOK![m
+[11:37:34] [Server thread/INFO]: [0;37;22m> [0;37;1mDrops[0;37;22m v2.0: [0;32;1mOK![m
+[11:37:34] [Server thread/INFO]: [0;37;22m> [0;37;1mCombat Log[0;37;22m v1.0: [0;32;1mOK![m
+[11:37:34] [Server thread/INFO]: [0;37;22m> [0;37;1mSets[0;37;22m v0.1: [0;32;1mOK![m
+[11:37:34] [Server thread/INFO]: [0;37;22m> [0;37;1mArrows[0;37;22m v1.0: [0;32;1mOK![m
+[11:37:34] [Server thread/INFO]: [0;37;22m> [0;37;1mResolve[0;37;22m v1.0: [0;32;1mOK![m
+[11:37:34] [Server thread/INFO]: [0;37;22m> [0;37;1mItem Hints[0;37;22m v1.0.1: [0;32;1mOK![m
+[11:37:34] [Server thread/INFO]: [Essentials] Enabling Essentials v2.0.1-b604
+[11:37:34] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[11:37:34] [Server thread/INFO]: No kits found to migrate.
+[11:37:34] [Server thread/INFO]: [Essentials] Starting Essentials ban format conversion
+[11:37:34] [Server thread/INFO]: [Essentials] Starting usermap repair
+[11:37:34] [Server thread/WARN]: [Essentials] Missing userdata folder, aborting
+[11:37:34] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
+[11:37:34] [Server thread/INFO]: [Essentials] Using Reflection based provider as spawn egg provider.
+[11:37:34] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
+[11:37:34] [Server thread/INFO]: Using locale zh_CN
+[11:37:34] [Server thread/INFO]: [Essentials] Using Spigot 1.7.10+ ServerListPingEvent iterator
+[11:37:34] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[11:37:34] [Server thread/INFO]: [Vault][Economy] Essentials Economy hooked.
+[11:37:34] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[11:37:34] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.0.1-b604
+[11:37:34] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.0.1-b604
+[11:37:34] [Server thread/INFO]: [EssentialsAntiBuild] Enabling EssentialsAntiBuild v2.0.1-b604
+[11:37:34] [Server thread/INFO]: [EssentialsXMPP] Enabling EssentialsXMPP v2.0.1-b604
+[11:37:34] [Server thread/WARN]: config broken for xmpp
+[11:37:34] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[11:37:34] [Server thread/INFO]: Done (2.817s)! For help, type "help" or "?"
+[11:37:34] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.9.3/4(110)
+[11:37:34] [Craft Scheduler Thread - 1/INFO]: [0;33;22m[[0;36;1mYum[0;33;22m][m [0;33;22m[[0;36;1mYum [0;32;1mÍøÂç¹ÜÀí[0;33;22m] [0;33;22m²å¼ş [0;36;1mViaVersion [0;31;1m³¢ÊÔ·ÃÎÊÍøÂç [0;31;22mÇë×¢Òâ·şÎñÆ÷ÍøÂç°²È«![m
+[11:37:34] [Craft Scheduler Thread - 1/INFO]: [0;33;22m[[0;36;1mYum[0;33;22m][m [0;33;22m[[0;36;1mYum [0;32;1mÍøÂç¹ÜÀí[0;33;22m] [0;33;22mµØÖ·: [0;31;1mhttp://api.spiget.org/v2/resources/19254/versions/latest?1536464254428[m
+[11:37:34] [Craft Scheduler Thread - 6/INFO]: [Vault] Checking for Updates ... 
+[11:37:35] [Craft Scheduler Thread - 4/INFO]: [0;33;22m²Ö¿â: [0;33;1mYum¹Ù·½²Ö¿â [0;32;1m¸üĞÂ³É¹¦![m
+[11:37:35] [Craft Scheduler Thread - 4/INFO]: [0;33;22m²Ö¿â: [0;33;1mYum´úÀí²Ö¿â [0;32;1m¸üĞÂ³É¹¦![m
+[11:37:35] [Craft Scheduler Thread - 4/INFO]: [0;33;22m²Ö¿â: [0;33;1mYum´úÀí²Ö¿â [0;32;1m¸üĞÂ³É¹¦![m
+[11:37:35] [Craft Scheduler Thread - 4/INFO]: [0;33;22m²Ö¿â: [0;33;1mYumÔ´²Ö¿â [0;32;1m¸üĞÂ³É¹¦![m
+[11:37:35] [Craft Scheduler Thread - 4/INFO]: [0;33;22m²Ö¿â: [0;33;1mYumÊÕ·Ñ²Ö¿â [0;32;1m¸üĞÂ³É¹¦![m
+[11:37:35] [Craft Scheduler Thread - 4/INFO]: [0;33;22m²Ö¿â: [0;33;1mMengCraft²Ö¿â [0;32;1m¸üĞÂ³É¹¦![m
+[11:37:35] [Craft Scheduler Thread - 4/INFO]: [0;33;22m²Ö¿â: [0;33;1mSUMÏã¸Û²Ö¿â [0;32;1m¸üĞÂ³É¹¦![m
+[11:37:35] [Craft Scheduler Thread - 4/INFO]: [0;33;22m²Ö¿â: [0;33;1mProtocolLib²Ö¿â [0;32;1m¸üĞÂ³É¹¦![m
+[11:37:35] [Craft Scheduler Thread - 4/INFO]: [0;33;22mÔ´: [0;33;1mYumÖĞĞÄÔ´ [0;32;1m¸üĞÂ³É¹¦![m
+[11:37:36] [Craft Scheduler Thread - 6/INFO]: [0;33;22m[[0;36;1mYum[0;33;22m][m [0;33;22m[[0;36;1mYum [0;32;1mÍøÂç¹ÜÀí[0;33;22m] [0;33;22m²å¼ş [0;36;1mVault [0;31;1m³¢ÊÔ·ÃÎÊÍøÂç [0;31;22mÇë×¢Òâ·şÎñÆ÷ÍøÂç°²È«![m
+[11:37:36] [Craft Scheduler Thread - 6/INFO]: [0;33;22m[[0;36;1mYum[0;33;22m][m [0;33;22m[[0;36;1mYum [0;32;1mÍøÂç¹ÜÀí[0;33;22m] [0;33;22mµØÖ·: [0;31;1mhttps://servermods.forgesvc.net/servermods/files?projectids=33184[m
+[11:37:37] [Craft Scheduler Thread - 6/INFO]: [Vault] Stable Version: 1.5.6 | Current Version: 1.6.6
+[11:44:46] [User Authenticator #1/INFO]: UUID of player YuukiSkniro is c32ab6d0-8673-47c8-b2a3-7df48ce221f4
+[11:44:46] [Server thread/INFO]: YuukiSkniro[/127.0.0.1:57644] logged in with entity id 194 at ([world]281.5, 63.0, 246.5)
+[11:44:46] [Server thread/WARN]: [Essentials] Task #41 for Essentials v2.0.1-b604 generated an exception
+java.lang.NullPointerException
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:148) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:109) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPPPlayerListener$1.run(EssentialsXMPPPlayerListener.java:31) ~[?:?]
+	at org.bukkit.craftbukkit.v1_9_R2.scheduler.CraftTask.run(CraftTask.java:71) ~[spigot-1.9.4-R0.1-SNAPSHOT-latest.jar:git-Spigot-798f32d-0cd0397]
+	at org.bukkit.craftbukkit.v1_9_R2.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:350) [spigot-1.9.4-R0.1-SNAPSHOT-latest.jar:git-Spigot-798f32d-0cd0397]
+	at net.minecraft.server.v1_9_R2.MinecraftServer.D(MinecraftServer.java:734) [spigot-1.9.4-R0.1-SNAPSHOT-latest.jar:git-Spigot-798f32d-0cd0397]
+	at net.minecraft.server.v1_9_R2.DedicatedServer.D(DedicatedServer.java:399) [spigot-1.9.4-R0.1-SNAPSHOT-latest.jar:git-Spigot-798f32d-0cd0397]
+	at net.minecraft.server.v1_9_R2.MinecraftServer.C(MinecraftServer.java:665) [spigot-1.9.4-R0.1-SNAPSHOT-latest.jar:git-Spigot-798f32d-0cd0397]
+	at net.minecraft.server.v1_9_R2.MinecraftServer.run(MinecraftServer.java:564) [spigot-1.9.4-R0.1-SNAPSHOT-latest.jar:git-Spigot-798f32d-0cd0397]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_171]
+[11:44:46] [Server thread/WARN]: File motd.txt does not exist. Creating one for you.
+[11:44:46] [pool-10-thread-1/INFO]: ´´½¨¿ÕµÄÅäÖÃ:G:\Server\Dream\plugins\Essentials\userdata\c32ab6d0-8673-47c8-b2a3-7df48ce221f4.yml
+[11:44:48] [Server thread/INFO]: [0;33;22m[[0;36;1mYum[0;33;22m][m [0;33;22m[[0;36;1mYum [0;32;1mÄÜºÄ¼à¿Ø[0;33;22m] [0;31;1m×¢Òâ! [0;33;22m²å¼ş [0;36;1mDivineItemsRPG [0;33;22m´¦Àí [0;35;1mPlayerInteractEvent [0;33;22mÊÂ¼ş [0;31;1mºÄÊ± [0;31;22m31ms [0;31;1mÆ½¾ùºÄÊ± [0;31;22m31ms![m
+[11:45:18] [Server thread/INFO]: Opped YuukiSkniro
+[11:45:26] [Server thread/INFO]: YuukiSkniro issued server command: /gamemode 1
+[11:45:31] [Server thread/INFO]: YuukiSkniro issued server command: /help
+[11:45:46] [Server thread/INFO]: YuukiSkniro issued server command: /help divineitems
+[11:46:00] [Server thread/INFO]: YuukiSkniro issued server command: /divineitems
+[11:46:16] [Server thread/INFO]: YuukiSkniro issued server command: /di resolve
+[11:50:10] [Server thread/INFO]: YuukiSkniro issued server command: /di reload cfg
+[11:50:10] [Server thread/INFO]: [0;33;22m[[0;36;1mYum[0;33;22m][m [0;33;22m[[0;36;1mYum [0;32;1mÃüÁî¼à¿Ø[0;33;22m] [0;33;22mÍæ¼Ò [0;32;1mYuukiSkniro [0;33;22mÖ´ĞĞ [0;36;1mDivineItemsRPG [0;33;22m²å¼ş [0;35;1mdi reload cfg [0;33;22mÃüÁîÊ±·¢ÉúÒì³£![m
+[11:50:10] [Server thread/INFO]: [0;33;22m[[0;36;1mYum[0;33;22m][m [0;33;22mÒì³£Ãû³Æ: [0;31;1mjava.lang.NullPointerException[m
+[11:50:10] [Server thread/INFO]: [0;33;22m[[0;36;1mYum[0;33;22m][m [0;33;22mÒì³£ËµÃ÷: [0;36;22mnull[m
+[11:50:10] [Server thread/INFO]: [0;33;22m[[0;36;1mYum[0;33;22m][m [0;33;22m¼òÒ×´íÎóĞÅÏ¢ÈçÏÂ:[m
+[11:50:10] [Server thread/INFO]: [0;33;22m[[0;36;1mYum[0;33;22m][m     [0;33;1mÎ»ÓÚ [0;31;1mru.nightexpress.divineitems.config.Config.setup([0;31;22mConfig.java:93[0;31;1m)[m
+[11:50:10] [Server thread/INFO]: [0;33;22m[[0;36;1mYum[0;33;22m][m     [0;33;1mÎ»ÓÚ [0;31;1mru.nightexpress.divineitems.config.Config.<init>([0;31;22mConfig.java:29[0;31;1m)[m
+[11:50:10] [Server thread/INFO]: [0;33;22m[[0;36;1mYum[0;33;22m][m     [0;33;1mÎ»ÓÚ [0;31;1mru.nightexpress.divineitems.config.ConfigManager.setup([0;31;22mConfigManager.java:38[0;31;1m)[m
+[11:50:10] [Server thread/INFO]: [0;33;22m[[0;36;1mYum[0;33;22m][m     [0;33;1mÎ»ÓÚ [0;31;1mru.nightexpress.divineitems.DivineItems.reloadCfg([0;31;22mDivineItems.java:119[0;31;1m)[m
+[11:50:10] [Server thread/INFO]: [0;33;22m[[0;36;1mYum[0;33;22m][m     [0;33;1mÎ»ÓÚ [0;31;1mru.nightexpress.divineitems.cmds.list.ReloadCommand.perform([0;31;22mReloadCommand.java:28[0;31;1m)[m
+[11:50:40] [Server thread/INFO]: YuukiSkniro issued server command: /di
+[11:50:44] [Server thread/INFO]: YuukiSkniro issued server command: /dihelp
+[11:50:55] [Server thread/INFO]: YuukiSkniro lost connection: Disconnected
+[11:50:55] [Server thread/INFO]: YuukiSkniro left the game.
+[11:50:55] [Server thread/WARN]: [Essentials] Task #343 for Essentials v2.0.1-b604 generated an exception
+java.lang.NullPointerException
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:144) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:109) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPPPlayerListener$2.run(EssentialsXMPPPlayerListener.java:51) ~[?:?]
+	at org.bukkit.craftbukkit.v1_9_R2.scheduler.CraftTask.run(CraftTask.java:71) ~[spigot-1.9.4-R0.1-SNAPSHOT-latest.jar:git-Spigot-798f32d-0cd0397]
+	at org.bukkit.craftbukkit.v1_9_R2.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:350) [spigot-1.9.4-R0.1-SNAPSHOT-latest.jar:git-Spigot-798f32d-0cd0397]
+	at net.minecraft.server.v1_9_R2.MinecraftServer.D(MinecraftServer.java:734) [spigot-1.9.4-R0.1-SNAPSHOT-latest.jar:git-Spigot-798f32d-0cd0397]
+	at net.minecraft.server.v1_9_R2.DedicatedServer.D(DedicatedServer.java:399) [spigot-1.9.4-R0.1-SNAPSHOT-latest.jar:git-Spigot-798f32d-0cd0397]
+	at net.minecraft.server.v1_9_R2.MinecraftServer.C(MinecraftServer.java:665) [spigot-1.9.4-R0.1-SNAPSHOT-latest.jar:git-Spigot-798f32d-0cd0397]
+	at net.minecraft.server.v1_9_R2.MinecraftServer.run(MinecraftServer.java:564) [spigot-1.9.4-R0.1-SNAPSHOT-latest.jar:git-Spigot-798f32d-0cd0397]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_171]
+[11:51:28] [Server thread/INFO]: Stopping the server
+[11:51:28] [Server thread/INFO]: Stopping server
+[11:51:28] [Server thread/INFO]: [EssentialsXMPP] Disabling EssentialsXMPP v2.0.1-b604
+[11:51:28] [Server thread/INFO]: [EssentialsAntiBuild] Disabling EssentialsAntiBuild v2.0.1-b604
+[11:51:28] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.0.1-b604
+[11:51:28] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.0.1-b604
+[11:51:28] [Server thread/INFO]: [Essentials] Disabling Essentials v2.0.1-b604
+[11:51:28] [Server thread/INFO]: [Vault][Economy] Essentials Economy unhooked.
+[11:51:28] [Server thread/INFO]: [DivineItemsRPG] Disabling DivineItemsRPG v3.8.8-Beta
+[11:51:28] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v4.0.2
+[11:51:28] [Server thread/INFO]: [Vault] Disabling Vault v1.6.6-b${env.TRAVIS_BUILD_NUMBER}
+[11:51:28] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v1.5.0
+[11:51:28] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[11:51:28] [Server thread/INFO]: [Yum] Disabling Yum v2.7.10-git-fcf06780f0196bfb77ed26d9c792cda10547bfb4
+[11:51:28] [Server thread/INFO]: Saving players
+[11:51:28] [Server thread/INFO]: Saving worlds
+[11:51:28] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[11:51:29] [Server thread/INFO]: Saving chunks for level 'world_nether'/Nether
+[11:51:29] [Server thread/INFO]: Saving chunks for level 'world_the_end'/The End

@@ -1,0 +1,8 @@
+cfg_version: 1.0
+Durability:
+  Chat: true
+  ActionBar: true
+  Titles: true
+  Percentage:
+    50: '&e&lWARNING: &fYour item is half-broken. &7(&e%d1&7/&a%d2&7)'
+    10: '&c&lWARNING: &fYour item is almost broken! &7(&c%d1&7/&a%d2&7)'

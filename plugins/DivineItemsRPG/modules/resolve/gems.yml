@@ -1,0 +1,45 @@
+Objects:
+  Flawed_Emerald:
+    Out:
+      Items:
+        emerald:
+          Chance: 100.0
+          Material: EMERALD
+          Data: 0
+          Amount: 1
+          Meta:
+            Enabled: false
+            Name: '&eGold Ingot'
+            Lore:
+            - Test ingot
+            Flags:
+            - HIDE_ENCHANTS
+            Enchants:
+              DAMAGE_ALL: 5
+            Unbreakable: false
+        sulphur:
+          Chance: 100.0
+          Material: SULPHUR
+          Data: 0
+          Amount: 1
+          Meta:
+            Enabled: false
+            Name: '&eSulphur'
+            Lore: []
+            Flags:
+            - HIDE_ENCHANTS
+            Enchants:
+              DAMAGE_ALL: 5
+            Unbreakable: false
+      Commands:
+        money:
+          Chance: 100.0
+          Display:
+            Material: GOLD_NUGGET
+            Data: 0
+            Amount: 1
+            Name: '&e50$'
+            Lore: []
+            Enchanted: false
+          Commands:
+          - eco give %p 50

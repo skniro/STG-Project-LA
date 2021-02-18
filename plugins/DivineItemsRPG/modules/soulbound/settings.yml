@@ -1,0 +1,18 @@
+cfg_version: 1.0
+Untradable: '&7[Untradable]; [Unable to sell on auction]'
+Soulbound: '&cRequire Soulbound to use!'
+SoulboundSet: '&2Soulbounded with &a%p'
+CmdBlock:
+- /market
+- /auc
+- /ah
+BindToPlayer:
+  OnItemDrop: true
+  OnItemPickup: true
+  OnItemClick: true
+  OnItemInteract: true
+Interact:
+  AllowPickup: false
+  AllowUse: false
+  AllowDrop: true
+  DropOnDeath: false
