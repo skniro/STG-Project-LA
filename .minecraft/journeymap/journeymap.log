@@ -1,0 +1,162 @@
+[13:14:25] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
+[13:14:25] [Render thread/INFO] [JourneymapClient] initialize ENTER
+[13:14:25] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[13:14:26] [Render thread/WARN] [Constants] Couldn't determine locale from game settings, defaulting to zh_CN
+[13:14:26] [Render thread/INFO] [?] Version: JourneyMap 1.15.2-5.7.0b3, built with Forge 1.15.2-31.2.20
+Forge: 31.2.43
+Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=zh_cn, locale=zh_CN
+Features: 
+	RadarPlayers : singleplayer = true , multiplayer = true
+	RadarAnimals : singleplayer = true , multiplayer = true
+	RadarMobs : singleplayer = true , multiplayer = true
+	RadarVillagers : singleplayer = true , multiplayer = true
+	MapTopo : singleplayer = true , multiplayer = true
+	MapSurface : singleplayer = true , multiplayer = true
+	MapCaves : singleplayer = true , multiplayer = true
+MiniMapProperties{state=Valid, file=journeymap.minimap.config, configVersion=5.7.0b3, zoomLevel=2, showPlayers=true, frameAlpha=100, compassFontScale=1, terrainAlpha=100, showEntityNames=true, enabled=true, showPlayerHeading=true, showVillagers=true, info2Label=jm.theme.labelsource.gametime, sizePercent=30, showDayNight=true, info3Label=jm.theme.labelsource.location, showMobs=true, showPets=true, preferredMapType=night, showCompass=true, mobDisplay=jm.common.entity_display.small_dots, showReticle=true, orientation=jm.minimap.orientation.north, systemTimeRealFormat=HH:mm:ss, shape=jm.minimap.shape_circle, showSelf=true, info4Label=jm.theme.labelsource.biome, locationFormat=xzyv, playerDisplay=jm.common.entity_display.small_dots, showGrid=true, reticleOrientation=jm.minimap.orientation.compass, gameTimeRealFormat=HH:mm:ss, showWaypoints=true, showCaves=true, showAnimals=true, showMobHeading=true, showWaypointLabels=true, locationFormatVerbose=true, position=jm.minimap.position_topright, info1Label=jm.theme.labelsource.blank, fontScale=1}
+MiniMapProperties{state=Valid, file=journeymap.minimap2.config, configVersion=5.7.0b3, zoomLevel=0, showPlayers=true, frameAlpha=100, compassFontScale=1, terrainAlpha=100, showEntityNames=true, enabled=true, showPlayerHeading=true, showVillagers=true, info2Label=jm.theme.labelsource.gametime, sizePercent=30, showDayNight=true, info3Label=jm.theme.labelsource.location, showMobs=true, showPets=true, preferredMapType=day, showCompass=true, mobDisplay=jm.common.entity_display.small_dots, showReticle=true, orientation=jm.minimap.orientation.north, systemTimeRealFormat=HH:mm:ss, shape=jm.minimap.shape_rectangle, showSelf=true, info4Label=jm.theme.labelsource.biome, locationFormat=xzyv, playerDisplay=jm.common.entity_display.small_dots, showGrid=true, reticleOrientation=jm.minimap.orientation.compass, gameTimeRealFormat=HH:mm:ss, showWaypoints=true, showCaves=true, showAnimals=true, showMobHeading=true, showWaypointLabels=true, locationFormatVerbose=true, position=jm.minimap.position_topright, info1Label=jm.theme.labelsource.blank, fontScale=1}
+FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=5.7.0b3, mobDisplay=jm.common.entity_display.small_dots, zoomLevel=5, showPlayers=true, showSelf=true, locationFormat=xzyv, playerDisplay=jm.common.entity_display.small_dots, showGrid=true, showEntityNames=true, showPlayerHeading=true, showVillagers=true, showWaypoints=true, showCaves=true, showAnimals=true, showMobHeading=true, showKeys=true, showWaypointLabels=true, locationFormatVerbose=true, showMobs=false, showPets=true, fontScale=1, preferredMapType=day}
+WaypointProperties{state=Valid, file=journeymap.waypoint.config, configVersion=5.7.0b3, autoRemoveDeathpointDistance=2, createDeathpoints=true, showName=true, dateFormat=MM-dd-yyyy, autoRemoveDeathpoints=false, maxDistance=0, autoHideLabel=true, teleportCommand=/tp {name} {x} {y} {z}, showStaticBeam=true, minDistance=4, timeFormat=HH:mm:ss, boldLabel=false, textureSmall=true, showDeathpointlabel=true, showDistance=true, showRotatingBeam=true, fontScale=2, showTexture=true, managerEnabled=true, beaconEnabled=true}
+WebMapProperties{state=Valid, file=journeymap.webmap.config, configVersion=5.7.0b3, zoomLevel=0, showWaypoints=true, showCaves=true, showSelf=true, port=8080, showGrid=true, showEntityNames=true, enabled=false, preferredMapType=day}
+CoreProperties{state=Valid, file=journeymap.core.config, configVersion=5.7.0b3, verboseColorPalette=false, maxPlayersData=32, mapSurfaceAboveCaves=true, optionsManagerViewed=null, announceMod=true, colorPassive=#bbbbbb, renderOverlayEventTypeName=ALL, mapBlendWater=false, renderDistanceSurfaceMax=7, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, revealShape=jm.minimap.shape_circle, alwaysMapSurface=false, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=32, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, browserPoll=2000, mapBlendFoliage=true, mappingEnabled=true, colorPlayer=#ffffff, tileHighDisplayQuality=true, cacheVillagersData=2200, logLevel=INFO, maxVillagersData=32, maxAnimalsData=32, mapTransparency=true, tileRenderType=1, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=3, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, cacheMobsData=3000, cachePlayerData=1000, splashViewed=5.7.0b3, colorHostile=#ff0000, cacheAnimalsData=3100, themeName=OceanMonument, mapCaveLighting=true, renderDelay=2, renderOverlayPreEvent=true, autoMapPoll=2000}
+[13:14:26] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.5-SNAPSHOT
+[13:14:26] [Render thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
+[13:14:26] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 0 avg ?ms
+[13:14:26] [Render thread/DEBUG] [JourneymapClient] postInitialize ENTER
+[13:14:26] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.KeyEventHandler
+[13:14:26] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.ChatEventHandler
+[13:14:26] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.StateTickHandler
+[13:14:26] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.WorldEventHandler
+[13:14:26] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.WaypointBeaconHandler
+[13:14:26] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.TextureAtlasHandler
+[13:14:26] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.MiniMapOverlayHandler
+[13:14:26] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.PlayerConnectHandler
+[13:14:26] [Render thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.world.ChunkMonitor
+[13:14:26] [Render thread/ERROR] [FileHandler] Couldn't locate icons for Default: E:\STT%20Project%20LA%201.15.2-2.0.1.tht%20forge1.15.2-31.2.41\.minecraft\mods\%5B旅行地图%5Djourneymap-1.15.2-5.7.0b3.jar\assets\journeymap\icon\entity
+[13:14:26] [Render thread/INFO] [IconSetFileHandler] Added entity icons from journeymap:icon/entity. Success: false
+[13:14:26] [Render thread/TRACE] [ThemeLoader] Initializing themes ...
+[13:14:26] [Render thread/ERROR] [FileHandler] Couldn't locate icons for flat: E:\STT%20Project%20LA%201.15.2-2.0.1.tht%20forge1.15.2-31.2.41\.minecraft\mods\%5B旅行地图%5Djourneymap-1.15.2-5.7.0b3.jar\assets\journeymap\theme\flat
+[13:14:26] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 0
+[13:14:26] [Render thread/DEBUG] [JourneymapClient] postInitialize EXIT, elapsed§8 count §r1§8 avg §r151.97§8ms§r
+[13:14:28] [JM-VersionCheck-1/INFO] [VersionCheck$1] Newer version online: JourneyMap 5.7.0beta1.jar for Minecraft 1.15.2 on http://minecraft.curseforge.com/projects/journeymap/files/2894436
+[13:28:41] [Netty Client IO #0/INFO] [PacketRegistry] Dev Mode?
+[13:28:41] [Netty Client IO #0/INFO] [PacketRegistry] Dev Mode?
+[13:28:41] [Netty Client IO #0/INFO] [PacketRegistry] Dev Mode?
+[13:28:41] [Netty Client IO #1/INFO] [PacketRegistry] Dev Mode?
+[13:28:50] [Netty Client IO #2/INFO] [PacketRegistry] Dev Mode?
+[13:28:56] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[13:28:56] [Render thread/INFO] [WaypointStore] Loaded 24 waypoints from E:\STT Project LA 1.15.2-2.0.1.tht forge1.15.2-31.2.41\.minecraft\journeymap\data\mp\Minecraft~\waypoints
+[13:28:56] [Render thread/INFO] [JourneymapClient] Mapping started in E:\STT Project LA 1.15.2-2.0.1.tht forge1.15.2-31.2.41\.minecraft\journeymap\data\mp\Minecraft~\DIM0. Memory: 10240MB total, 8429MB free 
+[13:28:56] [Render thread/INFO] [ChatLog] 旅行地图: 按下[J]键
+[13:29:28] [Render thread/WARN] [Constants] Message key not found: jm.debug.region_info_toggle
+[13:29:28] [Render thread/WARN] [Constants] Message key not found: jm.debug.region_info_toggle
+[13:29:29] [Render thread/ERROR] [JMLogger] Couldn't DimensionManager.getProvider(2) because of error: java.lang.NullPointerException (SUPPRESSED)
+[13:29:29] [Render thread/ERROR] [JMLogger] java.lang.NullPointerException
+	at journeymap.client.data.WorldData.getDimensionProviders(WorldData.java:361)
+	at journeymap.client.ui.waypoint.DimensionsButton.<init>(DimensionsButton.java:24)
+	at journeymap.client.ui.waypoint.WaypointManager.init(WaypointManager.java:130)
+	at net.minecraft.client.gui.screen.Screen.init(Screen.java:339)
+	at journeymap.client.ui.component.JmUI.init(JmUI.java:77)
+	at net.minecraft.client.Minecraft.func_147108_a(Minecraft.java:800)
+	at journeymap.client.ui.UIManager.open(UIManager.java:223)
+	at journeymap.client.ui.UIManager.openWaypointManager(UIManager.java:455)
+	at journeymap.client.ui.fullscreen.Fullscreen.lambda$initButtons$10(Fullscreen.java:606)
+	at net.minecraft.client.gui.widget.button.Button.onPress(SourceFile:18)
+	at net.minecraft.client.gui.widget.button.AbstractButton.onClick(SourceFile:15)
+	at net.minecraft.client.gui.widget.Widget.mouseClicked(Widget.java:136)
+	at journeymap.client.ui.component.Button.mouseClicked(Button.java:370)
+	at net.minecraft.client.gui.INestedGuiEventHandler.mouseClicked(SourceFile:27)
+	at journeymap.client.ui.fullscreen.Fullscreen.mouseClicked(Fullscreen.java:990)
+	at net.minecraft.client.MouseHelper.lambda$mouseButtonCallback$0(MouseHelper.java:82)
+	at net.minecraft.client.gui.screen.Screen.wrapScreenError(Screen.java:446)
+	at net.minecraft.client.MouseHelper.func_198023_a(MouseHelper.java:80)
+	at net.minecraft.client.MouseHelper.lambda$null$4(MouseHelper.java:163)
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.execute(ThreadTaskExecutor.java:104)
+	at net.minecraft.client.MouseHelper.lambda$registerCallbacks$5(MouseHelper.java:162)
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:36)
+	at org.lwjgl.system.JNI.invokeV(Native Method)
+	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3101)
+	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(SourceFile:98)
+	at net.minecraft.client.MainWindow.func_227802_e_(MainWindow.java:375)
+	at net.minecraft.client.Minecraft.func_195542_b(Minecraft.java:946)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:553)
+	at net.minecraft.client.main.Main.main(SourceFile:204)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider.lambda$launchService$0(FMLClientLaunchProvider.java:51)
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37)
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54)
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72)
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81)
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65)
+
+[13:29:29] [Render thread/WARN] [WorldData] Used DummyProvider for required dim: 2
+[13:35:51] [Render thread/WARN] [Constants] Message key not found: jm.debug.region_info_toggle
+[13:35:51] [Render thread/WARN] [Constants] Message key not found: jm.debug.region_info_toggle
+[13:35:52] [Render thread/WARN] [WorldData] Used DummyProvider for required dim: 2
+[13:35:52] [Render thread/WARN] [Constants] Message key not found: jm.debug.region_info_toggle
+[13:35:52] [Render thread/WARN] [Constants] Message key not found: jm.debug.region_info_toggle
+[13:36:55] [Render thread/INFO] [JourneymapClient] Mapping halted in E:\STT Project LA 1.15.2-2.0.1.tht forge1.15.2-31.2.41\.minecraft\journeymap\data\mp\Minecraft~\DIM0
+[13:36:56] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[13:36:56] [Render thread/INFO] [WaypointStore] Loaded 24 waypoints from E:\STT Project LA 1.15.2-2.0.1.tht forge1.15.2-31.2.41\.minecraft\journeymap\data\mp\Minecraft~\waypoints
+[13:36:56] [Render thread/INFO] [JourneymapClient] Mapping started in E:\STT Project LA 1.15.2-2.0.1.tht forge1.15.2-31.2.41\.minecraft\journeymap\data\mp\Minecraft~\DIM2. Memory: 10240MB total, 8981MB free 
+[13:37:16] [Render thread/WARN] [Constants] Message key not found: jm.debug.region_info_toggle
+[13:37:16] [Render thread/WARN] [Constants] Message key not found: jm.debug.region_info_toggle
+[13:37:52] [Render thread/WARN] [Constants] Message key not found: jm.debug.region_info_toggle
+[13:37:52] [Render thread/WARN] [Constants] Message key not found: jm.debug.region_info_toggle
+[13:38:32] [Render thread/WARN] [Constants] Message key not found: jm.debug.region_info_toggle
+[13:38:32] [Render thread/WARN] [Constants] Message key not found: jm.debug.region_info_toggle
+[13:39:43] [Render thread/INFO] [StateTickHandler] TextComponent{text='YuukiSkniro', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}} died at BlockPos{x=3509319, y=55, z=118292}. Deathpoints enabled: true. Deathpoint created: true
+[13:39:44] [Render thread/INFO] [JourneymapClient] Mapping halted in E:\STT Project LA 1.15.2-2.0.1.tht forge1.15.2-31.2.41\.minecraft\journeymap\data\mp\Minecraft~\DIM2
+[13:39:45] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[13:39:45] [Render thread/INFO] [WaypointStore] Loaded 25 waypoints from E:\STT Project LA 1.15.2-2.0.1.tht forge1.15.2-31.2.41\.minecraft\journeymap\data\mp\Minecraft~\waypoints
+[13:39:45] [Render thread/INFO] [JourneymapClient] Mapping started in E:\STT Project LA 1.15.2-2.0.1.tht forge1.15.2-31.2.41\.minecraft\journeymap\data\mp\Minecraft~\DIM0. Memory: 10240MB total, 8862MB free 
+[13:39:47] [Render thread/WARN] [Constants] Message key not found: jm.debug.region_info_toggle
+[13:39:47] [Render thread/WARN] [Constants] Message key not found: jm.debug.region_info_toggle
+[13:39:48] [Render thread/WARN] [WorldData] Used DummyProvider for required dim: 2
+[13:39:55] [Render thread/INFO] [JourneymapClient] Mapping halted in E:\STT Project LA 1.15.2-2.0.1.tht forge1.15.2-31.2.41\.minecraft\journeymap\data\mp\Minecraft~\DIM0
+[13:39:55] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[13:39:55] [Render thread/INFO] [WaypointStore] Loaded 25 waypoints from E:\STT Project LA 1.15.2-2.0.1.tht forge1.15.2-31.2.41\.minecraft\journeymap\data\mp\Minecraft~\waypoints
+[13:39:55] [Render thread/INFO] [JourneymapClient] Mapping started in E:\STT Project LA 1.15.2-2.0.1.tht forge1.15.2-31.2.41\.minecraft\journeymap\data\mp\Minecraft~\DIM2. Memory: 10240MB total, 8632MB free 
+[13:44:34] [Render thread/WARN] [Constants] Message key not found: jm.debug.region_info_toggle
+[13:44:34] [Render thread/WARN] [Constants] Message key not found: jm.debug.region_info_toggle
+[13:46:15] [Render thread/WARN] [Constants] Message key not found: jm.debug.region_info_toggle
+[13:46:15] [Render thread/WARN] [Constants] Message key not found: jm.debug.region_info_toggle
+[13:48:23] [Render thread/INFO] [StatTimer] TileDrawStep.updateRegionTexture hit max count, 1000000
+[13:48:23] [Render thread/INFO] [StatTimer] TileDrawStep.updateScaledTexture hit max count, 1000000
+[13:48:23] [Render thread/INFO] [StatTimer] TileDrawStep.draw(high) hit max count, 1000000
+[13:48:30] [Render thread/INFO] [StateTickHandler] TextComponent{text='YuukiSkniro', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}} died at BlockPos{x=3509329, y=57, z=118242}. Deathpoints enabled: true. Deathpoint created: true
+[13:48:31] [Render thread/INFO] [JourneymapClient] Mapping halted in E:\STT Project LA 1.15.2-2.0.1.tht forge1.15.2-31.2.41\.minecraft\journeymap\data\mp\Minecraft~\DIM2
+[13:48:32] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[13:48:32] [Render thread/INFO] [WaypointStore] Loaded 26 waypoints from E:\STT Project LA 1.15.2-2.0.1.tht forge1.15.2-31.2.41\.minecraft\journeymap\data\mp\Minecraft~\waypoints
+[13:48:32] [Render thread/INFO] [JourneymapClient] Mapping started in E:\STT Project LA 1.15.2-2.0.1.tht forge1.15.2-31.2.41\.minecraft\journeymap\data\mp\Minecraft~\DIM0. Memory: 10240MB total, 8597MB free 
+[13:48:36] [Render thread/WARN] [Constants] Message key not found: jm.debug.region_info_toggle
+[13:48:36] [Render thread/WARN] [Constants] Message key not found: jm.debug.region_info_toggle
+[13:48:37] [Render thread/WARN] [WorldData] Used DummyProvider for required dim: 2
+[13:48:39] [Render thread/WARN] [Constants] Message key not found: jm.debug.region_info_toggle
+[13:48:39] [Render thread/WARN] [Constants] Message key not found: jm.debug.region_info_toggle
+[13:48:52] [Render thread/WARN] [Constants] Message key not found: jm.debug.region_info_toggle
+[13:48:52] [Render thread/WARN] [Constants] Message key not found: jm.debug.region_info_toggle
+[13:48:53] [Render thread/WARN] [WorldData] Used DummyProvider for required dim: 2
+[13:48:57] [Render thread/INFO] [JourneymapClient] Mapping halted in E:\STT Project LA 1.15.2-2.0.1.tht forge1.15.2-31.2.41\.minecraft\journeymap\data\mp\Minecraft~\DIM0
+[13:48:57] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[13:48:58] [Render thread/INFO] [WaypointStore] Loaded 26 waypoints from E:\STT Project LA 1.15.2-2.0.1.tht forge1.15.2-31.2.41\.minecraft\journeymap\data\mp\Minecraft~\waypoints
+[13:48:58] [Render thread/INFO] [JourneymapClient] Mapping started in E:\STT Project LA 1.15.2-2.0.1.tht forge1.15.2-31.2.41\.minecraft\journeymap\data\mp\Minecraft~\DIM2. Memory: 10240MB total, 8508MB free 
+[13:57:52] [Render thread/INFO] [JourneymapClient] Mapping halted in E:\STT Project LA 1.15.2-2.0.1.tht forge1.15.2-31.2.41\.minecraft\journeymap\data\mp\Minecraft~\DIM2
+[13:57:54] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[13:57:54] [Render thread/INFO] [WaypointStore] Loaded 26 waypoints from E:\STT Project LA 1.15.2-2.0.1.tht forge1.15.2-31.2.41\.minecraft\journeymap\data\mp\Minecraft~\waypoints
+[13:57:54] [Render thread/INFO] [JourneymapClient] Mapping started in E:\STT Project LA 1.15.2-2.0.1.tht forge1.15.2-31.2.41\.minecraft\journeymap\data\mp\Minecraft~\DIM0. Memory: 10240MB total, 8281MB free 
+[14:01:07] [Render thread/WARN] [Constants] Message key not found: jm.debug.region_info_toggle
+[14:01:07] [Render thread/WARN] [Constants] Message key not found: jm.debug.region_info_toggle
+[14:01:08] [Render thread/WARN] [WorldData] Used DummyProvider for required dim: 2
+[14:07:52] [Render thread/WARN] [Constants] Message key not found: jm.debug.region_info_toggle
+[14:07:52] [Render thread/WARN] [Constants] Message key not found: jm.debug.region_info_toggle
+[14:14:15] [Render thread/INFO] [StatTimer] TileDrawStep.updateRegionTexture hit max count, 1000000
+[14:14:21] [Render thread/INFO] [StatTimer] TileDrawStep.updateScaledTexture hit max count, 1000000
+[14:14:21] [Render thread/INFO] [StatTimer] TileDrawStep.draw(high) hit max count, 1000000
+[14:17:24] [Render thread/WARN] [WorldData] Used DummyProvider for required dim: 2
+[14:31:42] [Render thread/INFO] [JourneymapClient] Mapping halted in E:\STT Project LA 1.15.2-2.0.1.tht forge1.15.2-31.2.41\.minecraft\journeymap\data\mp\Minecraft~\DIM0
+[14:31:42] [Netty Client IO #3/INFO] [PacketRegistry] Dev Mode?
+[14:31:42] [Netty Client IO #5/INFO] [PacketRegistry] Dev Mode?

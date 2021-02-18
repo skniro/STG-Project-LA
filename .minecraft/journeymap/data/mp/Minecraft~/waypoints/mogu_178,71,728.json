@@ -1,0 +1,18 @@
+{
+  "id": "mogu_178,71,728",
+  "name": "mogu",
+  "icon": "waypoint-normal.png",
+  "x": 178,
+  "y": 71,
+  "z": 728,
+  "r": 75,
+  "g": 101,
+  "b": 125,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

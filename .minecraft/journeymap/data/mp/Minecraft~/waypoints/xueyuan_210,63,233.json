@@ -1,0 +1,18 @@
+{
+  "id": "xueyuan_210,63,233",
+  "name": "xueyuan",
+  "icon": "waypoint-normal.png",
+  "x": 210,
+  "y": 63,
+  "z": 233,
+  "r": 58,
+  "g": 252,
+  "b": 218,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

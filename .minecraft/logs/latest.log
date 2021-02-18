@@ -1,0 +1,157 @@
+[18十月2020 17:42:41.448] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--username, YuukiSkniro, --version, HMCL 3.3.172, --gameDir, E:\STT Project LA 1.15.2-2.0.1.tht forge1.15.2-31.2.41\.minecraft, --assetsDir, E:\STT Project LA 1.15.2-2.0.1.tht forge1.15.2-31.2.41\.minecraft\assets, --assetIndex, 1.15, --uuid, c32ab6d0867347c8b2a37df48ce221f4, --accessToken, ????????, --userType, mojang, --versionType, HMCL 3.3.172, --width, 854, --height, 480, --tweakClass, optifine.OptiFineTweaker, --launchTarget, fmlclient, --fml.forgeVersion, 31.2.43, --fml.mcVersion, 1.15.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20200515.085601]
+[18十月2020 17:42:41.459] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 5.1.2+70+master.2845bb9 starting: java version 1.8.0_251 by Oracle Corporation
+[18十月2020 17:42:41.605] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.onLoad
+[18十月2020 17:42:41.607] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFine ZIP file: E:\STT Project LA 1.15.2-2.0.1.tht forge1.15.2-31.2.41\.minecraft\libraries\optifine\OptiFine\1.15.2_HD_U_G1_pre30\OptiFine-1.15.2_HD_U_G1_pre30.jar
+[18十月2020 17:42:42.048] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[18十月2020 17:42:42.063] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.initialize
+[18十月2020 17:42:43.855] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.transformers
+[18十月2020 17:42:43.867] [main/INFO] [optifine.OptiFineTransformer/]: Targets: 286
+[18十月2020 17:42:44.023] [main/INFO] [optifine.OptiFineTransformationService/]: additionalClassesLocator: [optifine., net.optifine.]
+[18十月2020 17:42:44.033] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlclient' with arguments [--version, HMCL 3.3.172, --gameDir, E:\STT Project LA 1.15.2-2.0.1.tht forge1.15.2-31.2.41\.minecraft, --assetsDir, E:\STT Project LA 1.15.2-2.0.1.tht forge1.15.2-31.2.41\.minecraft\assets, --uuid, c32ab6d0867347c8b2a37df48ce221f4, --username, YuukiSkniro, --assetIndex, 1.15, --accessToken, ????????, --userType, mojang, --versionType, HMCL 3.3.172, --width, 854, --height, 480, --tweakClass, optifine.OptiFineTweaker]
+[18十月2020 17:42:44.272] [main/INFO] [STDOUT/]: [net.minecraft.client.main.Main:main:79]: Completely ignored arguments: [--tweakClass, optifine.OptiFineTweaker]
+[18十月2020 17:42:46.609] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: YuukiSkniro
+[18十月2020 17:42:53.165] [Render thread/INFO] [net.optifine.Log/]: [OptiFine] (Reflector) Class not present: net.minecraft.launchwrapper.Launch
+[18十月2020 17:42:53.174] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.2.2 build 10
+[18十月2020 17:42:53.715] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] 
+[18十月2020 17:42:53.715] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] OptiFine_1.15.2_HD_U_G1_pre30
+[18十月2020 17:42:53.718] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Build: 20200622-083032
+[18十月2020 17:42:53.718] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] OS: Windows 10 (amd64) version 10.0
+[18十月2020 17:42:53.719] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Java: 1.8.0_251, Oracle Corporation
+[18十月2020 17:42:53.719] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] VM: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+[18十月2020 17:42:53.719] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] LWJGL: 3.3.0 Win32 WGL EGL OSMesa VisualC DLL
+[18十月2020 17:42:53.720] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] OpenGL: GeForce GTX 1080/PCIe/SSE2, version 4.6.0 NVIDIA 456.38, NVIDIA Corporation
+[18十月2020 17:42:53.721] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] OpenGL Version: 4.6.0
+[18十月2020 17:42:53.730] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Maximum texture size: 32768x32768
+[18十月2020 17:42:53.732] [VersionCheck/INFO] [net.optifine.Config/]: [OptiFine] Checking for new version
+[18十月2020 17:42:53.769] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] OpenGL Version: 4.6.0 NVIDIA 456.38
+[18十月2020 17:42:53.769] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Vendor:  NVIDIA Corporation
+[18十月2020 17:42:53.769] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Renderer: GeForce GTX 1080/PCIe/SSE2
+[18十月2020 17:42:53.769] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Capabilities:  2.0  2.1  3.0  3.2  4.0 
+[18十月2020 17:42:53.770] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] GL_MAX_DRAW_BUFFERS: 8
+[18十月2020 17:42:53.770] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] GL_MAX_COLOR_ATTACHMENTS_EXT: 8
+[18十月2020 17:42:53.770] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] GL_MAX_TEXTURE_IMAGE_UNITS: 32
+[18十月2020 17:42:53.770] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Load shaders configuration.
+[18十月2020 17:42:53.780] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] No shaderpack loaded.
+[18十月2020 17:42:53.796] [Render thread/INFO] [net.optifine.Log/]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.Loader
+[18十月2020 17:42:54.181] [VersionCheck/INFO] [net.optifine.Config/]: [OptiFine] java.io.FileNotFoundException: http://optifine.net/version/1.15.2/HD_U.txt
+[18十月2020 17:42:54.716] [modloading-worker-9/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 31.2.43, for MC 1.15.2 with MCP 20200515.085601
+[18十月2020 17:42:54.717] [modloading-worker-9/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v31.2.43 Initialized
+[18十月2020 17:42:55.540] [Render thread/WARN] [net.minecraft.client.GameSettings/]: Removed resource pack packmenu from options because it doesn't seem to exist anymore
+[18十月2020 17:42:55.540] [Render thread/WARN] [net.minecraft.client.GameSettings/]: Removed resource pack file/resources.zip from options because it doesn't seem to exist anymore
+[18十月2020 17:42:56.766] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[18十月2020 17:42:56.854] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
+[18十月2020 17:42:56.866] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] *** Reloading textures ***
+[18十月2020 17:42:56.866] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Resource packs: Mod Resources
+[18十月2020 17:42:57.143] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[18十月2020 17:42:57.177] [Render thread/INFO] [net.optifine.reflect.Reflector/]: [OptiFine] *** Reflector Forge ***
+[18十月2020 17:42:57.178] [Render thread/INFO] [net.optifine.Log/]: [OptiFine] (Reflector) Class not present: mods.betterfoliage.client.BetterFoliageClient
+[18十月2020 17:42:57.652] [Render thread/INFO] [net.optifine.Log/]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.model.IModel
+[18十月2020 17:42:57.718] [Render thread/INFO] [net.optifine.Log/]: [OptiFine] (Reflector) Field not present: net.minecraftforge.client.model.pipeline.LightUtil.itemConsumer
+[18十月2020 17:42:57.718] [Render thread/INFO] [net.optifine.Log/]: [OptiFine] (Reflector) Field not present: net.minecraftforge.client.model.pipeline.LightUtil.tessellator
+[18十月2020 17:42:57.735] [Render thread/INFO] [net.optifine.Log/]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.ModContainer
+[18十月2020 17:42:57.737] [Render thread/INFO] [net.optifine.Log/]: [OptiFine] (Reflector) Field not present: net.minecraftforge.client.model.ModelLoader.stateModels
+[18十月2020 17:42:57.737] [Render thread/INFO] [net.optifine.Log/]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.model.ModelLoader$VanillaLoader
+[18十月2020 17:42:57.738] [Render thread/INFO] [net.optifine.Log/]: [OptiFine] (Reflector) Field not present: net.minecraftforge.client.model.ModelLoaderRegistry.textures
+[18十月2020 17:42:57.925] [Render thread/INFO] [net.optifine.reflect.Reflector/]: [OptiFine] *** Reflector Vanilla ***
+[18十月2020 17:42:57.949] [Server-Worker-2/INFO] [net.optifine.Config/]: [OptiFine] Multitexture: false
+[18十月2020 17:42:58.017] [Server-Worker-4/INFO] [net.optifine.Config/]: [OptiFine] Multitexture: false
+[18十月2020 17:42:58.026] [Server-Worker-5/INFO] [net.optifine.Config/]: [OptiFine] Multitexture: false
+[18十月2020 17:42:58.599] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 31.2.43 Target: 31.2.45
+[18十月2020 17:42:59.336] [Server-Worker-6/WARN] [net.optifine.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[18十月2020 17:42:59.336] [Server-Worker-6/WARN] [net.optifine.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[18十月2020 17:42:59.336] [Server-Worker-6/WARN] [net.optifine.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[18十月2020 17:42:59.336] [Server-Worker-6/WARN] [net.optifine.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[18十月2020 17:42:59.485] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] Multitexture: false
+[18十月2020 17:42:59.488] [Server-Worker-6/WARN] [net.optifine.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[18十月2020 17:42:59.490] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] Multipass connected textures: false
+[18十月2020 17:42:59.493] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/00_glass_white/glass_pane_white.properties
+[18十月2020 17:42:59.502] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/00_glass_white/glass_white.properties
+[18十月2020 17:42:59.504] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/01_glass_orange/glass_orange.properties
+[18十月2020 17:42:59.506] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/01_glass_orange/glass_pane_orange.properties
+[18十月2020 17:42:59.508] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/02_glass_magenta/glass_magenta.properties
+[18十月2020 17:42:59.525] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/02_glass_magenta/glass_pane_magenta.properties
+[18十月2020 17:42:59.526] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/03_glass_light_blue/glass_light_blue.properties
+[18十月2020 17:42:59.528] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/03_glass_light_blue/glass_pane_light_blue.properties
+[18十月2020 17:42:59.530] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/04_glass_yellow/glass_pane_yellow.properties
+[18十月2020 17:42:59.531] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/04_glass_yellow/glass_yellow.properties
+[18十月2020 17:42:59.532] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/05_glass_lime/glass_lime.properties
+[18十月2020 17:42:59.533] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/05_glass_lime/glass_pane_lime.properties
+[18十月2020 17:42:59.534] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/06_glass_pink/glass_pane_pink.properties
+[18十月2020 17:42:59.536] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/06_glass_pink/glass_pink.properties
+[18十月2020 17:42:59.537] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/07_glass_gray/glass_gray.properties
+[18十月2020 17:42:59.538] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/07_glass_gray/glass_pane_gray.properties
+[18十月2020 17:42:59.540] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/08_glass_light_gray/glass_light_gray.properties
+[18十月2020 17:42:59.541] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/08_glass_light_gray/glass_pane_light_gray.properties
+[18十月2020 17:42:59.543] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/09_glass_cyan/glass_cyan.properties
+[18十月2020 17:42:59.544] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/09_glass_cyan/glass_pane_cyan.properties
+[18十月2020 17:42:59.546] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/10_glass_purple/glass_pane_purple.properties
+[18十月2020 17:42:59.547] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/10_glass_purple/glass_purple.properties
+[18十月2020 17:42:59.548] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/11_glass_blue/glass_blue.properties
+[18十月2020 17:42:59.550] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/11_glass_blue/glass_pane_blue.properties
+[18十月2020 17:42:59.551] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/12_glass_brown/glass_brown.properties
+[18十月2020 17:42:59.552] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/12_glass_brown/glass_pane_brown.properties
+[18十月2020 17:42:59.553] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/13_glass_green/glass_green.properties
+[18十月2020 17:42:59.554] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/13_glass_green/glass_pane_green.properties
+[18十月2020 17:42:59.555] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/14_glass_red/glass_pane_red.properties
+[18十月2020 17:42:59.556] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/14_glass_red/glass_red.properties
+[18十月2020 17:42:59.558] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/15_glass_black/glass_black.properties
+[18十月2020 17:42:59.559] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/15_glass_black/glass_pane_black.properties
+[18十月2020 17:42:59.561] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/20_glass/glass.properties
+[18十月2020 17:42:59.562] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/20_glass/glass_pane.properties
+[18十月2020 17:42:59.563] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/30_bookshelf/bookshelf.properties
+[18十月2020 17:42:59.563] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/40_sandstone/sandstone.properties
+[18十月2020 17:42:59.564] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/41_red_sandstone/red_sandstone.properties
+[18十月2020 17:42:59.565] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] Multipass connected textures: false
+[18十月2020 17:42:59.567] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] BetterGrass: Parsing default configuration optifine/bettergrass.properties
+[18十月2020 17:43:01.233] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] Mipmap levels: 4
+[18十月2020 17:43:01.530] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] Multitexture: false
+[18十月2020 17:43:01.537] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] Sprite size: 64
+[18十月2020 17:43:01.537] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] Mipmap levels: 6
+[18十月2020 17:43:01.540] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] Multitexture: false
+[18十月2020 17:43:01.585] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] Sprite size: 64
+[18十月2020 17:43:01.585] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] Mipmap levels: 6
+[18十月2020 17:43:01.591] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] Multitexture: false
+[18十月2020 17:43:01.646] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] Sprite size: 64
+[18十月2020 17:43:01.646] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] Mipmap levels: 6
+[18十月2020 17:43:01.652] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] Multitexture: false
+[18十月2020 17:43:01.664] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] Sprite size: 64
+[18十月2020 17:43:01.664] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] Mipmap levels: 6
+[18十月2020 17:43:01.667] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] Multitexture: false
+[18十月2020 17:43:01.684] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] Sprite size: 64
+[18十月2020 17:43:01.684] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] Mipmap levels: 6
+[18十月2020 17:43:01.688] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] Multitexture: false
+[18十月2020 17:43:01.706] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] Sprite size: 64
+[18十月2020 17:43:01.706] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] Mipmap levels: 6
+[18十月2020 17:43:02.186] [Render thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
+[18十月2020 17:43:02.187] [Render thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
+[18十月2020 17:43:02.336] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[18十月2020 17:43:02.372] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Animated sprites: 35
+[18十月2020 17:43:02.374] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x4 minecraft:textures/atlas/signs.png-atlas
+[18十月2020 17:43:02.374] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Animated sprites: 0
+[18十月2020 17:43:02.374] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[18十月2020 17:43:02.374] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Animated sprites: 0
+[18十月2020 17:43:02.374] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[18十月2020 17:43:02.375] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Animated sprites: 0
+[18十月2020 17:43:02.375] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[18十月2020 17:43:02.376] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Animated sprites: 0
+[18十月2020 17:43:02.376] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[18十月2020 17:43:02.376] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Animated sprites: 0
+[18十月2020 17:43:02.376] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[18十月2020 17:43:02.376] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Animated sprites: 0
+[18十月2020 17:43:02.928] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[18十月2020 17:43:02.929] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Animated sprites: 0
+[18十月2020 17:43:02.931] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[18十月2020 17:43:02.931] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Animated sprites: 0
+[18十月2020 17:43:02.931] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[18十月2020 17:43:02.931] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Animated sprites: 0
+[18十月2020 17:43:02.932] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] *** Reloading custom textures ***
+[18十月2020 17:43:02.936] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[18十月2020 17:43:02.949] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[18十月2020 17:43:02.949] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[18十月2020 17:43:04.417] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[18十月2020 17:43:04.482] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[18十月2020 17:43:04.484] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[18十月2020 17:43:04.487] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Disable Forge light pipeline
+[18十月2020 17:43:04.488] [Render thread/INFO] [net.optifine.Log/]: [OptiFine] Set ForgeConfig.CLIENT.forgeLightPipelineEnabled=false
+[18十月2020 17:43:28.161] [Netty Client IO #0/ERROR] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: The server is likely to require channel [[betteranimalsplus:main_channel, abnormals_core:net, mmorpg:main_channel, curios:main, endergetic:net]] to be present, yet we don't have it
+[18十月2020 18:47:10.717] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

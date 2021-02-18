@@ -1,0 +1,755 @@
+[18十月2020 17:42:41.448] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--username, YuukiSkniro, --version, HMCL 3.3.172, --gameDir, E:\STT Project LA 1.15.2-2.0.1.tht forge1.15.2-31.2.41\.minecraft, --assetsDir, E:\STT Project LA 1.15.2-2.0.1.tht forge1.15.2-31.2.41\.minecraft\assets, --assetIndex, 1.15, --uuid, c32ab6d0867347c8b2a37df48ce221f4, --accessToken, ????????, --userType, mojang, --versionType, HMCL 3.3.172, --width, 854, --height, 480, --tweakClass, optifine.OptiFineTweaker, --launchTarget, fmlclient, --fml.forgeVersion, 31.2.43, --fml.mcVersion, 1.15.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20200515.085601]
+[18十月2020 17:42:41.459] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 5.1.2+70+master.2845bb9 starting: java version 1.8.0_251 by Oracle Corporation
+[18十月2020 17:42:41.482] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [minecraft,testharness,fmlclient,fmlserver]
+[18十月2020 17:42:41.504] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Found naming services : []
+[18十月2020 17:42:41.516] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [eventbus,object_holder_definalize,runtime_enum_extender,accesstransformer,capability_inject_definalize,runtimedistcleaner]
+[18十月2020 17:42:41.526] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Discovering transformation services
+[18十月2020 17:42:41.537] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found additional transformation services from discovery services: [E:\STT Project LA 1.15.2-2.0.1.tht forge1.15.2-31.2.41\.minecraft\libraries\optifine\OptiFine\1.15.2_HD_U_G1_pre30\OptiFine-1.15.2_HD_U_G1_pre30.jar]
+[18十月2020 17:42:41.603] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer services : [OptiFine,fml]
+[18十月2020 17:42:41.604] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading
+[18十月2020 17:42:41.605] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service OptiFine
+[18十月2020 17:42:41.605] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.onLoad
+[18十月2020 17:42:41.607] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFine ZIP file: E:\STT Project LA 1.15.2-2.0.1.tht forge1.15.2-31.2.41\.minecraft\libraries\optifine\OptiFine\1.15.2_HD_U_G1_pre30\OptiFine-1.15.2_HD_U_G1_pre30.jar
+[18十月2020 17:42:41.619] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service OptiFine
+[18十月2020 17:42:41.619] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service fml
+[18十月2020 17:42:41.619] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/]: Injecting tracing printstreams for STDOUT/STDERR.
+[18十月2020 17:42:41.622] [main/DEBUG] [net.minecraftforge.fml.loading.LauncherVersion/CORE]: Found FMLLauncher version 31.2
+[18十月2020 17:42:41.622] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML 31.2 loading
+[18十月2020 17:42:41.622] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found ModLauncher version : 5.1.2+70+master.2845bb9
+[18十月2020 17:42:41.622] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Initializing modjar URL handler
+[18十月2020 17:42:41.623] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found AccessTransformer version : 2.1.3+56+master.cd48380
+[18十月2020 17:42:41.624] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found EventBus version : 2.2.0+59+master.4f71e48
+[18十月2020 17:42:41.624] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found Runtime Dist Cleaner
+[18十月2020 17:42:41.628] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found CoreMod version : 2.0.3+8+master.ca72757
+[18十月2020 17:42:41.629] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package implementation version 3.0.0+10+master.d73b00c
+[18十月2020 17:42:41.629] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package specification 3
+[18十月2020 17:42:42.048] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[18十月2020 17:42:42.048] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service fml
+[18十月2020 17:42:42.052] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Configuring option handling for services
+[18十月2020 17:42:42.062] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services initializing
+[18十月2020 17:42:42.063] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service OptiFine
+[18十月2020 17:42:42.063] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.initialize
+[18十月2020 17:42:42.064] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service OptiFine
+[18十月2020 17:42:42.064] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service fml
+[18十月2020 17:42:42.064] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Setting up basic FML game directories
+[18十月2020 17:42:42.065] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing GAMEDIR directory : E:\STT Project LA 1.15.2-2.0.1.tht forge1.15.2-31.2.41\.minecraft
+[18十月2020 17:42:42.065] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is E:\STT Project LA 1.15.2-2.0.1.tht forge1.15.2-31.2.41\.minecraft
+[18十月2020 17:42:42.065] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing MODSDIR directory : E:\STT Project LA 1.15.2-2.0.1.tht forge1.15.2-31.2.41\.minecraft\mods
+[18十月2020 17:42:42.065] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is E:\STT Project LA 1.15.2-2.0.1.tht forge1.15.2-31.2.41\.minecraft\mods
+[18十月2020 17:42:42.066] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing CONFIGDIR directory : E:\STT Project LA 1.15.2-2.0.1.tht forge1.15.2-31.2.41\.minecraft\config
+[18十月2020 17:42:42.066] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is E:\STT Project LA 1.15.2-2.0.1.tht forge1.15.2-31.2.41\.minecraft\config
+[18十月2020 17:42:42.066] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is E:\STT Project LA 1.15.2-2.0.1.tht forge1.15.2-31.2.41\.minecraft\config\fml.toml
+[18十月2020 17:42:42.066] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading configuration
+[18十月2020 17:42:42.113] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing default config directory directory : E:\STT Project LA 1.15.2-2.0.1.tht forge1.15.2-31.2.41\.minecraft\defaultconfigs
+[18十月2020 17:42:42.114] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing ModFile
+[18十月2020 17:42:42.117] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing launch handler
+[18十月2020 17:42:42.117] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Using fmlclient as launch service
+[18十月2020 17:42:42.848] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Received command line version data  : MC Version: '1.15.2' MCP Version: '20200515.085601' Forge Version: '31.2.43' Forge group: 'net.minecraftforge'
+[18十月2020 17:42:42.849] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR asm at path E:\STT Project LA 1.15.2-2.0.1.tht forge1.15.2-31.2.41\.minecraft\libraries\org\ow2\asm\asm\7.2\asm-7.2.jar
+[18十月2020 17:42:42.850] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found probable library path E:\STT Project LA 1.15.2-2.0.1.tht forge1.15.2-31.2.41\.minecraft\libraries
+[18十月2020 17:42:42.868] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found forge path E:\STT Project LA 1.15.2-2.0.1.tht forge1.15.2-31.2.41\.minecraft\libraries\net\minecraftforge\forge\1.15.2-31.2.43\forge-1.15.2-31.2.43-universal.jar is present
+[18十月2020 17:42:42.909] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: SRG MC at E:\STT Project LA 1.15.2-2.0.1.tht forge1.15.2-31.2.41\.minecraft\libraries\net\minecraft\client\1.15.2-20200515.085601\client-1.15.2-20200515.085601-srg.jar is present
+[18十月2020 17:42:42.948] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: MC Extras at E:\STT Project LA 1.15.2-2.0.1.tht forge1.15.2-31.2.41\.minecraft\libraries\net\minecraft\client\1.15.2\client-1.15.2-extra.jar is present
+[18十月2020 17:42:42.970] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Forge patches at E:\STT Project LA 1.15.2-2.0.1.tht forge1.15.2-31.2.41\.minecraft\libraries\net\minecraftforge\forge\1.15.2-31.2.43\forge-1.15.2-31.2.43-client.jar is present
+[18十月2020 17:42:42.975] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found 0 language providers
+[18十月2020 17:42:42.977] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Adding forge as a language from E:\STT Project LA 1.15.2-2.0.1.tht forge1.15.2-31.2.41\.minecraft\libraries\net\minecraftforge\forge\1.15.2-31.2.43\forge-1.15.2-31.2.43-universal.jar
+[18十月2020 17:42:42.979] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Adding file:/E:/STT%20Project%20LA%201.15.2-2.0.1.tht%20forge1.15.2-31.2.41/.minecraft/libraries/net/minecraftforge/forge/1.15.2-31.2.43/forge-1.15.2-31.2.43-universal.jar to languageloader classloader
+[18十月2020 17:42:43.042] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found 2 language providers
+[18十月2020 17:42:43.043] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider javafml, version 31.2
+[18十月2020 17:42:43.050] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider minecraft, version 1
+[18十月2020 17:42:43.055] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service fml
+[18十月2020 17:42:43.056] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Current naming domain is 'srg'
+[18十月2020 17:42:43.056] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Identified name mapping providers {}
+[18十月2020 17:42:43.057] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services begin scanning
+[18十月2020 17:42:43.057] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service OptiFine
+[18十月2020 17:42:43.057] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service OptiFine
+[18十月2020 17:42:43.058] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service fml
+[18十月2020 17:42:43.058] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Initiating mod scan
+[18十月2020 17:42:43.104] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModListHandler/CORE]: Found mod coordinates from lists: []
+[18十月2020 17:42:43.165] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Mod Locators : (mods folder:null),(maven libs:null),(exploded directory:null),(minecraft:null)
+[18十月2020 17:42:43.212] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate E:\STT Project LA 1.15.2-2.0.1.tht forge1.15.2-31.2.41\.minecraft\libraries\net\minecraftforge\forge\1.15.2-31.2.43\forge-1.15.2-31.2.43-universal.jar
+[18十月2020 17:42:43.293] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.15.2-31.2.43-universal.jar with {forge} mods - versions {31.2.43}
+[18十月2020 17:42:43.293] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file E:\STT Project LA 1.15.2-2.0.1.tht forge1.15.2-31.2.41\.minecraft\libraries\net\minecraftforge\forge\1.15.2-31.2.43\forge-1.15.2-31.2.43-universal.jar with language javafml
+[18十月2020 17:42:43.358] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod fieldtomethodtransformers with Javascript path META-INF/fieldtomethodtransformers.js
+[18十月2020 17:42:43.360] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod META-INF/fieldtomethodtransformers.js
+[18十月2020 17:42:43.360] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate E:\STT Project LA 1.15.2-2.0.1.tht forge1.15.2-31.2.41\.minecraft\libraries\net\minecraftforge\forge\1.15.2-31.2.43\forge-1.15.2-31.2.43-client.jar
+[18十月2020 17:42:43.365] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.15.2-31.2.43-client.jar with {minecraft} mods - versions {1.15.2}
+[18十月2020 17:42:43.366] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file E:\STT Project LA 1.15.2-2.0.1.tht forge1.15.2-31.2.41\.minecraft\libraries\net\minecraftforge\forge\1.15.2-31.2.43\forge-1.15.2-31.2.43-client.jar with language minecraft
+[18十月2020 17:42:43.376] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 0 mandatory requirements
+[18十月2020 17:42:43.378] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 0 mandatory mod requirements missing
+[18十月2020 17:42:43.854] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service fml
+[18十月2020 17:42:43.855] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading transformers
+[18十月2020 17:42:43.855] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service OptiFine
+[18十月2020 17:42:43.855] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.transformers
+[18十月2020 17:42:43.867] [main/INFO] [optifine.OptiFineTransformer/]: Targets: 286
+[18十月2020 17:42:43.871] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/block/material/Material;} {} {V}
+[18十月2020 17:42:43.872] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/FogRenderer;} {} {V}
+[18十月2020 17:42:43.873] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/texture/SimpleTexture$TextureData;} {} {V}
+[18十月2020 17:42:43.873] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/entity/layers/CapeLayer;} {} {V}
+[18十月2020 17:42:43.873] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/texture/PngSizeInfo;} {} {V}
+[18十月2020 17:42:43.873] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/texture/PngSizeInfo$1;} {} {V}
+[18十月2020 17:42:43.873] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lcom/mojang/blaze3d/platform/GlStateManager$CullState;} {} {V}
+[18十月2020 17:42:43.873] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/BlockModelRenderer$Cache;} {} {V}
+[18十月2020 17:42:43.873] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lcom/mojang/blaze3d/platform/GlStateManager$ColorMaterialState;} {} {V}
+[18十月2020 17:42:43.873] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lcom/mojang/blaze3d/platform/GlStateManager$TexGenCoord;} {} {V}
+[18十月2020 17:42:43.873] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/util/Direction;} {} {V}
+[18十月2020 17:42:43.874] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/block/BlockState$Cache;} {} {V}
+[18十月2020 17:42:43.874] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/chunk/ChunkRenderDispatcher$CompiledChunk$1;} {} {V}
+[18十月2020 17:42:43.874] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/StitcherException;} {} {V}
+[18十月2020 17:42:43.874] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/network/play/server/SChunkDataPacket;} {} {V}
+[18十月2020 17:42:43.874] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/GameSettings;} {} {V}
+[18十月2020 17:42:43.874] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/KeyboardListener;} {} {V}
+[18十月2020 17:42:43.874] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/texture/LayeredTexture;} {} {V}
+[18十月2020 17:42:43.874] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/texture/TextureAtlasSprite$Info;} {} {V}
+[18十月2020 17:42:43.874] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/entity/LivingRenderer$1;} {} {V}
+[18十月2020 17:42:43.875] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/model/ModelRenderer$ModelBox;} {} {V}
+[18十月2020 17:42:43.875] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/multiplayer/ClientChunkProvider$ChunkArray;} {} {V}
+[18十月2020 17:42:43.875] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/chunk/ChunkRenderDispatcher$CompiledChunk;} {} {V}
+[18十月2020 17:42:43.875] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/entity/IEntityRenderer;} {} {V}
+[18十月2020 17:42:43.875] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/GameSettings$2;} {} {V}
+[18十月2020 17:42:43.875] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/RenderState$AlphaState;} {} {V}
+[18十月2020 17:42:43.875] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/world/chunk/ChunkSection;} {} {V}
+[18十月2020 17:42:43.876] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/entity/layers/AbstractEyesLayer;} {} {V}
+[18十月2020 17:42:43.876] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/IRenderTypeBuffer$Impl;} {} {V}
+[18十月2020 17:42:43.876] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/texture/NativeImage;} {} {V}
+[18十月2020 17:42:43.876] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/resources/ResourcePack;} {} {V}
+[18十月2020 17:42:43.876] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lcom/mojang/blaze3d/platform/GlStateManager$ClearState;} {} {V}
+[18十月2020 17:42:43.876] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/debug/ChunkBorderDebugRenderer;} {} {V}
+[18十月2020 17:42:43.876] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/chunk/SetVisibility;} {} {V}
+[18十月2020 17:42:43.876] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/util/Util$OS$2;} {} {V}
+[18十月2020 17:42:43.877] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/gui/widget/OptionSlider;} {} {V}
+[18十月2020 17:42:43.877] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/settings/SliderPercentageOption;} {} {V}
+[18十月2020 17:42:43.877] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lcom/mojang/blaze3d/platform/GlStateManager;} {} {V}
+[18十月2020 17:42:43.877] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/util/Util$1;} {} {V}
+[18十月2020 17:42:43.877] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lcom/mojang/blaze3d/platform/GlStateManager$StencilState;} {} {V}
+[18十月2020 17:42:43.877] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/RenderType$Type$EqualityStrategy;} {} {V}
+[18十月2020 17:42:43.877] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/tileentity/DualBrightnessCallback;} {} {V}
+[18十月2020 17:42:43.878] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/OverlayRenderer;} {} {V}
+[18十月2020 17:42:43.878] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/texture/PngSizeInfo$ReaderSeekable;} {} {V}
+[18十月2020 17:42:43.878] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/texture/DynamicTexture;} {} {V}
+[18十月2020 17:42:43.878] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/entity/MobEntity$1;} {} {V}
+[18十月2020 17:42:43.878] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/BlockRendererDispatcher;} {} {V}
+[18十月2020 17:42:43.878] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/util/math/ChunkPos$1;} {} {V}
+[18十月2020 17:42:43.878] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lcom/mojang/blaze3d/platform/GlStateManager$ColorLogicState;} {} {V}
+[18十月2020 17:42:43.878] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/gui/NewChatGui;} {} {V}
+[18十月2020 17:42:43.878] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/RenderState$PortalTexturingState;} {} {V}
+[18十月2020 17:42:43.879] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/entity/ai/goal/GoalSelector$2;} {} {V}
+[18十月2020 17:42:43.879] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/RenderState;} {} {V}
+[18十月2020 17:42:43.879] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/texture/Stitcher$ISpriteLoader;} {} {V}
+[18十月2020 17:42:43.879] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/BlockModelRenderer$Cache$2;} {} {V}
+[18十月2020 17:42:43.879] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/RenderState$TextureState;} {} {V}
+[18十月2020 17:42:43.879] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/texture/AtlasTexture;} {} {V}
+[18十月2020 17:42:43.879] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/WorldRenderer;} {} {V}
+[18十月2020 17:42:43.879] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/settings/IteratableOption;} {} {V}
+[18十月2020 17:42:43.879] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/tileentity/SignTileEntityRenderer$SignModel;} {} {V}
+[18十月2020 17:42:43.879] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/model/Material;} {} {V}
+[18十月2020 17:42:43.879] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lcom/mojang/blaze3d/matrix/MatrixStack$Entry;} {} {V}
+[18十月2020 17:42:43.880] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/multiplayer/ClientChunkProvider;} {} {V}
+[18十月2020 17:42:43.880] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/util/Direction$Axis$2;} {} {V}
+[18十月2020 17:42:43.880] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/texture/MissingTextureSprite;} {} {V}
+[18十月2020 17:42:43.880] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/vertex/DefaultVertexFormats;} {} {V}
+[18十月2020 17:42:43.880] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/KeyboardListener$1;} {} {V}
+[18十月2020 17:42:43.880] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/entity/layers/ArmorLayer;} {} {V}
+[18十月2020 17:42:43.880] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/entity/model/ModelUtils;} {} {V}
+[18十月2020 17:42:43.880] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/texture/Stitcher$Slot;} {} {V}
+[18十月2020 17:42:43.880] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lcom/mojang/blaze3d/platform/GLX;} {} {V}
+[18十月2020 17:42:43.880] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/RenderState$OffsetTexturingState;} {} {V}
+[18十月2020 17:42:43.880] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/FogRenderer$FogType;} {} {V}
+[18十月2020 17:42:43.880] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/network/PacketThreadUtil;} {} {V}
+[18十月2020 17:42:43.880] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/texture/PngSizeInfo$ReaderBuffer;} {} {V}
+[18十月2020 17:42:43.881] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/util/Util$OS;} {} {V}
+[18十月2020 17:42:43.881] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/gui/overlay/DebugOverlayGui$1;} {} {V}
+[18十月2020 17:42:43.881] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/chunk/ChunkRenderDispatcher$ChunkRender$RebuildTask;} {} {V}
+[18十月2020 17:42:43.881] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/util/IntArray;} {} {V}
+[18十月2020 17:42:43.881] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/MainWindow$GlException;} {} {V}
+[18十月2020 17:42:43.881] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/model/Model;} {} {V}
+[18十月2020 17:42:43.881] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/model/ModelRenderer;} {} {V}
+[18十月2020 17:42:43.881] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/BlockModelRenderer$Orientation;} {} {V}
+[18十月2020 17:42:43.881] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/chunk/ChunkRenderDispatcher$ChunkRender$SortTransparencyTask;} {} {V}
+[18十月2020 17:42:43.881] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lcom/mojang/blaze3d/platform/GlStateManager$FramebufferExtension;} {} {V}
+[18十月2020 17:42:43.881] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/BlockModelRenderer$Cache$1;} {} {V}
+[18十月2020 17:42:43.881] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/entity/ExperienceOrbRenderer;} {} {V}
+[18十月2020 17:42:43.881] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/Monitor;} {} {V}
+[18十月2020 17:42:43.882] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/chunk/VisGraph$1;} {} {V}
+[18十月2020 17:42:43.882] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/RenderState$DepthTestState;} {} {V}
+[18十月2020 17:42:43.882] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/ViewFrustum;} {} {V}
+[18十月2020 17:42:43.882] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/chunk/ChunkRenderDispatcher$ChunkRender;} {} {V}
+[18十月2020 17:42:43.882] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/util/math/ChunkPos;} {} {V}
+[18十月2020 17:42:43.882] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lcom/mojang/blaze3d/platform/GlStateManager$1;} {} {V}
+[18十月2020 17:42:43.882] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/util/Util$OS$1;} {} {V}
+[18十月2020 17:42:43.882] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/tileentity/TileEntityRenderer;} {} {V}
+[18十月2020 17:42:43.882] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/BufferBuilder$State;} {} {V}
+[18十月2020 17:42:43.882] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/gui/FontRenderer;} {} {V}
+[18十月2020 17:42:43.882] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/RenderState$OverlayState;} {} {V}
+[18十月2020 17:42:43.882] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/profiler/Profiler$1;} {} {V}
+[18十月2020 17:42:43.882] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lcom/mojang/blaze3d/platform/GlStateManager$BlendState;} {} {V}
+[18十月2020 17:42:43.882] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/network/datasync/EntityDataManager;} {} {V}
+[18十月2020 17:42:43.883] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/world/server/ChunkManager$EntityTracker;} {} {V}
+[18十月2020 17:42:43.883] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/model/ModelBakery$ModelListWrapper;} {} {V}
+[18十月2020 17:42:43.883] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/profiler/DebugProfiler$IDebugResultEntry;} {} {V}
+[18十月2020 17:42:43.883] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/model/FaceBakery$1;} {} {V}
+[18十月2020 17:42:43.883] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/FluidBlockRenderer;} {} {V}
+[18十月2020 17:42:43.883] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/world/biome/FuzzedBiomeMagnifier;} {} {V}
+[18十月2020 17:42:43.883] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/RenderType$1;} {} {V}
+[18十月2020 17:42:43.883] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/FirstPersonRenderer;} {} {V}
+[18十月2020 17:42:43.883] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/model/FaceBakery;} {} {V}
+[18十月2020 17:42:43.883] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/server/integrated/IntegratedServer;} {} {V}
+[18十月2020 17:42:43.883] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/settings/AbstractOption;} {} {V}
+[18十月2020 17:42:43.883] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/gui/ResourceLoadProgressGui;} {} {V}
+[18十月2020 17:42:43.883] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/BlockRendererDispatcher$1;} {} {V}
+[18十月2020 17:42:43.883] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/particle/ParticleManager;} {} {V}
+[18十月2020 17:42:43.884] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/gui/screen/ChatOptionsScreen;} {} {V}
+[18十月2020 17:42:43.884] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/gui/screen/DownloadTerrainScreen;} {} {V}
+[18十月2020 17:42:43.884] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/texture/NativeImage$WriteCallback;} {} {V}
+[18十月2020 17:42:43.884] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/texture/Stitcher;} {} {V}
+[18十月2020 17:42:43.884] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/util/Direction$Axis$1;} {} {V}
+[18十月2020 17:42:43.884] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/model/ModelRenderer$PositionTextureVertex;} {} {V}
+[18十月2020 17:42:43.884] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/GlDebugTextUtils;} {} {V}
+[18十月2020 17:42:43.884] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/vertex/VertexFormat;} {} {V}
+[18十月2020 17:42:43.884] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/util/Util;} {} {V}
+[18十月2020 17:42:43.884] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/RenderState$ShadeModelState;} {} {V}
+[18十月2020 17:42:43.884] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lcom/mojang/blaze3d/platform/GlStateManager$DepthState;} {} {V}
+[18十月2020 17:42:43.884] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/particle/ItemPickupParticle;} {} {V}
+[18十月2020 17:42:43.884] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/world/server/ChunkManager$1;} {} {V}
+[18十月2020 17:42:43.884] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/util/Direction$Axis;} {} {V}
+[18十月2020 17:42:43.884] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lcom/mojang/blaze3d/platform/GlStateManager$TexGen;} {} {V}
+[18十月2020 17:42:43.885] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/texture/NativeImage$PixelFormat;} {} {V}
+[18十月2020 17:42:43.885] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/BufferBuilder$DrawState;} {} {V}
+[18十月2020 17:42:43.885] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/entity/layers/ElytraLayer;} {} {V}
+[18十月2020 17:42:43.885] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/block/BlockState;} {} {V}
+[18十月2020 17:42:43.885] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/util/concurrent/ThreadTaskExecutor;} {} {V}
+[18十月2020 17:42:43.885] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/RenderType;} {} {V}
+[18十月2020 17:42:43.885] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/ItemRenderer;} {} {V}
+[18十月2020 17:42:43.885] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/texture/TextureAtlasSprite$1;} {} {V}
+[18十月2020 17:42:43.885] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/entity/MobRenderer;} {} {V}
+[18十月2020 17:42:43.885] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/MainWindow$1;} {} {V}
+[18十月2020 17:42:43.885] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/chunk/ChunkRenderDispatcher;} {} {V}
+[18十月2020 17:42:43.885] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/model/IBakedModel;} {} {V}
+[18十月2020 17:42:43.886] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/tileentity/ItemStackTileEntityRenderer;} {} {V}
+[18十月2020 17:42:43.886] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lcom/mojang/blaze3d/platform/GlStateManager$PolygonOffsetState;} {} {V}
+[18十月2020 17:42:43.886] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/gui/overlay/DebugOverlayGui;} {} {V}
+[18十月2020 17:42:43.886] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/util/ResourceLocation$Serializer;} {} {V}
+[18十月2020 17:42:43.886] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/texture/Texture;} {} {V}
+[18十月2020 17:42:43.886] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/util/math/MathHelper;} {} {V}
+[18十月2020 17:42:43.887] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lcom/mojang/blaze3d/platform/GlStateManager$FogMode;} {} {V}
+[18十月2020 17:42:43.887] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lcom/mojang/blaze3d/platform/GlStateManager$FogState;} {} {V}
+[18十月2020 17:42:43.887] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/RenderState$LightmapState;} {} {V}
+[18十月2020 17:42:43.887] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/profiler/Profiler$Section;} {} {V}
+[18十月2020 17:42:43.887] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/entity/EntityRendererManager;} {} {V}
+[18十月2020 17:42:43.887] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/particle/ParticleManager$IParticleMetaFactory;} {} {V}
+[18十月2020 17:42:43.887] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/block/BlockState$1;} {} {V}
+[18十月2020 17:42:43.887] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/util/Direction$1;} {} {V}
+[18十月2020 17:42:43.887] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/world/server/ChunkManager$2;} {} {V}
+[18十月2020 17:42:43.887] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lcom/mojang/blaze3d/platform/GlStateManager$TexGenState;} {} {V}
+[18十月2020 17:42:43.887] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/chunk/ChunkRenderDispatcher$ChunkRender$ChunkRenderTask;} {} {V}
+[18十月2020 17:42:43.888] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/RenderType$Type;} {} {V}
+[18十月2020 17:42:43.888] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/BufferBuilder;} {} {V}
+[18十月2020 17:42:43.888] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/GameRenderer;} {} {V}
+[18十月2020 17:42:43.888] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/chunk/ChunkRenderDispatcher$ChunkTaskResult;} {} {V}
+[18十月2020 17:42:43.888] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/Matrix3f;} {} {V}
+[18十月2020 17:42:43.888] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/texture/DownloadingTexture;} {} {V}
+[18十月2020 17:42:43.888] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/BlockModelRenderer$VertexTranslations;} {} {V}
+[18十月2020 17:42:43.888] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/chunk/ChunkRenderCache;} {} {V}
+[18十月2020 17:42:43.888] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/entity/layers/WolfCollarLayer;} {} {V}
+[18十月2020 17:42:43.888] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lcom/mojang/blaze3d/vertex/IVertexBuilder;} {} {V}
+[18十月2020 17:42:43.888] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/texture/TextureAtlasSprite$InterpolationData;} {} {V}
+[18十月2020 17:42:43.888] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/RenderType$State$Builder;} {} {V}
+[18十月2020 17:42:43.889] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/RenderState$BooleanState;} {} {V}
+[18十月2020 17:42:43.889] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/gui/IngameGui;} {} {V}
+[18十月2020 17:42:43.889] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/FirstPersonRenderer$1;} {} {V}
+[18十月2020 17:42:43.889] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/IRenderTypeBuffer;} {} {V}
+[18十月2020 17:42:43.889] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/entity/MobEntity;} {} {V}
+[18十月2020 17:42:43.889] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lcom/mojang/blaze3d/platform/GlStateManager$AlphaState;} {} {V}
+[18十月2020 17:42:43.889] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/RenderState$TransparencyState;} {} {V}
+[18十月2020 17:42:43.889] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/profiler/DebugProfiler;} {} {V}
+[18十月2020 17:42:43.889] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/model/BakedQuad;} {} {V}
+[18十月2020 17:42:43.889] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lcom/mojang/blaze3d/platform/GlStateManager$DestFactor;} {} {V}
+[18十月2020 17:42:43.889] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/texture/SimpleTexture;} {} {V}
+[18十月2020 17:42:43.889] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/texture/AtlasTexture$SheetData;} {} {V}
+[18十月2020 17:42:43.889] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lcom/mojang/blaze3d/platform/GlStateManager$Viewport;} {} {V}
+[18十月2020 17:42:43.889] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/LightTexture;} {} {V}
+[18十月2020 17:42:43.889] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lcom/mojang/blaze3d/platform/GlStateManager$StencilFunc;} {} {V}
+[18十月2020 17:42:43.890] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/WorldRenderer$LocalRenderInformationContainer;} {} {V}
+[18十月2020 17:42:43.890] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/tileentity/EndPortalTileEntityRenderer;} {} {V}
+[18十月2020 17:42:43.890] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/culling/ClippingHelperImpl;} {} {V}
+[18十月2020 17:42:43.890] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/resources/VanillaPack;} {} {V}
+[18十月2020 17:42:43.890] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/state/Property;} {} {V}
+[18十月2020 17:42:43.890] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/BlockModelRenderer$NeighborInfo;} {} {V}
+[18十月2020 17:42:43.890] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/crash/CrashReport;} {} {V}
+[18十月2020 17:42:43.890] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/model/ItemOverrideList;} {} {V}
+[18十月2020 17:42:43.890] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/texture/OverlayTexture;} {} {V}
+[18十月2020 17:42:43.890] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/util/Direction$Plane;} {} {V}
+[18十月2020 17:42:43.891] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/BlockModelRenderer$AmbientOcclusionFace;} {} {V}
+[18十月2020 17:42:43.891] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/profiler/Profiler;} {} {V}
+[18十月2020 17:42:43.891] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/texture/Stitcher$Holder;} {} {V}
+[18十月2020 17:42:43.891] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/MainWindow;} {} {V}
+[18十月2020 17:42:43.891] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/gui/screen/CustomizeSkinScreen;} {} {V}
+[18十月2020 17:42:43.891] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lcom/mojang/blaze3d/platform/GlStateManager$SourceFactor;} {} {V}
+[18十月2020 17:42:43.891] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/Tessellator;} {} {V}
+[18十月2020 17:42:43.891] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lcom/mojang/blaze3d/matrix/MatrixStack$1;} {} {V}
+[18十月2020 17:42:43.891] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/entity/ItemRenderer;} {} {V}
+[18十月2020 17:42:43.891] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/RenderState$CullState;} {} {V}
+[18十月2020 17:42:43.891] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/network/datasync/EntityDataManager$DataEntry;} {} {V}
+[18十月2020 17:42:43.891] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/block/material/Material$Builder;} {} {V}
+[18十月2020 17:42:43.891] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/model/ModelBakery$BlockStateDefinitionException;} {} {V}
+[18十月2020 17:42:43.892] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/RenderType$OutlineState;} {} {V}
+[18十月2020 17:42:43.892] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/gui/fonts/providers/TextureGlyphProvider$GlyphInfo;} {} {V}
+[18十月2020 17:42:43.892] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/RenderState$FogState;} {} {V}
+[18十月2020 17:42:43.892] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/util/Util$IdentityStrategy;} {} {V}
+[18十月2020 17:42:43.892] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/gui/widget/button/OptionButton;} {} {V}
+[18十月2020 17:42:43.892] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/texture/TextureManager;} {} {V}
+[18十月2020 17:42:43.892] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/util/Direction$AxisDirection;} {} {V}
+[18十月2020 17:42:43.892] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/util/ScreenShotHelper;} {} {V}
+[18十月2020 17:42:43.893] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/chunk/VisGraph;} {} {V}
+[18十月2020 17:42:43.893] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/gui/screen/VideoSettingsScreen;} {} {V}
+[18十月2020 17:42:43.893] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/profiler/DebugProfiler$1;} {} {V}
+[18十月2020 17:42:43.893] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/entity/LivingRenderer;} {} {V}
+[18十月2020 17:42:43.893] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lcom/mojang/blaze3d/platform/GlStateManager$BooleanState;} {} {V}
+[18十月2020 17:42:43.893] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/RenderState$LayerState;} {} {V}
+[18十月2020 17:42:43.893] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/entity/TNTMinecartRenderer;} {} {V}
+[18十月2020 17:42:43.894] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/Matrix4f;} {} {V}
+[18十月2020 17:42:43.894] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/util/Direction$Axis$3;} {} {V}
+[18十月2020 17:42:43.894] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lcom/mojang/blaze3d/platform/GlStateManager$LogicOp;} {} {V}
+[18十月2020 17:42:43.895] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/world/ClientWorld;} {} {V}
+[18十月2020 17:42:43.895] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/BufferBuilder$1;} {} {V}
+[18十月2020 17:42:43.895] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/gui/fonts/providers/TextureGlyphProvider;} {} {V}
+[18十月2020 17:42:43.895] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/GameSettings$1;} {} {V}
+[18十月2020 17:42:43.895] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/entity/EnderDragonRenderer$EnderDragonModel;} {} {V}
+[18十月2020 17:42:43.895] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/RenderState$WriteMaskState;} {} {V}
+[18十月2020 17:42:43.895] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/entity/layers/MooshroomMushroomLayer;} {} {V}
+[18十月2020 17:42:43.895] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/gui/ResourceLoadProgressGui$MojangLogoTexture;} {} {V}
+[18十月2020 17:42:43.895] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lcom/mojang/blaze3d/platform/GlStateManager$TextureState;} {} {V}
+[18十月2020 17:42:43.895] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/ActiveRenderInfo;} {} {V}
+[18十月2020 17:42:43.895] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/texture/TextureAtlasSprite;} {} {V}
+[18十月2020 17:42:43.895] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/tileentity/TileEntityRendererDispatcher;} {} {V}
+[18十月2020 17:42:43.895] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/WorldVertexBufferUploader;} {} {V}
+[18十月2020 17:42:43.896] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/texture/NativeImage$PixelFormatGLCode;} {} {V}
+[18十月2020 17:42:43.896] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lcom/mojang/blaze3d/platform/GlStateManager$ColorMask;} {} {V}
+[18十月2020 17:42:43.896] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lcom/mojang/blaze3d/vertex/IVertexConsumer;} {} {V}
+[18十月2020 17:42:43.896] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/model/ModelRenderer$TexturedQuad;} {} {V}
+[18十月2020 17:42:43.896] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/block/material/MaterialColor;} {} {V}
+[18十月2020 17:42:43.896] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/RenderState$TexturingState;} {} {V}
+[18十月2020 17:42:43.896] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/world/server/ChunkManager$ProxyTicketManager;} {} {V}
+[18十月2020 17:42:43.896] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/tileentity/SignTileEntityRenderer;} {} {V}
+[18十月2020 17:42:43.896] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/util/ResourceLocation;} {} {V}
+[18十月2020 17:42:43.896] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/entity/ItemFrameRenderer;} {} {V}
+[18十月2020 17:42:43.896] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/resources/I18n;} {} {V}
+[18十月2020 17:42:43.896] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/BlockModelRenderer$1;} {} {V}
+[18十月2020 17:42:43.896] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/RenderState$DiffuseLightingState;} {} {V}
+[18十月2020 17:42:43.896] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/entity/EntityRenderer;} {} {V}
+[18十月2020 17:42:43.897] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/gui/fonts/providers/TextureGlyphProvider$1;} {} {V}
+[18十月2020 17:42:43.897] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/texture/NativeImage$1;} {} {V}
+[18十月2020 17:42:43.897] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lcom/mojang/blaze3d/platform/GlStateManager$Color;} {} {V}
+[18十月2020 17:42:43.897] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/entity/EnderDragonRenderer;} {} {V}
+[18十月2020 17:42:43.897] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/texture/MipmapGenerator;} {} {V}
+[18十月2020 17:42:43.897] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/entity/ai/goal/GoalSelector;} {} {V}
+[18十月2020 17:42:43.897] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/gui/screen/MainMenuScreen;} {} {V}
+[18十月2020 17:42:43.897] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/RenderType$State;} {} {V}
+[18十月2020 17:42:43.897] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/network/PacketBuffer;} {} {V}
+[18十月2020 17:42:43.897] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/profiler/DebugProfiler$DebugResultEntryImpl;} {} {V}
+[18十月2020 17:42:43.898] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/multiplayer/ClientChunkProvider$1;} {} {V}
+[18十月2020 17:42:43.898] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/entity/model/PlayerModel;} {} {V}
+[18十月2020 17:42:43.898] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/gui/screen/WorkingScreen;} {} {V}
+[18十月2020 17:42:43.898] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/RenderState$LineState;} {} {V}
+[18十月2020 17:42:43.898] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/RenderState$TargetState;} {} {V}
+[18十月2020 17:42:43.898] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/particle/ParticleManager$AnimatedSpriteImpl;} {} {V}
+[18十月2020 17:42:43.898] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/model/ModelBakery;} {} {V}
+[18十月2020 17:42:43.898] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/gui/fonts/providers/TextureGlyphProvider$Factory;} {} {V}
+[18十月2020 17:42:43.898] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/BlockModelRenderer;} {} {V}
+[18十月2020 17:42:43.898] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/entity/layers/ParrotVariantLayer;} {} {V}
+[18十月2020 17:42:43.898] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/vertex/VertexBuffer;} {} {V}
+[18十月2020 17:42:43.898] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/potion/PotionUtils;} {} {V}
+[18十月2020 17:42:43.898] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lcom/mojang/blaze3d/matrix/MatrixStack;} {} {V}
+[18十月2020 17:42:43.898] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/texture/PngSizeInfo$Reader;} {} {V}
+[18十月2020 17:42:43.899] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/particle/Particle;} {} {V}
+[18十月2020 17:42:43.899] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/world/server/ChunkManager;} {} {V}
+[18十月2020 17:42:43.899] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/renderer/entity/layers/SheepWoolLayer;} {} {V}
+[18十月2020 17:42:43.899] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/gui/fonts/Font;} {} {V}
+[18十月2020 17:42:43.899] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/entity/ai/goal/GoalSelector$1;} {} {V}
+[18十月2020 17:42:43.899] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/entity/player/AbstractClientPlayerEntity;} {} {V}
+[18十月2020 17:42:43.899] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer optifine.OptiFineTransformer@267f474e to Target : CLASS {Lnet/minecraft/client/particle/ParticleManager$1;} {} {V}
+[18十月2020 17:42:43.899] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service OptiFine
+[18十月2020 17:42:43.900] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service fml
+[18十月2020 17:42:43.900] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading coremod transformers
+[18十月2020 17:42:43.900] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from META-INF/fieldtomethodtransformers.js
+[18十月2020 17:42:44.015] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[18十月2020 17:42:44.019] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@525d79f0 to Target : CLASS {Lnet/minecraft/potion/EffectInstance;} {} {V}
+[18十月2020 17:42:44.019] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@5149f008 to Target : CLASS {Lnet/minecraft/block/FlowingFluidBlock;} {} {V}
+[18十月2020 17:42:44.020] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@7072bc39 to Target : CLASS {Lnet/minecraft/item/BucketItem;} {} {V}
+[18十月2020 17:42:44.020] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@158d255c to Target : CLASS {Lnet/minecraft/block/StairsBlock;} {} {V}
+[18十月2020 17:42:44.020] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2ca65ce4 to Target : CLASS {Lnet/minecraft/block/FlowerPotBlock;} {} {V}
+[18十月2020 17:42:44.020] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@327120c8 to Target : CLASS {Lnet/minecraft/item/FishBucketItem;} {} {V}
+[18十月2020 17:42:44.020] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service fml
+[18十月2020 17:42:44.023] [main/INFO] [optifine.OptiFineTransformationService/]: additionalClassesLocator: [optifine., net.optifine.]
+[18十月2020 17:42:44.033] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlclient' with arguments [--version, HMCL 3.3.172, --gameDir, E:\STT Project LA 1.15.2-2.0.1.tht forge1.15.2-31.2.41\.minecraft, --assetsDir, E:\STT Project LA 1.15.2-2.0.1.tht forge1.15.2-31.2.41\.minecraft\assets, --uuid, c32ab6d0867347c8b2a37df48ce221f4, --username, YuukiSkniro, --assetIndex, 1.15, --accessToken, ????????, --userType, mojang, --versionType, HMCL 3.3.172, --width, 854, --height, 480, --tweakClass, optifine.OptiFineTweaker]
+[18十月2020 17:42:44.272] [main/INFO] [STDOUT/]: [net.minecraft.client.main.Main:main:79]: Completely ignored arguments: [--tweakClass, optifine.OptiFineTweaker]
+[18十月2020 17:42:46.609] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: YuukiSkniro
+[18十月2020 17:42:47.212] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/block/FlowingFluidBlock
+[18十月2020 17:42:47.281] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/block/StairsBlock
+[18十月2020 17:42:47.331] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/block/FlowerPotBlock
+[18十月2020 17:42:50.399] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/item/BucketItem
+[18十月2020 17:42:50.447] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/item/FishBucketItem
+[18十月2020 17:42:50.673] [pool-3-thread-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/potion/EffectInstance
+[18十月2020 17:42:53.165] [Render thread/INFO] [net.optifine.Log/]: [OptiFine] (Reflector) Class not present: net.minecraft.launchwrapper.Launch
+[18十月2020 17:42:53.174] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.2.2 build 10
+[18十月2020 17:42:53.715] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] 
+[18十月2020 17:42:53.715] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] OptiFine_1.15.2_HD_U_G1_pre30
+[18十月2020 17:42:53.718] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Build: 20200622-083032
+[18十月2020 17:42:53.718] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] OS: Windows 10 (amd64) version 10.0
+[18十月2020 17:42:53.719] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Java: 1.8.0_251, Oracle Corporation
+[18十月2020 17:42:53.719] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] VM: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+[18十月2020 17:42:53.719] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] LWJGL: 3.3.0 Win32 WGL EGL OSMesa VisualC DLL
+[18十月2020 17:42:53.720] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] OpenGL: GeForce GTX 1080/PCIe/SSE2, version 4.6.0 NVIDIA 456.38, NVIDIA Corporation
+[18十月2020 17:42:53.721] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] OpenGL Version: 4.6.0
+[18十月2020 17:42:53.730] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Maximum texture size: 32768x32768
+[18十月2020 17:42:53.732] [VersionCheck/INFO] [net.optifine.Config/]: [OptiFine] Checking for new version
+[18十月2020 17:42:53.769] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] OpenGL Version: 4.6.0 NVIDIA 456.38
+[18十月2020 17:42:53.769] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Vendor:  NVIDIA Corporation
+[18十月2020 17:42:53.769] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Renderer: GeForce GTX 1080/PCIe/SSE2
+[18十月2020 17:42:53.769] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Capabilities:  2.0  2.1  3.0  3.2  4.0 
+[18十月2020 17:42:53.770] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] GL_MAX_DRAW_BUFFERS: 8
+[18十月2020 17:42:53.770] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] GL_MAX_COLOR_ATTACHMENTS_EXT: 8
+[18十月2020 17:42:53.770] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] GL_MAX_TEXTURE_IMAGE_UNITS: 32
+[18十月2020 17:42:53.770] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Load shaders configuration.
+[18十月2020 17:42:53.780] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] No shaderpack loaded.
+[18十月2020 17:42:53.796] [Render thread/INFO] [net.optifine.Log/]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.Loader
+[18十月2020 17:42:54.073] [Render thread/DEBUG] [net.minecraftforge.fml.ForgeI18n/CORE]: Loading I18N data entries: 4537
+[18十月2020 17:42:54.181] [VersionCheck/INFO] [net.optifine.Config/]: [OptiFine] java.io.FileNotFoundException: http://optifine.net/version/1.15.2/HD_U.txt
+[18十月2020 17:42:54.531] [Render thread/DEBUG] [net.minecraftforge.fml.ModLoader/CORE]: Loading Network data for FML net version: FML2
+[18十月2020 17:42:54.598] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Using 16 threads for parallel mod-loading
+[18十月2020 17:42:54.613] [Render thread/DEBUG] [net.minecraftforge.fml.ModLoader/LOADING]: ModContainer is cpw.mods.modlauncher.TransformingClassLoader@70e659aa
+[18十月2020 17:42:54.626] [Render thread/DEBUG] [net.minecraftforge.fml.ModLoader/LOADING]: ModContainer is cpw.mods.modlauncher.TransformingClassLoader@70e659aa
+[18十月2020 17:42:54.631] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader cpw.mods.modlauncher.TransformingClassLoader@70e659aa - got cpw.mods.modlauncher.TransformingClassLoader@70e659aa
+[18十月2020 17:42:54.631] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.minecraftforge.common.ForgeMod with classLoader cpw.mods.modlauncher.TransformingClassLoader@70e659aa & cpw.mods.modlauncher.TransformingClassLoader@70e659aa
+[18十月2020 17:42:54.670] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loaded modclass net.minecraftforge.common.ForgeMod with cpw.mods.modlauncher.TransformingClassLoader@70e659aa
+[18十月2020 17:42:54.686] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching parallel event LifecycleEvent:CONSTRUCT
+[18十月2020 17:42:54.695] [modloading-worker-9/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loading mod instance forge of type net.minecraftforge.common.ForgeMod
+[18十月2020 17:42:54.711] [modloading-worker-9/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Forge Version package package net.minecraftforge.versions.forge, Forge, version 31.2 from cpw.mods.modlauncher.TransformingClassLoader@70e659aa
+[18十月2020 17:42:54.712] [modloading-worker-9/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge version 31.2.43
+[18十月2020 17:42:54.712] [modloading-worker-9/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge spec 31.2
+[18十月2020 17:42:54.712] [modloading-worker-9/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge group net.minecraftforge
+[18十月2020 17:42:54.716] [modloading-worker-9/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MC version information 1.15.2
+[18十月2020 17:42:54.716] [modloading-worker-9/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MCP version information 20200515.085601
+[18十月2020 17:42:54.716] [modloading-worker-9/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 31.2.43, for MC 1.15.2 with MCP 20200515.085601
+[18十月2020 17:42:54.717] [modloading-worker-9/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v31.2.43 Initialized
+[18十月2020 17:42:54.919] [modloading-worker-9/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-client.toml for forge tracking
+[18十月2020 17:42:54.920] [modloading-worker-9/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-server.toml for forge tracking
+[18十月2020 17:42:54.923] [modloading-worker-9/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loaded mod instance forge of type net.minecraftforge.common.ForgeMod
+[18十月2020 17:42:54.932] [modloading-worker-9/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Injecting Automatic event subscribers for forge
+[18十月2020 17:42:54.946] [modloading-worker-9/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for forge
+[18十月2020 17:42:54.955] [modloading-worker-9/DEBUG] [net.minecraftforge.fml.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.minecraftforge.client.model.ModelDataManager to FORGE
+[18十月2020 17:42:54.986] [modloading-worker-9/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Completed Automatic event subscribers for forge
+[18十月2020 17:42:54.988] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:CREATE_REGISTRIES
+[18十月2020 17:42:54.988] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.NewRegistry
+[18十月2020 17:42:54.989] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.NewRegistry
+[18十月2020 17:42:55.064] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[18十月2020 17:42:55.114] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:block>
+[18十月2020 17:42:55.114] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:block>
+[18十月2020 17:42:55.117] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[18十月2020 17:42:55.130] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:item>
+[18十月2020 17:42:55.130] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:item>
+[18十月2020 17:42:55.132] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[18十月2020 17:42:55.132] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<forge:loot_modifier_serializers>
+[18十月2020 17:42:55.132] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<forge:loot_modifier_serializers>
+[18十月2020 17:42:55.132] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[18十月2020 17:42:55.132] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<forge:moddimensions>
+[18十月2020 17:42:55.133] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<forge:moddimensions>
+[18十月2020 17:42:55.133] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[18十月2020 17:42:55.133] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:activities>
+[18十月2020 17:42:55.133] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:activities>
+[18十月2020 17:42:55.133] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[18十月2020 17:42:55.133] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:biome>
+[18十月2020 17:42:55.133] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:biome>
+[18十月2020 17:42:55.134] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[18十月2020 17:42:55.134] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:biome_source_type>
+[18十月2020 17:42:55.134] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:biome_source_type>
+[18十月2020 17:42:55.134] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[18十月2020 17:42:55.134] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:block_entity_type>
+[18十月2020 17:42:55.134] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:block_entity_type>
+[18十月2020 17:42:55.137] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[18十月2020 17:42:55.137] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:block_placer_type>
+[18十月2020 17:42:55.138] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:block_placer_type>
+[18十月2020 17:42:55.138] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[18十月2020 17:42:55.138] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:block_state_provider_type>
+[18十月2020 17:42:55.138] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:block_state_provider_type>
+[18十月2020 17:42:55.138] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[18十月2020 17:42:55.138] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:carver>
+[18十月2020 17:42:55.138] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:carver>
+[18十月2020 17:42:55.138] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[18十月2020 17:42:55.139] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:chunk_generator_type>
+[18十月2020 17:42:55.139] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:chunk_generator_type>
+[18十月2020 17:42:55.139] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[18十月2020 17:42:55.139] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:chunk_status>
+[18十月2020 17:42:55.139] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:chunk_status>
+[18十月2020 17:42:55.139] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[18十月2020 17:42:55.139] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:dataserializers>
+[18十月2020 17:42:55.139] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:dataserializers>
+[18十月2020 17:42:55.139] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[18十月2020 17:42:55.139] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:decorator>
+[18十月2020 17:42:55.139] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:decorator>
+[18十月2020 17:42:55.140] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[18十月2020 17:42:55.140] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:enchantment>
+[18十月2020 17:42:55.140] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:enchantment>
+[18十月2020 17:42:55.140] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[18十月2020 17:42:55.140] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:entity_type>
+[18十月2020 17:42:55.140] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:entity_type>
+[18十月2020 17:42:55.140] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[18十月2020 17:42:55.140] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:feature>
+[18十月2020 17:42:55.140] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:feature>
+[18十月2020 17:42:55.141] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[18十月2020 17:42:55.141] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:fluid>
+[18十月2020 17:42:55.141] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:fluid>
+[18十月2020 17:42:55.141] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[18十月2020 17:42:55.141] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:foliage_placer_type>
+[18十月2020 17:42:55.141] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:foliage_placer_type>
+[18十月2020 17:42:55.141] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[18十月2020 17:42:55.141] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:memory_module_type>
+[18十月2020 17:42:55.141] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:memory_module_type>
+[18十月2020 17:42:55.141] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[18十月2020 17:42:55.141] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:menu>
+[18十月2020 17:42:55.142] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:menu>
+[18十月2020 17:42:55.142] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[18十月2020 17:42:55.142] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:mob_effect>
+[18十月2020 17:42:55.142] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:mob_effect>
+[18十月2020 17:42:55.142] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[18十月2020 17:42:55.142] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:motive>
+[18十月2020 17:42:55.142] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:motive>
+[18十月2020 17:42:55.142] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[18十月2020 17:42:55.142] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:particle_type>
+[18十月2020 17:42:55.142] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:particle_type>
+[18十月2020 17:42:55.143] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[18十月2020 17:42:55.143] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:point_of_interest_type>
+[18十月2020 17:42:55.143] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:point_of_interest_type>
+[18十月2020 17:42:55.143] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[18十月2020 17:42:55.143] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:potion>
+[18十月2020 17:42:55.143] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:potion>
+[18十月2020 17:42:55.143] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[18十月2020 17:42:55.143] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:recipe_serializer>
+[18十月2020 17:42:55.257] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:recipe_serializer>
+[18十月2020 17:42:55.257] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[18十月2020 17:42:55.262] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:schedule>
+[18十月2020 17:42:55.262] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:schedule>
+[18十月2020 17:42:55.262] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[18十月2020 17:42:55.262] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:sensor_type>
+[18十月2020 17:42:55.262] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:sensor_type>
+[18十月2020 17:42:55.262] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[18十月2020 17:42:55.262] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:sound_event>
+[18十月2020 17:42:55.262] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:sound_event>
+[18十月2020 17:42:55.263] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[18十月2020 17:42:55.263] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:stat_type>
+[18十月2020 17:42:55.263] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:stat_type>
+[18十月2020 17:42:55.263] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[18十月2020 17:42:55.263] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:surface_builder>
+[18十月2020 17:42:55.263] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:surface_builder>
+[18十月2020 17:42:55.263] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[18十月2020 17:42:55.263] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:tree_decorator_type>
+[18十月2020 17:42:55.263] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:tree_decorator_type>
+[18十月2020 17:42:55.263] [Render thread/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching synchronous event LifecycleEvent:LOAD_REGISTRIES
+[18十月2020 17:42:55.263] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : RegistryEvent.Register<minecraft:villager_profession>
+[18十月2020 17:42:55.263] [Render thread/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : RegistryEvent.Register<minecraft:villager_profession>
+[18十月2020 17:42:55.516] [Render thread/DEBUG] [net.minecraftforge.fml.client.ClientModLoader/CORE]: Generating PackInfo named mod:forge for mod file E:\STT Project LA 1.15.2-2.0.1.tht forge1.15.2-31.2.41\.minecraft\libraries\net\minecraftforge\forge\1.15.2-31.2.43\forge-1.15.2-31.2.43-universal.jar
+[18十月2020 17:42:55.540] [Render thread/WARN] [net.minecraft.client.GameSettings/]: Removed resource pack packmenu from options because it doesn't seem to exist anymore
+[18十月2020 17:42:55.540] [Render thread/WARN] [net.minecraft.client.GameSettings/]: Removed resource pack file/resources.zip from options because it doesn't seem to exist anymore
+[18十月2020 17:42:55.545] [Render thread/DEBUG] [net.minecraftforge.fml.client.ClientModLoader/CORE]: Generating PackInfo named mod:forge for mod file E:\STT Project LA 1.15.2-2.0.1.tht forge1.15.2-31.2.41\.minecraft\libraries\net\minecraftforge\forge\1.15.2-31.2.43\forge-1.15.2-31.2.43-universal.jar
+[18十月2020 17:42:55.546] [Render thread/DEBUG] [net.minecraftforge.fml.ForgeI18n/CORE]: Loading I18N data entries: 0
+[18十月2020 17:42:56.766] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[18十月2020 17:42:56.854] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
+[18十月2020 17:42:56.866] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] *** Reloading textures ***
+[18十月2020 17:42:56.866] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Resource packs: Mod Resources
+[18十月2020 17:42:56.890] [Server-Worker-7/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type CLIENT
+[18十月2020 17:42:56.891] [Server-Worker-7/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for E:\STT Project LA 1.15.2-2.0.1.tht forge1.15.2-31.2.41\.minecraft\config\forge-client.toml
+[18十月2020 17:42:56.919] [Server-Worker-7/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file E:\STT Project LA 1.15.2-2.0.1.tht forge1.15.2-31.2.41\.minecraft\config\forge-client.toml
+[18十月2020 17:42:56.923] [Server-Worker-7/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file E:\STT Project LA 1.15.2-2.0.1.tht forge1.15.2-31.2.41\.minecraft\config\forge-client.toml for changes
+[18十月2020 17:42:56.925] [Server-Worker-7/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Loaded forge config file forge-client.toml
+[18十月2020 17:42:56.926] [Server-Worker-7/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type COMMON
+[18十月2020 17:42:56.926] [Server-Worker-7/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching parallel event LifecycleEvent:COMMON_SETUP
+[18十月2020 17:42:56.927] [modloading-worker-9/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : FMLCommonSetupEvent
+[18十月2020 17:42:56.929] [Thread-1/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Config file forge-client.toml changed, sending notifies
+[18十月2020 17:42:56.929] [Thread-1/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Forge config just got changed on the file system!
+[18十月2020 17:42:57.142] [modloading-worker-9/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : FMLCommonSetupEvent
+[18十月2020 17:42:57.143] [Server-Worker-7/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching parallel event LifecycleEvent:SIDED_SETUP
+[18十月2020 17:42:57.143] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[18十月2020 17:42:57.144] [modloading-worker-9/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : FMLClientSetupEvent
+[18十月2020 17:42:57.144] [modloading-worker-9/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : FMLClientSetupEvent
+[18十月2020 17:42:57.177] [Render thread/INFO] [net.optifine.reflect.Reflector/]: [OptiFine] *** Reflector Forge ***
+[18十月2020 17:42:57.178] [Render thread/INFO] [net.optifine.Log/]: [OptiFine] (Reflector) Class not present: mods.betterfoliage.client.BetterFoliageClient
+[18十月2020 17:42:57.652] [Render thread/INFO] [net.optifine.Log/]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.model.IModel
+[18十月2020 17:42:57.718] [Render thread/INFO] [net.optifine.Log/]: [OptiFine] (Reflector) Field not present: net.minecraftforge.client.model.pipeline.LightUtil.itemConsumer
+[18十月2020 17:42:57.718] [Render thread/INFO] [net.optifine.Log/]: [OptiFine] (Reflector) Field not present: net.minecraftforge.client.model.pipeline.LightUtil.tessellator
+[18十月2020 17:42:57.735] [Render thread/INFO] [net.optifine.Log/]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.ModContainer
+[18十月2020 17:42:57.737] [Render thread/INFO] [net.optifine.Log/]: [OptiFine] (Reflector) Field not present: net.minecraftforge.client.model.ModelLoader.stateModels
+[18十月2020 17:42:57.737] [Render thread/INFO] [net.optifine.Log/]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.model.ModelLoader$VanillaLoader
+[18十月2020 17:42:57.738] [Render thread/INFO] [net.optifine.Log/]: [OptiFine] (Reflector) Field not present: net.minecraftforge.client.model.ModelLoaderRegistry.textures
+[18十月2020 17:42:57.925] [Render thread/INFO] [net.optifine.reflect.Reflector/]: [OptiFine] *** Reflector Vanilla ***
+[18十月2020 17:42:57.949] [Server-Worker-2/INFO] [net.optifine.Config/]: [OptiFine] Multitexture: false
+[18十月2020 17:42:58.017] [Server-Worker-4/INFO] [net.optifine.Config/]: [OptiFine] Multitexture: false
+[18十月2020 17:42:58.026] [Server-Worker-5/INFO] [net.optifine.Config/]: [OptiFine] Multitexture: false
+[18十月2020 17:42:58.596] [Forge Version Check/DEBUG] [net.minecraftforge.fml.VersionChecker/]: [forge] Received version check data:
+{
+  "homepage": "http://files.minecraftforge.net/maven/net/minecraftforge/forge/",
+  "promos": {
+    "1.1-latest": "1.3.2.6",
+    "1.10-latest": "12.18.0.2000",
+    "1.10.2-latest": "12.18.3.2511",
+    "1.10.2-recommended": "12.18.3.2185",
+    "1.11-latest": "13.19.1.2199",
+    "1.11-recommended": "13.19.1.2189",
+    "1.11.2-latest": "13.20.1.2588",
+    "1.11.2-recommended": "13.20.1.2386",
+    "1.12-latest": "14.21.1.2443",
+    "1.12-recommended": "14.21.1.2387",
+    "1.12.1-latest": "14.22.1.2485",
+    "1.12.1-recommended": "14.22.1.2478",
+    "1.12.2-latest": "14.23.5.2854",
+    "1.12.2-recommended": "14.23.5.2854",
+    "1.13.2-latest": "25.0.219",
+    "1.14.2-latest": "26.0.63",
+    "1.14.3-latest": "27.0.60",
+    "1.14.4-latest": "28.2.23",
+    "1.14.4-recommended": "28.2.0",
+    "1.15-latest": "29.0.4",
+    "1.15.1-latest": "30.0.51",
+    "1.15.2-latest": "31.2.45",
+    "1.15.2-recommended": "31.2.0",
+    "1.16.1-latest": "32.0.108",
+    "1.16.2-latest": "33.0.61",
+    "1.16.3-latest": "34.1.23",
+    "1.16.3-recommended": "34.1.0",
+    "1.5.2-latest": "7.8.1.738",
+    "1.5.2-recommended": "7.8.1.737",
+    "1.6.1-latest": "8.9.0.775",
+    "1.6.2-latest": "9.10.1.871",
+    "1.6.2-recommended": "9.10.1.871",
+    "1.6.3-latest": "9.11.0.878",
+    "1.6.4-latest": "9.11.1.1345",
+    "1.6.4-recommended": "9.11.1.1345",
+    "1.7.10-latest": "10.13.4.1614",
+    "1.7.10-latest-1.7.10": "10.13.2.1343",
+    "1.7.10-recommended": "10.13.4.1558",
+    "1.7.2-latest": "10.12.2.1147",
+    "1.7.2-recommended": "10.12.2.1121",
+    "1.8-latest": "11.14.4.1577",
+    "1.8-recommended": "11.14.4.1563",
+    "1.8.8-latest": "11.15.0.1655",
+    "1.8.9-latest": "11.15.1.2318",
+    "1.8.9-recommended": "11.15.1.1722",
+    "1.9-latest": "12.16.0.1942",
+    "1.9-recommended": "12.16.1.1887",
+    "1.9.4-latest": "12.17.0.2051",
+    "1.9.4-recommended": "12.17.0.1976",
+    "latest-1.7.10": "10.13.2.1343"
+  }
+}
+[18十月2020 17:42:58.599] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 31.2.43 Target: 31.2.45
+[18十月2020 17:42:59.336] [Server-Worker-6/WARN] [net.optifine.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[18十月2020 17:42:59.336] [Server-Worker-6/WARN] [net.optifine.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[18十月2020 17:42:59.336] [Server-Worker-6/WARN] [net.optifine.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[18十月2020 17:42:59.336] [Server-Worker-6/WARN] [net.optifine.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[18十月2020 17:42:59.485] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] Multitexture: false
+[18十月2020 17:42:59.488] [Server-Worker-6/WARN] [net.optifine.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[18十月2020 17:42:59.490] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] Multipass connected textures: false
+[18十月2020 17:42:59.493] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/00_glass_white/glass_pane_white.properties
+[18十月2020 17:42:59.502] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/00_glass_white/glass_white.properties
+[18十月2020 17:42:59.504] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/01_glass_orange/glass_orange.properties
+[18十月2020 17:42:59.506] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/01_glass_orange/glass_pane_orange.properties
+[18十月2020 17:42:59.508] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/02_glass_magenta/glass_magenta.properties
+[18十月2020 17:42:59.525] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/02_glass_magenta/glass_pane_magenta.properties
+[18十月2020 17:42:59.526] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/03_glass_light_blue/glass_light_blue.properties
+[18十月2020 17:42:59.528] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/03_glass_light_blue/glass_pane_light_blue.properties
+[18十月2020 17:42:59.530] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/04_glass_yellow/glass_pane_yellow.properties
+[18十月2020 17:42:59.531] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/04_glass_yellow/glass_yellow.properties
+[18十月2020 17:42:59.532] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/05_glass_lime/glass_lime.properties
+[18十月2020 17:42:59.533] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/05_glass_lime/glass_pane_lime.properties
+[18十月2020 17:42:59.534] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/06_glass_pink/glass_pane_pink.properties
+[18十月2020 17:42:59.536] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/06_glass_pink/glass_pink.properties
+[18十月2020 17:42:59.537] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/07_glass_gray/glass_gray.properties
+[18十月2020 17:42:59.538] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/07_glass_gray/glass_pane_gray.properties
+[18十月2020 17:42:59.540] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/08_glass_light_gray/glass_light_gray.properties
+[18十月2020 17:42:59.541] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/08_glass_light_gray/glass_pane_light_gray.properties
+[18十月2020 17:42:59.543] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/09_glass_cyan/glass_cyan.properties
+[18十月2020 17:42:59.544] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/09_glass_cyan/glass_pane_cyan.properties
+[18十月2020 17:42:59.546] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/10_glass_purple/glass_pane_purple.properties
+[18十月2020 17:42:59.547] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/10_glass_purple/glass_purple.properties
+[18十月2020 17:42:59.548] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/11_glass_blue/glass_blue.properties
+[18十月2020 17:42:59.550] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/11_glass_blue/glass_pane_blue.properties
+[18十月2020 17:42:59.551] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/12_glass_brown/glass_brown.properties
+[18十月2020 17:42:59.552] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/12_glass_brown/glass_pane_brown.properties
+[18十月2020 17:42:59.553] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/13_glass_green/glass_green.properties
+[18十月2020 17:42:59.554] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/13_glass_green/glass_pane_green.properties
+[18十月2020 17:42:59.555] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/14_glass_red/glass_pane_red.properties
+[18十月2020 17:42:59.556] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/14_glass_red/glass_red.properties
+[18十月2020 17:42:59.558] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/15_glass_black/glass_black.properties
+[18十月2020 17:42:59.559] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/15_glass_black/glass_pane_black.properties
+[18十月2020 17:42:59.561] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/20_glass/glass.properties
+[18十月2020 17:42:59.562] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/20_glass/glass_pane.properties
+[18十月2020 17:42:59.563] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/30_bookshelf/bookshelf.properties
+[18十月2020 17:42:59.563] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/40_sandstone/sandstone.properties
+[18十月2020 17:42:59.564] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/41_red_sandstone/red_sandstone.properties
+[18十月2020 17:42:59.565] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] Multipass connected textures: false
+[18十月2020 17:42:59.567] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] BetterGrass: Parsing default configuration optifine/bettergrass.properties
+[18十月2020 17:43:01.233] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] Mipmap levels: 4
+[18十月2020 17:43:01.530] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] Multitexture: false
+[18十月2020 17:43:01.537] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] Sprite size: 64
+[18十月2020 17:43:01.537] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] Mipmap levels: 6
+[18十月2020 17:43:01.540] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] Multitexture: false
+[18十月2020 17:43:01.585] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] Sprite size: 64
+[18十月2020 17:43:01.585] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] Mipmap levels: 6
+[18十月2020 17:43:01.591] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] Multitexture: false
+[18十月2020 17:43:01.646] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] Sprite size: 64
+[18十月2020 17:43:01.646] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] Mipmap levels: 6
+[18十月2020 17:43:01.652] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] Multitexture: false
+[18十月2020 17:43:01.664] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] Sprite size: 64
+[18十月2020 17:43:01.664] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] Mipmap levels: 6
+[18十月2020 17:43:01.667] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] Multitexture: false
+[18十月2020 17:43:01.684] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] Sprite size: 64
+[18十月2020 17:43:01.684] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] Mipmap levels: 6
+[18十月2020 17:43:01.688] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] Multitexture: false
+[18十月2020 17:43:01.706] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] Sprite size: 64
+[18十月2020 17:43:01.706] [Server-Worker-6/INFO] [net.optifine.Config/]: [OptiFine] Mipmap levels: 6
+[18十月2020 17:43:01.723] [Server-Worker-6/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching parallel event LifecycleEvent:ENQUEUE_IMC
+[18十月2020 17:43:01.729] [modloading-worker-9/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : InterModEnqueueEvent
+[18十月2020 17:43:01.730] [modloading-worker-9/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : InterModEnqueueEvent
+[18十月2020 17:43:01.730] [Server-Worker-6/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching parallel event LifecycleEvent:PROCESS_IMC
+[18十月2020 17:43:01.735] [modloading-worker-9/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : InterModProcessEvent
+[18十月2020 17:43:01.735] [modloading-worker-9/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : InterModProcessEvent
+[18十月2020 17:43:01.736] [Server-Worker-6/DEBUG] [net.minecraftforge.fml.ModList/LOADING]: Dispatching parallel event LifecycleEvent:COMPLETE
+[18十月2020 17:43:01.741] [modloading-worker-9/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Firing event for modid forge : FMLLoadCompleteEvent
+[18十月2020 17:43:01.741] [modloading-worker-9/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Fired event for modid forge : FMLLoadCompleteEvent
+[18十月2020 17:43:01.763] [Server-Worker-6/DEBUG] [net.minecraftforge.registries.ClearableRegistry/REGISTRY]: minecraft:feature: Clearing registry
+[18十月2020 17:43:02.186] [Render thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
+[18十月2020 17:43:02.187] [Render thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
+[18十月2020 17:43:02.336] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[18十月2020 17:43:02.372] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Animated sprites: 35
+[18十月2020 17:43:02.374] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x4 minecraft:textures/atlas/signs.png-atlas
+[18十月2020 17:43:02.374] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Animated sprites: 0
+[18十月2020 17:43:02.374] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[18十月2020 17:43:02.374] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Animated sprites: 0
+[18十月2020 17:43:02.374] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[18十月2020 17:43:02.375] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Animated sprites: 0
+[18十月2020 17:43:02.375] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[18十月2020 17:43:02.376] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Animated sprites: 0
+[18十月2020 17:43:02.376] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[18十月2020 17:43:02.376] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Animated sprites: 0
+[18十月2020 17:43:02.376] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[18十月2020 17:43:02.376] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Animated sprites: 0
+[18十月2020 17:43:02.928] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[18十月2020 17:43:02.929] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Animated sprites: 0
+[18十月2020 17:43:02.931] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[18十月2020 17:43:02.931] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Animated sprites: 0
+[18十月2020 17:43:02.931] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[18十月2020 17:43:02.931] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Animated sprites: 0
+[18十月2020 17:43:02.932] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] *** Reloading custom textures ***
+[18十月2020 17:43:02.936] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[18十月2020 17:43:02.949] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[18十月2020 17:43:02.949] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[18十月2020 17:43:04.417] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[18十月2020 17:43:04.482] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[18十月2020 17:43:04.484] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[18十月2020 17:43:04.487] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Disable Forge light pipeline
+[18十月2020 17:43:04.488] [Render thread/INFO] [net.optifine.Log/]: [OptiFine] Set ForgeConfig.CLIENT.forgeLightPipelineEnabled=false
+[18十月2020 17:43:27.912] [Netty Client IO #0/DEBUG] [net.minecraftforge.fml.network.FMLHandshakeHandler/FMLHANDSHAKE]: Starting new vanilla network connection.
+[18十月2020 17:43:28.161] [Netty Client IO #0/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:unregister' : Version test of '(FML2,true)' during listping : ACCEPTED
+[18十月2020 17:43:28.161] [Netty Client IO #0/DEBUG] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channel 'minecraft:register' : Version test of '(FML2,true)' during listping : ACCEPTED
+[18十月2020 17:43:28.161] [Netty Client IO #0/ERROR] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: The server is likely to require channel [[betteranimalsplus:main_channel, abnormals_core:net, mmorpg:main_channel, curios:main, endergetic:net]] to be present, yet we don't have it
+[18十月2020 17:43:28.163] [Netty Client IO #0/DEBUG] [net.minecraftforge.fml.client.ClientHooks/CLIENTHOOKS]: Received FML ping data from server at cn-zz-bgp.sakurafrp.com:42141: FMLNETVER=2, mod list is compatible : true, channel list is compatible: false, extra server mods: {betteranimalsplus=10.0.0, bookshelf=5.6.40, endergetic=1.3.2, mmorpg=3.6.14, waila=version, jei=6.0.3.15, azurerpgitems=1.1.0, abnormals_core=1.0.6, curios=FORGE-1.15.2-2.0.2.6, wawla=3.0.3, azurecompat=1.2.0, wailaharvestability=1.1.12, journeymap=5.7.0b3, travelersbackpack=4.0.8}
+[18十月2020 18:47:10.717] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

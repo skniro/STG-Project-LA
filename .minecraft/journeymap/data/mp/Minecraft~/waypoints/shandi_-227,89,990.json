@@ -1,0 +1,18 @@
+{
+  "id": "shandi_-227,89,990",
+  "name": "shandi",
+  "icon": "waypoint-normal.png",
+  "x": -227,
+  "y": 89,
+  "z": 990,
+  "r": 198,
+  "g": 200,
+  "b": 174,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}
