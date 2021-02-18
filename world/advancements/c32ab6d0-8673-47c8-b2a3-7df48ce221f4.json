@@ -1,0 +1,22 @@
+{
+  "mmorpg:recipes/mmorpg_main/identify_tome": {
+    "criteria": {
+      "player_level": "2020-09-13 17:05:32 +0800"
+    },
+    "done": true
+  },
+  "mmorpg:recipes/mmorpg_main/teleport_scroll": {
+    "criteria": {
+      "player_level": "2020-09-13 17:05:32 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:desert": "2020-09-13 17:06:31 +0800",
+      "minecraft:plains": "2020-09-13 17:05:32 +0800"
+    },
+    "done": false
+  },
+  "DataVersion": 2230
+}

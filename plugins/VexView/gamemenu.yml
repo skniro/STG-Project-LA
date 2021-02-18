@@ -1,0 +1,10 @@
+#是否启用自定义游戏菜单（玩家按下ESC时的界面）
+enable: true
+#您的服务器官网链接（没有则填none）
+url: 'www.sttsakara.top'
+#您的服务器名称
+name: 'STT Project LA测试版候选版本'
+#服务器公告内容
+text:
+- '更新信息链接https://www.sttsakara.top'
+- ''

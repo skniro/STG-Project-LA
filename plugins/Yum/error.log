@@ -1,9 +1,0 @@
-2018-9-9 11:50:10[Yum 命令监控] 玩家 YuukiSkniro 执行 DivineItemsRPG 插件 di reload cfg 命令时发生异常!
-2018-9-9 11:50:10异常名称: java.lang.NullPointerException
-2018-9-9 11:50:10异常说明: null
-2018-9-9 11:50:10简易错误信息如下:
-2018-9-9 11:50:10    位于 ru.nightexpress.divineitems.config.Config.setup(Config.java:93)
-2018-9-9 11:50:10    位于 ru.nightexpress.divineitems.config.Config.<init>(Config.java:29)
-2018-9-9 11:50:10    位于 ru.nightexpress.divineitems.config.ConfigManager.setup(ConfigManager.java:38)
-2018-9-9 11:50:10    位于 ru.nightexpress.divineitems.DivineItems.reloadCfg(DivineItems.java:119)
-2018-9-9 11:50:10    位于 ru.nightexpress.divineitems.cmds.list.ReloadCommand.perform(ReloadCommand.java:28)
