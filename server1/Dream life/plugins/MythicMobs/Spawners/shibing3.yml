@@ -1,0 +1,26 @@
+shibing3:
+  MobName: "\u611f\u67d3\u7684\u58eb\u5175"
+  World: world
+  X: 840
+  Y: 76
+  Z: 1535
+  Radius: 0
+  UseTimer: true
+  MaxMobs: 3
+  MobLevel: 1
+  MobsPerSpawn: 1
+  Cooldown: 2
+  CooldownTimer: 0
+  Warmup: 4
+  WarmupTimer: 0
+  ActivationRange: 40
+  LeashRange: 32
+  HealOnLeash: false
+  ResetThreatOnLeash: false
+  ShowFlames: false
+  Breakable: false
+  Conditions: []
+  AssociatedMobs:
+  - 66c34a2d-5356-448a-9ad8-3883341f15df
+  - f0fa2d26-f9ec-4c47-bf87-9f93199719ae
+  - 14c786bf-2180-4bca-954e-d02eb3f10cc7

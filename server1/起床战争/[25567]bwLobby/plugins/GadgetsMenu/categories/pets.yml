@@ -1,0 +1,1685 @@
+Pets:
+  Cow:
+    Name: "&e\u725b"
+    Enabled: true
+    Lore:
+    - "&7\u70b9\u51fb\u8fd9\u91cc\u6d4f\u89c8\u6240\u6709\u725b\u7c7b\u5ba0\u7269"
+    Types:
+      Cow:
+        Name: "&a\u725b"
+        Mystery Dust: 10
+        Rarity: Common
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u725b"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Baby Cow:
+        Name: "&9\u725b (\u5e7c\u5e74)"
+        Mystery Dust: 30
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u725b (\u5e7c\u5e74)"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Mushroom Cow:
+        Name: "&5\u54de\u83c7"
+        Mystery Dust: 50
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u54de\u83c7 (\u5e7c\u5e74)"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Baby Mushroom Cow:
+        Name: "&6\u54de\u83c7 (\u5e7c\u5e74)"
+        Mystery Dust: 90
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u54de\u83c7 (\u5e7c\u5e74)"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+  Chicken:
+    Name: "&e\u9e21"
+    Enabled: true
+    Lore:
+    - "&7\u70b9\u51fb\u8fd9\u91cc\u6d4f\u89c8\u6240\u6709\u9e21\u7c7b\u5ba0\u7269"
+    Types:
+      Chicken:
+        Name: "&a\u9e21"
+        Mystery Dust: 10
+        Rarity: Common
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u9e21"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Baby Chicken:
+        Name: "&9\u9e21 (\u5e7c\u5e74)"
+        Mystery Dust: 30
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u9e21 (\u5e7c\u5e74)"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+  Wolf:
+    Name: "&e\u72fc"
+    Enabled: true
+    Lore:
+    - "&7\u70b9\u51fb\u8fd9\u91cc\u6d4f\u89c8\u6240\u6709\u72fc\u7c7b\u5ba0\u7269"
+    Types:
+      Wolf:
+        Name: "&a\u72fc"
+        Mystery Dust: 10
+        Rarity: Common
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u72fc"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Baby Wolf:
+        Name: "&9\u72fc (\u5e7c\u5e74)"
+        Mystery Dust: 30
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u72fc (\u5e7c\u5e74)"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+  Pig:
+    Name: "&e\u732a"
+    Enabled: true
+    Lore:
+    - "&7\u70b9\u51fb\u8fd9\u91cc\u6d4f\u89c8\u6240\u6709\u732a\u7c7b\u5ba0\u7269"
+    Types:
+      Pig:
+        Name: "&a\u732a"
+        Mystery Dust: 10
+        Rarity: Common
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u732a"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Baby Pig:
+        Name: "&9\u732a (\u5e7c\u5e74)"
+        Mystery Dust: 30
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u732a (\u5e7c\u5e74)"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Pig Zombie:
+        Name: "&5\u50f5\u5c38\u732a\u4eba"
+        Mystery Dust: 50
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.6
+        Lore:
+        - "&7\u7c7b\u578b: &9\u50f5\u5c38\u732a\u4eba"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Baby Pig Zombie:
+        Name: "&6\u50f5\u5c38\u732a\u4eba (\u5e7c\u5e74)"
+        Mystery Dust: 85
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.5
+        Lore:
+        - "&7\u7c7b\u578b: &9\u50f5\u5c38\u732a\u4eba (\u5e7c\u5e74)"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+  Silverfish:
+    Name: "&e\u8839\u866b"
+    Enabled: true
+    Lore:
+    - "&7\u70b9\u51fb\u8fd9\u91cc\u6d4f\u89c8\u6240\u6709\u8839\u866b\u7c7b\u5ba0\u7269"
+    Types:
+      Silverfish:
+        Name: "&a\u8839\u866b"
+        Mystery Dust: 12
+        Rarity: Common
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.6
+        Lore:
+        - "&7\u7c7b\u578b: &9\u8839\u866b"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+  Endermite:
+    Name: "&e\u672b\u5f71\u87a8"
+    Enabled: true
+    Lore:
+    - "&7\u70b9\u51fb\u8fd9\u91cc\u6d4f\u89c8\u6240\u6709\u672b\u5f71\u87a8\u7c7b\u5ba0\
+      \u7269"
+    Types:
+      Endermite:
+        Name: "&6\u672b\u5f71\u87a8"
+        Mystery Dust: 55
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.6
+        Lore:
+        - "&7\u7c7b\u578b: &9\u672b\u5f71\u87a8"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+  Zombie:
+    Name: "&e\u50f5\u5c38"
+    Enabled: true
+    Lore:
+    - "&7\u70b9\u51fb\u8fd9\u91cc\u6d4f\u89c8\u6240\u6709\u50f5\u5c38\u7c7b\u5ba0\u7269"
+    Types:
+      Zombie:
+        Name: "&a\u50f5\u5c38"
+        Mystery Dust: 12
+        Rarity: Common
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.6
+        Lore:
+        - "&7\u7c7b\u578b: &9\u50f5\u5c38"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Baby Zombie:
+        Name: "&9\u50f5\u5c38 (\u5e7c\u5e74)"
+        Mystery Dust: 50
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.5
+        Lore:
+        - "&7\u7c7b\u578b: &9\u50f5\u5c38 (\u5e7c\u5e74)"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Red Little Helper:
+        Name: "&5\u7ea2\u8272\u7684\u5c0f\u5e2e\u624b"
+        Mystery Dust: 50
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.5
+        Lore:
+        - "&7\u7c7b\u578b: &9\u7ea2\u8272\u7684\u5c0f\u5e2e\u624b"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Green Little Helper:
+        Name: "&5\u7eff\u8272\u7684\u5c0f\u5e2e\u624b"
+        Mystery Dust: 30
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.5
+        Lore:
+        - "&7\u7c7b\u578b: &9\u7eff\u8272\u7684\u5c0f\u5e2e\u624b"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Husk:
+        Name: "&a\u5c38\u58f3"
+        Mystery Dust: 45
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.6
+        Lore:
+        - "&7\u7c7b\u578b: &9\u5c38\u58f3"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Baby Husk:
+        Name: "&9\u5c38\u58f3 (\u5e7c\u5e74)"
+        Mystery Dust: 60
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.5
+        Lore:
+        - "&7\u7c7b\u578b: &9\u5c38\u58f3 (\u5e7c\u5e74)"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+  Cat:
+    Name: "&e\u732b"
+    Enabled: true
+    Lore:
+    - "&7\u70b9\u51fb\u8fd9\u91cc\u6d4f\u89c8\u6240\u6709\u732b\u7c7b\u5ba0\u7269"
+    Types:
+      Black Cat:
+        Name: "&a\u732b: \u9ed1"
+        Mystery Dust: 12
+        Rarity: Common
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u732b: \u9ed1"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Baby Black Cat:
+        Name: "&9\u732b: \u9ed1 (\u5e7c\u5e74)"
+        Mystery Dust: 30
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u732b: \u9ed1 (\u5e7c\u5e74)"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Red Cat:
+        Name: "&a\u732b: \u7ea2"
+        Mystery Dust: 12
+        Rarity: Common
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u732b: \u7ea2"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Baby Red Cat:
+        Name: "&9\u732b: \u7ea2 (\u5e7c\u5e74)"
+        Mystery Dust: 30
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u732b: \u7ea2 (\u5e7c\u5e74)"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Siamese Cat:
+        Name: "&a\u732b: \u66b9\u7f57"
+        Mystery Dust: 12
+        Rarity: Common
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u732b: \u66b9\u7f57"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Baby Siamese Cat:
+        Name: "&9\u732b: \u66b9\u7f57 (\u5e7c\u5e74)"
+        Mystery Dust: 30
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u732b: \u66b9\u7f57 (\u5e7c\u5e74)"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Wild Ocelot:
+        Name: "&9\u8c79\u732b"
+        Mystery Dust: 15
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u8c79\u732b"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Baby Wild Ocelot:
+        Name: "&5\u8c79\u732b (\u5e7c\u5e74)"
+        Mystery Dust: 35
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u8c79\u732b (\u5e7c\u5e74)"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+  Rabbit:
+    Name: "&e\u5154\u5b50"
+    Enabled: true
+    Lore:
+    - "&7\u70b9\u51fb\u8fd9\u91cc\u6d4f\u89c8\u6240\u6709\u5154\u7c7b\u5ba0\u7269"
+    Types:
+      Black Rabbit:
+        Name: "&9\u5154\u5b50: \u9ed1"
+        Mystery Dust: 22
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.9
+        Lore:
+        - "&7\u7c7b\u578b: &9\u5154\u5b50: \u9ed1"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Baby Black Rabbit:
+        Name: "&5\u5154\u5b50: \u9ed1 (\u5e7c\u5e74)"
+        Mystery Dust: 28
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.9
+        Lore:
+        - "&7\u7c7b\u578b: &9\u5154\u5b50: \u9ed1 (\u5e7c\u5e74)"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Black & White Rabbit:
+        Name: "&5\u5154\u5b50: \u9ed1 & \u767d"
+        Mystery Dust: 45
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.9
+        Lore:
+        - "&7\u7c7b\u578b: &9\u5154\u5b50: \u9ed1 & \u767d"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Baby Black & White Rabbit:
+        Name: "&6\u5154\u5b50: \u9ed1 & \u767d (\u5e7c\u5e74)"
+        Mystery Dust: 51
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.9
+        Lore:
+        - "&7\u7c7b\u578b: &9\u5154\u5b50: \u9ed1 & \u767d (\u5e7c\u5e74)"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Brown Rabbit:
+        Name: "&9\u5154\u5b50: \u68d5"
+        Mystery Dust: 22
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.9
+        Lore:
+        - "&7\u7c7b\u578b: &9\u5154\u5b50: \u68d5"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Baby Brown Rabbit:
+        Name: "&5\u5154\u5b50: \u68d5 (\u5e7c\u5e74)"
+        Mystery Dust: 28
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.9
+        Lore:
+        - "&7\u7c7b\u578b: &9\u5154\u5b50: \u68d5 (\u5e7c\u5e74)"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Gold Rabbit:
+        Name: "&5\u5154\u5b50: \u91d1"
+        Mystery Dust: 45
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.9
+        Lore:
+        - "&7\u7c7b\u578b: &9\u5154\u5b50: \u91d1"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Baby Gold Rabbit:
+        Name: "&6\u5154\u5b50: \u91d1 (\u5e7c\u5e74)"
+        Mystery Dust: 51
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.9
+        Lore:
+        - "&7\u7c7b\u578b: &9\u5154\u5b50: \u91d1 (\u5e7c\u5e74)"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Salt & Pepper Rabbit:
+        Name: "&5\u5154\u5b50: \u6d45 & \u68d5"
+        Mystery Dust: 45
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.9
+        Lore:
+        - "&7\u7c7b\u578b: &9\u5154\u5b50: \u6d45 & \u68d5"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Baby Salt & Pepper Rabbit:
+        Name: "&6\u5154\u5b50: \u6d45 & \u68d5 (\u5e7c\u5e74)"
+        Mystery Dust: 51
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.9
+        Lore:
+        - "&7\u7c7b\u578b: &9\u5154\u5b50: \u6d45 & \u68d5 (\u5e7c\u5e74)"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      White Rabbit:
+        Name: "&9\u5154\u5b50: \u767d"
+        Mystery Dust: 22
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.9
+        Lore:
+        - "&7\u7c7b\u578b: &9\u5154\u5b50: \u767d"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Baby White Rabbit:
+        Name: "&5\u5154\u5b50: \u767d (\u5e7c\u5e74)"
+        Mystery Dust: 28
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.9
+        Lore:
+        - "&7\u7c7b\u578b: &9\u5154\u5b50: \u767d (\u5e7c\u5e74)"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+  Sheep:
+    Name: "&e\u7f8a"
+    Enabled: true
+    Lore:
+    - "&7\u70b9\u51fb\u8fd9\u91cc\u6d4f\u89c8\u6240\u6709\u7f8a\u7c7b\u5ba0\u7269"
+    Types:
+      Black Sheep:
+        Name: "&5\u7f8a: \u9ed1"
+        Mystery Dust: 40
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u7f8a: \u9ed1"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Baby Black Sheep:
+        Name: "&6\u7f8a: \u9ed1 (\u5e7c\u5e74)"
+        Mystery Dust: 75
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u7f8a: \u9ed1 (\u5e7c\u5e74)"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Blue Sheep:
+        Name: "&9\u7f8a: \u84dd"
+        Mystery Dust: 20
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u7f8a: \u84dd"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Baby Blue Sheep:
+        Name: "&5\u7f8a: \u84dd (\u5e7c\u5e74)"
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u7f8a: \u84dd (\u5e7c\u5e74)"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Brown Sheep:
+        Name: "&a\u7f8a: \u68d5"
+        Mystery Dust: 12
+        Rarity: Common
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u7f8a: \u68d5"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Baby Brown Sheep:
+        Name: "&9\u7f8a: \u68d5 (\u5e7c\u5e74)"
+        Mystery Dust: 30
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u7f8a: \u68d5 (\u5e7c\u5e74)"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Cyan Sheep:
+        Name: "&9\u7f8a: \u9752"
+        Mystery Dust: 20
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u7f8a: \u9752"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Baby Cyan Sheep:
+        Name: "&5\u7f8a: \u9752 (\u5e7c\u5e74)"
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u7f8a: \u9752 (\u5e7c\u5e74)"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Gray Sheep:
+        Name: "&a\u7f8a: \u7070"
+        Mystery Dust: 12
+        Rarity: Common
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u7f8a: \u7070"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Baby Gray Sheep:
+        Name: "&9\u7f8a: \u7070 (\u5e7c\u5e74)"
+        Mystery Dust: 30
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u7f8a: \u7070 (\u5e7c\u5e74)"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Green Sheep:
+        Name: "&9\u7f8a: \u7eff"
+        Mystery Dust: 20
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u7f8a: \u7eff"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Baby Green Sheep:
+        Name: "&5\u7f8a: \u7eff (\u5e7c\u5e74)"
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u7f8a: \u7eff (\u5e7c\u5e74)"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Light Blue Sheep:
+        Name: "&9\u7f8a: \u6d45\u84dd"
+        Mystery Dust: 20
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u7f8a: \u6d45\u84dd"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Baby Light Blue Sheep:
+        Name: "&5\u7f8a: \u6d45\u84dd (\u5e7c\u5e74)"
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u7f8a: \u6d45\u84dd (\u5e7c\u5e74)"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Lime Sheep:
+        Name: "&9\u7f8a: \u9752\u67e0"
+        Mystery Dust: 20
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u7f8a: \u9752\u67e0"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Baby Lime Sheep:
+        Name: "&5\u7f8a: \u9752\u67e0 (\u5e7c\u5e74)"
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u7f8a: \u9752\u67e0 (\u5e7c\u5e74)"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Magenta Sheep:
+        Name: "&9\u7f8a: \u54c1\u7ea2"
+        Mystery Dust: 20
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u7f8a: \u54c1\u7ea2"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Baby Magenta Sheep:
+        Name: "&5\u7f8a: \u54c1\u7ea2 (\u5e7c\u5e74)"
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u7f8a: \u54c1\u7ea2 (\u5e7c\u5e74)"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Orange Sheep:
+        Name: "&9\u7f8a: \u6a59"
+        Mystery Dust: 20
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u7f8a: \u6a59"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Baby Orange Sheep:
+        Name: "&5\u7f8a: \u6a59 (\u5e7c\u5e74)"
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u7f8a: \u6a59 (\u5e7c\u5e74)"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Pink Sheep:
+        Name: "&5\u7f8a: \u7c89"
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u7f8a: \u7c89"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Baby Pink Sheep:
+        Name: "&6\u7f8a: \u7c89 (\u5e7c\u5e74)"
+        Mystery Dust: 75
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u7f8a: \u7c89 (\u5e7c\u5e74)"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Purple Sheep:
+        Name: "&9\u7f8a: \u7d2b"
+        Mystery Dust: 55
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u7f8a: \u7d2b"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Baby Purple Sheep:
+        Name: "&5\u7f8a: \u7d2b (\u5e7c\u5e74)"
+        Mystery Dust: 75
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u7f8a: \u7d2b (\u5e7c\u5e74)"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Red Sheep:
+        Name: "&9\u7f8a: \u7ea2"
+        Mystery Dust: 20
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u7f8a: \u7ea2"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Baby Red Sheep:
+        Name: "&5\u7f8a: \u7ea2 (\u5e7c\u5e74)"
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u7f8a: \u7ea2 (\u5e7c\u5e74)"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Silver Sheep:
+        Name: "&a\u7f8a: \u94f6"
+        Mystery Dust: 12
+        Rarity: Common
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u7f8a: \u94f6"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Baby Silver Sheep:
+        Name: "&9\u7f8a: \u94f6 (\u5e7c\u5e74)"
+        Mystery Dust: 30
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u7f8a: \u94f6 (\u5e7c\u5e74)"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      White Sheep:
+        Name: "&a\u7f8a: \u767d"
+        Mystery Dust: 12
+        Rarity: Common
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u7f8a: \u767d"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Baby White Sheep:
+        Name: "&9\u7f8a: \u767d (\u5e7c\u5e74)"
+        Mystery Dust: 30
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u7f8a: \u767d (\u5e7c\u5e74)"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Yellow Sheep:
+        Name: "&9\u7f8a: \u9ec4"
+        Mystery Dust: 20
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u7f8a: \u9ec4"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Baby Yellow Sheep:
+        Name: "&5\u7f8a: \u9ec4 (\u5e7c\u5e74)"
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u7f8a: \u9ec4 (\u5e7c\u5e74)"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+  Horse:
+    Name: "&e\u9a6c"
+    Enabled: true
+    Lore:
+    - "&7\u70b9\u51fb\u8fd9\u91cc\u6d4f\u89c8\u6240\u6709\u9a6c\u7c7b\u5ba0\u7269"
+    Types:
+      Black Horse:
+        Name: "&5\u9a6c: \u9ed1"
+        Mystery Dust: 42
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u9a6c: \u9ed1"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Baby Black Horse:
+        Name: "&6\u9a6c: \u9ed1 (\u5e7c\u5e74)"
+        Mystery Dust: 60
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u9a6c: \u9ed1 (\u5e7c\u5e74)"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Brown Horse:
+        Name: "&a\u9a6c: \u68d5"
+        Mystery Dust: 15
+        Rarity: Common
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u9a6c: \u68d5"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Baby Brown Horse:
+        Name: "&9\u9a6c: \u68d5 (\u5e7c\u5e74)"
+        Mystery Dust: 30
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u9a6c: \u68d5 (\u5e7c\u5e74)"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Chestnut Horse:
+        Name: "&9\u9a6c: \u6817"
+        Mystery Dust: 25
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u9a6c: \u6817"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Baby Chestnut Horse:
+        Name: "&5\u9a6c: \u6817 (\u5e7c\u5e74)"
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u9a6c: \u6817 (\u5e7c\u5e74)"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Creamy Horse:
+        Name: "&9\u9a6c: \u5976\u6cb9"
+        Mystery Dust: 25
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u9a6c: \u5976\u6cb9"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Baby Creamy Horse:
+        Name: "&5\u9a6c: \u5976\u6cb9 (\u5e7c\u5e74)"
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u9a6c: \u5976\u6cb9 (\u5e7c\u5e74)"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Dark Brown Horse:
+        Name: "&9\u9a6c: \u6df1\u68d5"
+        Mystery Dust: 25
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u9a6c: \u6df1\u68d5"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Baby Dark Brown Horse:
+        Name: "&5\u9a6c: \u6df1\u68d5 (\u5e7c\u5e74)"
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u9a6c: \u6df1\u68d5 (\u5e7c\u5e74)"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Gray Horse:
+        Name: "&9\u9a6c: \u7070"
+        Mystery Dust: 25
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u9a6c: \u7070"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Baby Gray Horse:
+        Name: "&5\u9a6c: \u7070 (\u5e7c\u5e74)"
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u9a6c: \u7070 (\u5e7c\u5e74)"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      White Horse:
+        Name: "&5\u9a6c: \u767d"
+        Mystery Dust: 42
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u9a6c: \u767d"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Baby White Horse:
+        Name: "&6\u9a6c: \u767d (\u5e7c\u5e74)"
+        Mystery Dust: 60
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u9a6c: \u767d (\u5e7c\u5e74)"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Donkey:
+        Name: "&9\u9a74"
+        Mystery Dust: 27
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u9a74"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Baby Donkey:
+        Name: "&5\u9a74 (\u5e7c\u5e74)"
+        Mystery Dust: 40
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u9a74 (\u5e7c\u5e74)"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Mule:
+        Name: "&9\u9aa1"
+        Mystery Dust: 22
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u9aa1"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Baby Mule:
+        Name: "&5\u9aa1 (\u5e7c\u5e74)"
+        Mystery Dust: 35
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u9aa1 (\u5e7c\u5e74)"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Skeleton Horse:
+        Name: "&6\u9aa8\u9abc\u9a6c"
+        Mystery Dust: 65
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u9aa8\u9abc\u9a6c"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Baby Skeleton Horse:
+        Name: "&6\u9aa8\u9abc\u9a6c (\u5e7c\u5e74)"
+        Mystery Dust: 85
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u9aa8\u9abc\u9a6c (\u5e7c\u5e74)"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Undead Horse:
+        Name: "&5\u4ea1\u7075\u9a6c"
+        Mystery Dust: 63
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u4ea1\u7075\u9a6c"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Baby Undead Horse:
+        Name: "&6\u4ea1\u7075\u9a6c (\u5e7c\u5e74)"
+        Mystery Dust: 85
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u4ea1\u7075\u9a6c (\u5e7c\u5e74)"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+  Villager:
+    Name: "&e\u6751\u6c11"
+    Enabled: true
+    Lore:
+    - "&7\u70b9\u51fb\u8fd9\u91cc\u6d4f\u89c8\u6240\u6709\u6751\u6c11\u7c7b\u5ba0\u7269"
+    Types:
+      Blacksmith Villager:
+        Name: "&9\u6751\u6c11: \u94c1\u5320"
+        Mystery Dust: 22
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u6751\u6c11: \u94c1\u5320"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Baby Blacksmith Villager:
+        Name: "&5\u6751\u6c11: \u94c1\u5320 (\u5e7c\u5e74)"
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u6751\u6c11: \u94c1\u5320 (\u5e7c\u5e74)"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Butcher Villager:
+        Name: "&9\u6751\u6c11: \u5c60\u592b"
+        Mystery Dust: 22
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u6751\u6c11: \u5c60\u592b"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Baby Butcher Villager:
+        Name: "&5\u6751\u6c11: \u5c60\u592b (\u5e7c\u5e74)"
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u6751\u6c11: \u5c60\u592b (\u5e7c\u5e74)"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Farmer Villager:
+        Name: "&9\u6751\u6c11: \u519c\u6c11"
+        Mystery Dust: 22
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u6751\u6c11: \u519c\u6c11"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Baby Farmer Villager:
+        Name: "&5\u6751\u6c11: \u519c\u6c11 (\u5e7c\u5e74)"
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u6751\u6c11: \u519c\u6c11 (\u5e7c\u5e74)"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Librarian Villager:
+        Name: "&9\u6751\u6c11: \u9986\u5458"
+        Mystery Dust: 22
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u6751\u6c11: \u9986\u5458"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Baby Librarian Villager:
+        Name: "&5\u6751\u6c11: \u9986\u5458 (\u5e7c\u5e74)"
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u6751\u6c11: \u9986\u5458 (\u5e7c\u5e74)"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Priest Villager:
+        Name: "&9\u6751\u6c11: \u7267\u5e08"
+        Mystery Dust: 22
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u6751\u6c11: \u7267\u5e08"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Baby Priest Villager:
+        Name: "&5\u6751\u6c11: \u7267\u5e08 (\u5e7c\u5e74)"
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u6751\u6c11: \u7267\u5e08 (\u5e7c\u5e74)"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Witch:
+        Name: "&5\u5973\u5deb"
+        Mystery Dust: 45
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u5973\u5deb"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Zombie Villager:
+        Name: "&5\u50f5\u5c38\u6751\u6c11"
+        Mystery Dust: 52
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.6
+        Lore:
+        - "&7\u7c7b\u578b: &9\u50f5\u5c38\u6751\u6c11"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Baby Zombie Villager:
+        Name: "&6\u50f5\u5c38\u6751\u6c11 (\u5e7c\u5e74)"
+        Mystery Dust: 75
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.5
+        Lore:
+        - "&7\u7c7b\u578b: &9\u50f5\u5c38\u6751\u6c11 (\u5e7c\u5e74)"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Evoker:
+        Name: "&6\u5524\u9b54\u8005"
+        Mystery Dust: 80
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.6
+        Lore:
+        - "&7\u7c7b\u578b: &9\u5524\u9b54\u8005"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Vindicator:
+        Name: "&6\u536b\u9053\u58eb"
+        Mystery Dust: 80
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.6
+        Lore:
+        - "&7\u7c7b\u578b: &9\u536b\u9053\u58eb"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Illusioner:
+        Name: "&6\u5e7b\u672f\u5e08"
+        Mystery Dust: 85
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.6
+        Lore:
+        - "&7\u7c7b\u578b: &9\u5e7b\u672f\u5e08"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+  Spider:
+    Name: "&e\u8718\u86db"
+    Enabled: true
+    Lore:
+    - "&7\u70b9\u51fb\u8fd9\u91cc\u6d4f\u89c8\u6240\u6709\u8718\u86db\u7c7b\u5ba0\u7269"
+    Types:
+      Spider:
+        Name: "&5\u8718\u86db"
+        Mystery Dust: 42
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u8718\u86db"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Cave Spider:
+        Name: "&9\u6d1e\u7a74\u8718\u86db"
+        Mystery Dust: 27
+        Rarity: Rare
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u6d1e\u7a74\u8718\u86db"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+  Skeleton:
+    Name: "&e\u9ab7\u9ac5"
+    Enabled: true
+    Lore:
+    - "&7\u70b9\u51fb\u8fd9\u91cc\u6d4f\u89c8\u6240\u6709\u732a\u7c7b\u5ba0\u7269"
+    Types:
+      Skeleton:
+        Name: "&5\u9ab7\u9ac5"
+        Mystery Dust: 50
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u9ab7\u9ac5"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Wither Skeleton:
+        Name: "&6\u51cb\u96f6\u9ab7\u9ac5"
+        Mystery Dust: 70
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u51cb\u96f6\u9ab7\u9ac5"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Stray Skeleton:
+        Name: "&6\u6d41\u6d6a\u8005\u9ab7\u9ac5"
+        Mystery Dust: 85
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.6
+        Lore:
+        - "&7\u7c7b\u578b: &9\u6d41\u6d6a\u8005\u9ab7\u9ac5"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+  Blaze:
+    Name: "&e\u70c8\u7130\u4eba"
+    Enabled: true
+    Lore:
+    - "&7\u70b9\u51fb\u8fd9\u91cc\u6d4f\u89c8\u6240\u6709\u70c8\u7130\u4eba\u7c7b\u5ba0\
+      \u7269"
+    Types:
+      Blaze:
+        Name: "&6\u70c8\u7130\u4eba"
+        Mystery Dust: 55
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u70c8\u7130\u4eba"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+  Creeper:
+    Name: "&e\u722c\u884c\u8005"
+    Enabled: true
+    Lore:
+    - "&7\u70b9\u51fb\u8fd9\u91cc\u6d4f\u89c8\u6240\u6709\u722c\u884c\u8005\u7c7b\u5ba0\
+      \u7269"
+    Types:
+      Creeper:
+        Name: "&5\u722c\u884c\u8005"
+        Mystery Dust: 52
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u722c\u884c\u8005"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Powered Creeper:
+        Name: "&6\u9ad8\u538b\u722c\u884c\u8005"
+        Mystery Dust: 75
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.7
+        Lore:
+        - "&7\u7c7b\u578b: &9\u9ad8\u538b\u722c\u884c\u8005"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+  Golem:
+    Name: "&e\u94c1\u5080\u5121"
+    Enabled: true
+    Lore:
+    - "&7\u70b9\u51fb\u8fd9\u91cc\u6d4f\u89c8\u6240\u6709\u732a\u7c7b\u5ba0\u7269"
+    Types:
+      Golem:
+        Name: "&6\u94c1\u5080\u5121"
+        Mystery Dust: 200
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.6
+        Lore:
+        - "&7\u7c7b\u578b: &9\u94c1\u5080\u5121"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+  Snowman:
+    Name: "&e\u96ea\u4eba"
+    Enabled: true
+    Lore:
+    - "&7\u70b9\u51fb\u8fd9\u91cc\u6d4f\u89c8\u6240\u6709\u96ea\u4eba\u7c7b\u5ba0\u7269"
+    Types:
+      Snowman:
+        Name: "&5\u96ea\u4eba"
+        Mystery Dust: 52
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.6
+        Lore:
+        - "&7\u7c7b\u578b: &9\u96ea\u4eba"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+  Polar Bear:
+    Name: "&e\u5317\u6781\u718a"
+    Enabled: true
+    Lore:
+    - "&7\u70b9\u51fb\u8fd9\u91cc\u6d4f\u89c8\u6240\u6709\u5317\u6781\u718a\u7c7b\u5ba0\
+      \u7269"
+    Types:
+      Polar Bear:
+        Name: "&5\u5317\u6781\u718a"
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.6
+        Lore:
+        - "&7\u7c7b\u578b: &9\u5317\u6781\u718a"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Baby Polar Bear:
+        Name: "&6\u5317\u6781\u718a (\u5e7c\u5e74)"
+        Mystery Dust: 75
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.5
+        Lore:
+        - "&7\u7c7b\u578b: &9\u5317\u6781\u718a (\u5e7c\u5e74)"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+  Llama:
+    Name: "&e\u9a86\u9a7c"
+    Enabled: true
+    Lore:
+    - "&7\u70b9\u51fb\u8fd9\u91cc\u6d4f\u89c8\u6240\u6709\u9a86\u9a7c\u7c7b\u5ba0\u7269"
+    Types:
+      Brown Llama:
+        Name: "&5\u9a86\u9a7c: \u68d5\u8272"
+        Mystery Dust: 60
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.6
+        Lore:
+        - "&7\u7c7b\u578b: &9\u9a86\u9a7c: \u68d5\u8272"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Baby Brown Llama:
+        Name: "&6\u9a86\u9a7c: \u68d5\u8272 (\u5e7c\u5e74)"
+        Mystery Dust: 80
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.5
+        Lore:
+        - "&7\u7c7b\u578b: &9\u9a86\u9a7c: \u68d5\u8272 (\u5e7c\u5e74)"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Creamy Llama:
+        Name: "&5\u9a86\u9a7c: \u5976\u6cb9"
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.6
+        Lore:
+        - "&7\u7c7b\u578b: &9\u9a86\u9a7c: \u5976\u6cb9"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Baby Creamy Llama:
+        Name: "&6\u9a86\u9a7c: \u5976\u6cb9 (\u5e7c\u5e74)"
+        Mystery Dust: 75
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.5
+        Lore:
+        - "&7\u7c7b\u578b: &9\u9a86\u9a7c: \u5976\u6cb9 (\u5e7c\u5e74)"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Gray Llama:
+        Name: "&5\u9a86\u9a7c: \u7070\u8272"
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.6
+        Lore:
+        - "&7\u7c7b\u578b: &9\u9a86\u9a7c: \u7070\u8272"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Baby Gray Llama:
+        Name: "&6\u9a86\u9a7c: \u7070\u8272 (\u5e7c\u5e74)"
+        Mystery Dust: 75
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.5
+        Lore:
+        - "&7\u7c7b\u578b: &9\u9a86\u9a7c: \u7070\u8272 (\u5e7c\u5e74)"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      White Llama:
+        Name: "&5\u9a86\u9a7c: \u767d\u8272"
+        Mystery Dust: 55
+        Rarity: Epic
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.6
+        Lore:
+        - "&7\u7c7b\u578b: &9\u9a86\u9a7c: \u767d\u8272"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"
+      Baby White Llama:
+        Name: "&6\u9a86\u9a7c: \u767d\u8272 (\u5e7c\u5e74)"
+        Mystery Dust: 75
+        Rarity: Legendary
+        Enabled: true
+        CanBeFound: true
+        Purchasable: true
+        Move-Speed: 0.5
+        Lore:
+        - "&7\u7c7b\u578b: &9\u9a86\u9a7c: \u767d\u8272 (\u5e7c\u5e74)"
+        - ''
+        - "&7\u70b9\u51fb\u2014\u2014\u51fa\u6765\u5427\uff0c\u6211\u7684\u5ba0\u7269"

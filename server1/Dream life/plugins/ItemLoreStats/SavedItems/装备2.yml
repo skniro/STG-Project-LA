@@ -1,0 +1,14 @@
+Item:
+  ==: org.bukkit.inventory.ItemStack
+  type: LEATHER_CHESTPLATE
+  meta:
+    ==: ItemMeta
+    meta-type: LEATHER_ARMOR
+    display-name: "\xa7f\u9e21\u6bdb\u5916\u5957\xa7f[\u666e\u901a]"
+    lore:
+    - "\xa7c\u81ea\u8eab\u8840\u91cf\xa7f>>\xa7b8"
+    - "\xa7c\u95ea\u907f\u51e0\u7387\xa7f>>\xa7b4%"
+    - "\xa7c"
+    - "\xa77\u201c\u9e21\u6bdb\u505a\u7684\u4e00\u4ef6\u5957\u201d"
+    - "\xa77"
+    - "\xa76\u5386\u7ec3\u503c: \xa7b2"

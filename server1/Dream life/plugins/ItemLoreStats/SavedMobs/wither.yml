@@ -1,0 +1,33 @@
+'100':
+  '1':
+    itemId: 279
+    nameColour: '&9&l'
+    prefix: random
+    suffix: random
+    properties:
+      damage: '&b1-6-player+1-7'
+      critChanceRandomApply: true
+      critChance: '&b8-14'
+      critDamageRandomApply: true
+      critDamage: '&b3-9'
+      healthRandomApply: true
+      health: '&b35-player+85'
+      healthRegenRandomApply: true
+      healthRegen: '&b3-5'
+      lifeStealRandomApply: true
+      lifeSteal: '&22-5'
+      poisonRandomApply: true
+      poison: '&a3-5'
+      witherRandomApply: true
+      wither: '&72-6'
+      movementSpeedRandomApply: true
+      movementSpeed: '&e2-4'
+      durability: '&71500-1950'
+      droppedXp: '75'
+      soulboundRandomApply: true
+      soulbound: true
+      xpLevelRandomApply: true
+      xpLevel: '&b3-player+2'
+      tntRandomApply: true
+      spells:
+        tnt: true

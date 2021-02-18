@@ -1,0 +1,63 @@
+2019-2-3 11:47:57[Yum 任务监控] 插件 VoidTP 处理 ga.ishadey.web.SpigotUpdater$1 任务时发生异常!
+2019-2-3 11:47:57异常名称: java.lang.NullPointerException
+2019-2-3 11:47:57异常说明: null
+2019-2-3 11:47:57简易错误信息如下:
+2019-2-3 11:47:57    位于 ga.ishadey.web.SpigotUpdater.hasUpdate(SpigotUpdater.java:65)
+2019-2-3 11:47:57    位于 ga.ishadey.web.SpigotUpdater.notifyUpdate(SpigotUpdater.java:97)
+2019-2-3 11:47:57    位于 ga.ishadey.web.SpigotUpdater$1.run(SpigotUpdater.java:39)
+2019-2-3 11:47:57    位于 pw.yumc.Yum.inject.TaskInjector.run(TaskInjector.java:84)
+2019-2-3 11:47:57    位于 org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76)
+2019-2-3 12:02:58[Yum 任务监控] 插件 VoidTP 处理 ga.ishadey.web.SpigotUpdater$1 任务时发生异常!
+2019-2-3 12:02:58异常名称: java.lang.NullPointerException
+2019-2-3 12:02:58异常说明: null
+2019-2-3 12:02:58简易错误信息如下:
+2019-2-3 12:02:58    位于 ga.ishadey.web.SpigotUpdater.hasUpdate(SpigotUpdater.java:65)
+2019-2-3 12:02:58    位于 ga.ishadey.web.SpigotUpdater.notifyUpdate(SpigotUpdater.java:97)
+2019-2-3 12:02:58    位于 ga.ishadey.web.SpigotUpdater$1.run(SpigotUpdater.java:39)
+2019-2-3 12:02:58    位于 pw.yumc.Yum.inject.TaskInjector.run(TaskInjector.java:84)
+2019-2-3 12:02:58    位于 org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76)
+2019-2-3 12:17:59[Yum 任务监控] 插件 VoidTP 处理 ga.ishadey.web.SpigotUpdater$1 任务时发生异常!
+2019-2-3 12:17:59异常名称: java.lang.NullPointerException
+2019-2-3 12:17:59异常说明: null
+2019-2-3 12:17:59简易错误信息如下:
+2019-2-3 12:17:59    位于 ga.ishadey.web.SpigotUpdater.hasUpdate(SpigotUpdater.java:65)
+2019-2-3 12:17:59    位于 ga.ishadey.web.SpigotUpdater.notifyUpdate(SpigotUpdater.java:97)
+2019-2-3 12:17:59    位于 ga.ishadey.web.SpigotUpdater$1.run(SpigotUpdater.java:39)
+2019-2-3 12:17:59    位于 pw.yumc.Yum.inject.TaskInjector.run(TaskInjector.java:84)
+2019-2-3 12:17:59    位于 org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76)
+2019-2-3 12:33:07[Yum 任务监控] 插件 VoidTP 处理 ga.ishadey.web.SpigotUpdater$1 任务时发生异常!
+2019-2-3 12:33:07异常名称: java.lang.NullPointerException
+2019-2-3 12:33:07异常说明: null
+2019-2-3 12:33:07简易错误信息如下:
+2019-2-3 12:33:07    位于 ga.ishadey.web.SpigotUpdater.hasUpdate(SpigotUpdater.java:65)
+2019-2-3 12:33:07    位于 ga.ishadey.web.SpigotUpdater.notifyUpdate(SpigotUpdater.java:97)
+2019-2-3 12:33:07    位于 ga.ishadey.web.SpigotUpdater$1.run(SpigotUpdater.java:39)
+2019-2-3 12:33:07    位于 pw.yumc.Yum.inject.TaskInjector.run(TaskInjector.java:84)
+2019-2-3 12:33:07    位于 org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76)
+2019-2-3 12:48:08[Yum 任务监控] 插件 VoidTP 处理 ga.ishadey.web.SpigotUpdater$1 任务时发生异常!
+2019-2-3 12:48:08异常名称: java.lang.NullPointerException
+2019-2-3 12:48:08异常说明: null
+2019-2-3 12:48:08简易错误信息如下:
+2019-2-3 12:48:08    位于 ga.ishadey.web.SpigotUpdater.hasUpdate(SpigotUpdater.java:65)
+2019-2-3 12:48:08    位于 ga.ishadey.web.SpigotUpdater.notifyUpdate(SpigotUpdater.java:97)
+2019-2-3 12:48:08    位于 ga.ishadey.web.SpigotUpdater$1.run(SpigotUpdater.java:39)
+2019-2-3 12:48:08    位于 pw.yumc.Yum.inject.TaskInjector.run(TaskInjector.java:84)
+2019-2-3 12:48:08    位于 org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76)
+2019-2-3 13:03:09[Yum 任务监控] 插件 VoidTP 处理 ga.ishadey.web.SpigotUpdater$1 任务时发生异常!
+2019-2-3 13:03:09异常名称: java.lang.NullPointerException
+2019-2-3 13:03:09异常说明: null
+2019-2-3 13:03:09简易错误信息如下:
+2019-2-3 13:03:09    位于 ga.ishadey.web.SpigotUpdater.hasUpdate(SpigotUpdater.java:65)
+2019-2-3 13:03:09    位于 ga.ishadey.web.SpigotUpdater.notifyUpdate(SpigotUpdater.java:97)
+2019-2-3 13:03:09    位于 ga.ishadey.web.SpigotUpdater$1.run(SpigotUpdater.java:39)
+2019-2-3 13:03:09    位于 pw.yumc.Yum.inject.TaskInjector.run(TaskInjector.java:84)
+2019-2-3 13:03:09    位于 org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76)
+2019-2-3 13:18:11[Yum 任务监控] 插件 VoidTP 处理 ga.ishadey.web.SpigotUpdater$1 任务时发生异常!
+2019-2-3 13:18:11异常名称: java.lang.NullPointerException
+2019-2-3 13:18:11异常说明: null
+2019-2-3 13:18:11简易错误信息如下:
+2019-2-3 13:18:11    位于 ga.ishadey.web.SpigotUpdater.hasUpdate(SpigotUpdater.java:65)
+2019-2-3 13:18:11    位于 ga.ishadey.web.SpigotUpdater.notifyUpdate(SpigotUpdater.java:97)
+2019-2-3 13:18:11    位于 ga.ishadey.web.SpigotUpdater$1.run(SpigotUpdater.java:39)
+2019-2-3 13:18:11    位于 pw.yumc.Yum.inject.TaskInjector.run(TaskInjector.java:84)
+2019-2-3 13:18:11    位于 org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:76)

@@ -1,0 +1,97 @@
+Banners:
+  Snow Bunny:
+    Name: "&5\u96ea\u5154\u5b9d\u5b9d\u65d7\u5e1c"
+    Mystery Dust: 15
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore: ''
+  Reindeer:
+    Name: "&5\u9a6f\u9e7f\u65d7\u5e1c"
+    Mystery Dust: 20
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore: ''
+  Holiday Tree:
+    Name: "&5\u5723\u8bde\u6811\u65d7\u5e1c"
+    Mystery Dust: 20
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore: ''
+  Santa:
+    Name: "&5\u5723\u8bde\u8001\u4eba\u65d7\u5e1c"
+    Mystery Dust: 25
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore: ''
+  Holiday Wreath:
+    Name: "&5\u8282\u65e5\u82b1\u5708\u65d7\u5e1c"
+    Mystery Dust: 28
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore: ''
+  Heart:
+    Name: "&5\u604b\u7231\u65d7\u5e1c"
+    Mystery Dust: 30
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore: ''
+  Guitar:
+    Name: "&5\u5409\u4ed6\u65d7\u5e1c"
+    Mystery Dust: 25
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore: ''
+  Dino:
+    Name: "&5\u8fea\u8bfa\u65d7\u5e1c"
+    Mystery Dust: 40
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore: ''
+  Redpool:
+    Name: "&5\u7ea2\u738b\u65d7\u5e1c"
+    Mystery Dust: 42
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore: ''
+  Pengu:
+    Name: "&5\u4f01\u9e45\u65d7\u5e1c"
+    Mystery Dust: 50
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore: ''
+  Pug:
+    Name: "&5\u54c8\u5df4\u72d7\u65d7\u5e1c"
+    Mystery Dust: 48
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore: ''
+  Skull King:
+    Name: "&6\u9ab7\u9ac5\u738b\u65d7\u5e1c"
+    Mystery Dust: 65
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore: ''

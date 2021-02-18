@@ -1,0 +1,20 @@
+lastlocation:
+  world: "\u53c2\u5929\u677e\u6811"
+  x: -4.04072920373384
+  y: -192.79956660614195
+  z: 58.572514289526865
+  yaw: 351.4507
+  pitch: -78.75001
+lastAccountName: YuukiSkniro
+timestamps:
+  login: 1547724531859
+  logout: 1547724871499
+ipAddress: 127.0.0.1
+logoutlocation:
+  world: "\u53c2\u5929\u677e\u6811"
+  x: -66.03522400553838
+  y: 67.5625
+  z: 0.7379031775946833
+  yaw: 302.48218
+  pitch: 5.96904
+afk: false

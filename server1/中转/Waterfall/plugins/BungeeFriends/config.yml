@@ -1,0 +1,80 @@
+Language: Chinese
+Ingame_Only: '&c���ָ�����ֻ����Ϸ�������.'
+No_Permission: '&c��Ȩ��ʹ�ø�ָ��!'
+Exceptions:
+  AlreadySent: '&c�ɹ����ͺ�������!'
+  AlreadyFriend: '&c���Ѿ���Ϊ��������ҵĺ���!'
+  IsntOnYourFriends: '&c%targetDisplayName &c������ĺ����б���!'
+  CantAddYourSelf: '&c���ܼ��Լ���������Ŷ!'
+  CantRemoveYourself: '&c���޷��Ӻ����б���ɾ���Լ�!'
+  NoInvited: '&c������һ�û���������Ϊ����Ŷ! ����ʹ�� &e/friend add %name'
+  HasntFriend: '&c������һ�û���������Ϊ����Ŷ! T����ʹ�� &e/friend add %name'
+No-Joined-The-Party: '&c��������һ���������ʹ��ָ��!'
+Cant-Find: '&cû���ҵ�������� ''%name'''
+Add:
+  Usage: '&c��ȷ��ʽ: /friend add <���>'
+  Sent: '&e�ɹ����ͺ��������� %targetDisplayName&e!'
+  5-Minutes: '&e������һ��� 5 ����ͬ��ʱ��!'
+  Accept:
+    Prefix: '&a&l[ͬ��]&r'
+    Message: '&b�������ͬ���������'
+  Deny:
+    Prefix: '&c&l[�ܾ�]&r'
+    Message: '&b��������ܾ���������'
+  Request:
+    Received: '&e�յ�һ������ %displayName &e�ĺ�������!'
+  Expired:
+    YourSelf: '&e�㷢�͸� %targetDisplayName &e�ĺ��������Ѿ�����.'
+    Target: '&e������ %displayName &e�ĺ��������Ѿ�����.'
+Remove:
+  Usage: '&c��ȷ��ʽ: /friend remove <���>'
+  YourSelf: '&e���Ѿ��� %targetDisplayName &e����ĺ����б���ɾ��!'
+  Target: '&e%displayName &e����Ӻ����б�������!'
+Accept:
+  Usage: '&c��ȷ��ʽ: /friend accept <���>'
+  YourSelf: '&a�ɹ���Ӻ����� %targetDisplayName'
+  Target: '&a�ɹ���Ӻ����� %displayName'
+Deny:
+  Usage: '&c��ȷ��ʽ: /friend deny <���>'
+  Declined: '&e�ܾ� %targetDisplayName&e�ĺ�������!'
+List:
+  DontHave:
+    One: '&e�㻹û�к���Ŷ!'
+    Two: '&e���������һЩ�������Ӻøж�Ŷ! /friend add <���>'
+  Online: '&e%targetDisplayName &e���� %server Server &e������.'
+  Offline: '&e%targetDisplayName &c��ǰ����״̬'
+Lang:
+  Usage: '&c����ĸ�ʽ! ''/party lang <����>'''
+  Available: '&b��ǰ��������:'
+  Update: '&aѡ�������: &e%lang&a!'
+Force-Add:
+  Usage: '&c��ȷ��ʽ: /friend force-add <���>'
+  YourSelf: '&a���Ѿ��� %targetDisplayName &a�ĺ����� &c&l[ǿ��]'
+  Target: '&a���Ѿ��� %displayName &a�ĺ����� &c&l[ǿ��]'
+Prefix:
+  Usage: '&c��ȷ��ʽ: /friend prefix <���> <ǰ׺>'
+  Current: '&7%targetDisplayName&e��ǰ׺�ɹ�����Ϊ ''%prefix&e'''
+  To: '&7%targetDisplayName&e��ǰ׺�Ѿ�����Ϊ ''%prefix&e'''
+Help:
+  Command: '&e���� ����:'
+  Help: '&e/friend help &7- &b��ȡ�����б�'
+  Lang: '&e/friend lang &7- &b�ı�������'
+  Add: '&e/friend add &7- &b����һ�����Ϊ����'
+  Remove: '&e/friend remove &7- &b����ĺ�����ɾ���������'
+  Accept: '&e/friend accept &7- &bͬ���������'
+  Deny: '&e/friend deny &7- &b�ܾ���������'
+  List: '&e/friend list &7- &b�鿴�����б�'
+  Force-Add: '&e/friend force-add &7- &bǿ����Ӻ���.'
+  Prefix: '&e/friend prefix &7- &b�������ǰ׺.'
+Player:
+  9fa3a992-90a2-3e98-8124-1c0a3159b2d0:
+    Name: YuukiSkniro
+    Toggle-Reception-Request: true
+    Prefix: '&7'
+    Friends: '&7'
+  a0a24408-a657-3f7b-a643-d8ef199596f5:
+    Name: Blackhold_hd
+    Toggle-Reception-Request: true
+    Prefix: '&7'
+    Friends: '&7'
+Plugin: {}

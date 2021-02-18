@@ -1,0 +1,11 @@
+updateChecking:
+  onEnable: true
+  periodicChecks: true
+enableBypassPermission: false
+location:
+  world: world
+  X: 1210.5204587625697
+  Y: 16.0
+  Z: 1508.1108507167744
+  Pitch: 5.4500036
+  Yaw: 183.29996

@@ -1,0 +1,1118 @@
+EnchantmentAPI:
+  Settings:
+    Generate Unique Name: true
+    Max Enchantments: 5
+    Visible Settings:
+      Vanilla Enchantments:
+        Enabled: true
+        Table: true
+        Weight: true
+        Items: true
+        Groups: true
+        Max Level: true
+        Base: true
+        Interval: true
+      Custom Enchantments:
+        Enabled: true
+        Table: true
+        Weight: true
+        Items: true
+        Groups: true
+        Max Level: true
+        Base: true
+        Interval: true
+  Custom Enchantments:
+    Adrenaline:
+      Enabled: true
+      Table: true
+      Weight: 5
+      Group: Potion_Defensive
+      Max Level: 5
+      Base: 1.0
+      Interval: 9.0
+      Items:
+      - LEATHER_LEGGINGS
+      - CHAINMAIL_LEGGINGS
+      - IRON_LEGGINGS
+      - GOLD_LEGGINGS
+      - DIAMOND_LEGGINGS
+    Angler:
+      Enabled: true
+      Table: true
+      Weight: 5
+      Group: Default
+      Max Level: 4
+      Base: 1.0
+      Interval: 11.25
+      Items:
+      - FISHING_ROD
+    Barrier Trap:
+      Enabled: true
+      Table: true
+      Weight: 1
+      Group: Redstone_Trap
+      Max Level: 5
+      Base: 1.0
+      Interval: 10.0
+      Items:
+      - WOOD_SPADE
+      - STONE_SPADE
+      - IRON_SPADE
+      - GOLD_SPADE
+      - DIAMOND_SPADE
+    Berserking:
+      Enabled: true
+      Table: true
+      Weight: 5
+      Group: Potion_Defensive_Attack
+      Max Level: 5
+      Base: 1.0
+      Interval: 9.0
+      Items:
+      - WOOD_AXE
+      - STONE_AXE
+      - IRON_AXE
+      - GOLD_AXE
+      - DIAMOND_AXE
+    Blind:
+      Enabled: true
+      Table: true
+      Weight: 5
+      Group: Potion_Offensive_Attack
+      Max Level: 5
+      Base: 1.0
+      Interval: 9.0
+      Items:
+      - WOOD_PICKAXE
+      - STONE_PICKAXE
+      - IRON_PICKAXE
+      - GOLD_PICKAXE
+      - DIAMOND_PICKAXE
+    Bomb Trap:
+      Enabled: true
+      Table: true
+      Weight: 1
+      Group: Redstone_Trap
+      Max Level: 5
+      Base: 1.0
+      Interval: 10.0
+      Items:
+      - WOOD_SPADE
+      - STONE_SPADE
+      - IRON_SPADE
+      - GOLD_SPADE
+      - DIAMOND_SPADE
+    Brilliance:
+      Enabled: true
+      Table: true
+      Weight: 5
+      Group: Potion_Offensive_Defense
+      Max Level: 5
+      Base: 1.0
+      Interval: 9.0
+      Items:
+      - LEATHER_HELMET
+      - CHAINMAIL_HELMET
+      - IRON_HELMET
+      - GOLD_HELMET
+      - DIAMOND_HELMET
+    Cursed:
+      Enabled: true
+      Table: true
+      Weight: 5
+      Group: Potion_Offensive_Defense
+      Max Level: 5
+      Base: 1.0
+      Interval: 9.0
+      Items:
+      - LEATHER_CHESTPLATE
+      - CHAINMAIL_CHESTPLATE
+      - IRON_CHESTPLATE
+      - GOLD_CHESTPLATE
+      - DIAMOND_CHESTPLATE
+    Dash:
+      Enabled: true
+      Table: true
+      Weight: 2
+      Group: Force
+      Max Level: 5
+      Base: 1.0
+      Interval: 9.0
+      Items:
+      - WOOD_SWORD
+      - STONE_SWORD
+      - IRON_SWORD
+      - GOLD_SWORD
+      - DIAMOND_SWORD
+    Demoralizing:
+      Enabled: true
+      Table: true
+      Weight: 5
+      Group: Potion_Offensive_Defense
+      Max Level: 5
+      Base: 1.0
+      Interval: 9.0
+      Items:
+      - LEATHER_CHESTPLATE
+      - CHAINMAIL_CHESTPLATE
+      - IRON_CHESTPLATE
+      - GOLD_CHESTPLATE
+      - DIAMOND_CHESTPLATE
+    Distortion:
+      Enabled: true
+      Table: true
+      Weight: 5
+      Group: Potion_Defensive_Attack
+      Max Level: 5
+      Base: 1.0
+      Interval: 9.0
+      Items:
+      - WOOD_HOE
+      - STONE_HOE
+      - IRON_HOE
+      - GOLD_HOE
+      - DIAMOND_HOE
+    Fervor:
+      Enabled: true
+      Table: true
+      Weight: 5
+      Group: Potion_Defensive_Attack
+      Max Level: 5
+      Base: 1.0
+      Interval: 9.0
+      Items:
+      - WOOD_SWORD
+      - STONE_SWORD
+      - IRON_SWORD
+      - GOLD_SWORD
+      - DIAMOND_SWORD
+    Fire Trap:
+      Enabled: true
+      Table: true
+      Weight: 1
+      Group: Redstone_Trap
+      Max Level: 5
+      Base: 1.0
+      Interval: 10.0
+      Items:
+      - WOOD_SPADE
+      - STONE_SPADE
+      - IRON_SPADE
+      - GOLD_SPADE
+      - DIAMOND_SPADE
+    Fireball:
+      Enabled: true
+      Table: true
+      Weight: 10
+      Group: Default
+      Max Level: 10
+      Base: 1.0
+      Interval: 4.5
+      Items:
+      - BLAZE_ROD
+    Forceful:
+      Enabled: true
+      Table: true
+      Weight: 1
+      Group: Force
+      Max Level: 6
+      Base: 1.0
+      Interval: 7.5
+      Items:
+      - WOOD_AXE
+      - STONE_AXE
+      - IRON_AXE
+      - GOLD_AXE
+      - DIAMOND_AXE
+    Fried:
+      Enabled: true
+      Table: true
+      Weight: 10
+      Group: Default
+      Max Level: 1
+      Base: 1.0
+      Interval: 45.0
+      Items:
+      - FISHING_ROD
+    Frost:
+      Enabled: true
+      Table: true
+      Weight: 5
+      Group: Potion_Offensive_Defense
+      Max Level: 5
+      Base: 1.0
+      Interval: 9.0
+      Items:
+      - LEATHER_LEGGINGS
+      - CHAINMAIL_LEGGINGS
+      - IRON_LEGGINGS
+      - GOLD_LEGGINGS
+      - DIAMOND_LEGGINGS
+    Grapple:
+      Enabled: true
+      Table: true
+      Weight: 5
+      Group: Default
+      Max Level: 5
+      Base: 1.0
+      Interval: 9.0
+      Items:
+      - FISHING_ROD
+    Gravity:
+      Enabled: true
+      Table: true
+      Weight: 1
+      Group: Force
+      Max Level: 6
+      Base: 1.0
+      Interval: 7.5
+      Items:
+      - WOOD_HOE
+      - STONE_HOE
+      - IRON_HOE
+      - GOLD_HOE
+      - DIAMOND_HOE
+    Heal:
+      Enabled: true
+      Table: true
+      Weight: 2
+      Group: Default
+      Max Level: 5
+      Base: 1.0
+      Interval: 9.0
+      Items:
+      - BLAZE_ROD
+    Ice Trap:
+      Enabled: true
+      Table: true
+      Weight: 1
+      Group: Redstone_Trap
+      Max Level: 5
+      Base: 1.0
+      Interval: 10.0
+      Items:
+      - WOOD_SPADE
+      - STONE_SPADE
+      - IRON_SPADE
+      - GOLD_SPADE
+      - DIAMOND_SPADE
+    Jump:
+      Enabled: true
+      Table: true
+      Weight: 5
+      Group: Default
+      Max Level: 2
+      Base: 1.0
+      Interval: 22.5
+      Items:
+      - LEATHER_BOOTS
+      - CHAINMAIL_BOOTS
+      - IRON_BOOTS
+      - GOLD_BOOTS
+      - DIAMOND_BOOTS
+    Knockup:
+      Enabled: true
+      Table: true
+      Weight: 10
+      Group: Force
+      Max Level: 4
+      Base: 1.0
+      Interval: 11.25
+      Items:
+      - WOOD_SWORD
+      - STONE_SWORD
+      - IRON_SWORD
+      - GOLD_SWORD
+      - DIAMOND_SWORD
+    Launch Trap:
+      Enabled: true
+      Table: true
+      Weight: 1
+      Group: Redstone_Trap
+      Max Level: 5
+      Base: 1.0
+      Interval: 10.0
+      Items:
+      - WOOD_SPADE
+      - STONE_SPADE
+      - IRON_SPADE
+      - GOLD_SPADE
+      - DIAMOND_SPADE
+    Life:
+      Enabled: true
+      Table: true
+      Weight: 2
+      Group: Default
+      Max Level: 6
+      Base: 1.0
+      Interval: 7.5
+      Items:
+      - LEATHER_CHESTPLATE
+      - CHAINMAIL_CHESTPLATE
+      - IRON_CHESTPLATE
+      - GOLD_CHESTPLATE
+      - DIAMOND_CHESTPLATE
+    Lifesteal:
+      Enabled: true
+      Table: true
+      Weight: 5
+      Group: Default
+      Max Level: 5
+      Base: 1.0
+      Interval: 9.0
+      Items:
+      - WOOD_HOE
+      - STONE_HOE
+      - IRON_HOE
+      - GOLD_HOE
+      - DIAMOND_HOE
+    Lightning:
+      Enabled: true
+      Table: true
+      Weight: 5
+      Group: Default
+      Max Level: 5
+      Base: 1.0
+      Interval: 9.0
+      Items:
+      - WOOD_AXE
+      - STONE_AXE
+      - IRON_AXE
+      - GOLD_AXE
+      - DIAMOND_AXE
+    Lightning Trap:
+      Enabled: true
+      Table: true
+      Weight: 1
+      Group: Redstone_Trap
+      Max Level: 5
+      Base: 1.0
+      Interval: 10.0
+      Items:
+      - WOOD_SPADE
+      - STONE_SPADE
+      - IRON_SPADE
+      - GOLD_SPADE
+      - DIAMOND_SPADE
+    Lively:
+      Enabled: true
+      Table: true
+      Weight: 5
+      Group: Potion_Defensive
+      Max Level: 5
+      Base: 1.0
+      Interval: 9.0
+      Items:
+      - LEATHER_BOOTS
+      - CHAINMAIL_BOOTS
+      - IRON_BOOTS
+      - GOLD_BOOTS
+      - DIAMOND_BOOTS
+    Molten:
+      Enabled: true
+      Table: true
+      Weight: 2
+      Group: Potion_Offensive_Defense
+      Max Level: 5
+      Base: 1.0
+      Interval: 9.0
+      Items:
+      - LEATHER_CHESTPLATE
+      - CHAINMAIL_CHESTPLATE
+      - IRON_CHESTPLATE
+      - GOLD_CHESTPLATE
+      - DIAMOND_CHESTPLATE
+    Night Vision:
+      Enabled: true
+      Table: true
+      Weight: 5
+      Group: Default
+      Max Level: 2
+      Base: 1.0
+      Interval: 22.5
+      Items:
+      - LEATHER_HELMET
+      - CHAINMAIL_HELMET
+      - IRON_HELMET
+      - GOLD_HELMET
+      - DIAMOND_HELMET
+    Phantom:
+      Enabled: true
+      Table: true
+      Weight: 5
+      Group: Potion_Defensive
+      Max Level: 5
+      Base: 1.0
+      Interval: 9.0
+      Items:
+      - LEATHER_BOOTS
+      - CHAINMAIL_BOOTS
+      - IRON_BOOTS
+      - GOLD_BOOTS
+      - DIAMOND_BOOTS
+    Poison:
+      Enabled: true
+      Table: true
+      Weight: 5
+      Group: Potion_Offensive_Attack
+      Max Level: 5
+      Base: 1.0
+      Interval: 9.0
+      Items:
+      - WOOD_HOE
+      - STONE_HOE
+      - IRON_HOE
+      - GOLD_HOE
+      - DIAMOND_HOE
+    Poison Trap:
+      Enabled: true
+      Table: true
+      Weight: 1
+      Group: Redstone_Trap
+      Max Level: 5
+      Base: 1.0
+      Interval: 10.0
+      Items:
+      - WOOD_SPADE
+      - STONE_SPADE
+      - IRON_SPADE
+      - GOLD_SPADE
+      - DIAMOND_SPADE
+    Pull:
+      Enabled: true
+      Table: true
+      Weight: 3
+      Group: Force
+      Max Level: 5
+      Base: 1.0
+      Interval: 9.0
+      Items:
+      - WOOD_PICKAXE
+      - STONE_PICKAXE
+      - IRON_PICKAXE
+      - GOLD_PICKAXE
+      - DIAMOND_PICKAXE
+    Rapid:
+      Enabled: true
+      Table: true
+      Weight: 10
+      Group: Default
+      Max Level: 5
+      Base: 1.0
+      Interval: 9.0
+      Items:
+      - BOW
+    Reflection:
+      Enabled: true
+      Table: true
+      Weight: 5
+      Group: Potion_Offensive_Defense
+      Max Level: 10
+      Base: 1.0
+      Interval: 4.5
+      Items:
+      - LEATHER_CHESTPLATE
+      - CHAINMAIL_CHESTPLATE
+      - IRON_CHESTPLATE
+      - GOLD_CHESTPLATE
+      - DIAMOND_CHESTPLATE
+    Regenerative:
+      Enabled: true
+      Table: true
+      Weight: 5
+      Group: Default
+      Max Level: 3
+      Base: 1.0
+      Interval: 15.0
+      Items:
+      - LEATHER_CHESTPLATE
+      - CHAINMAIL_CHESTPLATE
+      - IRON_CHESTPLATE
+      - GOLD_CHESTPLATE
+      - DIAMOND_CHESTPLATE
+    Rejuvenating:
+      Enabled: true
+      Table: true
+      Weight: 2
+      Group: Default
+      Max Level: 5
+      Base: 1.0
+      Interval: 9.0
+      Items:
+      - COOKED_BEEF
+      - COOKED_CHICKEN
+      - COOKED_FISH
+      - COOKIE
+      - BREAD
+      - APPLE
+      - ROTTEN_FLESH
+      - SPIDER_EYE
+      - FERMENTED_SPIDER_EYE
+      - CARROT
+      - BAKED_POTATO
+    Repulse:
+      Enabled: true
+      Table: true
+      Weight: 1
+      Group: Force
+      Max Level: 5
+      Base: 1.0
+      Interval: 9.0
+      Items:
+      - WOOD_SWORD
+      - STONE_SWORD
+      - IRON_SWORD
+      - GOLD_SWORD
+      - DIAMOND_SWORD
+    Shadow Shift:
+      Enabled: true
+      Table: true
+      Weight: 1
+      Group: Default
+      Max Level: 5
+      Base: 1.0
+      Interval: 9.0
+      Items:
+      - LEATHER_LEGGINGS
+      - CHAINMAIL_LEGGINGS
+      - IRON_LEGGINGS
+      - GOLD_LEGGINGS
+      - DIAMOND_LEGGINGS
+    Slow Trap:
+      Enabled: true
+      Table: true
+      Weight: 1
+      Group: Redstone_Trap
+      Max Level: 5
+      Base: 1.0
+      Interval: 10.0
+      Items:
+      - WOOD_SPADE
+      - STONE_SPADE
+      - IRON_SPADE
+      - GOLD_SPADE
+      - DIAMOND_SPADE
+    Slowing:
+      Enabled: true
+      Table: true
+      Weight: 5
+      Group: Potion_Offensive_Attack
+      Max Level: 5
+      Base: 1.0
+      Interval: 9.0
+      Items:
+      - WOOD_PICKAXE
+      - STONE_PICKAXE
+      - IRON_PICKAXE
+      - GOLD_PICKAXE
+      - DIAMOND_PICKAXE
+    Toss:
+      Enabled: true
+      Table: true
+      Weight: 5
+      Group: Force
+      Max Level: 5
+      Base: 1.0
+      Interval: 9.0
+      Items:
+      - DIAMOND_SWORD
+    Toxic:
+      Enabled: true
+      Table: true
+      Weight: 5
+      Group: Potion_Offensive_Defense
+      Max Level: 5
+      Base: 1.0
+      Interval: 9.0
+      Items:
+      - LEATHER_CHESTPLATE
+      - CHAINMAIL_CHESTPLATE
+      - IRON_CHESTPLATE
+      - GOLD_CHESTPLATE
+      - DIAMOND_CHESTPLATE
+    Vortex:
+      Enabled: true
+      Table: true
+      Weight: 1
+      Group: Force
+      Max Level: 5
+      Base: 1.0
+      Interval: 9.0
+      Items:
+      - WOOD_PICKAXE
+      - STONE_PICKAXE
+      - IRON_PICKAXE
+      - GOLD_PICKAXE
+      - DIAMOND_PICKAXE
+    Weakness:
+      Enabled: true
+      Table: true
+      Weight: 5
+      Group: Potion_Offensive_Attack
+      Max Level: 5
+      Base: 1.0
+      Interval: 9.0
+      Items:
+      - WOOD_AXE
+      - STONE_AXE
+      - IRON_AXE
+      - GOLD_AXE
+      - DIAMOND_AXE
+    Weakness Trap:
+      Enabled: true
+      Table: true
+      Weight: 1
+      Group: Redstone_Trap
+      Max Level: 5
+      Base: 1.0
+      Interval: 10.0
+      Items:
+      - WOOD_SPADE
+      - STONE_SPADE
+      - IRON_SPADE
+      - GOLD_SPADE
+      - DIAMOND_SPADE
+    Web Trap:
+      Enabled: true
+      Table: true
+      Weight: 1
+      Group: Redstone_Trap
+      Max Level: 1
+      Base: 1.0
+      Interval: 50.0
+      Items:
+      - WOOD_SPADE
+      - STONE_SPADE
+      - IRON_SPADE
+      - GOLD_SPADE
+      - DIAMOND_SPADE
+    Wither:
+      Enabled: true
+      Table: true
+      Weight: 5
+      Group: Potion_Offensive_Attack
+      Max Level: 5
+      Base: 1.0
+      Interval: 9.0
+      Items:
+      - WOOD_HOE
+      - STONE_HOE
+      - IRON_HOE
+      - GOLD_HOE
+      - DIAMOND_HOE
+  Vanilla Enchantments:
+    ARROW_DAMAGE:
+      Enabled: true
+      Table: true
+      Weight: 10
+      Group: Default
+      Max Level: 5
+      Base: 1.0
+      Interval: 10.0
+      Items:
+      - BOW
+    ARROW_FIRE:
+      Enabled: true
+      Table: true
+      Weight: 2
+      Group: Default
+      Max Level: 1
+      Base: 20.0
+      Interval: 20.0
+      Items:
+      - BOW
+    ARROW_INFINITE:
+      Enabled: true
+      Table: true
+      Weight: 1
+      Group: Default
+      Max Level: 1
+      Base: 20.0
+      Interval: 20.0
+      Items:
+      - BOW
+    ARROW_KNOCKBACK:
+      Enabled: true
+      Table: true
+      Weight: 2
+      Group: Default
+      Max Level: 2
+      Base: 12.0
+      Interval: 20.0
+      Items:
+      - BOW
+    DAMAGE_ALL:
+      Enabled: true
+      Table: true
+      Weight: 10
+      Group: Bonus_Damage
+      Max Level: 5
+      Base: 1.0
+      Interval: 11.0
+      Items:
+      - WOOD_SWORD
+      - STONE_SWORD
+      - IRON_SWORD
+      - GOLD_SWORD
+      - DIAMOND_SWORD
+    DAMAGE_ARTHROPODS:
+      Enabled: true
+      Table: true
+      Weight: 4
+      Group: Bonus_Damage
+      Max Level: 5
+      Base: 5.0
+      Interval: 8.0
+      Items:
+      - WOOD_SWORD
+      - STONE_SWORD
+      - IRON_SWORD
+      - GOLD_SWORD
+      - DIAMOND_SWORD
+    DAMAGE_UNDEAD:
+      Enabled: true
+      Table: true
+      Weight: 4
+      Group: Bonus_Damage
+      Max Level: 5
+      Base: 5.0
+      Interval: 8.0
+      Items:
+      - WOOD_SWORD
+      - STONE_SWORD
+      - IRON_SWORD
+      - GOLD_SWORD
+      - DIAMOND_SWORD
+    DIG_SPEED:
+      Enabled: true
+      Table: true
+      Weight: 10
+      Group: Default
+      Max Level: 5
+      Base: 1.0
+      Interval: 10.0
+      Items:
+      - WOOD_AXE
+      - STONE_AXE
+      - IRON_AXE
+      - GOLD_AXE
+      - DIAMOND_AXE
+      - WOOD_SPADE
+      - STONE_SPADE
+      - IRON_SPADE
+      - GOLD_SPADE
+      - DIAMOND_SPADE
+      - WOOD_PICKAXE
+      - STONE_PICKAXE
+      - IRON_PICKAXE
+      - GOLD_PICKAXE
+      - DIAMOND_PICKAXE
+    DURABILITY:
+      Enabled: true
+      Table: true
+      Weight: 5
+      Group: Default
+      Max Level: 3
+      Base: 5.0
+      Interval: 8.0
+      Items:
+      - WOOD_AXE
+      - STONE_AXE
+      - IRON_AXE
+      - GOLD_AXE
+      - DIAMOND_AXE
+      - WOOD_SPADE
+      - STONE_SPADE
+      - IRON_SPADE
+      - GOLD_SPADE
+      - DIAMOND_SPADE
+      - WOOD_PICKAXE
+      - STONE_PICKAXE
+      - IRON_PICKAXE
+      - GOLD_PICKAXE
+      - DIAMOND_PICKAXE
+    FIRE_ASPECT:
+      Enabled: true
+      Table: true
+      Weight: 2
+      Group: Default
+      Max Level: 2
+      Base: 9.0
+      Interval: 20.0
+      Items:
+      - WOOD_SWORD
+      - STONE_SWORD
+      - IRON_SWORD
+      - GOLD_SWORD
+      - DIAMOND_SWORD
+    KNOCKBACK:
+      Enabled: true
+      Table: true
+      Weight: 8
+      Group: Default
+      Max Level: 2
+      Base: 4.0
+      Interval: 20.0
+      Items:
+      - WOOD_SWORD
+      - STONE_SWORD
+      - IRON_SWORD
+      - GOLD_SWORD
+      - DIAMOND_SWORD
+    LOOT_BONUS_BLOCKS:
+      Enabled: true
+      Table: true
+      Weight: 2
+      Group: Block_Modifier
+      Max Level: 3
+      Base: 15.0
+      Interval: 9.0
+      Items:
+      - WOOD_AXE
+      - STONE_AXE
+      - IRON_AXE
+      - GOLD_AXE
+      - DIAMOND_AXE
+      - WOOD_SPADE
+      - STONE_SPADE
+      - IRON_SPADE
+      - GOLD_SPADE
+      - DIAMOND_SPADE
+      - WOOD_PICKAXE
+      - STONE_PICKAXE
+      - IRON_PICKAXE
+      - GOLD_PICKAXE
+      - DIAMOND_PICKAXE
+    LOOT_BONUS_MOBS:
+      Enabled: true
+      Table: true
+      Weight: 2
+      Group: Default
+      Max Level: 3
+      Base: 14.0
+      Interval: 9.0
+      Items:
+      - WOOD_SWORD
+      - STONE_SWORD
+      - IRON_SWORD
+      - GOLD_SWORD
+      - DIAMOND_SWORD
+    OXYGEN:
+      Enabled: true
+      Table: true
+      Weight: 2
+      Group: Default
+      Max Level: 3
+      Base: 10.0
+      Interval: 10.0
+      Items:
+      - LEATHER_HELMET
+      - CHAINMAIL_HELMET
+      - IRON_HELMET
+      - GOLD_HELMET
+      - DIAMOND_HELMET
+    PROTECTION_ENVIRONMENTAL:
+      Enabled: true
+      Table: true
+      Weight: 10
+      Group: Damage_Reduction
+      Max Level: 4
+      Base: 1.0
+      Interval: 11.0
+      Items:
+      - LEATHER_CHESTPLATE
+      - CHAINMAIL_CHESTPLATE
+      - IRON_CHESTPLATE
+      - GOLD_CHESTPLATE
+      - DIAMOND_CHESTPLATE
+      - LEATHER_HELMET
+      - CHAINMAIL_HELMET
+      - IRON_HELMET
+      - GOLD_HELMET
+      - DIAMOND_HELMET
+      - LEATHER_LEGGINGS
+      - CHAINMAIL_LEGGINGS
+      - IRON_LEGGINGS
+      - GOLD_LEGGINGS
+      - DIAMOND_LEGGINGS
+      - LEATHER_BOOTS
+      - CHAINMAIL_BOOTS
+      - IRON_BOOTS
+      - GOLD_BOOTS
+      - DIAMOND_BOOTS
+    PROTECTION_EXPLOSIONS:
+      Enabled: true
+      Table: true
+      Weight: 2
+      Group: Damage_Reduction
+      Max Level: 4
+      Base: 5.0
+      Interval: 8.0
+      Items:
+      - LEATHER_CHESTPLATE
+      - CHAINMAIL_CHESTPLATE
+      - IRON_CHESTPLATE
+      - GOLD_CHESTPLATE
+      - DIAMOND_CHESTPLATE
+      - LEATHER_HELMET
+      - CHAINMAIL_HELMET
+      - IRON_HELMET
+      - GOLD_HELMET
+      - DIAMOND_HELMET
+      - LEATHER_LEGGINGS
+      - CHAINMAIL_LEGGINGS
+      - IRON_LEGGINGS
+      - GOLD_LEGGINGS
+      - DIAMOND_LEGGINGS
+      - LEATHER_BOOTS
+      - CHAINMAIL_BOOTS
+      - IRON_BOOTS
+      - GOLD_BOOTS
+      - DIAMOND_BOOTS
+    PROTECTION_FALL:
+      Enabled: true
+      Table: true
+      Weight: 5
+      Group: Default
+      Max Level: 4
+      Base: 5.0
+      Interval: 6.0
+      Items:
+      - LEATHER_BOOTS
+      - CHAINMAIL_BOOTS
+      - IRON_BOOTS
+      - GOLD_BOOTS
+      - DIAMOND_BOOTS
+    PROTECTION_FIRE:
+      Enabled: true
+      Table: true
+      Weight: 5
+      Group: Damage_Reduction
+      Max Level: 4
+      Base: 10.0
+      Interval: 8.0
+      Items:
+      - LEATHER_CHESTPLATE
+      - CHAINMAIL_CHESTPLATE
+      - IRON_CHESTPLATE
+      - GOLD_CHESTPLATE
+      - DIAMOND_CHESTPLATE
+      - LEATHER_HELMET
+      - CHAINMAIL_HELMET
+      - IRON_HELMET
+      - GOLD_HELMET
+      - DIAMOND_HELMET
+      - LEATHER_LEGGINGS
+      - CHAINMAIL_LEGGINGS
+      - IRON_LEGGINGS
+      - GOLD_LEGGINGS
+      - DIAMOND_LEGGINGS
+      - LEATHER_BOOTS
+      - CHAINMAIL_BOOTS
+      - IRON_BOOTS
+      - GOLD_BOOTS
+      - DIAMOND_BOOTS
+    PROTECTION_PROJECTILE:
+      Enabled: true
+      Table: true
+      Weight: 5
+      Group: Damage_Reduction
+      Max Level: 4
+      Base: 3.0
+      Interval: 6.0
+      Items:
+      - LEATHER_CHESTPLATE
+      - CHAINMAIL_CHESTPLATE
+      - IRON_CHESTPLATE
+      - GOLD_CHESTPLATE
+      - DIAMOND_CHESTPLATE
+      - LEATHER_HELMET
+      - CHAINMAIL_HELMET
+      - IRON_HELMET
+      - GOLD_HELMET
+      - DIAMOND_HELMET
+      - LEATHER_LEGGINGS
+      - CHAINMAIL_LEGGINGS
+      - IRON_LEGGINGS
+      - GOLD_LEGGINGS
+      - DIAMOND_LEGGINGS
+      - LEATHER_BOOTS
+      - CHAINMAIL_BOOTS
+      - IRON_BOOTS
+      - GOLD_BOOTS
+      - DIAMOND_BOOTS
+    SILK_TOUCH:
+      Enabled: true
+      Table: true
+      Weight: 1
+      Group: Block_Modifier
+      Max Level: 1
+      Base: 15.0
+      Interval: 20.0
+      Items:
+      - WOOD_AXE
+      - STONE_AXE
+      - IRON_AXE
+      - GOLD_AXE
+      - DIAMOND_AXE
+      - WOOD_SPADE
+      - STONE_SPADE
+      - IRON_SPADE
+      - GOLD_SPADE
+      - DIAMOND_SPADE
+      - WOOD_PICKAXE
+      - STONE_PICKAXE
+      - IRON_PICKAXE
+      - GOLD_PICKAXE
+      - DIAMOND_PICKAXE
+    THORNS:
+      Enabled: true
+      Table: true
+      Weight: 1
+      Group: Default
+      Max Level: 3
+      Base: 10.0
+      Interval: 20.0
+      Items:
+      - LEATHER_CHESTPLATE
+      - CHAINMAIL_CHESTPLATE
+      - IRON_CHESTPLATE
+      - GOLD_CHESTPLATE
+      - DIAMOND_CHESTPLATE
+    WATER_WORKER:
+      Enabled: true
+      Table: true
+      Weight: 2
+      Group: Default
+      Max Level: 1
+      Base: 1.0
+      Interval: 20.0
+      Items:
+      - LEATHER_HELMET
+      - CHAINMAIL_HELMET
+      - IRON_HELMET
+      - GOLD_HELMET
+      - DIAMOND_HELMET
+  Language:
+    Anvil Component:
+    - '&2Anvil Components'
+    - '&dPlace components'
+    - '&dover here!'
+    Anvil Separator:
+    - '&2Anvil Book'
+    - '&d<- Components'
+    - '&8------------'
+    - '&dResults ->'
+    Anvil Result:
+    - '&2Anvil Result'
+    - '&dResults will'
+    - '&dshow up over'
+    - '&dhere!'
+    Table Enchantable:
+    - '&2Placeholder'
+    - '&dEnchantable'
+    Table Unenchantable:
+    - '&2Placeholder'
+    - '&4Unenchantable'
+    Name Format:
+    - '{adjective} {weapon} of {suffix}'

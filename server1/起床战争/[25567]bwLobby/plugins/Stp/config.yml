@@ -1,0 +1,17 @@
+#服务器列表
+ServerList:
+  - 
+
+#语言文件
+Msg:
+  #玩家语言文件，支持彩色字体
+  Player:
+    NoPerm: '&4[&9Stp&4] 你没有权限做这些!!!'
+    STP: '&4[&9STP&4] &a已将 &b%player% &a传送至服务器: &e%server%'
+    NotOnline: '&4[&9STP&4] &b目标传送玩家不在线！'
+    Reload: '&4[&9STP&4] &e重载完成！'
+
+  #控制台语言文件，支持彩色字体
+  Console:
+    STP: '&4[&9STP&4] &6指令错误！ &a后台不是玩家，不能服务器传送！'
+    

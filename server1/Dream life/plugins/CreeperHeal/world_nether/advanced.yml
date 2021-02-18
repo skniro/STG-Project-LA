@@ -1,0 +1,12 @@
+# Advanced world-specific settings
+restrict:
+  use-whitelist: false
+  blacklist: '0'
+  whitelist: '0'
+replace-grass-with-dirt: false
+repair-time-of-day: -1
+protected-list: '0'
+factions:
+  ignore-wilderness: false
+  ignore-territory: false
+drop-chest-contents: false

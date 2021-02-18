@@ -1,0 +1,231 @@
+Emotes:
+  Smile:
+    Name: "&a\u5fae\u7b11"
+    Cooldown: 10
+    Mystery Dust: 10
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - "&7\u611f\u89c9\u597d\u6781\u4e86?"
+    - "&7\u5fae\u7b11\u7b11\u5bf9\u8fd9\u4e2a\u4e16\u754c"
+    Hologram:
+      Enabled: true
+      Text: "&f\u5fae\u7b11"
+  Cool:
+    Name: "&a\u9177"
+    Cooldown: 10
+    Mystery Dust: 12
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - "&7\u6211\u89c9\u5f97\u6211\u6700\u9177"
+    - "&7\u4e0d\u4e0d\u4e0d\uff0c\u662f\u6700\u9177"
+    Hologram:
+      Enabled: true
+      Text: '&fB)'
+  Wink:
+    Name: "&a\u7728\u773c"
+    Cooldown: 10
+    Mystery Dust: 12
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - "&7\u73a9\u5f97\u5f88\u5f00\u5fc3\u5427"
+    - "&7\u7728\u773c\u5411\u5927\u5bb6\u95ee\u597d\u54e6"
+    Hologram:
+      Enabled: true
+      Text: "&f\u7728\u773c"
+  Grin:
+    Name: "&a\u5f00\u6000\u5927\u7b11"
+    Cooldown: 10
+    Mystery Dust: 13
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - "&7\u597d\u5f00\u5fc3\u597d\u5f00\u5fc3"
+    - "&7\u54c8\u54c8"
+    Hologram:
+      Enabled: true
+      Text: "&f\u592a\u68d2\u4e86"
+  Surprised:
+    Name: "&a\u60ca\u8bb6"
+    Cooldown: 10
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - "&7\u611f\u89c9\u5f88\u60ca\u8bb6"
+    Hologram:
+      Enabled: true
+      Text: "&f\u6211\u7684\u5929"
+  Cry:
+    Name: "&9\u4f24\u5fc3"
+    Cooldown: 10
+    Mystery Dust: 25
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - "&7\u597d\u96be\u8fc7"
+    - "&7\u6cea\u6c34\u5728\u6211\u773c\u775b\u4e0d\u65ad\u6d41\u51fa"
+    - "&7\u4f60\u53ef\u5426\u5b89\u6170\u4e0b\u6211\u5462"
+    Hologram:
+      Enabled: true
+      Text: "&f\u545c\u545c\u545c\u545c\u54c7"
+  Sleepy:
+    Name: "&9\u7761\u89c9"
+    Cooldown: 10
+    Mystery Dust: 20
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - "&7\u6211\u597d\u7d2f"
+    - "&7\u6211\u5728\u7761\u89c9\u54e6\uff0c\u4e0d\u8981\u6253\u6270\u6211"
+    - "&7\u68a6\u91cc\u7684\u4e16\u754c"
+    - "&7\u597d\u8212\u670d"
+    Hologram:
+      Enabled: true
+      Text: '&fZZzzzz'
+  Rage:
+    Name: "&9\u6124\u6012"
+    Cooldown: 10
+    Mystery Dust: 23
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: "&c\u6c14\u6b7b\u6211\u4e86"
+    Lore:
+    - "&7\u4f60\u89c9\u5f97\u4f60\u5f88\u751f\u6c14\u5417"
+  Frown:
+    Name: "&9\u6101\u7709"
+    Cooldown: 10
+    Mystery Dust: 22
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: "&f\u76b1\u7709"
+    Lore:
+    - "&7\u4ec0\u4e48\u4e8b\u8ba9\u4f60\u5931\u671b\u4e86\u5462"
+  Cheeky:
+    Name: "&9\u539a\u989c\u65e0\u803b"
+    Cooldown: 10
+    Mystery Dust: 22
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&f:P'
+    Lore:
+    - "&7\u4f60\u662f\u4e0d\u662f\u505a\u4e86\u6076\u4f5c\u5267"
+  Sun Tan:
+    Name: "&9\u6652\u592a\u9633"
+    Cooldown: 10
+    Mystery Dust: 25
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: "&f\u9633\u5149\u660e\u5a9a"
+    Lore:
+    - "&7\u53bb\u6d77\u6ee9\u522b\u5fd8\u4e86\u5e26\u58a8\u955c"
+  Heart Eyes:
+    Name: "&9\u5fc3\u773c"
+    Cooldown: 10
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&d?  ?'
+    Lore:
+    - "&7\u611f\u89c9\u52a8\u5fc3\u4e86\u5417"
+  Dizzy:
+    Name: "&9\u5934\u6655"
+    Cooldown: 10
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&fx_x'
+    Lore:
+    - "&7\u611f\u89c9\u5934\u6709\u70b9\u6655"
+  RIP:
+    Name: "&9\u5b89\u606f"
+    Cooldown: 10
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: "&f\u6211\u8981\u53bb\u5929\u5802"
+    Lore:
+    - "&7\u4eba\u751f\u7684\u7ed3\u5c40"
+  Relax:
+    Name: "&9\u653e\u677e"
+    Cooldown: 10
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: "&f\u653e\u677e"
+    Lore:
+    - "&7\u89c9\u5f97\u7d2f\u5417\uff1f\u653e\u677e\u4e00\u4e0b\u5427"
+  Spicy:
+    Name: "&9\u8fa3"
+    Cooldown: 10
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: "&f\u597d\u8fa3\u554a"
+    Lore:
+    - "&7\u6211\u5403\u4e86\u4ec0\u4e48\uff1f\u597d\u8fa3"
+  Deal With It:
+    Name: "&9\u70ab\u8000"
+    Cooldown: 10
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: "&f\u5904\u7406\u5b83 :)"
+    Lore:
+    - "&7\u4f60\u60f3\u70ab\u8000\u4e00\u4e0b\u81ea\u5df1\u5417"

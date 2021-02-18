@@ -1,0 +1,21 @@
+lastAccountName: Badenzer
+timestamps:
+  login: 1526719103549
+  logout: 1526719116498
+  lastteleport: 1525590416835
+ipAddress: 127.0.0.1
+afk: false
+lastlocation:
+  world: "\u5bfa\u5e99"
+  x: 100.5
+  y: 100.0
+  z: 100.5
+  yaw: 92.093414
+  pitch: 90.0
+logoutlocation:
+  world: "\u5bfa\u5e99"
+  x: 0.5
+  y: 63.0
+  z: -68.5
+  yaw: -0.15384817
+  pitch: 1.538347

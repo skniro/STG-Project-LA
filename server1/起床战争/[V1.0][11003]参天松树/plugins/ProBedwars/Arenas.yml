@@ -1,0 +1,11 @@
+arenas:
+  "\u53c2\u5929\u677e\u6811":
+    lobbyspawn: NOEXIST
+    spectatorsspawn: NOEXIST
+    mainlobby: NOEXIST
+    maxplayers: 0
+    minplayers: 0
+    teamsize: 1
+    event: NOEXIST
+    diamond-generators: NOEXIST
+    emerald-generators: NOEXIST

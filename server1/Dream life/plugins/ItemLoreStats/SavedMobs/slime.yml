@@ -1,0 +1,42 @@
+'30':
+  '1':
+    itemId: 275
+    nameColour: '&a&l'
+    prefix: random
+    suffix: random
+    properties:
+      damage: '&b1-6-player+1-7'
+      critChanceRandomApply: true
+      critChance: '&b1-2'
+      critDamageRandomApply: true
+      critDamage: '&b3-8'
+      lifeStealRandomApply: true
+      lifeSteal: '&21-2'
+      poisonRandomApply: true
+      poison: '&a3-4'
+      movementSpeedRandomApply: true
+      movementSpeed: '&e1-3'
+      xpLevelRandomApply: true
+      xpLevel: '&b3-player+2'
+      durability: '&7250-550'
+'15':
+  '1':
+    itemId: 272
+    nameColour: '&a&l'
+    prefix: random
+    suffix: random
+    properties:
+      damage: '&b1-6-player+1-7'
+      critChanceRandomApply: true
+      critChance: '&b1-3'
+      critDamageRandomApply: true
+      critDamage: '&b3-6'
+      lifeStealRandomApply: true
+      lifeSteal: '&21-3'
+      poisonRandomApply: true
+      poison: '&a1-6'
+      movementSpeedRandomApply: true
+      movementSpeed: '&e2-4'
+      xpLevelRandomApply: true
+      xpLevel: '&b3-player+2'
+      durability: '&7400-600'

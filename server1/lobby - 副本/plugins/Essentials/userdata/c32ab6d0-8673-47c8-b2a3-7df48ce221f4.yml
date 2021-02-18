@@ -1,0 +1,21 @@
+lastAccountName: YuukiSkniro
+timestamps:
+  login: 1536329772851
+  logout: 1536330842019
+ipAddress: 192.168.1.104
+lastlocation:
+  world: ASkyBlock
+  x: -0.14658257348083806
+  y: -202.54367146914387
+  z: 9.828444263008663
+  yaw: -356.0995
+  pitch: 18.599997
+money: '10.0'
+afk: false
+logoutlocation:
+  world: ASkyBlock
+  x: 0.9454193876973536
+  y: 120.875
+  z: 1.732643720272827
+  yaw: -137.69824
+  pitch: 10.499938

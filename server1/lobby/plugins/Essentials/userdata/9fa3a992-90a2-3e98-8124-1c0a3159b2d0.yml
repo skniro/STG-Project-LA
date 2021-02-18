@@ -1,0 +1,20 @@
+lastAccountName: YuukiSkniro
+timestamps:
+  login: 1548738882569
+  logout: 1548738474909
+ipAddress: 127.0.0.1
+lastlocation:
+  world: world
+  x: 618.7929813329615
+  y: 57.0
+  z: -396.7434397549131
+  yaw: 3.0545654
+  pitch: 25.209133
+logoutlocation:
+  world: world
+  x: 657.54247636316
+  y: 115.5
+  z: -388.02910297883875
+  yaw: 270.5078
+  pitch: 14.273908
+afk: false

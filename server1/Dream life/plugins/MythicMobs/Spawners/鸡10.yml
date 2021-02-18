@@ -1,0 +1,24 @@
+"\u9e2110":
+  MobName: "\u9e21"
+  World: world
+  X: 1208
+  Y: 15
+  Z: 1491
+  Radius: 0
+  UseTimer: true
+  MaxMobs: 1
+  MobLevel: 1
+  MobsPerSpawn: 1
+  Cooldown: 0
+  CooldownTimer: 0
+  Warmup: 4
+  WarmupTimer: 0
+  ActivationRange: 40
+  LeashRange: 32
+  HealOnLeash: false
+  ResetThreatOnLeash: false
+  ShowFlames: false
+  Breakable: false
+  Conditions: []
+  AssociatedMobs:
+  - af5fcb0a-6059-4ebe-a532-e28d46016267

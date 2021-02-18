@@ -1,0 +1,21 @@
+{
+    "__filename__": "./server/lobby.json",
+    "name": "lobby",
+    "createDate": "2018-9-15 21:37:29",
+    "lastDate": "2019-1-24 08:54:45",
+    "ie": "GBK",
+    "oe": "GBK",
+    "autoRestart": false,
+    "schedule": [],
+    "addCmd": [
+        ""
+    ],
+    "java": "java",
+    "jarName": "spigot-1.12.2-R0.1-SNAPSHOT-b1648.jar",
+    "Xmx": "",
+    "Xms": "",
+    "cwd": "./server1/lobby/",
+    "highCommande": "java -Xmx400M -Xms400M -Dfile.encoding=UTF-8 -jar spigot-1.12.2-R0.1-SNAPSHOT-b1648.jar nogui",
+    "run": false,
+    "serverName": "lobby"
+}

@@ -1,0 +1,25 @@
+dugu2-2:
+  MobName: "\u6bd2\u83c7\u5c382"
+  World: world
+  X: 804
+  Y: 75
+  Z: 1496
+  Radius: 0
+  UseTimer: true
+  MaxMobs: 2
+  MobLevel: 1
+  MobsPerSpawn: 1
+  Cooldown: 2
+  CooldownTimer: 0
+  Warmup: 4
+  WarmupTimer: 0
+  ActivationRange: 40
+  LeashRange: 32
+  HealOnLeash: false
+  ResetThreatOnLeash: false
+  ShowFlames: false
+  Breakable: false
+  Conditions: []
+  AssociatedMobs:
+  - 00f2790f-8887-460b-b33f-dd88742a95dc
+  - 312c3878-e902-48a7-a0b5-254d24d33c04

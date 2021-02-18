@@ -1,0 +1,136 @@
+Health: 血量增加
+Time: 时间
+Sunrise: 日出
+Noon: 中午
+Sunset: 日落
+Midnight: 傍晚
+Hearts: 心
+#开始游戏#
+Players: 玩家
+Type: 类型
+Teams: 组队
+State: 状态
+Solo: 个人
+#游戏商城#
+Description: 描述
+Rarity: 品质
+Value: 价格
+Armor: 防具
+Items: 物品
+Sold for: 变卖为
+coin(s): 个代币
+Common: 普通
+Rare: 稀有
+Legendary: 史诗
+Helmet: 头盔
+Chestplate: 上装
+Leggings: 护腿
+Boots: 足具
+Create: 创建
+#开黑组队#
+Click to create a party!: 点击创建开黑组队
+Join: 加入
+Click to join a party!: 点击加入开黑组队
+Leader: 队长
+Privacy: 权限
+Invite only: 仅限邀请
+Public: 完全公开
+Invite: 邀请
+Click to invite players: 点击邀请玩家
+Leave: 离开
+Click to leave the party: 点击离开开黑队伍
+#个人资料#
+Stats: 个人数据
+Kills: 击杀次数
+Deaths: 死亡次数
+KDR: 击杀比
+Coins: 代币数量
+Wins: 获胜次数
+Modifier: 修正次数
+Play Time: 游戏时间
+Projectiles Hit: 弓箭击中
+Projectiles Launched: 弓箭使用
+Accuracy: 弓箭准度
+Exp: 游戏经验
+Rank: 游戏等级
+Next rank: 下个等级
+crafted: 合成
+Blocks placed: 方块放置
+Blocks broken: 方块破坏
+enchanted: 附魔
+Fishes caught: 钓鱼次数
+Inventory: 个人库存
+Achievements: 个人成就
+Locked: 未解锁
+Unlocked: 已解锁
+Prize: 奖励
+NONE: 无物品
+Previous page: 上一页
+Next page: 下一页
+Solo: 个人
+Mystery Box: 神秘珍藏
+Cost: 花费
+Content: 包含物品
+Trails: 弹道轨迹
+Cages: 开场护盾
+Kits: 初始职业
+Rarities: 包含品质
+#职业#
+IRON LEGGINGS: 铁护腿
+LEATHER HELMET: 皮质头盔
+LEATHER CHESTPLATE: 皮质护甲
+DIAMOND_SWORD: 钻石剑
+DIAMOND HELMET: 钻石头盔
+DIAMOND CHESTPLATE: 钻石胸甲
+DIAMOND LEGGINGS: 钻石护腿
+WOOD_SWORD: 木剑
+MONSTER_EGG: 怪物蛋
+IRON HELMET: 铁头盔
+STONE_PICKAXE: 石锄
+COOKED_BEEF: 牛排
+REDSTONE_TORCH_ON: 红石火把
+LEATHER LEGGINGS: 皮护腿
+BREAD: 面包
+DIAMOND: 钻石
+STONE: 石头
+RED: 红
+_HOE: 锄头
+WOOL: 羊毛
+SPONGE: 海绵
+POTION: 药水
+BOW: 弓箭
+ARROW: 箭
+CHAINMAIL CHESTPLATE: 锁链胸甲
+GOLDEN_APPLE: 金苹果
+CHAINMAIL HELMET: 锁链头盔
+WOOD_SPADE: 木锹
+PUMPKIN: 南瓜
+SNOW_BLOCK: 雪方块
+ANVIL: 铁匠
+EXP_BOTTLE: 经验瓶
+ENCHANTED_BOOK: 附魔书
+APPLE: 苹果
+ENCHANTMENT_TABLE: 附魔台
+GRILLED_PORK: 猪扒
+REDSTONE: 红石
+WOOD_PLATE: 木板
+WATER_BUCKET: 水桶
+LEATHER BOOTS: 皮靴
+IRON_PICKAXE: 铁锄
+COOKED_CHICKEN: 烤鸡
+LOG: 木头
+IRON_AXE: 铁斧
+FISHING_ROD: 鱼竿
+COOKED_FISH: 烤鱼
+WEB: 网
+LAVA_BUCKET: 岩浆桶
+FLINT_AND_STEEL: 打火石
+IRON_SWORD: 铁剑
+DIAMOND_HOE: 农夫
+WHEAT: 小麦
+INK_SACK: 墨囊
+EGG: 蛋
+BONE: 骨头
+WOOD_AXE: 木斧
+IRON CHESTPLATE: 铁胸甲
+IRON BOOTS: 铁鞋

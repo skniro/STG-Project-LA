@@ -1,0 +1,289 @@
+MySQL:
+  Enabled: false
+  Host: localhost
+  Database: TestDatabase
+  Username: root
+  Password: ''
+  Port: 3306
+BungeeCord:
+  Enabled: true
+  RandomLobbyServer:
+    Enabled: false
+    Servers:
+    - bwlobby
+    - "\u53c2\u5929\u677e\u68114"
+  LobbyServer: bwlobby
+  RestartCommand: restart
+  RestartMessage: '&aThe server is going to restart in 10 seconds.'
+  MOTD:
+    Display: <gameState>,&a<inGame>/<max>
+    InGameState: '&cIN_GAME'
+    InWaitingState: '&aIN_WAITING'
+IronGolemLimit: 2
+IceFishLimit: 5
+SoloShopName: '&eITEM SHOP'
+TeamShopName: '&eITEM SHOP'
+SoloUpgradeName: '&eSOLO UPGRADES'
+TeamUpgradeName: '&eTEAM UPGRADES'
+IronGolemName: <teamColor><teamName> Iron Golem
+IceFishName: <teamColor><teamName> Silverfish
+RadiusPlaceGenerator: 3.5
+EnableRejoin: true
+SeparateChatArena: true
+TeamName:
+  RED: '&cRed'
+  BLUE: '&9Blue'
+  GREEN: '&aGreen'
+  YELLOW: '&eYellow'
+  AQUA: '&bAqua'
+  WHITE: '&fWhite'
+  PINK: '&dPink'
+  GRAY: '&7Gray'
+DelayLeave:
+  Enabled: false
+  DelayInSeconds: 3
+BlockedCommands:
+  EnableForOp: false
+  List:
+  - say
+  - gamemode
+  - mute
+FloorGeneratorLimit:
+  Iron:
+    Enabled: true
+    Amount: 128
+  Gold:
+    Enabled: true
+    Amount: 64
+  Emerald:
+    Enabled: true
+    Amount: 20
+HealthBar:
+  Enabled: true
+  Display: "&4\u2764"
+KitSelector:
+  InventoryName: '&eKit Selector'
+SpectatorSettings:
+  InventoryName: '&7Spectator Settings'
+  NoSpeed:
+    Name: '&aNo Speed'
+    Lore:
+    - ''
+  SpeedOne:
+    Name: '&aSpeed I'
+    Lore:
+    - ''
+  SpeedTwo:
+    Name: '&aSpeed II'
+    Lore:
+    - ''
+  SpeedThree:
+    Name: '&aSpeed III'
+    Lore:
+    - ''
+  SpeedFour:
+    Name: '&aSpeed IV'
+    Lore:
+    - ''
+SpectatorSelector:
+  InventoryName: '&7Teleporter'
+  SkullLore:
+  - '&7Health: &f<health>%'
+  - '&7Food: &f<food>%'
+  - ''
+  - '&7Right click to spectate!'
+TeamSelector:
+  InventoryName: '&7Team Selector'
+  ItemName: <teamColor><teamName> team
+  TeamJoined: '&eYou''ve joined in <teamColor><teamName>.'
+  MaxPlayers: '&cTeam <teamColor><teamName> can''t accept more players.'
+  ItemLore:
+  - ''
+  - ''
+  - '&fPlayers: &7<currentPlayers>/<maxPlayers>'
+ArenaSign:
+  FirstLine: '&5&lBedwars'
+  SecondLine: <mode>
+  ThirdLine: <arenaName>
+  FourthLine: '&7<inGame>/<maxPlayers>'
+  InGameDisplay: '&cIn Game'
+  InWaitingDisplay: '&aIn waiting'
+BedDestroyedTitle:
+  Enabled: true
+  Title: '&cBED DESTROYED!'
+  SubTitle: '&fYou will no longer respawn!'
+  Stay: 20
+  FadeIn: 20
+  FadeOut: 20
+CountdownTitle:
+  Enabled: true
+  Title: '&a<seconds>'
+  SubTitle: ' '
+  Stay: 20
+  FadeIn: 20
+  FadeOut: 20
+StartTitle:
+  Title: '&a&lGO!'
+  SubTitle: ' '
+  Stay: 20
+  FadeIn: 20
+  FadeOut: 20
+WinTitle:
+  Enabled: true
+  Title: '&6&lWINNER'
+  SubTitle: ''
+  Stay: 20
+  FadeIn: 20
+  FadeOut: 20
+PartyChat:
+  CommandUsage: '&cUse command: &a/party chat <message> to send a message'
+  Format: '&a<player> : <message>'
+Trap:
+  Enabled: true
+  Title: '&cTRAP TRIGGERED!'
+  SubTitle: '&fYour trap has been set off!'
+  FadeIn: 20
+  Stay: 40
+  FadeOut: 20
+  Message: '&cYour trap has been set off!'
+EmeraldUpgrade:
+  TierTwo: '&eAll emerald generators have been upgraded to &cTier II'
+  MaxedTier: '&eAll emerald generators have been upgraded to &cMaxed Tier'
+DiamondUpgrade:
+  TierTwo: '&eAll diamond generators have been upgraded to &cTier II'
+  MaxedTier: '&eAll diamond generators have been upgraded to &cMaxed Tier'
+DiamondGenerator:
+  FirstText: '&eTier &c<tier>'
+  SecondText: '&b&lDiamond'
+  ThirdText: '&eSpawns in &c<spawnsIn> &eseconds'
+  TierOneSpawnTime: 46
+  TierTwoSpawnTime: 23
+  TierThreeSpawnTime: 13
+EmeraldGenerator:
+  FirstText: '&eTier &c<tier>'
+  SecondText: '&2&lEmerald'
+  ThirdText: '&eSpawns in &c<spawnsIn> &eseconds'
+  TierOneSpawnTime: 50
+  TierTwoSpawnTime: 25
+  TierThreeSpawnTime: 15
+RespawnTitle:
+  Enabled: true
+  Title: '&cYOU DIED!'
+  FadeIn: 20
+  Stay: 20
+  FadeOut: 20
+  SubTitle: '&eYou will be respawned in <seconds> seconds!'
+RespawnedTitle:
+  FadeIn: 20
+  Stay: 40
+  FadeOut: 20
+  Enabled: true
+  Title: '&aYou have been respawned.'
+  SubTitle: ''
+AllBedsDestroyed:
+  Enabled: true
+  Title: '&cAll beds have been destroyed!'
+  SubTitle: ''
+  FadeIn: 20
+  Stay: 40
+  FadeOut: 20
+Generators:
+  Times:
+    IronDefault: 30
+    GoldDefault: 70
+    EmeraldDefault: 350
+    RateFiftyIron: 20
+    RateFiftyGold: 35
+    RateHundredIron: 15
+    RateHundredGold: 25
+    RateTwoHundredEmerald: 200
+    RateTwoHundredIron: 10
+    RateTwoHundredGold: 20
+ModifiedChat:
+  InWaiting:
+    Enabled: true
+    Format: '&7<player>: <message>'
+  Spectator:
+    Enabled: true
+    Format: '&7[SPECTATOR] <player>: <message>'
+  Solo:
+    Enabled: true
+    Format: '<playerTeamColor>[<playerTeam>] &7<player>: <message>'
+  Team:
+    Enabled: true
+    Format: '<playerTeamColor>[<playerTeam>] &7<player>: <message>'
+  Shout:
+    Format: '&6[SHOUT] <playerTeamColor> [<playerTeam>] &7<player>: <message>'
+BedBreakCommands:
+  Enabled: true
+  Commands:
+  - say <player> break a bed.
+FinalKillCommands:
+  Enabled: true
+  Commands:
+  - say <player> have made a final kill.
+LoserCommands:
+  Enabled: true
+  Commands:
+  - say <player> lost the match.
+WinnerCommands:
+  Enabled: true
+  Commands:
+  - say <player> won the match.
+WhitelistedCommands:
+  Enabled: true
+  Commands:
+  - bedwars
+  - say
+PartyHelp:
+- '&a&l---------------------------------------------'
+- '&a-> /party invite <username>'
+- '&a-> /party accept <player>'
+- '&a-> /party list'
+- '&a-> /party kick <player>'
+- '&a-> /party disband'
+- '&a&l---------------------------------------------'
+YourStats:
+- '----------------------------'
+- ''
+- '&aKills: <kills>'
+- '&aFinal kills: <finalKills>'
+- '&aFinal deaths: <finalDeaths>'
+- '&aDeaths: <deaths>'
+- '&aBeds broken: <bedsBroken>'
+- '&aBeds lost: <bedsLost>'
+- '&aWins: <wins>'
+- '&aLosses: <losses>'
+- '&aGames played: <gamesPlayed>'
+- '----------------------------'
+EndMessage:
+- <winnerTeamColor><winnerTeam> has won the game!
+- <center>&a&l---------------------------------------------
+- ' '
+- <center>&f&lBedWars
+- ' '
+- <center><winnerTeamColor><winnerTeam> &7 - &7<winner>
+- ' '
+- ' '
+- <center>&e&l1st Killer&7 - <topOneName> - &7<topOneKills>
+- <center>&6&l2nd Killer&7 - <topTwoName> - &7<topTwoKills>
+- <center>&c&l3rd Killer&7 - <topThreeName> - &7<topThreeKills>
+- ' '
+- <center>&a&l---------------------------------------------
+StartMessage:
+- <center>&a&l---------------------------------------------
+- <center>&f&lBed Wars
+- ' '
+- <center>&e&lProtect your bed and destroy the enemy beds.
+- <center>&e&lUpgrade yourself and your team by collecting
+- <center>&e&lIron, Gold, Emerald and Diamond from generators
+- <center>&e&lto access powerful upgrades.
+- ' '
+- <center>&a&l---------------------------------------------
+"\u9518\u7e08ySQL":
+  Enabled: false
+  Host: localhost
+  Database: TestDatabase
+  Username: root
+  Password: ''
+  Port: 3306

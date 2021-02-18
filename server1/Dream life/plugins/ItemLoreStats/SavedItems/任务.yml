@@ -1,0 +1,13 @@
+Item:
+  ==: org.bukkit.inventory.ItemStack
+  type: ENCHANTED_BOOK
+  meta:
+    ==: ItemMeta
+    meta-type: ENCHANTED
+    display-name: "\xa7f\u5b66\xa76[\u4e3b\u7ebf]"
+    lore:
+    - "\xa7f\u65e2\u7136\u4f60\u4ece\u90a3\u4e48\u8001\u8fdc\u8dd1\u8fc7\u6765"
+    - "\xa7f\u5367\u69fd- -\u4f60\u600e\u4e48\u90a3\u4e48\u5389\u5bb3\u4e86"
+    - "\xa7f\u4e4b\u524d\u8fd8\u770b\u4f60\u7a7f\u7740\u5c0f\u76ae\u9769\u561e- -"
+    - "\xa7f"
+    - "\xa7a\u9700\u6c42: \xa7f\u56de\u4e09\u57ce,\u627e\u65b0\u52a0\u6751\u6751\u957f"

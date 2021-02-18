@@ -1,0 +1,52 @@
+'25':
+  '1':
+    itemId: 275
+    nameColour: '&c'
+    prefix: random
+    suffix: random
+    properties:
+      damage: '&b5-20-player+15-45'
+      critChanceRandomApply: true
+      critChance: '&b3-6'
+      critDamageRandomApply: true
+      critDamage: '&b2-4'
+      healthRegenRandomApply: true
+      healthRegen: '&b1-2'
+      lifeStealRandomApply: true
+      lifeSteal: '&21-3'
+      poisonRandomApply: true
+      poison: '&a3-5'
+      movementSpeedRandomApply: true
+      movementSpeed: '&e2-4'
+      xpLevelRandomApply: true
+      xpLevel: '&b3-player+2'
+      durability: '&7600-750'
+      droppedXp: '2'
+'10':
+  '1':
+    itemId: 261
+    nameColour: '&c'
+    prefix: random
+    suffix: random
+    properties:
+      damage: '&b15-40-player+30-65'
+      critChanceRandomApply: true
+      critChance: '&b6-8'
+      critDamageRandomApply: true
+      critDamage: '&b1-5'
+      healthRegenRandomApply: true
+      healthRegen: '&b1-3'
+      lifeStealRandomApply: true
+      lifeSteal: '&22-5'
+      poisonRandomApply: true
+      poison: '&a4-6'
+      harmingRandomApply: true
+      harming: '&d1-2'
+      movementSpeedRandomApply: true
+      movementSpeed: '&e2-4'
+      xpLevelRandomApply: true
+      xpLevel: '&b3-player+2'
+      durability: '&7300-550'
+      droppedXp: '3'
+      spells:
+        frostbolt: true

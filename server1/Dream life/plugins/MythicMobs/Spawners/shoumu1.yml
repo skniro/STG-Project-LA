@@ -1,0 +1,23 @@
+shoumu1:
+  MobName: "\u5b88\u5893\u8005"
+  World: world
+  X: 922
+  Y: 62
+  Z: 1545
+  Radius: 0
+  UseTimer: true
+  MaxMobs: 2
+  MobLevel: 1
+  MobsPerSpawn: 1
+  Cooldown: 2
+  CooldownTimer: 0
+  Warmup: 4
+  WarmupTimer: 0
+  ActivationRange: 40
+  LeashRange: 32
+  HealOnLeash: false
+  ResetThreatOnLeash: false
+  ShowFlames: false
+  Breakable: false
+  Conditions: []
+  AssociatedMobs: []

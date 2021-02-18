@@ -1,0 +1,183 @@
+Morphs:
+  Pig:
+    Name: "&9\u732a"
+    Cooldown: 10
+    Mystery Dust: 25
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - "&7\u53d8\u8eab\u2014\u2014\u732a"
+    - "&7\u53d8\u8eab\u540e\uff0c\u4f60\u53ef\u4ee5\u4f7f\u7528\u81ea\u52a8\u7ed9\u7684\
+      \u6280\u80fd\u9053\u5177"
+    Enabled-Ability: true
+  Cow:
+    Name: "&9\u725b"
+    Cooldown: 10
+    Mystery Dust: 20
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - "&7\u53d8\u8eab\u2014\u2014\u725b"
+    - "&7\u53d8\u8eab\u540e\uff0c\u4f60\u53ef\u4ee5\u4f7f\u7528\u81ea\u52a8\u7ed9\u7684\
+      \u6280\u80fd\u9053\u5177"
+    Enabled-Ability: true
+  Enderman:
+    Name: "&5\u672b\u5f71\u4eba"
+    Cooldown: 10
+    Mystery Dust: 60
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - "&7\u53d8\u8eab\u2014\u2014\u672b\u5f71\u4eba"
+    - "&7\u53d8\u8eab\u540e\uff0c\u4f60\u53ef\u4ee5\u4f7f\u7528\u81ea\u52a8\u7ed9\u7684\
+      \u6280\u80fd\u9053\u5177"
+    Enabled-Ability: true
+  Chicken:
+    Name: "&5\u9e21"
+    Cooldown: 10
+    Mystery Dust: 35
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - "&7\u53d8\u8eab\u2014\u2014\u9e21"
+    - "&7\u53d8\u8eab\u540e\uff0c\u4f60\u53ef\u4ee5\u4f7f\u7528\u81ea\u52a8\u7ed9\u7684\
+      \u6280\u80fd\u9053\u5177"
+    Enabled-Ability: true
+  Spider:
+    Name: "&5\u8718\u86db"
+    Cooldown: 10
+    Mystery Dust: 50
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - "&7\u53d8\u8eab\u2014\u2014\u8718\u86db"
+    - "&7\u53d8\u8eab\u540e\uff0c\u4f60\u53ef\u4ee5\u4f7f\u7528\u81ea\u52a8\u7ed9\u7684\
+      \u6280\u80fd\u9053\u5177"
+    Enabled-Ability: true
+  Sheep:
+    Name: "&5\u7f8a"
+    Cooldown: 10
+    Mystery Dust: 50
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - "&7\u53d8\u8eab\u2014\u2014\u7f8a"
+    - "&7\u53d8\u8eab\u540e\uff0c\u4f60\u53ef\u4ee5\u4f7f\u7528\u81ea\u52a8\u7ed9\u7684\
+      \u6280\u80fd\u9053\u5177"
+    Enabled-Ability: true
+  Skeleton:
+    Name: "&5\u9ab7\u9ac5"
+    Cooldown: 10
+    Mystery Dust: 70
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - "&7\u53d8\u8eab\u2014\u2014\u9ab7\u9ac5"
+    - "&7\u53d8\u8eab\u540e\uff0c\u4f60\u53ef\u4ee5\u4f7f\u7528\u81ea\u52a8\u7ed9\u7684\
+      \u6280\u80fd\u9053\u5177"
+    Enabled-Ability: true
+  Creeper:
+    Name: "&6\u722c\u884c\u8005"
+    Cooldown: 10
+    Mystery Dust: 95
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - "&7\u53d8\u8eab\u2014\u2014\u722c\u884c\u8005"
+    - "&7\u53d8\u8eab\u540e\uff0c\u4f60\u53ef\u4ee5\u4f7f\u7528\u81ea\u52a8\u7ed9\u7684\
+      \u6280\u80fd\u9053\u5177"
+    Enabled-Ability: true
+  Blaze:
+    Name: "&6\u70c8\u7130\u4eba"
+    Cooldown: 10
+    Mystery Dust: 125
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - "&7\u53d8\u8eab\u2014\u2014\u70c8\u7130\u4eba"
+    - "&7\u53d8\u8eab\u540e\uff0c\u4f60\u53ef\u4ee5\u4f7f\u7528\u81ea\u52a8\u7ed9\u7684\
+      \u6280\u80fd\u9053\u5177"
+    Enabled-Ability: true
+  Zombie:
+    Name: "&6\u50f5\u5c38"
+    Cooldown: 10
+    Mystery Dust: 105
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - "&7\u53d8\u8eab\u2014\u2014\u50f5\u5c38"
+    - "&7\u53d8\u8eab\u540e\uff0c\u4f60\u53ef\u4ee5\u4f7f\u7528\u81ea\u52a8\u7ed9\u7684\
+      \u6280\u80fd\u9053\u5177"
+    Enabled-Ability: true
+  Iron Golem:
+    Name: "&6\u94c1\u5080\u5121"
+    Cooldown: 10
+    Mystery Dust: 120
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - "&7\u53d8\u8eab\u2014\u2014\u94c1\u5080\u5121"
+    - "&7\u53d8\u8eab\u540e\uff0c\u4f60\u53ef\u4ee5\u4f7f\u7528\u81ea\u52a8\u7ed9\u7684\
+      \u6280\u80fd\u9053\u5177"
+    Enabled-Ability: true
+  Witch:
+    Name: "&6\u5973\u5deb"
+    Cooldown: 10
+    Mystery Dust: 110
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - "&7\u53d8\u8eab\u2014\u2014\u5973\u5deb"
+    - "&7\u53d8\u8eab\u540e\uff0c\u4f60\u53ef\u4ee5\u4f7f\u7528\u81ea\u52a8\u7ed9\u7684\
+      \u6280\u80fd\u9053\u5177"
+    Enabled-Ability: true
+  Snowman:
+    Name: "&6\u96ea\u5080\u5121"
+    Cooldown: 10
+    Mystery Dust: 125
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - "&7\u53d8\u8eab\u2014\u2014\u96ea\u5080\u5121"
+    - "&7\u53d8\u8eab\u540e\uff0c\u4f60\u53ef\u4ee5\u4f7f\u7528\u81ea\u52a8\u7ed9\u7684\
+      \u6280\u80fd\u9053\u5177"
+    Enabled-Ability: true
+  Guardian:
+    Name: "&6\u5b88\u536b\u8005"
+    Cooldown: 10
+    Mystery Dust: 130
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - "&7\u53d8\u8eab\u2014\u2014\u5b88\u536b\u8005"
+    - "&7\u53d8\u8eab\u540e\uff0c\u4f60\u53ef\u4ee5\u4f7f\u7528\u81ea\u52a8\u7ed9\u7684\
+      \u6280\u80fd\u9053\u5177"
+    Enabled-Ability: true

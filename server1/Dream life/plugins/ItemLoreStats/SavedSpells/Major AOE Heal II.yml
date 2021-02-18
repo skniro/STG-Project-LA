@@ -1,0 +1,12 @@
+projectile-type: Snowball
+projectile-velocity: 8
+projectile-hit-effect: Ender_Signal
+cooldown: 16
+heal:
+  direct-heal-amount: 16
+  aoe-heal-amount: 16
+  aoe-heal-range: 4
+damage:
+  direct-damage-amount: 0
+  aoe-damage-amount: 0
+  aoe-damage-range: 0

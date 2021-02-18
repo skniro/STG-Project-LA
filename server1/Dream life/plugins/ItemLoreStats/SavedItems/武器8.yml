@@ -1,0 +1,15 @@
+Item:
+  ==: org.bukkit.inventory.ItemStack
+  type: IRON_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: "\xa7f\u767d\u9aa8\xa7b[\u7cbe\u826f]"
+    lore:
+    - "\xa7a\u7269\u7406\u4f24\u5bb3\xa7f>>\xa7b50-68"
+    - "\xa7a\u51cf\u901f\u51e0\u7387\xa7f>>\xa7b20%"
+    - "\xa7a"
+    - "\xa77\u201c\u638c\u4e0a\u4e4b\u7269\uff0c\u62b5\u6321\u4e0d\u4f4f\u201d"
+    - "\xa76"
+    - "\xa76\u5386\u7ec3\u503c: \xa7b40"
+    - "\xa75\u780d\u51fb\u58f0\u97f3: \xa7f\u6495\u88c2"

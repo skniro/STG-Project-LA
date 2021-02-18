@@ -1,0 +1,17 @@
+Item:
+  ==: org.bukkit.inventory.ItemStack
+  type: IRON_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: "\xa7f\u67af\u7aed\u4e4b\u5203\xa7d[\u53f2\u8bd7]"
+    lore:
+    - "\xa7d\u7269\u7406\u4f24\u5bb3\xa7f>>\xa76100-125"
+    - "\xa7d\u6d41\u8840\u51e0\u7387\xa7f>>\xa7615%"
+    - "\xa7d\u79fb\u52a8\u901f\u5ea6\xa7f>>\xa7615%"
+    - "\xa70Fervor I"
+    - "\xa76\u88ab\u52a8-\u5feb\u611f: \xa7f\u653b\u51fb\u5230\u76ee\u6807\u540e,\u79fb\
+      \u52a8\u901f\u5ea6\u4e0a\u5347"
+    - "\xa7f\u4e00\u6bb5\u65f6\u95f4"
+    - "\xa7f"
+    - "\xa76\u5386\u7ec3\u503c: \xa7b80"

@@ -1,0 +1,13 @@
+Item:
+  ==: org.bukkit.inventory.ItemStack
+  type: DIAMOND_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: "\xa7f\u82f1\u96c4\u4e0d\u673d\xa75[\u70d9\u5370]"
+    lore:
+    - "\xa7b\u7269\u7406\u4f24\u5bb3\xa7f>>\xa7e200-260"
+    - "\xa7b"
+    - "\xa77\u201c\u9ed1\u6697\u4e2d\u7684\u5149\u660e\u201d"
+    - "\xa77"
+    - "\xa76\u5386\u7ec3\u503c: \xa7b220"

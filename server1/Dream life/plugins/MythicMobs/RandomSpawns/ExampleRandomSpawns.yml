@@ -1,0 +1,7 @@
+RandomSkeletonKing:
+  Mobname: SkeletonKing
+  Worlds: world
+  Chance: 0.001
+  Priority: 1
+  Conditions:
+  - outside true

@@ -1,0 +1,144 @@
+'8':
+  '1':
+    itemId: 306
+    nameColour: '&9&l'
+    prefix: random
+    suffix: random
+    properties:
+      armour: '&b8-16'
+      healthRandomApply: true
+      health: '&b20-player+30'
+      healthRegenRandomApply: true
+      healthRegen: '&b2-5'
+      dodgeRandomApply: true
+      block: '&b1-2'
+      movementSpeedRandomApply: true
+      movementSpeed: '&e2-4'
+      durability: '&71800-2400'
+      soulboundRandomApply: true
+      soulbound: true
+      xpLevelRandomApply: true
+      xpLevel: '&b10-player+3'
+  '2':
+    itemId: 307
+    nameColour: '&9&l'
+    prefix: random
+    suffix: random
+    properties:
+      armour: '&b8-16'
+      healthRandomApply: true
+      health: '&b20-player+30'
+      healthRegenRandomApply: true
+      healthRegen: '&b2-5'
+      dodgeRandomApply: true
+      block: '&b1-2'
+      movementSpeedRandomApply: true
+      movementSpeed: '&e2-4'
+      durability: '&71800-2400'
+      soulboundRandomApply: true
+      soulbound: true
+      xpLevelRandomApply: true
+      xpLevel: '&b10-player+3'
+  '3':
+    itemId: 308
+    nameColour: '&9&l'
+    prefix: random
+    suffix: random
+    properties:
+      armour: '&b8-16'
+      healthRandomApply: true
+      health: '&b20-player+30'
+      healthRegenRandomApply: true
+      healthRegen: '&b2-5'
+      dodgeRandomApply: true
+      block: '&b1-2'
+      movementSpeedRandomApply: true
+      movementSpeed: '&e2-4'
+      durability: '&71800-2400'
+      soulboundRandomApply: true
+      soulbound: true
+      xpLevelRandomApply: true
+      xpLevel: '&b10-player+3'
+  '4':
+    itemId: 309
+    nameColour: '&9&l'
+    prefix: random
+    suffix: random
+    properties:
+      armour: '&b8-16'
+      healthRandomApply: true
+      health: '&b20-player+30'
+      healthRegenRandomApply: true
+      healthRegen: '&b2-5'
+      dodgeRandomApply: true
+      block: '&b1-2'
+      movementSpeedRandomApply: true
+      movementSpeed: '&e2-4'
+      durability: '&71800-2400'
+      soulboundRandomApply: true
+      soulbound: true
+      xpLevelRandomApply: true
+      xpLevel: '&b10-player+3'
+  '5':
+    itemId: 258
+    nameColour: '&9&l'
+    prefix: random
+    suffix: random
+    properties:
+      weaponspeed: '&2Fast'
+      damage: '&b1-6-player+1-7'
+      critChanceRandomApply: true
+      critChance: '&b1-7'
+      critDamageRandomApply: true
+      critDamage: '&b5-18'
+      fireRandomApply: true
+      fire: '&42-6'
+      movementSpeedRandomApply: true
+      movementSpeed: '&e1-4'
+      durability: '&7500-625'
+      soulboundRandomApply: true
+      soulbound: true
+      xpLevelRandomApply: true
+      xpLevel: '&b4-player+5'
+  '6':
+    itemId: 257
+    nameColour: '&9&l'
+    prefix: random
+    suffix: random
+    properties:
+      weaponspeed: '&2Fast'
+      damage: '&b1-6-player+1-7'
+      critChanceRandomApply: true
+      critChance: '&b1-7'
+      critDamageRandomApply: true
+      critDamage: '&b5-18'
+      fireRandomApply: true
+      fire: '&42-6'
+      movementSpeedRandomApply: true
+      movementSpeed: '&e1-4'
+      durability: '&7500-625'
+      soulboundRandomApply: true
+      soulbound: true
+      xpLevelRandomApply: true
+      xpLevel: '&b4-player+5'
+  '7':
+    itemId: 261
+    nameColour: '&9&l'
+    prefix: random
+    suffix: random
+    properties:
+      weaponspeed: '&2Fast'
+      damage: '&b1-6-player+1-7'
+      critChanceRandomApply: true
+      critChance: '&b1-7'
+      critDamageRandomApply: true
+      critDamage: '&b5-18'
+      fireRandomApply: true
+      fire: '&42-6'
+      movementSpeedRandomApply: true
+      movementSpeed: '&b1-4'
+      durability: '&7500-625'
+      soulboundRandomApply: true
+      soulbound: true
+      xpLevelRandomApply: true
+      xpLevel: '&b4-player+5'

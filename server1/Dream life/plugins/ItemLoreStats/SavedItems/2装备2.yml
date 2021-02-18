@@ -1,0 +1,17 @@
+Item:
+  ==: org.bukkit.inventory.ItemStack
+  type: IRON_CHESTPLATE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: "\xa7f\u51bb\u5723\xa7b[\u7cbe\u826f]"
+    lore:
+    - "\xa7b\u81ea\u8eab\u8840\u91cf\xa7f>>\xa7e50"
+    - "\xa7b\u81ea\u8eab\u9632\u5fa1\xa7f>>\xa7e5"
+    - "\xa7b\u95ea\u907f\u51e0\u7387\xa7f>>\xa7e15%"
+    - "\xa7b\u53cd\u5f39\u51e0\u7387\xa7f>>\xa7e15%"
+    - "\xa7b"
+    - "\xa77\u201c\u8eb2\u5728\u8fd9\u76d4\u7532\u540e\u9762\u7684\u907f\u98ce\u6e2f\
+      \u201d"
+    - "\xa77"
+    - "\xa76\u5386\u7ec3\u503c: \xa7b50"

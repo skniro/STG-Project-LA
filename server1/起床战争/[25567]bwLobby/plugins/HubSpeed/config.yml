@@ -1,0 +1,19 @@
+#Made by Panics with <3
+speed-enabled-by-default: true
+slot: 8
+level: 1
+items:
+  enable: SUGAR
+  disable: SULPHUR
+#You can find sounds here - http://jd.bukkit.org/rb/apidocs/org/bukkit/Sound.html
+item-sounds:
+  enabled: ORB_PICKUP
+  disabled: ANVIL_LAND
+#Use %n to start a new line.
+messages:
+  item-enable:
+    enabled: true
+    message: '&a您开启了加速！'
+  item-disable:
+    enabled: true
+    message: '&c您关闭了加速！'

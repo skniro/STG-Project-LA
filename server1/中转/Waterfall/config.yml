@@ -1,0 +1,101 @@
+timeout: 30000
+online_mode: true
+log_commands: false
+network_compression_threshold: 256
+listeners:
+- query_port: 25565
+  motd: |
+    &aDNation &c1.8/1.9/1.10/1.11/1.12
+    &e封闭技术测试阶段！
+  tab_list: GLOBAL_PING
+  query_enabled: false
+  proxy_protocol: false
+  forced_hosts: {}
+  ping_passthrough: true
+  priorities:
+  - Lobby
+  bind_local_address: true
+  host: 0.0.0.0:25565
+  max_players: 100
+  tab_size: 60
+  force_default_server: true
+connection_throttle: 4000
+groups:
+  Yuukiskniro:
+  - admin
+log_pings: true
+ip_forward: true
+prevent_proxy_connections: false
+forge_support: false
+disabled_commands:
+- help
+stats: 987a3e9c-8855-4bbd-96b4-09ef102e3911
+permissions:
+  default:
+  - bungeecord.command.server
+  - bungeecord.command.list
+  - friends.command.main
+  - askyblock.island.maxhomes.
+  - askyblock.team.maxsize.
+  - askyblock.island.range.
+  - askyblock.island.
+  - askyblock.team.create
+  - askyblock.team.kick
+  - askyblock.team.makeleader
+  - askyblock.team.join
+  - askyblock.intopten
+  - skinsrestorer.playercmds
+  admin:
+  - bungeecord.command.alert
+  - bungeecord.command.end
+  - bungeecord.command.ip
+  - bungeecord.command.reload
+  - friends.command.admin
+  - askyblock.island.controlpanel
+  - skinsrestorer.cmds
+servers:
+  lobby:
+    motd: '&1Just another BungeeCord - Forced Host'
+    address: 127.0.0.1:25566
+    restricted: false
+  bwLobby:
+    motd: '&aHypixel BedwarsRel 内侧'
+    address: 127.0.0.1:25567
+    restricted: false
+  swlc:
+    motd: '&aHypixel BedwarsRel 内侧'
+    address: 127.0.0.1:25569
+    restricted: false
+  swln:
+    motd: '&aHypixel BedwarsRel 内侧'
+    address: 127.0.0.1:25568
+    restricted: false
+  ss:
+    motd: '&aHypixel BedwarsRel 内侧'
+    address: 127.0.0.1:30000
+    restricted: false
+  海盗船4:
+    motd: '&aHypixel BedwarsRel 内侧'
+    address: 127.0.0.1:14002
+    restricted: false
+  参天松树4:
+    motd: '&aHypixel BedwarsRel 内侧'
+    address: 127.0.0.1:14003
+    restricted: false
+  寺庙4:
+    motd: '&aHypixel BedwarsRel 内侧'
+    address: 127.0.0.1:14004
+    restricted: false
+  Dreamlife:
+    motd: '&aHypixel BedwarsRel 内侧'
+    address: 127.0.0.1:30001
+    restricted: false
+  CUBLEX:
+    motd: '&aHypixel BedwarsRel 内侧'
+    address: 127.0.0.1:25001
+    restricted: false
+  1.13.1ss:
+    motd: '&aHypixel BedwarsRel 内侧'
+    address: 127.0.0.1:25002
+    restricted: false
+player_limit: -1

@@ -1,0 +1,8 @@
+Item:
+  ==: org.bukkit.inventory.ItemStack
+  type: GOLD_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - ~!~

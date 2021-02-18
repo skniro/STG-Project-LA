@@ -1,0 +1,236 @@
+# ZCD GUI menu configuration
+# 
+# configuration layout:
+# 
+# menu_title: '<title of menu goes here>'
+# command: <command to open this menu goes here>
+# open_requirement:
+#   expression: 'BukkitPlayer.hasPermission("some.permission");'
+#   deny_commands:
+#   - '[message] &cYou dont have permission to view that menu!'
+# size: <size of this menu, increments of 9, max size is 54>
+# update_interval: <time in seconds this gui should update for a player if an item is set to uodate placeholders>
+# items:
+#   <item identifier>:
+#     material: <name or id, for player heads use the format 'head;<players name/%player_name%>'>
+#     data: <integer, used for data values for wool etc>
+#     amount: <amount of this item to show>
+#     slot: <slot number to put this item, slots start at 0 and end at 53 for a size 54 inventory>
+#     priority: <this is used if you have multiple items set for the same slot>
+#     permission: <the lowest priority item a player has permission for ex: 1, will be shown>
+#     update: <true/false if this item should update placeholders on the interval set for the gui menu this item is in>
+#     hide_attributes: <true/false if this item should display item attributes>
+#     hide_enchantments: <true/false if this item should display item enchantment / level> (useful for 'enchantment glow' items)
+#     hide_effects: <true/false if this item should display item effect attributes>
+#     display_name: <display name to show for this item>
+#     banner_meta: (this is used if you want to display a custom banner with specific patterns)
+#     - <dyecolor>;<PatternType> (more information on where to find DyeColor and PatternType names below)
+#     - 'RED;BASE'
+#     - 'WHITE;CREEPER'
+#     lore:
+#     - 'placeholders can be used in the name and lore'
+#     - '%<any placeholder from Papi>% shows the viewer values'
+#     enchantments: valid enchantment names can be found here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/enchantments/Enchantment.html
+#     - '<ENCHANTMENT>;<LEVEL>'
+#     - 'SILK_TOUCH;1'
+#     left_click_commands:
+#     - '[close]'
+#     right_click_commands:
+#     - '[player] spawn'
+# 
+# All keys aside from update_interval are required for this menu to be valid and loaded!
+# The only options for an item to be considered valid are material and slot!
+# 
+# banner_meta must be listed with a specific format:
+# banner_meta:
+# - <DyeColor>;<PatternType>
+# 
+# Valid DyeColor names can be found here: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/DyeColor.html
+# Valid PatternTypes can be found here: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/block/banner/PatternType.html
+# ==============================================================
+# 
+# Click requirement information
+# 
+# You can now add 'click requirements' to left and right click commands!'
+# These are defined per item and must follow a specific format:
+# 
+#   'item_one':
+#     material: DIAMOND
+#     slot: 3
+#     left_click_commands:
+#     - '[close]'
+#     - '[message] You were charged 100 dollars for clicking that item!'
+#     - '[console] eco take %player% 100'
+#     left_click_requirement:
+#       expression: '%vaulteco_balance% > 100'
+#       deny_commands:
+#       - '[close]'
+#       - '[message] &cYou dont have 100 dollars to click that item'
+#     right_click_commands:
+#     - '[close]'
+#     - '[message] You had permission to click that item!'
+#     right_click_requirement:
+#       expression: 'BukkitPlayer.hasPermission("some.permission.toclick")'
+#       deny_commands:
+#       - '[close]'
+#       - '[message] &cYou dont have permission to click that item'
+# 
+# Every left/right_click_requirement MUST have an expression specified that would return a boolean (true/false)
+# These expressions must also follow JavaScript format as they are all javascript based!
+# 
+# deny_commands: are optional and will be executed if the expression returns false.
+# You may use placeholders in your Javascript expressions to evaluate if the player meets the requirement or not.
+# You may also use a few keywords which give you access to the Player class and Bukkit.Server class if you understand the Bukkit API
+# 
+# BukkitPlayer - references the Player object your expression is evaluating.
+# BukkitServer - references Bukkit.getServer() in the Bukkit API.
+# 
+# The choice to use this system to evaluate if a player meets requirements to click an item was an easy choice.
+# This way I do not have to hook into every plugin to check if a player meets the requirement to click an item successfully.
+# You can simply use placeholders, or the keywords provided to give you access to the Player and Server objects.
+# If you want to check if a player has enough money, simply use an expression like so:
+# 
+# expression: '%vaulteco_balance% >= 100' (checks if players balance is greater than or equal to 100)
+# If you want to charge the player, simply run the economy command to take the amount from the players balance in your click_commands
+# which will be executed if the player meets the requirement!
+# ==============================================================
+# 
+# View requirement information
+# 
+# You can add a 'view requirement' to an item if it has a priority value set for it
+# The view requirement has replaced the 'permission' entry for items
+# This allows you to specify a specific requirement in javascript for the item to be shown
+# In order to use view requirements, the item must have a priority value and a valid javascript expression
+# that returns true or false. 
+# 
+#   'item_one':
+#     material: DIAMOND
+#     slot: 3
+#     priority: 1
+#     view_requirement: '%vaulteco_balance% > 100'
+#   'item_two':
+#     material: IRON_INGOT
+#     slot: 3
+#     priority: 2
+#     view_requirement: 'BukkitPlayer.hasPermission("some.permission")'
+#   'item_three':
+#     material: STONE
+#     slot: 3
+#     priority: 3
+# 
+# In the example above, the priority 1 item view requirement will be checked first, if a player has over 100 dollars, that item will be shown.
+# If the player does not meet the requirement for the first item, the item with priority 2 will be checked. If the player does not have the permission
+# node some.permission, the final item 'item_three' will be set to slot 3 as the player did not meet the requirement for the first 2 items with
+# a higher priority.
+# 
+# You may use placeholders in your Javascript expressions to evaluate if the player meets the requirement or not.
+# You may also use a few keywords which give you access to the Player class and Bukkit.Server class if you understand the Bukkit API
+# 
+# BukkitPlayer - references the Player object your expression is evaluating.
+# BukkitServer - references Bukkit.getServer() in the Bukkit API.
+# 
+# The choice to use this system to evaluate if a player meets requirements to click an item was an easy choice.
+# This way I do not have to hook into every plugin to check if a player meets the requirement to click an item successfully.
+# You can simply use placeholders, or the keywords provided to give you access to the Player and Server objects.
+# If you want to check if a player has enough money, simply use an expression like so:
+# 
+# view_requirement: '%vaulteco_balance% >= 100' (checks if players balance is greater than or equal to 100)
+# ==============================================================
+menu_title: '&8Club &e个人信息'
+open_command: gerenxinxi
+size: 45
+items:
+      '1':
+        material: 340
+        data: 0
+        amount: 1
+        slot: 18
+        display_name: "&b&l帮助"
+        lore:
+        - ''
+        - '&a主播/实况主 认证:'
+        - '&8>  &7如果你是一位主播,愿意帮助宣传服务器'
+        - '&8>  &7你可以加入我们的QQ群联系服主进行认证'
+        - '&8>  &7认证完毕即可获的称号/点券奖励'
+        - '&8>  &c人气需达到要求可以通过认证'
+        - '&a举报/建议:'
+        - '&8>  &7举报作弊/熊孩子请提供详细证据'
+        - '&8>  &7最好是视频/截图,越详细越好'
+        - '&8>  &7举报请加入QQ群'
+        - '&8>  &7如果你有什么好的服务器建议,意见'
+        - '&8>  &7欢迎加群提出,帮助我们做得更好'
+        - '&a服务器QQ群:'
+        - '&8>  &7619083018'
+        left_click_commands:
+        - ''
+      '2':
+        material: 397
+        data: 3
+        amount: 1
+        slot: 9
+        display_name: "&b&l个人信息"
+        lore:
+        - ''
+        - '&a昵称: &e%player_name%'
+        - '&a等级: %player_level%'
+        - '&a会员: %vault_group%'
+        - '&a金币: %vault_eco_balance%'
+        - '&a点券: &e%playerpoints_points%'
+        - '&a正版认证: &3否'
+        - ''
+        left_click_commands:
+        - ''
+      '3':
+        material: 384
+        data: 0
+        amount: 1
+        slot: 27
+        display_name: "&a&l欢迎您 %player_name%"
+        lore:
+        - ''
+        - '&7#小游戏等级系统'
+        - '&7[ &3|||||||||||||||||||||&7|||||||||||||||||||||||||||||||||||||||||&7 ]'
+        - '&e进度 &b%player_level%&e/&b100'
+        - ''
+        - '&e经验 &b20'
+        - '&e等级 &b%player_level%'
+        - '&7100经验升一级'
+        - ''
+        left_click_commands:
+        - ''
+      '6':
+        material: 339
+        data: 0
+        amount: 1
+        slot: 11
+        display_name: "&b&l称号簿"
+        lore:
+        - ''
+        - '&a说明:'
+        - ''
+        - '&8>&7  获得的各种称号'
+        - '&8>&7  都在里面哦'
+        - ''
+        - '&e点击打开称号簿'
+        left_click_commands:
+        - '[console] dm open chenghao %player_name%'
+      '7':
+        material: 399
+        data: 0
+        amount: 1
+        slot: 13
+        display_name: "&b&l数据统计"
+        lore:
+        - ''
+        - '&a注册日期:'
+        - '&8>&7  %player_first_join_date%'
+        - ''
+        - '&a在线时间:'
+        - '&8>&7  %statistic_days_played%天/%statistic_hours_played%小时/%statistic_minutes_played%分钟'
+        - ''
+        - '&a击杀/死亡:'
+        - '&8>&7  %statistic_player_kills%/%statistic_deaths%'
+        - ''
+        - '&a步行/破坏:'
+        - '&8>&7  %statistic_walk_one_cm%/%statistic_mine_block%'
+        left_click_commands:

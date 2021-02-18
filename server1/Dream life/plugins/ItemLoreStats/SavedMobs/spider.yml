@@ -1,0 +1,134 @@
+'15':
+  '1':
+    itemId: 298
+    nameColour: '&f&l'
+    prefix: random
+    suffix: random
+    properties:
+      armour: '&b3-7'
+      healthRandomApply: true
+      health: '&b10-player+30'
+      healthRegenRandomApply: true
+      healthRegen: '&b1-4'
+      durability: '&71350-1500'
+      soulboundRandomApply: true
+      soulbound: true
+      xpLevelRandomApply: true
+      xpLevel: '&b10-player+3'
+  '2':
+    itemId: 299
+    nameColour: '&f&l'
+    prefix: random
+    suffix: random
+    properties:
+      armour: '&b3-7'
+      healthRandomApply: true
+      health: '&b10-player+30'
+      healthRegenRandomApply: true
+      healthRegen: '&b1-4'
+      durability: '&71350-1500'
+      soulboundRandomApply: true
+      soulbound: true
+      xpLevelRandomApply: true
+      xpLevel: '&b10-player+3'
+  '3':
+    itemId: 301
+    nameColour: '&f&l'
+    prefix: random
+    suffix: random
+    properties:
+      armour: '&b3-7'
+      healthRandomApply: true
+      health: '&b10-player+30'
+      healthRegenRandomApply: true
+      healthRegen: '&b1-4'
+      durability: '&71350-1500'
+      soulboundRandomApply: true
+      soulbound: true
+      xpLevelRandomApply: true
+      xpLevel: '&b10-player+3'
+  '4':
+    itemId: 272
+    nameColour: '&f&l'
+    prefix: random
+    suffix: random
+    properties:
+      weaponspeed: '&4Slow'
+      damage: '&b1-6-player+1-7'
+      lifeStealRandomApply: true
+      lifeSteal: '&21-5'
+      iceRandomApply: true
+      ice: '&b2-6'
+      durability: '&7300-425'
+      soulboundRandomApply: true
+      soulbound: true
+      xpLevelRandomApply: true
+      xpLevel: '&b8-player+5'
+  '5':
+    itemId: 274
+    nameColour: '&f&l'
+    prefix: random
+    suffix: random
+    properties:
+      weaponspeed: '&4Slow'
+      damage: '&b1-6-player+1-7'
+      lifeStealRandomApply: true
+      lifeSteal: '&21-5'
+      iceRandomApply: true
+      ice: '&b2-6'
+      durability: '&7300-425'
+      soulboundRandomApply: true
+      soulbound: true
+      xpLevelRandomApply: true
+      xpLevel: '&b8-player+5'
+  '6':
+    itemId: 275
+    nameColour: '&f&l'
+    prefix: random
+    suffix: random
+    properties:
+      weaponspeed: '&4Slow'
+      damage: '&b1-6-player+1-7'
+      lifeStealRandomApply: true
+      lifeSteal: '&21-5'
+      iceRandomApply: true
+      ice: '&b2-6'
+      durability: '&7300-425'
+      soulboundRandomApply: true
+      soulbound: true
+      xpLevelRandomApply: true
+      xpLevel: '&b8-player+5'
+  '7':
+    itemId: 291
+    nameColour: '&f&l'
+    prefix: random
+    suffix: random
+    properties:
+      weaponspeed: '&4Slow'
+      damage: '&b1-6-player+1-7'
+      lifeStealRandomApply: true
+      lifeSteal: '&21-5'
+      iceRandomApply: true
+      ice: '&b2-6'
+      durability: '&7300-425'
+      soulboundRandomApply: true
+      soulbound: true
+      xpLevelRandomApply: true
+      xpLevel: '&b8-player+5'
+  '8':
+    itemId: 261
+    nameColour: '&f&l'
+    prefix: random
+    suffix: random
+    properties:
+      weaponspeed: '&4Slow'
+      damage: '&b1-6-player+1-7'
+      lifeStealRandomApply: true
+      lifeSteal: '&21-5'
+      iceRandomApply: true
+      ice: '&b2-6'
+      durability: '&7300-425'
+      soulboundRandomApply: true
+      soulbound: true
+      xpLevelRandomApply: true
+      xpLevel: '&b8-player+5'

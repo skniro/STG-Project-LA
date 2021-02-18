@@ -1,0 +1,17 @@
+## ColorMOTD v1.5.3 Config
+# http://www.mcbbs.net/thread-448326-1-1.html
+Motd:
+- '&b stt项目 编号：LA - 内部测试阶段\n&d现在时间: &e%DATE% %TIME%'
+OnlineMsg: '&a在线人数 &6%ONLINE%&7/&6%MAXPLAYER%'
+Players:
+- '&b这里是默认的悬浮文字信息'
+- '&e可以显示多行'
+- '&a支持变量,比如%TIME%'
+ServiceModeMOTD: '&c服务器维护中,请等待维护完成...'
+ServiceModeKickCause: '&c服务器维护中,请等待维护完成再进入服务器!'
+useBungeeCord: false
+redisBungee: false
+AttributionServer: taobao
+TPSFormat: '0.0'
+showDelay: false
+UpdateChecker: true

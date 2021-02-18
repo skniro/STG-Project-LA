@@ -1,0 +1,22 @@
+# 配置文件版本 请勿修改
+Version: 1.2
+# 是否启用PAPI(只对部分替换有效)
+PAPI: true
+# 替换选项开关
+Enable:
+  # Tab
+  tab: true
+  # 聊天
+  chat: true
+  # 木牌
+  sign: true
+  # 物品
+  item: true
+  # Title
+  title: true
+  # 记分板
+  board: true
+  # 实体
+  entity: true
+  # 界面替换
+  window: true

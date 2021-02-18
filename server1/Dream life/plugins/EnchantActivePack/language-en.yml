@@ -1,0 +1,33 @@
+Angler:
+  name: Angler
+  desc: Catches more than one fish
+Dash:
+  name: Dash
+  desc: Dash forward while dealing damage to all enemies
+Fireball:
+  name: Fireball
+  desc: Launches a fireball upon right click
+Fried:
+  name: Fried
+  desc: Catches cooked fish instead of raw ones
+Grapple:
+  name: Grapple
+  desc: Pulls you towards your hook if it is stuck to a block
+Heal:
+  name: Heal
+  desc: Heals yourself or a targeted ally
+Pull:
+  name: Pull
+  desc: Pulls the target enemy closer
+Rejuvenating:
+  name: Rejuvenating
+  desc: Heals you upon eating
+Repulse:
+  name: Repulse
+  desc: Pushes all nearby enemies away
+Toss:
+  name: Toss
+  desc: Picks up and then throws enemies
+Vortex:
+  name: Vortex
+  desc: Pulls all nearby enemies towards you

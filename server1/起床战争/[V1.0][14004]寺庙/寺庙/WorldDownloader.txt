@@ -1,0 +1,19 @@
+#These settings are shared across an entire server.  If multiworld is enabled, they act as the default values for the individual world properties; otherwise, they are used directly.
+#Sat Apr 14 19:28:49 CST 2018
+Messages.enableAll=true
+Messages.REMOVE_ENTITY=false
+GeneratorOptions=0;0;0
+Messages.UPDATES=true
+Messages.PLUGIN_CHANNEL_MESSAGE=false
+RandomSeed=
+Messages.INFO=true
+LinkedWorlds=
+MapGenerator=flat
+Messages.UPDATE_DEBUG=false
+Messages.LOAD_TILE_ENTITY=false
+GeneratorVersion=0
+ServerName=Command Line
+LastSaved=1523705329494
+Messages.SAVING=true
+GeneratorName=flat
+Messages.ON_WORLD_LOAD=false

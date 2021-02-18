@@ -1,0 +1,35 @@
+location:
+  ==: com.mtihc.minecraft.treasurechest.v8.core.TreasureChest
+  container:
+    ==: com.mtihc.minecraft.treasurechest.v8.core.BlockInventory
+    world: world
+    coords:
+      ==: Vector
+      x: 1034.0
+      y: 20.0
+      z: 1509.0
+    type: DISPENSER
+    size: 9
+    contents:
+      item4:
+        ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          type: PRISMARINE_CRYSTALS
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: "\xa7b\u6d77\u6676\u788e\u7247\xa7d[\u4efb\u52a1\u7269\u54c1\
+              ]"
+  messages:
+    FOUND_ALREADY: "\xa77\u8fd9\u4e2a\xa76\u5b9d\u7bb1\xa77\u5df2\u7ecf\u88ab\u4f60\
+      \u627e\u5b8c\u4e86"
+    FOUND: "\xa77\u4f60\u627e\u5230\u4e86\xa76\u5b9d\u7bb1"
+    UNLIMITED: Take as much as you want!
+  ranks: []
+  unlimited: false
+  random: 0
+  forget-time: 0
+  ignore-protection: false
+  shared: false
+  rewards: {}

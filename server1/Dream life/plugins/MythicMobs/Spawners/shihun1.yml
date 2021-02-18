@@ -1,0 +1,25 @@
+shihun1:
+  MobName: "\u5c38\u9b42\u9aa8"
+  World: world
+  X: 921
+  Y: 64
+  Z: 1489
+  Radius: 0
+  UseTimer: true
+  MaxMobs: 2
+  MobLevel: 1
+  MobsPerSpawn: 1
+  Cooldown: 3
+  CooldownTimer: 0
+  Warmup: 4
+  WarmupTimer: 0
+  ActivationRange: 40
+  LeashRange: 32
+  HealOnLeash: false
+  ResetThreatOnLeash: false
+  ShowFlames: false
+  Breakable: false
+  Conditions: []
+  AssociatedMobs:
+  - df7fab7b-a521-4cd3-83e7-42afe824beb4
+  - a2f3b0c0-8344-4f47-ab02-0a5779ba1cc1

@@ -1,0 +1,15 @@
+Item:
+  ==: org.bukkit.inventory.ItemStack
+  type: WOOD_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: "\xa7f\u6843\u82b1\u5251\xa77[\u7c97\u7cd9]"
+    lore:
+    - "\xa7a\u7269\u7406\u4f24\u5bb3\xa7f>>\xa7b5-8"
+    - "\xa7a\u7ecf\u9a8c\u52a0\u6210\xa7f>>\xa7b10%"
+    - "\xa7a"
+    - "\xa77\u201c\u8fd9\u628a\u6843\u82b1\u5251\u7ed9\u4e86\u8bb8\u591a\u52c7\u58eb\
+      \u4fe1\u5fc3\u201d"
+    - "\xa77"
+    - "\xa76\u5386\u7ec3\u503c: \xa7b1"

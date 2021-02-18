@@ -1,0 +1,112 @@
+FileVersion: 607
+ErrorMessages:
+  PermissionDeniedError: '&c你无法执行这个指令.'
+  IngameOnlyError: 这个指令只能在游戏中输入!
+  DoesntExistError: '&4{value1} &c不存在'
+  PlayerNotOnlineError: '&4{value1} &c不在线'
+  NotEnoughSpaceError: '&4{value1} &c没有足够的空间存放.'
+  IncludeItemNameError: '&c你需要输入名字!. 例如: /ils name
+    &4Hand of God'
+  EnterPlayerNameError: ''
+  ItemAlreadyExistsError: '&c此物品已存在，请输入其他名称.'
+  NullItemInHandError: '&c你需要手上持有物品后才能使用该命令.'
+  NoLoreError: '&c此物品没有任何说明.'
+  EnterTypeError: '&c你需要输入一个种类 &4Armour&c, &4Hand &c或者 &4All.'
+  ShiftClickDisabled: '&c按住Shift键并点击防具目前被禁用.'
+  InventoryFull: '&4物品栏已满或你的职业无法使用，物品已掉落.'
+  AddedToConfig: '&2{value1} &ahas been added to the config.'
+CustomItemMessages:
+  HoldCustomItem: '&cYou need to hold the item you want to add to the config.'
+  CustomEquipmentType: '&cYou need to enter the equipment type of the item. Either
+    &4tool &cor &4armour&c.'
+  CustomItemType: '&cYou need to enter the type of item. E.g &4Diamond Sword &cor
+    &4Gold Chestplate&c.'
+  CustomArmourType: '&cYou need to enter the type of Armour as shown; &4helmet&c,
+    &4chest&c, &4legs&c, &4boots&c.'
+ClassRequirementMessages:
+  NotRequiredClass: '&c你的职业不符合，无法装备或持有.'
+  NotRequiredClassForItemInHand: '&c你的职业不符合，无法使用或持有.'
+  InventoryFullOnPickup: '&4你的背包已满或者你的职业不符合，无法持有或使用.'
+LevelRequirementMessages:
+  LevelTooLow: '&c你的等级不足，无法持有或使用.'
+  LevelTooLowForItemInHand: '&c你的等级不足，无法持有或使用.'
+  InventoryFullOnPickup: '&4你的背包已满或者你的等级不足，无法持有或使用.'
+SoulboundMessages:
+  BoundToSomeoneElse: '&c这个物品绑定给了其他人，你无法使用.'
+  BoundToSomeoneElseForItemInHand: '&c这个物品绑定给了其他人，你无法使用.'
+  InventoryFullOnPickup: '&4你的背包已满，物品绑定给其他人.'
+DamageMessages:
+  DamageDone: '&d你对 &r{defender} &d造成了 &6{value2} &d伤害.'
+  DamageDoneWithoutVowel: '&d你攻击了一下 &r{value1} &d受到了 &6{value2} &d伤害.'
+  DamageDoneWithVowel: '&d你攻击了一下 &r{value1} &d受到了 &6{value2} &d伤害.'
+  DamageTaken: '&r{attacker} &d对你造成了 &6{value2} &d伤害.'
+  CriticalStrikeSuccess: '&a暴击!'
+  EnemyCriticalStrikeSuccess: '&4{attacker} &c对你发动了暴击！'
+  DodgeSuccess: '&a闪避了对方!'
+  EnemyDodgeSuccess: '&4{defender} &c闪避了你的攻击!'
+  BlockSuccess: '&a发动格挡技能!'
+  EnemyBlockSuccess: '&4{defender} &c格挡了你的攻击!'
+  LifeStealSuccess: '&2{value1} &a的生命从 &2{defender} 偷取 &a!'
+  EnemyLifeStealSuccess: '&4{attacker} &c偷取了你 &4{value1} &c点生命!'
+  ReflectSuccess: '&a发动攻击反射技能!'
+  EnemyReflectSuccess: '&4你的攻击被{defender}反射了 &c!'
+  FireSuccess: '&2{defender} &a燃烧了!'
+  EnemyFireSuccess: '&4{attacker} &c使你燃烧!'
+  IceSuccess: '&2{defender} &a 被减速了!'
+  EnemyIceSuccess: '&4你受到了{attacker} &c的减速技能'
+  PoisonSuccess: '&2{defender} &a已中毒!'
+  EnemyPoisonSuccess: '&4{attacker} &c对你下毒.'
+  WitherSuccess: '&2{defender} &a流血了!'
+  EnemyWitherSuccess: '&4你受到了{attacker} &c的重创使你流血!'
+  HarmSuccess: '&2撕裂了{defender} &a的伤口!'
+  EnemyHarmSuccess: '你因&4{attacker} &c负伤!'
+  BlindSuccess: '&2{defender} &a致盲了!'
+  EnemyBlindSuccess: '你因&4{attacker} &c失明!'
+SpellMessages:
+  CastSpell:
+    ItemInHand: '&eRight-click to cast'
+    CooldownRemaining: '&6{value1} &dseconds remaining.'
+    Heal: '&2{attacker} &ahealed you for &2{value1} &aHealth.'
+    Damaged: '      &dYou hit &r{defender} &dfor &6{value2} &ddamage.'
+RepairMessages:
+  RepairSuccessfulMaterial: '&aSuccessfully repaired &2{value1}&c.'
+  RepairSuccessfulCurrency: '&aSuccessfully repaired &2{value1} &afor &2{value2} Dollars&a.'
+  DoesntNeedRepair: '&4{value1} &cdoesn''t need repairing.'
+  NotEnoughMoney: '&cYou need &4{value2} Dollars &cto repair &4{value1}&c.'
+  NotEnoughLeather: '&cNot enough Leather to repair &4{value1}&c.'
+  NotEnoughWood: '&cNot enough Wooden Planks to repair &4{value1}&c.'
+  NotEnoughCobblestone: '&cNot enough Cobblestone to repair &4{value1}&c.'
+  NotEnoughIron: '&cNot enough Iron Ingots to repair &4{value1}&c.'
+  NotEnoughGold: '&cNot enough Gold Ingots to repair &4{value1}&c.'
+  NotEnoughDiamond: '&cNot enough Diamonds to repair &4{value1}&c.'
+  NotEnoughSticks: '&cNot enough Sticks to repair &4{value1}&c.'
+  NotEnoughFlint: '&cNot enough Flint to repair &4{value1}&c.'
+  NotEnoughString: '&cNot enough String to repair &4{value1}&c.'
+  NotEnoughFishingRod: '&cYou need a Fishing Rod to repair &4{value1}&c.'
+  NotEnoughCarrots: '&cYou need a Carrot to repair &4{value1}&c.'
+UpgradeMessages:
+  UpgradeSuccessful: '&2{value1} &a已升级.'
+  UpgradeCapReached: '&2{value1} &a已经到达最大等级.'
+SellMessages:
+  SellSuccessful: '&aYou sold &2{value1} &afor &2{value2} Dollars&a.'
+  UnableToSell: '&cYou are unable to sell &2{value1}&c.'
+  NoItemInHand: '&cYour hand is empty.'
+ItemType:
+  Tool:
+    Sword: Sword
+    Pickaxe: Pickaxe
+    Axe: Axe
+    Spade: Spade
+    Hoe: Hoe
+    Bow: Bow
+    Stick: Stick
+    Blaze_Rod: Blaze Rod
+    String: String
+  Armour:
+    Skull_Helmet: Helmet
+    Helmet: Helmet
+    Chestplate: Chestplate
+    Leggings: Leggings
+    Boots: Boots
+Item:
+  Looted: '&bYou looted &6{value1}&b!'

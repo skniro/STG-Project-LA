@@ -1,0 +1,514 @@
+# Simple format: 'Item'
+# Complex format: 'Item:Durability'
+
+Cages:
+  Default:
+    item: GLASS
+    permission: none
+    rarity: COMMON
+    value: 0
+    floor: GLASS
+    lower-middle: GLASS
+    middle: GLASS
+    higher-middle: GLASS
+    roof: GLASS
+  沙质外表:
+    item: SANDSTONE
+    permission: none
+    rarity: COMMON
+    value: 750
+    floor: SANDSTONE
+    lower-middle: SANDSTONE
+    middle: AIR
+    higher-middle: SANDSTONE
+    roof: SANDSTONE
+  岩石外表:
+    item: COBBLESTONE
+    permission: none
+    rarity: COMMON
+    value: 750
+    floor: COBBLESTONE
+    lower-middle: COBBLESTONE
+    middle: AIR
+    higher-middle: COBBLESTONE
+    roof: COBBLESTONE
+  泥土之气:
+    item: DIRT
+    permission: none
+    rarity: COMMON
+    value: 750
+    floor: DIRT
+    lower-middle: DIRT
+    middle: AIR
+    higher-middle: DIRT
+    roof: DIRT
+  海绵方块:
+    item: SPONGE
+    permission: none
+    rarity: COMMON
+    value: 750
+    floor: SPONGE
+    lower-middle: SPONGE
+    middle: AIR
+    higher-middle: SPONGE
+    roof: SPONGE
+  坚实木板:
+    item: WOOD
+    permission: none
+    rarity: COMMON
+    value: 750
+    floor: WOOD
+    lower-middle: WOOD
+    middle: AIR
+    higher-middle: WOOD
+    roof: WOOD
+  石砖守卫:
+    item: BRICK
+    permission: none
+    rarity: COMMON
+    value: 750
+    floor: BRICK
+    lower-middle: BRICK
+    middle: AIR
+    higher-middle: BRICK
+    roof: BRICK
+  芳草之径:
+    item: GRASS
+    permission: none
+    rarity: COMMON
+    value: 750
+    floor: GRASS
+    lower-middle: GRASS
+    middle: AIR
+    higher-middle: GRASS
+    roof: GRASS
+  西瓜果实:
+    item: MELON_BLOCK
+    permission: none
+    rarity: COMMON
+    value: 750
+    floor: MELON_BLOCK
+    lower-middle: MELON_BLOCK
+    middle: AIR
+    higher-middle: MELON_BLOCK
+    roof: MELON_BLOCK
+  坚固原石:
+    item: STONE
+    permission: none
+    rarity: COMMON
+    value: 750
+    floor: STONE
+    lower-middle: STONE
+    middle: AIR
+    higher-middle: STONE
+    roof: STONE
+  实木制造:
+    item: LOG
+    permission: none
+    rarity: COMMON
+    value: 750
+    floor: LOG
+    lower-middle: LOG
+    middle: AIR
+    higher-middle: LOG
+    roof: LOG
+  白雪方块:
+    item: SNOW_BLOCK
+    permission: none
+    rarity: COMMON
+    value: 750
+    floor: SNOW_BLOCK
+    lower-middle: SNOW_BLOCK
+    middle: AIR
+    higher-middle: SNOW_BLOCK
+    roof: SNOW_BLOCK
+  白色羊毛:
+    item: WOOL:0
+    permission: none
+    rarity: COMMON
+    value: 750
+    floor: WOOL:0
+    lower-middle: WOOL:0
+    middle: AIR
+    higher-middle: WOOL:0
+    roof: WOOL:0
+  橙色羊毛:
+    item: WOOL:1
+    permission: none
+    rarity: COMMON
+    value: 750
+    floor: WOOL:1
+    lower-middle: WOOL:1
+    middle: AIR
+    higher-middle: WOOL:1
+    roof: WOOL:1
+  品红羊毛:
+    item: WOOL:2
+    permission: none
+    rarity: COMMON
+    value: 750
+    floor: WOOL:2
+    lower-middle: WOOL:2
+    middle: AIR
+    higher-middle: WOOL:2
+    roof: WOOL:2
+  蓝色羊毛:
+    item: WOOL:3
+    permission: none
+    rarity: COMMON
+    value: 750
+    floor: WOOL:3
+    lower-middle: WOOL:3
+    middle: AIR
+    higher-middle: WOOL:3
+    roof: WOOL:3
+  黄色羊毛:
+    item: WOOL:4
+    permission: none
+    rarity: COMMON
+    value: 750
+    floor: WOOL:4
+    lower-middle: WOOL:4
+    middle: AIR
+    higher-middle: WOOL:4
+    roof: WOOL:4
+  黄绿羊毛:
+    item: WOOL:5
+    permission: none
+    rarity: COMMON
+    value: 750
+    floor: WOOL:5
+    lower-middle: WOOL:5
+    middle: AIR
+    higher-middle: WOOL:5
+    roof: WOOL:5
+  粉色羊毛:
+    item: WOOL:6
+    permission: none
+    rarity: COMMON
+    value: 750
+    floor: WOOL:6
+    lower-middle: WOOL:6
+    middle: AIR
+    higher-middle: WOOL:6
+    roof: WOOL:6
+  灰色羊毛:
+    item: WOOL:7
+    permission: none
+    rarity: COMMON
+    value: 750
+    floor: WOOL:7
+    lower-middle: WOOL:7
+    middle: AIR
+    higher-middle: WOOL:7
+    roof: WOOL:7
+  青色羊毛:
+    item: WOOL:9
+    permission: none
+    rarity: COMMON
+    value: 750
+    floor: WOOL:9
+    lower-middle: WOOL:9
+    middle: AIR
+    higher-middle: WOOL:9
+    roof: WOOL:9
+  紫色羊毛:
+    item: WOOL:10
+    permission: none
+    rarity: COMMON
+    value: 750
+    floor: WOOL:10
+    lower-middle: WOOL:10
+    middle: AIR
+    higher-middle: WOOL:10
+    roof: WOOL:10
+  棕色羊毛:
+    item: WOOL:12
+    permission: none
+    rarity: COMMON
+    value: 750
+    floor: WOOL:12
+    lower-middle: WOOL:12
+    middle: AIR
+    higher-middle: WOOL:12
+    roof: WOOL:12
+  绿色羊毛:
+    item: WOOL:13
+    permission: none
+    rarity: COMMON
+    value: 750
+    floor: WOOL:13
+    lower-middle: WOOL:13
+    middle: AIR
+    higher-middle: WOOL:13
+    roof: WOOL:13
+  红色羊毛:
+    item: WOOL:14
+    permission: none
+    rarity: COMMON
+    value: 750
+    floor: WOOL:14
+    lower-middle: WOOL:14
+    middle: AIR
+    higher-middle: WOOL:14
+    roof: WOOL:14
+  黑色羊毛:
+    item: WOOL:15
+    permission: none
+    rarity: COMMON
+    value: 750
+    floor: WOOL:15
+    lower-middle: WOOL:15
+    middle: AIR
+    higher-middle: WOOL:15
+    roof: WOOL:15
+  奥术智慧:
+    item: BOOKSHELF
+    permission: none
+    rarity: RARE
+    value: 1500
+    floor: BOOKSHELF
+    lower-middle: BOOKSHELF
+    middle: AIR
+    higher-middle: BOOKSHELF
+    roof: BOOKSHELF
+  熔炉核心:
+    item: FURNACE
+    permission: none
+    rarity: RARE
+    value: 1500
+    floor: FURNACE
+    lower-middle: FURNACE
+    middle: AIR
+    higher-middle: FURNACE
+    roof: FURNACE
+  冰雪号令:
+    item: ICE
+    permission: none
+    rarity: RARE
+    value: 1500
+    floor: ICE
+    lower-middle: ICE
+    middle: AIR
+    higher-middle: ICE
+    roof: ICE
+  勤练之柱:
+    item: WORKBENCH
+    permission: none
+    rarity: RARE
+    value: 1500
+    floor: WORKBENCH
+    lower-middle: WORKBENCH
+    middle: AIR
+    higher-middle: WORKBENCH
+    roof: WORKBENCH
+  南瓜果实:
+    item: PUMPKIN
+    permission: none
+    rarity: RARE
+    value: 1500
+    floor: PUMPKIN
+    lower-middle: PUMPKIN
+    middle: AIR
+    higher-middle: PUMPKIN
+    roof: PUMPKIN
+  白色外罩:
+    item: STAINED_GLASS:0
+    permission: none
+    rarity: RARE
+    value: 1500
+    floor: STAINED_GLASS:0
+    lower-middle: STAINED_GLASS:0
+    middle: AIR
+    higher-middle: STAINED_GLASS:0
+    roof: STAINED_GLASS:0
+  橙色外罩:
+    item: STAINED_GLASS:1
+    permission: none
+    rarity: RARE
+    value: 1500
+    floor: STAINED_GLASS:1
+    lower-middle: STAINED_GLASS:1
+    middle: AIR
+    higher-middle: STAINED_GLASS:1
+    roof: STAINED_GLASS:1
+  品红外罩:
+    item: STAINED_GLASS:2
+    permission: none
+    rarity: RARE
+    value: 1500
+    floor: STAINED_GLASS:2
+    lower-middle: STAINED_GLASS:2
+    middle: AIR
+    higher-middle: STAINED_GLASS:2
+    roof: STAINED_GLASS:2
+  蓝色外罩:
+    item: STAINED_GLASS:3
+    permission: none
+    rarity: RARE
+    value: 1500
+    floor: STAINED_GLASS:3
+    lower-middle: STAINED_GLASS:3
+    middle: AIR
+    higher-middle: STAINED_GLASS:3
+    roof: STAINED_GLASS:3
+  黄色外罩:
+    item: STAINED_GLASS:4
+    permission: none
+    rarity: RARE
+    value: 1500
+    floor: STAINED_GLASS:4
+    lower-middle: STAINED_GLASS:4
+    middle: AIR
+    higher-middle: STAINED_GLASS:4
+    roof: STAINED_GLASS:4
+  黄绿外罩:
+    item: STAINED_GLASS:5
+    permission: none
+    rarity: RARE
+    value: 1500
+    floor: STAINED_GLASS:5
+    lower-middle: STAINED_GLASS:5
+    middle: AIR
+    higher-middle: STAINED_GLASS:5
+    roof: STAINED_GLASS:5
+  粉色外罩:
+    item: STAINED_GLASS:6
+    permission: none
+    rarity: RARE
+    value: 1500
+    floor: STAINED_GLASS:6
+    lower-middle: STAINED_GLASS:6
+    middle: AIR
+    higher-middle: STAINED_GLASS:6
+    roof: STAINED_GLASS:6
+  灰色外罩:
+    item: STAINED_GLASS:7
+    permission: none
+    rarity: RARE
+    value: 1500
+    floor: STAINED_GLASS:7
+    lower-middle: STAINED_GLASS:7
+    middle: AIR
+    higher-middle: STAINED_GLASS:7
+    roof: STAINED_GLASS:7
+  青色外罩:
+    item: STAINED_GLASS:9
+    permission: none
+    rarity: RARE
+    value: 1500
+    floor: STAINED_GLASS:9
+    lower-middle: STAINED_GLASS:9
+    middle: AIR
+    higher-middle: STAINED_GLASS:9
+    roof: STAINED_GLASS:9
+  紫色外罩:
+    item: STAINED_GLASS:10
+    permission: none
+    rarity: RARE
+    value: 1500
+    floor: STAINED_GLASS:10
+    lower-middle: STAINED_GLASS:10
+    middle: AIR
+    higher-middle: STAINED_GLASS:10
+    roof: STAINED_GLASS:10
+  棕色外罩:
+    item: STAINED_GLASS:12
+    permission: none
+    rarity: RARE
+    value: 1500
+    floor: STAINED_GLASS:12
+    lower-middle: STAINED_GLASS:12
+    middle: AIR
+    higher-middle: STAINED_GLASS:12
+    roof: STAINED_GLASS:12
+  绿色外罩:
+    item: STAINED_GLASS:13
+    permission: none
+    rarity: RARE
+    value: 1500
+    floor: STAINED_GLASS:13
+    lower-middle: STAINED_GLASS:13
+    middle: AIR
+    higher-middle: STAINED_GLASS:13
+    roof: STAINED_GLASS:13
+  红色外罩:
+    item: STAINED_GLASS:14
+    permission: none
+    rarity: RARE
+    value: 1500
+    floor: STAINED_GLASS:14
+    lower-middle: STAINED_GLASS:14
+    middle: AIR
+    higher-middle: STAINED_GLASS:14
+    roof: STAINED_GLASS:14
+  黑色外罩:
+    item: STAINED_GLASS:15
+    permission: none
+    rarity: RARE
+    value: 1500
+    floor: STAINED_GLASS:15
+    lower-middle: STAINED_GLASS:15
+    middle: AIR
+    higher-middle: STAINED_GLASS:15
+    roof: STAINED_GLASS:15
+  核子共鸣:
+    item: TNT
+    permission: none
+    rarity: LEGENDARY
+    value: 3000
+    floor: TNT
+    lower-middle: TNT
+    middle: AIR
+    higher-middle: TNT
+    roof: TNT
+  璀璨钻石:
+    item: DIAMOND_BLOCK
+    permission: none
+    rarity: LEGENDARY
+    value: 3000
+    floor: DIAMOND_BLOCK
+    lower-middle: DIAMOND_BLOCK
+    middle: AIR
+    higher-middle: DIAMOND_BLOCK
+    roof: DIAMOND_BLOCK
+  炫光萤石:
+    item: GLOWSTONE
+    permission: none
+    rarity: LEGENDARY
+    value: 3000
+    floor: GLOWSTONE
+    lower-middle: GLOWSTONE
+    middle: AIR
+    higher-middle: GLOWSTONE
+    roof: GLOWSTONE
+  不朽之石:
+    item: OBSIDIAN
+    permission: none
+    rarity: LEGENDARY
+    value: 3000
+    floor: OBSIDIAN
+    lower-middle: OBSIDIAN
+    middle: AIR
+    higher-middle: OBSIDIAN
+    roof: OBSIDIAN
+  耀眼翡翠:
+    item: EMERALD_BLOCK
+    permission: none
+    rarity: LEGENDARY
+    value: 3000
+    floor: EMERALD_BLOCK
+    lower-middle: EMERALD_BLOCK
+    middle: AIR
+    higher-middle: EMERALD_BLOCK
+    roof: EMERALD_BLOCK
+  远古红石:
+    item: REDSTONE_BLOCK
+    permission: none
+    rarity: LEGENDARY
+    value: 3000
+    floor: REDSTONE_BLOCK
+    lower-middle: REDSTONE_BLOCK
+    middle: AIR
+    higher-middle: REDSTONE_BLOCK
+    roof: REDSTONE_BLOCK

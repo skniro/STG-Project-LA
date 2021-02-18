@@ -1,0 +1,179 @@
+# # # # # # # # # # # # # # # # # # # # # # 
+#           Made by Wazup92               #
+#     If you really like the plugin       #
+#     Then please dont forget to leave    #
+#        A positive 5 stars review!       #
+# # # # # # # # # # # # # # # # # # # # # # 
+# 
+# Rollback speed is measured in Blocks per tick, default settings are made for average servers
+# Queue-Size is how many arenas can rollback in the same time, Send-Status-Update-Every is how often the rollback percentage updates, and its in ticks
+# The Max-Arena-Size is completely up to you, thats why i added it here, but obviously, the smaller the size is, the better.
+# Executed commands on Player-Win variables -> %player%, %world%, Arena-Start -> %world%
+# Custom slots format -> 'Slot amount : Permission'
+# Mystery-Box chances don't have to add up to 100%
+# If Empty-Chunk-Generator is enabled, the world importing feature will import worlds with a custom generator that generates empty chunks
+# Please BE AWARE. Holographic-Stats are resource intensive. and so is an animated Title
+# Chest-Checks -> Slot-Overwrite is the amount of times the plugin tries to find a random slot that is empty before it just overwrites an occupied one [Ranges from 1, 10]
+# Chest-Checks -> Item-Duplicate is the amount of times the plugin tries to generate a random item that is not inside the chest before it just places anything. [Ranges from 1, 10]
+# Increasing Chest-Checks too much might decrease the performance.
+
+Load-Delay-Ticks: 10
+Empty-Chunk-Generator: false
+use-UUID: false
+use-Vault: false
+String-Coins: 2000
+Coins-Per-Kill: 10
+Coins-Per-Win: 50
+Min-Exp-Per-Kill: 2
+Max-Exp-Per-Kill: 5
+Celebration-Length: 10
+Block-Behind-Signs: 159
+Max-Warnings: 3
+Party-Invitation-Length: 30
+Lobby-Chat: true
+In-Game-Chat: true
+Spectators-Chat: true
+Allow-Spectators-Inventory-View: true
+Load-Skins-On-Skulls: true
+Disable-Natural-Mob-Spawning: true
+Show-Health-On-Bow-Hit: true
+Fireworks-Enabled: true
+Leash-Mobs: false
+Void-Instant-Kill: false
+Teleport-Mobs: true
+Display-Rank-In-Chat: true
+Selling-Value: 0.33
+Max-Arena-Size: 10000000
+Leave-Countdown-Seconds: 5
+Update-Leaderboard-Every-Minutes: 15
+Broadcaster-Send-Every: 60
+Check-For-Updates: true
+Broadcast-Time:
+- 60
+- 30
+- 15
+- 5
+- 4
+- 3
+- 2
+- 1
+Allowed-Commands:
+- sw
+- skywars
+- tell
+- help
+- r
+- msg
+- ban
+- kick
+- report
+Mystery-Box:
+  Block-Type: ENDER_CHEST
+  Cost: 1000
+  Contents:
+  - 'Kits : 30%'
+  - 'Cages : 35%'
+  - 'Trails : 35%'
+  Rarities:
+  - 'Common : 60%'
+  - 'Rare : 30%'
+  - 'Legendary : 10%'
+Party:
+  Default-Slots: 3
+  Custom-Slots:
+  - '4 : skywars.party.slots.4'
+  - '5 : skywars.party.slots.5'
+  - '6 : skywars.party.slots.6'
+Hotbar-Items:
+  Arena-Selector:
+    enabled: true
+    slot: 1
+  Shop:
+    enabled: true
+    slot: 2
+  Party:
+    enabled: true
+    slot: 3
+  Profile:
+    enabled: true
+    slot: 5
+  Vote:
+    enabled: true
+    slot: 1
+  Inventory:
+    enabled: true
+    slot: 2
+  Quit:
+    enabled: true
+    slot: 9
+Chest-Checks:
+  Slot-Overwrite: 3
+  Item-Duplicate: 3
+Bungee-Mode:
+  enabled: true
+  hub: lobby
+MySQL:
+  enabled: false
+  table: Skywars
+  host: localhost
+  port: 3306
+  database: database
+  username: root
+  password: root
+  max_uuid_size: 36
+Rollback:
+  Scan-Speed: 50000
+  Repair-Speed: 10000
+  Queue-Size: 2
+  Send-Status-Update-Every: 20
+Ranks:
+  First-Rank-Exp: 20
+  Rank-Modifier: 1.3
+  Max-Rank: 30
+  Commands:
+  - '30 : broadcast %player% has reached the highest rank!'
+Executed-Commands:
+  Player-Win: []
+  Arena-Countdown:
+  - broadcast Arena %arena% is about to start in %seconds% seconds!
+  Arena-Start:
+  - time set 1000 %world%
+Killstreaks:
+- '2 : give %player% beef 3'
+- '5 : give %player% golden_apple 2'
+- '7 : give %player% diamond 5'
+Saving-Task:
+  Enabled: true
+  Save-Every-Minutes: 10
+Winners-Map:
+  enabled: false
+  display-image: false
+  image-url: http://i.imgur.com/FrgIjmJ.png
+Team-Coloring:
+  default: '&a'
+  randomizer-enabled: true
+  randomizer-colors:
+  - '&2'
+  - '&3'
+  - '&5'
+  - '&6'
+  - '&7'
+  - '&8'
+  - '&9'
+  - '&a'
+  - '&b'
+  - '&c'
+  - '&d'
+  - '&e'
+Scoreboard-Title-Animation:
+  enabled: true
+  interval: 8
+  frames:
+  - '&e&lTechSkywars'
+Action-Bar-Enabled: true
+Titles:
+  enabled: true
+  fadeIn: 10
+  stay: 40
+  fadeOut: 10
+Lobby: Lobby, 550.5, 161, 114.5, 89.8313, 2.249996

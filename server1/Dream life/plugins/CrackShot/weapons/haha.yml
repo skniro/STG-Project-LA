@@ -1,0 +1,111 @@
+hd:
+    Item_Information:
+        Item_Name: "&f &f军用望远镜&8(军用)"
+        Item_Type: 2266
+        Item_Lore: "&6主动-看妹子: &f左键看望远镜,自带灯光|&6主动-赫人一击: &f右键发射多个头颅|&f历练值: &e0|&7“我不需要去搭讪了！”"
+        Sounds_Acquired: NOTE_PLING-2-0-0,NOTE_PLING-2-2-6
+        Hidden_From_List: false
+    Shooting:
+        Disable: false
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 150
+        Recoil_Amount: 1
+        Projectile_Amount: 1
+        Projectile_Type: witherskull
+        Projectile_Speed: 22
+        Projectile_Damage: 3000
+        Projectile_Incendiary:
+        Enable: true
+        Duration: 500
+        Bullet_Spread: 0
+        Reset_Fall_Distance: true
+        Sounds_Shoot: GHAST_SCREAM2-2-2-0,CAT_HISS-2-2-0,FALL_BIG-2-2-0,NOTE_PLING-2-0-0
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0
+        Sneak_Before_Shooting: false
+    Burstfire:
+        Enable: true
+        Shots_Per_Burst: 25
+        Delay_Between_Shots_In_Burst: 1
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Sneak:
+        Enable: true
+        No_Recoil: true
+        Bullet_Spread: 0
+        Sneak_Before_Shooting: false
+    Burstfire:
+        Enable: true
+        Shots_Per_Burst: 25
+        Delay_Between_Shots_In_Burst: 1
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Potion_Effects:
+        Activation: hit
+        Potion_Effect_Victim: BLINDNESS-100-2,SLOW-100-20,CONFUSION-70-4
+    Scope:
+        Enable: true
+        Night_Vision: true
+        Zoom_Amount: 10
+        Zoom_Bullet_Spread: 0
+        Zoom_Before_Shooting: false
+        Sounds_Toggle_Zoom: NOTE_PLING-1-0-0,NOTE_PLING-1-0-3
+Raygun:
+    Item_Information:
+        Item_Name: "&f &f等离子激光&b(纳米)"
+        Item_Type: 76
+        Item_Lore: "&f每发伤害&e>>&d6000|&f承载子弹&e>>&d5|&f历练值: &e0|&7“哈哈,穿透你的下体”"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+        Normal: "&a<shooter> &6射♂死了蹲在厕所里的 &c<victim>&3！"
+    Shooting:
+        Right_Click_To_Shoot: true
+        Delay_Between_Shots: 2
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Projectile_Speed: 40
+        Projectile_Damage: 6000
+        Sounds_Shoot: FIREWORK_LAUNCH-2-1-0,ORB_PICKUP-2-1-0,FIZZ-0-2-0,FUSE-0-2-0,ENDERMAN_TELEPORT-2-1-0,ENDERMAN_TELEPORT-2-2-2
+    Projectile_Incendiary:
+        Enable: false
+        Duration: 150
+    Burstfire:
+        Enable: false
+        Shots_Per_Burst: 1
+        Delay_Between_Shots_In_Burst: 1
+    Abilities:
+        Reset_Hit_Cooldown: true
+    Reload:
+        Enable: true
+        Reload_Amount: 5
+        Reload_Duration: 50
+        Take_Ammo_On_Reload: true
+        Sounds_Reloading: ZOMBIE_UNFECT-1-1-10,ZOMBIE_UNFECT-1-0-20,ZOMBIE_INFECT-1-1-35
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: block_break-51
+        Particle_Hit: block_break-133, block_break-133, FLAMES-10
+        Particle_Impact_Anything: block_break-133, block_break-133
+        Particle_Player_Shoot: FLAMES-10, smoke-5
+    Hit_Events:
+        Enable: true
+        Sounds_Impact: ORB_PICKUP-1-2-0,FIZZ-0-2-0,FUSE-0-2-0,ENDERMAN_TELEPORT-2-1-0,ENDERMAN_TELEPORT-2-2-2
+        Sounds_Victim: ZOMBIE_METAL-1-2-0
+    Explosions:
+        Enable: false
+        Explosion_No_Grief: true
+        Explosion_Radius: 1
+        Explosion_Delay: 0
+        On_Impact_With_Anything: true
+        Enable_Owner_Immunity: false
+        Sounds_Explode: ZOMBIE_METAL-2-3-2
+    Shrapnel:
+        Enable: true
+        Block_Type: 59
+        Amount: 10
+        Speed: 5
+        Place_Blocks: false

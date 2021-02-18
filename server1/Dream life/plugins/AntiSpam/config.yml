@@ -1,0 +1,13 @@
+config:
+  commandWait: 2
+  chatWait: 1
+  chatLimit: 10
+  dirtyList:
+  - "\u64cd\u4f60\u5988"
+  - "\u8349"
+  - FUCK
+  - "\u6d63\u72b2\ue6ed"
+  - "\u64cd"
+  commandWhiteList:
+  - /cj
+  - /spam

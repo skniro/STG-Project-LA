@@ -1,0 +1,232 @@
+Particles:
+  Water Splash:
+    Name: "&a\u6c34\u6ef4\u5149\u5708"
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - "&7\u8fd9\u662f\u663e\u793a\u6c34\u6ef4\u7684\u7c92\u5b50"
+    - "&7\u4f7f\u7528\u5b83\u4f1a\u5728\u4f60\u8eab\u4e0a\u663e\u73b0"
+    - "&7\u5728\u5927\u5385\u4f7f\u7528\u54e6"
+  Drip Water:
+    Name: "&9\u6c34\u6ef4\u5149\u73af"
+    Mystery Dust: 25
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - "&7\u8fd9\u662f\u663e\u793a\u6c34\u6ef4\u7684\u7c92\u5b50"
+    - "&7\u4f7f\u7528\u5b83\u4f1a\u5728\u4f60\u5934\u4e0a\u663e\u73b0"
+    - "&7\u5728\u5927\u5385\u4f7f\u7528\u54e6"
+  Drip Lava:
+    Name: "&9\u5c0f\u706b\u5149\u73af"
+    Mystery Dust: 25
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - "&7\u8fd9\u662f\u663e\u793a\u5c0f\u706b\u7684\u7c92\u5b50"
+    - "&7\u4f7f\u7528\u5b83\u4f1a\u5728\u4f60\u5934\u4e0a\u663e\u73b0"
+    - "&7\u5728\u5927\u5385\u4f7f\u7528\u54e6"
+  Crit:
+    Name: "&9\u653b\u51fb\u7279\u6548\u5149\u73af"
+    Mystery Dust: 22
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - "&7\u8fd9\u662f\u663e\u793a\u653b\u51fb\u7279\u6548\u7684\u7c92\u5b50"
+    - "&7\u4f7f\u7528\u5b83\u4f1a\u5728\u4f60\u5934\u4e0a\u663e\u73b0"
+    - "&7\u5728\u5927\u5385\u4f7f\u7528\u54e6"
+  Magic Crit:
+    Name: "&9\u6df1\u84dd\u836f\u6c34\u5149\u73af"
+    Mystery Dust: 20
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - "&7\u8fd9\u662f\u663e\u793a\u77ac\u95f4\u4f24\u5bb3\u836f\u6c34\u7684\u7c92\u5b50"
+    - "&7\u4f7f\u7528\u5b83\u4f1a\u5728\u4f60\u5934\u4e0a\u663e\u73b0"
+    - "&7\u5728\u5927\u5385\u4f7f\u7528\u54e6"
+  Spell:
+    Name: "&5\u5149\u6655\u5149\u73af"
+    Mystery Dust: 30
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - "&7\u8fd9\u662f\u663e\u793a\u5149\u6655\u7684\u7c92\u5b50"
+    - "&7\u4f7f\u7528\u5b83\u4f1a\u5728\u4f60\u5934\u4e0a\u663e\u73b0"
+    - "&7\u5728\u5927\u5385\u4f7f\u7528\u54e6"
+  Instant Spell:
+    Name: "&5\u767d\u8272\u5149\u73af"
+    Mystery Dust: 32
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - "&7\u8fd9\u662f\u663e\u793a\u767d\u8272\u7684\u7c92\u5b50"
+    - "&7\u4f7f\u7528\u5b83\u4f1a\u5728\u4f60\u5934\u4e0a\u663e\u73b0"
+    - "&7\u5728\u5927\u5385\u4f7f\u7528\u54e6"
+  Mob Spell:
+    Name: "&5\u5f69\u8272\u5149\u73af"
+    Mystery Dust: 35
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - "&7\u8fd9\u662f\u663e\u793a\u5f69\u8272\u836f\u6c34\u7684\u7c92\u5b50"
+    - "&7\u4f7f\u7528\u5b83\u4f1a\u5728\u4f60\u5934\u4e0a\u663e\u73b0"
+    - "&7\u5728\u5927\u5385\u4f7f\u7528\u54e6"
+  Witch Spell:
+    Name: "&6\u7d2b\u8272\u836f\u6c34\u5149\u73af"
+    Mystery Dust: 40
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - "&7\u8fd9\u662f\u663e\u793a\u4e2d\u6bd2\u836f\u6c34\u7684\u7c92\u5b50"
+    - "&7\u4f7f\u7528\u5b83\u4f1a\u5728\u4f60\u5934\u4e0a\u663e\u73b0"
+    - "&7\u5728\u5927\u5385\u4f7f\u7528\u54e6"
+  Angry Villager:
+    Name: "&5\u706b\u7403\u5149\u73af"
+    Mystery Dust: 32
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - "&7\u8fd9\u662f\u663e\u793a\u706b\u7130\u7403\u7684\u7c92\u5b50"
+    - "&7\u4f7f\u7528\u5b83\u4f1a\u5728\u4f60\u5934\u4e0a\u663e\u73b0"
+    - "&7\u5728\u5927\u5385\u4f7f\u7528\u54e6"
+  Happy Villager:
+    Name: "&5\u7eff\u8272\u5149\u73af"
+    Mystery Dust: 35
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - "&7\u8fd9\u662f\u663e\u793a\u7eff\u8272\u7684\u7c92\u5b50"
+    - "&7\u4f7f\u7528\u5b83\u4f1a\u5728\u4f60\u5934\u4e0a\u663e\u73b0"
+    - "&7\u5728\u5927\u5385\u4f7f\u7528\u54e6"
+  Town Aura:
+    Name: "&a\u7070\u8272\u7c92\u5b50"
+    Mystery Dust: 18
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - "&7\u8fd9\u662f\u663e\u793a\u7070\u8272\u7684\u7c92\u5b50"
+    - "&7\u4f7f\u7528\u5b83\u4f1a\u5728\u4f60\u5934\u4e0a\u663e\u73b0"
+    - "&7\u5728\u5927\u5385\u4f7f\u7528\u54e6"
+  Note:
+    Name: "&5\u97f3\u4e50\u7c92\u5b50"
+    Mystery Dust: 35
+    Rarity: Epic
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - "&7\u8fd9\u662f\u663e\u793a\u97f3\u4e50\u7684\u7c92\u5b50"
+    - "&7\u4f7f\u7528\u5b83\u4f1a\u5728\u4f60\u5934\u4e0a\u663e\u73b0"
+    - "&7\u5728\u5927\u5385\u4f7f\u7528\u54e6"
+  Portal:
+    Name: "&a\u795e\u79d8\u5149\u73af"
+    Mystery Dust: 18
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - "&7\u8fd9\u662f\u663e\u793a\u795e\u79d8\u672b\u5f71\u7684\u7c92\u5b50"
+    - "&7\u4f7f\u7528\u5b83\u4f1a\u5728\u4f60\u5934\u4e0a\u663e\u73b0"
+    - "&7\u5728\u5927\u5385\u4f7f\u7528\u54e6"
+  Enchantment Table:
+    Name: "&9\u9644\u9b54\u7c92\u5b50"
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - "&7\u8fd9\u662f\u663e\u793a\u9644\u9b54\u7684\u7c92\u5b50"
+    - "&7\u4f7f\u7528\u5b83\u4f1a\u5728\u4f60\u5934\u4e0a\u663e\u73b0"
+    - "&7\u5728\u5927\u5385\u4f7f\u7528\u54e6"
+  Flame:
+    Name: "&a\u706b\u7130\u7c92\u5b50"
+    Mystery Dust: 45
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - "&7\u8fd9\u662f\u663e\u793a\u706b\u7130\u7684\u7c92\u5b50"
+    - "&7\u4f7f\u7528\u5b83\u4f1a\u5728\u4f60\u5934\u4e0a\u663e\u73b0"
+    - "&7\u5728\u5927\u5385\u4f7f\u7528\u54e6"
+  Redstone:
+    Name: "&a\u5f69\u70df\u5149\u73af"
+    Mystery Dust: 48
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - "&7\u8fd9\u662f\u663e\u793a\u5f69\u8272\u70df\u7684\u7c92\u5b50"
+    - "&7\u4f7f\u7528\u5b83\u4f1a\u5728\u4f60\u5934\u4e0a\u663e\u73b0"
+    - "&7\u5728\u5927\u5385\u4f7f\u7528\u54e6"
+  Heart:
+    Name: "&9\u604b\u7231\u5149\u73af"
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - "&7\u8fd9\u662f\u663e\u793a\u7231\u5fc3\u7684\u7c92\u5b50"
+    - "&7\u4f7f\u7528\u5b83\u4f1a\u5728\u4f60\u5934\u4e0a\u663e\u73b0"
+    - "&7\u5728\u5927\u5385\u4f7f\u7528\u54e6"
+  Fireworks Spark:
+    Name: "&6\u767d\u70df\u5149\u5708"
+    Mystery Dust: 52
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - "&7\u8fd9\u662f\u663e\u793a\u767d\u8272\u70df\u7684\u7c92\u5b50"
+    - "&7\u4f7f\u7528\u5b83\u4f1a\u5728\u4f60\u8eab\u4e0a\u663e\u73b0"
+    - "&7\u5728\u5927\u5385\u4f7f\u7528\u54e6"
+  Smoke:
+    Name: "&a\u9ed1\u70df\u5149\u73af"
+    Mystery Dust: 18
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - "&7\u8fd9\u662f\u663e\u793a\u9ed1\u8272\u70df\u7684\u7c92\u5b50"
+    - "&7\u4f7f\u7528\u5b83\u4f1a\u5728\u4f60\u5934\u4e0a\u663e\u73b0"
+    - "&7\u5728\u5927\u5385\u4f7f\u7528\u54e6"
+  Slime:
+    Name: "&a\u7c98\u6db2\u7c92\u5b50"
+    Mystery Dust: 22
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - "&7\u4e00\u8eab\u7eff\u8272\u7684\u7c98\u6db2\u7c92\u5b50\u6548\u679c"
+    - "&7\u4f7f\u7528\u5b83\u4f1a\u5728\u4f60\u5934\u4e0a\u663e\u73b0"
+    - "&7\u5728\u5927\u5385\u4f7f\u7528\u54e6"

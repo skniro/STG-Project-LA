@@ -1,0 +1,28 @@
+# command-alias: If the /ch command conflicts with another plugin, you can
+# change it here.
+command-alias: ch
+performance:
+  replace-rails-correctly: true
+  save-suffocating-mobs: true
+  keep-leaves-vines: true
+  sort-exploded-blocks-by-distance: true
+wait-before-burn-again: 240
+prevent-block-fall: true
+overwrite-blocks: true
+drop-destroyed-blocks:
+  enabled: true
+  chance: 100
+teleport-when-buried: true
+distance-near: 20
+prevent-chain-reaction: false
+obsidian:
+  explode: false
+  radius: 5
+  chance: 20
+replace-silverfish-blocks: false
+join-nearby-explosions: true
+log-warnings: true
+verbose-level: 1
+debug-messages: false
+config-version: 11
+change-stone-to-cobble: false

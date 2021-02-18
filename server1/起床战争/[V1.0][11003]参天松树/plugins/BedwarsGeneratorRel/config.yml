@@ -1,0 +1,349 @@
+﻿version: REL2.0
+language:
+  solo_shop: "&e&l物品商人"
+  trap_activated: "&aThe Bed Trap has been activated by {0}"
+  trap_triggered: "&dTHE TRAP HAS BEEN TRIGGERED"
+  trap_icon: "&aTrap"
+  trap_already_activated: "&cThe TRAP is already activated"
+  trap_deactivated: "&cThe TRAP is deactivated"
+  trap_description:
+  - "Activate your trap to"
+  - "trap other team's member when"
+  - "they triggered the trap"
+  - "it also shows you a warning text"
+  - "when they triggered the trap"
+  no_perm: "You dont have permission to do this! Donate the server to get the rank + permissions"
+  upgrade: "&a升级"
+  upgrade_already_maxed: "&c这个资源点已经满级了!"
+  upgrade_desc:
+  - "Click here to upgrade this ability"
+  not_enough: "&c你没有足够的资源购买这个物品!"
+  team_broadcast_upgrade: "&a<actor> just upgraded the Team Upgrade: <upgrade>"
+  teamshop: "&e&l队伍商店"
+  teamshop_title: '&1队伍商店'
+  npc_selector: "&aNPC Control Panel"
+  npc_selector_title: "&1NPC Selector"
+  npc_selector_description:
+  - "Click here to customize"
+  - "this NPC display"
+  npc_selector_skin: "&e皮肤更换"
+  npc_selector_entity: "&e皮肤类型"
+  npc_selector_entity_title: "&1Types"
+  npc_selector_skin_title: "&1Skins"
+  npc_selector_skinchange: "&aYou just changed the TeamShop skin"
+  npc_selector_entitychange: "&aYou just changed the TeamShop type"
+  npc_selector_skin_description:
+  - "Customize the TeamShop skin"
+  - "*only works for Player type TeamShop"
+  npc_select_entity_description: 
+  - "Change the TeamShop entity type"
+  starts_item_cost: "Start at: {0}"
+  multiplier: "MultiplierPerLevel: {0}"
+  cost: "Cost: {0}"
+  bedwars: "&e&l起床战争"
+  web: "&ewww.mcbbs.com"
+  spawn_every: "&c<time> &7秒刷新一次"
+  bed_protect: "&e&l保护你队伍的床"
+  bed_destroy: "&c&l该队伍的床已被摧毁"
+  title_bed_destroy: "&c&l你家炸了"
+  subtitle_bed_destroy: "&f死后将不能复活！"
+  max_upgrade: "&a满级了"
+  et_upgrade: "&c&l<time> &f秒后资源点升级"
+  game_selector_title: '&1地图设置'
+  arrow_trail_title: '&1Arrow Trail'
+  arrow_trail_description:
+  - "Click here to use this trail effect"
+  arrow_trail_used: 
+  - "You are currently using this effect"
+  arrow_trail_locked:
+  - "&cLOCKED: &bYou must be a Vip to use this"
+  - "Donate the server to get vip"
+  arrow_trail_no_permission: "&8[&aArrowTrail&8] &7You dont have permission to use this trail!"
+  arrow_trail_selected: "&8[&aArrowTrail&8] &7You selected <name> &7trail!"
+  game_selector_solo_title: "&1&lBedwars - Solo Maps"
+  game_selector_team_title: "&1&lBedwars - Team Maps"
+  game_selector_all_title: "&1&lBedwars - Maps"
+  join_game_lore: 
+  - "Click here to join this arena"
+  join_game_lore_started: 
+  - "&c- Already Started -"
+  - "&7You cant join this arena"
+  game_type_team_lore:
+  - "Click here to join Bedwars Team game"
+  game_type_solo_lore:
+  - "Click here to join Bedwars Solo game"
+  game_type_random_lore:
+  - "Click here to join Bedwars Random game"
+  game_type_all_lore:
+  - "Click here to join a Bedwars Game"
+  no_available_game: "Theres no available game to play right now :("
+  #<name> = generator-name
+  generator_type: "&b&l<name> 资源点"
+  fight_list:
+  - '&a游戏开始'
+  victory_list:
+  - '&c游戏结束'
+#Only works on BedwarsRel!
+override-scoreboard: true
+arrow-trail:
+  #[] means enabled on every game
+  enabled-game: []
+  effect-list:
+  # EXAMPLE:
+  #   name: 'Sample Text'
+  #   permissions: 'this.is.optional'
+  #   data: 2 (same, optional, but DEPRECATED :[)
+    LAVA_POP:
+      name: '&6Flame'
+      permissions: 'server.vip'
+    SMOKE:
+      name: '&8Wither'
+    POTION_SWIRL:
+      name: '&dMagician'
+    HAPPY_VILLAGER:
+      name: '&ePositive Aura'
+      permissions: 'server.vip'
+    HEART:
+      name: '&cLove Power'
+      permissions: 'server.vip'
+    MAGIC_CRIT:
+      name: '&3Poison'
+    NOTE: 
+      name: '&eMusic'
+      permissions: 'server.vip'
+    COLOURED_DUST:
+      name: '&cR&ea&ai&bn&9b&do&6w'
+      permissions: 'server.vip'
+    LAVADRIP:
+      name: '&4Lava'
+    WATERDRIP:
+      name: '&9Water'
+    MOBSPAWNER_FLAMES:
+      name: '&c&lFire'
+    VILLAGER_THUNDERCLOUD:
+      name: '&4&lMa&c&ldn&6&les&e&ls'
+game-announcer:
+  enabled: false
+  random: false
+  prefix: '&a自动公告: &f'
+  interval: 90 #seconds
+  messages:
+  - ''
+bedwars-map-selector:
+#Use command "/bwmap" to use this ;D
+  solo:
+  - PutYourGameHere
+  - SampleText
+  team: []
+  #if the player doesnt have this permission
+  #player will only able to join random arena
+  selector-permission: 'server.vip'
+global-database:
+  #Leave it empty to enable the generator in every game arena
+  game-enabled: []
+  enabled-type:
+  - iron_ingot
+  - gold_ingot
+ #- clay_brick
+  holo-block:
+    clay_brick: CLAY_BRICK
+    iron_ingot: IRON_BLOCK
+    gold_ingot: GOLD_BLOCK
+   #clay_brick: BRICK
+  generator-name:
+    clay_brick: "铜"
+    iron_ingot: "铁"
+    gold_ingot: "金"
+   #clay_brick: BRONZE
+  upgrade_time:
+  #in seconds
+    clay_brick: 100
+    iron_ingot: 300
+    gold_ingot: 580
+   #clay_brick: 2000
+  upgrade-level:
+  #decrease item spawn time by seconds
+    iron_ingot: 1
+    gold_ingot: 1
+   #clay_brick: 0
+  upgrade-name:
+    clay_brick:
+    - '&e普通资源点'
+    iron_ingot:
+    - '&e普通资源点'
+    - '&e等级 I'
+    - '&e等级 II'
+    - '&e等级 III'
+    - '&e等级 IV'
+    gold_ingot:
+    - '&e普通资源点'
+    - '&e等级 I'
+    - '&e等级 II'
+#ONLY FOR BEDWARSREL
+team-shop:
+  shop-item:
+    trap:
+      cost_type: GOLD_INGOT
+      cost: 10
+      #blocks :>
+      radius: 6
+      effect: BLINDNESS
+    npc-selector:
+      starter-skin: Steve
+      skins:
+        Notch:
+          permissions: 'server.vip'
+        _jeb:
+          permissions: 'server.vip'
+        herobrine:
+          permissions: 'server.vip'
+        entity303:
+          permissions: 'server.vip'
+        miner:
+            permissions: 'server.vip'
+        mhf_chest:
+          permissions: 'server.vip'
+      entity:
+        PLAYER:
+          permissions: 'server.vip'
+        SHEEP:
+          permissions: 'server.vip'
+        COW:
+          permissions: 'server.vip'
+        BLAZE:
+          permissions: 'server.vip'
+        ZOMBIE:
+          permissions: 'server.vip'
+        WITCH:
+          permissions: 'server.vip'
+        SKELETON:
+          permissions: 'server.vip'
+        WITHER:
+          permissions: 'server.mvp'
+    team-upgrades:
+      starter-kit:
+        name: "&aLoadout Items Upgrade"
+        icon: IRON_SWORD
+        description:
+        - "This Upgrades gives your team"
+        - "some starter item when the game start"
+        - "and after you died"
+        type: me.blueobsidian.BedwarsTeamShop.objects.plugins.Loadout
+        cost:
+          material: GOLD_INGOT
+          starts: 4
+          multiplier: 3
+        levels:
+          level01:
+          - "WOOD_SWORD:1"
+          level02:
+          - "STONE_SWORD:1"
+          level03:
+          - "IRON_SWORD:1"
+          level04:
+          - "GOLD_SWORD:1"
+          level05:
+          - "DIAMOND_SWORD:1"
+      effects:
+        name: "&aTeam Beacon"
+        icon: BEACON
+        description:
+        - "This Upgrades give your team"
+        - "special potion effect where ever"
+        - "your Team Members are!"
+        type: me.blueobsidian.BedwarsTeamShop.objects.plugins.PotionEffects
+        cost:
+          material: GOLD_INGOT
+          starts: 3
+          multiplier: 2
+        levels:
+          level01:
+          - 'REGENERATION:1'
+          level02:
+          - 'REGENERATION:2'
+          level03:
+          - 'REGENERATION:1'
+          - 'SPEED:1'
+          level04:
+          - 'REGENERATION:2'
+          - 'SPEED:1'
+          level05:
+          - 'REGENERATION:3'
+          - 'SPEED:1'
+          - 'STRENGTH:1'
+      enchantment:
+        name: "&aTeam Sword Enchantment"
+        icon: GOLD_SWORD
+        description:
+        - "This Upgrades gives your team"
+        - "an enchantment to your Team Member's Sword"
+        type: me.blueobsidian.BedwarsTeamShop.objects.plugins.Enchant
+        cost:
+          material: GOLD_INGOT
+          starts: 3
+          multiplier: 3
+        levels:
+          level01:
+          - 'DAMAGE_ALL:1'
+          level02:
+          - 'DAMAGE_ALL:2'
+          level03:
+          - 'DAMAGE_ALL:2'
+          - 'FIRE_ASPECT:1'
+          level04:
+          - 'DAMAGE_ALL:2'
+          - 'FIRE_ASPECT:1'
+          - 'KNOCKBACK:1'
+          level05:
+          - 'DAMAGE_ALL:3'
+          - 'FIRE_ASPECT:1'
+          - 'KNOCKBACK:1'
+      enchantment02:
+        name: "&aTeam Bow Enchantment"
+        icon: BOW
+        description:
+        - "This Upgrades gives your team"
+        - "an enchantment to your Team Member's Bow/Arrow"
+        type: me.blueobsidian.BedwarsTeamShop.objects.plugins.Enchant
+        cost:
+          material: GOLD_INGOT
+          starts: 2
+          multiplier: 2 
+        levels:
+          level01:
+          - 'ARROW_DAMAGE:1'
+          level02:
+          - 'ARROW_DAMAGE:2'
+          level03:
+          - 'ARROW_DAMAGE:2'
+          - 'ARROW_FIRE:1'
+          level04:
+          - 'ARROW_DAMAGE:2'
+          - 'ARROW_FIRE:1'
+          - 'ARROW_KNOCKBACK:1'
+          level05:
+          - 'ARROW_DAMAGE:3'
+          - 'ARROW_FIRE:1'
+          - 'ARROW_KNOCKBACK:1'
+      enchantment03:
+        name: "&aTeam Pickaxe Enchantment"
+        icon: IRON_PICKAXE
+        description:
+        - "This Uprgades gives your team"
+        - "an enchantment to your Team Member's Pickaxe"
+        type: me.blueobsidian.BedwarsTeamShop.objects.plugins.Enchant
+        cost:
+          material: GOLD_INGOT
+          starts: 1
+          multiplier: 2 
+        levels:
+          level01:
+          - 'DIG_SPEED:1'
+          level02:
+          - 'DIG_SPEED:2'
+          level03:
+          - 'DIG_SPEED:3'
+          level04:
+          - 'DIG_SPEED:4'
+          level05:
+          - 'DIG_SPEED:5'

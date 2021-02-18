@@ -1,0 +1,33 @@
+location:
+  ==: com.mtihc.minecraft.treasurechest.v8.core.TreasureChest
+  container:
+    ==: com.mtihc.minecraft.treasurechest.v8.core.BlockInventory
+    world: world
+    coords:
+      ==: Vector
+      x: 1288.0
+      y: 26.0
+      z: 1567.0
+    type: FURNACE
+    size: 3
+    contents:
+      item0:
+        ==: com.mtihc.minecraft.treasurechest.v8.core.ItemStackWrapper
+        stack:
+          ==: org.bukkit.inventory.ItemStack
+          type: SLIME_BALL
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: §e§l秘法钥匙 §r§l[40]
+  messages:
+    FOUND_ALREADY: You have already looted this treasure...
+    UNLIMITED: Take as much as you want!
+    FOUND: You have found treasure!
+  ranks: []
+  unlimited: false
+  random: 0
+  forget-time: 0
+  ignore-protection: false
+  shared: false
+  rewards: {}

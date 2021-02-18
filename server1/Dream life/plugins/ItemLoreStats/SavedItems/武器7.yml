@@ -1,0 +1,15 @@
+Item:
+  ==: org.bukkit.inventory.ItemStack
+  type: STONE_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: "\xa7f\u77ff\u5de5\u610f\u5fd7\xa73[\u5347\u9636]"
+    lore:
+    - "\xa7f\u7269\u7406\u4f24\u5bb3\xa7a>>\xa7b40-50"
+    - "\xa7f\u6495\u88c2\u51e0\u7387\xa7a>>\xa7b10%"
+    - "\xa7f\u7ecf\u9a8c\u52a0\u6210\xa7a>>\xa7b10%"
+    - "\xa7e"
+    - "\xa77\u201c\u780d\u654c\u4eba\u5982\u540c\u6316\u77ff\u4e00\u6837\u201d"
+    - "\xa77"
+    - "\xa76\u5386\u7ec3\u503c: \xa7b30"

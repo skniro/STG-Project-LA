@@ -1,0 +1,30 @@
+Barrier Trap:
+  name: Barrier Trap
+  desc: Places a trap that pushes enemies away
+Bomb Trap:
+  name: Bomb Trap
+  desc: Places a trap that explodes when triggered
+Fire Trap:
+  name: Fire Trap
+  desc: Places a trap that creates fire when triggered
+Ice Trap:
+  name: Ice Trap
+  desc: Creates a trap that prevents enemies from escaping
+Launch Trap:
+  name: Launch Trap
+  desc: Places a trap that launches an enemy upwards
+Lightning Trap:
+  name: Lightning Trap
+  desc: Places a trap that strikes lightning when triggered
+Poison Trap:
+  name: Poison Trap
+  desc: Places a trap that poisons enemies
+Slow Trap:
+  name: Slow Trap
+  desc: Places a trap that slows enemies
+Weakness Trap:
+  name: Weakness Trap
+  desc: Places a trap that lowers the damage of enemies
+Web Trap:
+  name: Web Trap
+  desc: Places a trap that spawns temporary webs when triggered

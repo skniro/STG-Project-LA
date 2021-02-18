@@ -1,0 +1,539 @@
+shop:
+  armor:
+    item: 311
+    name: "&b装备"
+    order: 10
+    permission: bw.base
+    lore:
+    - "防身总要用的吧？"
+    offers:
+    - reward:
+      - type: LEATHER_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 1
+      price:
+      - type: IRON_INGOT
+    - reward:
+      - type: LEATHER_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 1
+      price:
+      - type: IRON_INGOT
+    - reward:
+      - type: LEATHER_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 1
+      price:
+      - type: IRON_INGOT
+    - reward:
+      - type: IRON_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "§a铁鞋子"
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 2
+      price:
+      - type: GOLD_INGOT
+        amount: 6
+      - type: DIAMOND
+    - reward:
+      - type: CHAINMAIL_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 1
+      price:
+      - type: GOLD_INGOT
+    - reward:
+      - type: CHAINMAIL_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 2
+      price:
+      - type: GOLD_INGOT
+        amount: 3
+    - reward:
+      - type: CHAINMAIL_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 3
+      price:
+      - type: GOLD_INGOT
+        amount: 7
+    - reward:
+      - type: IRON_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "铁头盔"
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 2
+      price:
+      - type: DIAMOND
+        amount: 10
+    - reward:
+      - type: EMERALD_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+            DURABILITY: 3
+      price:
+      - type: EMERALD
+        amount: 5
+    - reward:
+      - type: IRON_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+            DURABILITY: 3
+      price:
+      - type: EMERALD
+        amount: 8
+    - reward:
+      - type: IRON_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+            DURABILITY: 3
+      price:
+      - type: EMERALD
+        amount: 8
+    - reward:
+      - type: EMERALD_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+            DURABILITY: 3
+      price:
+      - type: EMERALD
+        amount: 5
+  swords:
+    item: 276
+    name: "武器"
+    order: 20
+    permission: bw.base
+    lore:
+    - "拿上武器,打倒敌人！"
+    offers:
+    - reward:
+      - type: STICK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            KNOCKBACK: 1
+      price:
+      - type: IRON_INGOT
+        amount: 8
+    - reward:
+      - type: FISHING_ROD
+      price:
+      - type: IRON_INGOT
+        amount: 16
+    - reward:
+      - type: GOLD_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DAMAGE_ALL: 1
+      price:
+      - type: GOLD_INGOT
+    - reward:
+      - type: GOLD_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DAMAGE_ALL: 2
+      price:
+      - type: GOLD_INGOT
+        amount: 3
+    - reward:
+      - type: GOLD_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DAMAGE_ALL: 3
+      price:
+      - type: GOLD_INGOT
+        amount: 7
+    - reward:
+      - type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            ARROW_INFINITE: 1
+      price:
+      - type: EMERALD
+        amount: 3
+    - reward:
+      - type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            ARROW_DAMAGE: 1
+            ARROW_INFINITE: 1
+      price:
+      - type: EMERALD
+        amount: 7
+    - reward:
+      - type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            ARROW_DAMAGE: 3
+            ARROW_FIRE: 1
+            ARROW_INFINITE: 1
+      price:
+      - type: EMERALD
+        amount: 13
+    - reward:
+      - type: ARROW
+        amount: 2
+      price:
+      - type: DIAMOND
+    - reward:
+      - type: IRON_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DAMAGE_ALL: 2
+            KNOCKBACK: 1
+      price:
+      - type: DIAMOND
+        amount: 3
+    - reward:
+      - type: GOLD_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "迷之重斧"
+          enchants:
+            DAMAGE_ALL: 1
+            DURABILITY: 1
+            KNOCKBACK: 1
+      price:
+      - type: DIAMOND
+        amount: 15
+    - reward:
+      - type: EMERALD_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "神之圣剑"
+          enchants:
+            DAMAGE_ALL: 5
+            DURABILITY: 3
+            KNOCKBACK: 2
+      price:
+      - type: EMERALD
+        amount: 15
+  pickaxes:
+    item: 278
+    name: "稿子"
+    order: 50
+    permission: bw.base
+    lore:
+    - "没有稿子，你要怎么撸？"
+    offers:
+    - reward:
+      - type: IRON_PICKAXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            LOOT_BONUS_BLOCKS: 1
+      price:
+      - type: IRON_INGOT
+        amount: 4
+    - reward:
+      - type: IRON_PICKAXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            LOOT_BONUS_BLOCKS: 2
+      price:
+      - type: GOLD_INGOT
+        amount: 2
+    - reward:
+      - type: EMERALD_PICKAXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DIG_SPEED: 1
+      price:
+      - type: DIAMOND
+        amount: 20
+  blocks:
+    item: SANDSTONE
+    name: "方块"
+    order: 60
+    permission: bw.base
+    lore:
+    - "垫脚石,这个都没有你哪来的路\
+      ？"
+    offers:
+    - reward:
+      - type: SANDSTONE
+        damage: 2
+        amount: 2
+      price:
+      - type: IRON_INGOT
+    - reward:
+      - type: ENDER_STONE
+      price:
+      - type: IRON_INGOT
+        amount: 7
+    - reward:
+      - type: IRON_BLOCK
+      price:
+      - type: GOLD_INGOT
+        amount: 3
+    - reward:
+      - type: GLOWSTONE
+        amount: 4
+      price:
+      - type: IRON_INGOT
+        amount: 15
+    - reward:
+      - type: GLASS
+      price:
+      - type: IRON_INGOT
+        amount: 4
+  usefulstuff:
+    item: TNT
+    name: "杂货"
+    order: 70
+    permission: bw.base
+    lore:
+    - "各式各样的货物,肯定有你喜欢\
+      的"
+    offers:
+    - reward:
+      - type: GOLDEN_APPLE
+      price:
+      - type: GOLD_INGOT
+        amount: 2
+    - reward:
+      - type: WEB
+        amount: 2
+      price:
+      - type: GOLD_INGOT
+    - reward:
+      - type: TNT
+      price:
+      - type: GOLD_INGOT
+        amount: 3
+    - reward:
+      - type: FLINT_AND_STEEL
+      price:
+      - type: DIAMOND
+    - reward:
+      - type: CHEST
+      price:
+      - type: GOLD_INGOT
+    - reward:
+      - type: ENDER_CHEST
+      price:
+      - type: DIAMOND
+    - reward:
+      - type: BLAZE_ROD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "§c救命道具"
+          lore:
+          - "哎呀，手滑掉虚空了，快用\
+            这个道具！"
+      price:
+      - type: GOLD_INGOT
+        amount: 15
+    - reward:
+      - type: STRING
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "§7蜘蛛丝陷阱"
+          lore:
+          - "一旦有敌人踩到了你设置的\
+            陷阱，嘿嘿嘿"
+      price:
+      - type: GOLD_INGOT
+        amount: 3
+    - reward:
+      - type: BRICK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "§4保护墙"
+          lore:
+          - "有人追来？快用道具堵住他"
+      price:
+      - type: IRON_INGOT
+        amount: 64
+    - reward:
+      - type: SULPHUR
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "§f回城卷轴"
+          lore:
+          - "使用后6秒之内不要动，即可\
+            回到自己队伍基地"
+      price:
+      - type: GOLD_INGOT
+        amount: 7
+    - reward:
+      - type: MONSTER_EGG
+        damage: 91
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "§cTNT追踪羔羊"
+          lore:
+          - "清理附近的敌人"
+      price:
+      - type: DIAMOND
+        amount: 10
+    - reward:
+      - type: SNOW_BALL
+        amount: 16
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "§c熊之雪球"
+          lore:
+          - "有人在搭路？你懂得"
+      price:
+      - type: IRON_INGOT
+        amount: 32
+    - reward:
+      - type: ENDER_PEARL
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: "§1瞬移之珠"
+          lore:
+          - "偷床神器"
+      price:
+      - type: EMERALD
+        amount: 5
+  drinks:
+    item: POTION
+    name: "药水"
+    order: 80
+    permission: bw.base
+    lore:
+    - "各种虐人的药水,快买！"
+    offers:
+    - reward:
+      - type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: "治疗药水(一)"
+          custom-effects:
+          - ==: PotionEffect
+            effect: 6
+            duration: 1
+            amplifier: 0
+            ambient: true
+            has-particles: true
+      price:
+      - type: GOLD_INGOT
+        amount: 3
+    - reward:
+      - type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: "治疗药水(二)"
+          custom-effects:
+          - ==: PotionEffect
+            effect: 6
+            duration: 1
+            amplifier: 1
+            ambient: true
+            has-particles: true
+      price:
+      - type: GOLD_INGOT
+        amount: 5
+    - reward:
+      - type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: "迅捷药水"
+          custom-effects:
+          - ==: PotionEffect
+            effect: 1
+            duration: 3600
+            amplifier: 0
+            ambient: true
+            has-particles: true
+      price:
+      - type: GOLD_INGOT
+        amount: 7
+    - reward:
+      - type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: "力量药水"
+          custom-effects:
+          - ==: PotionEffect
+            effect: 5
+            duration: 3600
+            amplifier: 0
+            ambient: true
+            has-particles: true
+      price:
+      - type: DIAMOND
+    - reward:
+      - type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: "回血药水"
+          custom-effects:
+          - ==: PotionEffect
+            effect: 10
+            duration: 900
+            amplifier: 0
+            ambient: true
+            has-particles: true
+      price:
+      - type: DIAMOND
+        amount: 3
+schema-version: 1

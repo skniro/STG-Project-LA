@@ -1,0 +1,19 @@
+lastAccountName: skniro
+timestamps:
+  login: 1536381568626
+  logout: 1536381603374
+ipAddress: 127.0.0.1
+lastlocation:
+  world: world
+  x: -30.5
+  y: 73.0
+  z: 0.5
+  yaw: -89.0
+  pitch: 0.0
+logoutlocation:
+  world: world
+  x: -22.5
+  y: 70.0
+  z: 1.5
+  yaw: 0.0
+  pitch: 0.0

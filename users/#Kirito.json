@@ -1,0 +1,9 @@
+{
+    "__filename__": "./users/#Kirito.json",
+    "username": "#Kirito",
+    "password": "fd30e7f55eb643f22f138e89d25ef756",
+    "salt": "EBzVDp",
+    "createDate": "2018-9-15 21:33:02",
+    "lastDate": "2018-9-15 21:33:02",
+    "allowedServer": []
+}

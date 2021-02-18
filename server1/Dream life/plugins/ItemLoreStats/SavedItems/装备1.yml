@@ -1,0 +1,13 @@
+Item:
+  ==: org.bukkit.inventory.ItemStack
+  type: LEATHER_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: LEATHER_ARMOR
+    display-name: "\xa7f\u9e21\u6bdb\u5e3d\u5b50\xa7f[\u666e\u901a]"
+    lore:
+    - "\xa7c\u81ea\u8eab\u8840\u91cf\xa7f>>\xa7b5"
+    - "\xa7c"
+    - "\xa77\u201c\u9e21\u6bdb\u505a\u7684\u4e00\u4ef6\u5957\u201d"
+    - "\xa77"
+    - "\xa76\u5386\u7ec3\u503c: \xa7b1"

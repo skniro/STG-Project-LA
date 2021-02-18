@@ -1,0 +1,223 @@
+Achievements:
+  kills:
+    '10':
+      description: 完成 10 次击杀!
+      prize-description: 奖励 100 个代币!
+      executed-command: sw coins add %player% 100
+    '30':
+      description: 完成 30 次击杀!
+      prize-description: 奖励 300 个代币!
+      executed-command: sw coins add %player% 300
+    '50':
+      description: 完成 50 次击杀!
+      prize-description: 奖励 500 个代币!
+      executed-command: sw coins add %player% 500
+    '100':
+      description: 完成 100 次击杀!
+      prize-description: 奖励 1000 个代币!
+      executed-command: sw coins add %player% 1000
+    '150':
+      description: 完成 150 次击杀!
+      prize-description: 奖励 1000 个代币!
+      executed-command: sw coins add %player% 1000
+    '200':
+      description: 完成 200 次击杀!
+      prize-description: 奖励 1000 个代币!
+      executed-command: sw coins add %player% 1000
+    '500':
+      description: 完成 500 次击杀!
+      prize-description: 奖励 1000 个代币!
+      executed-command: sw coins add %player% 1000
+    '1000':
+      description: 完成 1000 次击杀!
+      prize-description: 奖励 1000 个代币!
+      executed-command: sw coins add %player% 1000
+  wins:
+    '1':
+      description: 获得 1 次胜利!
+      prize-description: 奖励 100 个代币!
+      executed-command: sw coins add %player% 100
+    '5':
+      description: 获得 5 次胜利!
+      prize-description: 奖励 500 个代币!
+      executed-command: sw coins add %player% 500
+    '10':
+      description: 获得 10 次胜利!
+      prize-description: 奖励 500 个代币!
+      executed-command: sw coins add %player% 500
+    '20':
+      description: 获得 20 次胜利!
+      prize-description: 奖励 500 个代币!
+      executed-command: sw coins add %player% 500
+    '50':
+      description: 获得 50 次胜利!
+      prize-description: 奖励 500 个代币!
+      executed-command: sw coins add %player% 500
+    '100':
+      description: 获得 100 次胜利!
+      prize-description: 奖励 500 个代币!
+      executed-command: sw coins add %player% 500
+  projectiles_launched:
+    '50':
+      description: 弓箭 50 次使用!
+      prize-description: 奖励 50 个代币!
+      executed-command: sw coins add %player% 50
+    '100':
+      description: 弓箭 100 次使用!
+      prize-description: 奖励 100 个代币!
+      executed-command: sw coins add %player% 100
+    '500':
+      description: 弓箭 500 次使用!
+      prize-description: 奖励 500 个代币!
+      executed-command: sw coins add %player% 500
+    '1000':
+      description: 弓箭 1000 次使用!
+      prize-description: 奖励 500 个代币!
+      executed-command: sw coins add %player% 500
+    '3000':
+      description: 弓箭 3000 次使用!
+      prize-description: 奖励 500 个代币!
+      executed-command: sw coins add %player% 500
+  projectiles_hit:
+    '25':
+      description: 弓箭 25 次击中!
+      prize-description: 奖励 50 个代币!
+      executed-command: sw coins add %player% 50
+    '50':
+      description: 弓箭 50 次击中!
+      prize-description: 奖励 100 个代币!
+      executed-command: sw coins add %player% 100
+    '100':
+      description: 弓箭 100 次击中!
+      prize-description: 奖励 200 个代币!
+      executed-command: sw coins add %player% 200
+    '250':
+      description: 弓箭 250 次击中!
+      prize-description: 奖励 500 个代币!
+      executed-command: sw coins add %player% 500
+    '500':
+      description: 弓箭 500 次击中!
+      prize-description: 奖励 500 个代币!
+      executed-command: sw coins add %player% 500
+    '1000':
+      description: 弓箭 1000 次击中!
+      prize-description: 奖励 500 个代币!
+      executed-command: sw coins add %player% 500
+  player_rank:
+    '5':
+      description: 达到竞技等级 5!
+      prize-description: 奖励 500 个代币!
+      executed-command: sw coins add %player% 500
+    '10':
+      description: 达到竞技等级 10!
+      prize-description: 奖励 500 个代币!
+      executed-command: sw coins add %player% 500
+    '15':
+      description: 达到竞技等级 15!
+      prize-description: 奖励 500 个代币!
+      executed-command: sw coins add %player% 500
+    '20':
+      description: 达到竞技等级 20!
+      prize-description: 奖励 500 个代币!
+      executed-command: sw coins add %player% 500
+    '25':
+      description: 达到竞技等级 25!
+      prize-description: 奖励 1000 个代币!
+      executed-command: sw coins add %player% 1000
+    '30':
+      description: 达到竞技等级 30!
+      prize-description: 奖励 1000 个代币!
+      executed-command: sw coins add %player% 1000
+  blocks_placed:
+    '50':
+      description: 放置 50 个方块!
+      prize-description: 奖励 50 个代币!
+      executed-command: sw coins add %player% 50
+    '200':
+      description: 放置 200 个方块!
+      prize-description: 奖励 200 个代币!
+      executed-command: sw coins add %player% 200
+    '400':
+      description: 放置 400 个方块!
+      prize-description: 奖励 400 个代币!
+      executed-command: sw coins add %player% 400
+    '1000':
+      description: 放置 1000 个方块!
+      prize-description: 奖励 500 个代币!
+      executed-command: sw coins add %player% 500
+    '2000':
+      description: 放置 2000 个方块!
+      prize-description: 奖励 500 个代币!
+      executed-command: sw coins add %player% 500
+  blocks_broken:
+    '50':
+      description: 破坏 50 个方块!
+      prize-description: 奖励 50 个代币!
+      executed-command: sw coins add %player% 50
+    '200':
+      description: 破坏 200 个方块!
+      prize-description: 奖励 200 个代币!
+      executed-command: sw coins add %player% 200
+    '400':
+      description: 破坏 400 个方块!
+      prize-description: 奖励 400 个代币!
+      executed-command: sw coins add %player% 400
+    '1000':
+      description: 破坏 1000 个方块!
+      prize-description: 奖励 500 个代币!
+      executed-command: sw coins add %player% 500
+    '2000':
+      description: 破坏 2000 个方块!
+      prize-description: 奖励 500 个代币!
+      executed-command: sw coins add %player% 500
+  items_enchanted:
+    '1':
+      description: 附魔 1 个物品!
+      prize-description: 奖励 100 个代币!
+      executed-command: sw coins add %player% 100
+    '10':
+      description: 附魔 10 个物品!
+      prize-description: 奖励 500 个代币!
+      executed-command: sw coins add %player% 500
+    '50':
+      description: 附魔 50 个物品!
+      prize-description: 奖励 500 个代币!
+      executed-command: sw coins add %player% 500
+    '100':
+      description: 附魔 100 个物品!
+      prize-description: 奖励 500 个代币!
+      executed-command: sw coins add %player% 500
+  items_crafted:
+    '5':
+      description: 合成 5 个物品!
+      prize-description: 奖励 50 个代币!
+      executed-command: sw coins add %player% 50
+    '20':
+      description: 合成 20 个物品!
+      prize-description: 奖励 200 个代币!
+      executed-command: sw coins add %player% 200
+    '50':
+      description: 合成 50 个物品!
+      prize-description: 奖励 500 个代币!
+      executed-command: sw coins add %player% 500
+    '100':
+      description: 合成 100 个物品!
+      prize-description: 奖励 1000 个代币!
+      executed-command: sw coins add %player% 1000
+  fishes_caught:
+    '1':
+      description: 抓住 1 条鱼!
+      prize-description: 奖励 250 个代币!
+      executed-command: sw coins add %player% 250
+    '5':
+      description: 抓住 5 条鱼!
+      prize-description: 奖励 500 个代币!
+      executed-command: sw coins add %player% 500
+    '10':
+      description: 抓住 10 条鱼!
+      prize-description: 奖励 500 个代币!
+      executed-command: sw coins add %player% 500
+    '20':
+      description: 抓住 20 条鱼!
+      prize-description: 奖励 500 个代币!
+      executed-command: sw coins add %player% 500

@@ -1,0 +1,121 @@
+world:
+    1191,15,1495:
+    - Author:yyfart/Builder
+    - '@player 南瓜头：“别点我！”'
+    1186,14,1497:
+    - Author:Connor/Builder
+    - '@bypass /warp pvp1'
+    1186,14,1496:
+    - Author:Connor/Builder
+    - '@bypass /warp pvp2'
+    1186,14,1494:
+    - Author:Connor/Builder
+    - '@bypass /warp pvp4'
+    1186,14,1495:
+    - Author:Connor/Builder
+    - '@bypass /warp pvp3'
+    1215,18,1485:
+    - Author:yyfart/Builder
+    - '@bypass /warp 雪花帮'
+    1523,35,1489:
+    - Author:yyfart/Builder
+    - '@bypass /warp 雪花帮'
+    1202,87,1152:
+    - Author:Yue_Love/Builder
+    - '@bypass /warp STON'
+    1193,87,1162:
+    - Author:Yue_Love/Builder
+    - '@bypass /warp ADB'
+    1182,94,1144:
+    - Author:Yue_Love/Builder
+    - '@bypass /warp yue'
+    1183,95,1141:
+    - Author:Yue_Love/Builder
+    - '@bypass /warp L1'
+    1186,87,1136:
+    - Author:Yue_Love/Builder
+    - '@bypass /warp L2'
+    1196,97,1140:
+    - Author:Yue_Love/Builder
+    - '@bypass /suicide'
+    1192,103,1145:
+    - Author:Yue_Love/Builder
+    - '@bypass /suicide'
+    1196,97,1150:
+    - Author:Yue_Love/Builder
+    - '@bypass /suicide'
+    1182,96,1158:
+    - Author:Yue_Love/Builder
+    - '@bypass /warp dmd'
+    1192,115,1144:
+    - Author:Yue_Love/Builder
+    - '@bypass /warp NO'
+    1188,116,1141:
+    - Author:Yue_Love/Builder
+    - '@bypass /suicide'
+    1187,116,1138:
+    - Author:Yue_Love/Builder
+    - '@bypass /suicide'
+    1185,115,1140:
+    - Author:Yue_Love/Builder
+    - '@bypass /suicide'
+    1181,117,1140:
+    - Author:Yue_Love/Builder
+    - '@bypass /suicide'
+    1181,117,1145:
+    - Author:Yue_Love/Builder
+    - '@bypass /suicide'
+    1190,122,1144:
+    - Author:Yue_Love/Builder
+    - '@bypass /suicide'
+    1187,94,1148:
+    - Author:Yue_Love/Builder
+    - '@bypass /suicide'
+    1192,13,1498:
+    - Author:Yue_Love/Builder
+    - '@bypass /warp xxx'
+    1389,12,1727:
+    - Author:yyfart/Builder
+    - '@bypass /kill <player>'
+    1389,12,1726:
+    - Author:yyfart/Builder
+    - '@bypass /kill <player>'
+    1389,12,1725:
+    - Author:yyfart/Builder
+    - '@bypass /kill <player>'
+    1389,12,1724:
+    - Author:yyfart/Builder
+    - '@bypass /kill <player>'
+    1389,12,1723:
+    - Author:yyfart/Builder
+    - '@bypass /kill <player>'
+    841,138,1466:
+    - Author:Bobe/Builder
+    - '@bypass /suicide'
+    1217,17,1490:
+    - Author:Bobe/Builder
+    - '@bypass /repair'
+    1207,16,1488:
+    - Author:Esummer_Connor/Builder
+    - '@bypass /invite code'
+    1016,3,1413:
+    - Author:Esummer_Connor/Builder
+    - $item:2256 1
+    - '@bypass /mm m s 矿兽 1 world,1028,4,1440'
+    1148,112,1382:
+    - Author:Esummer_Connor/Builder
+    - $item:2259 1
+    - '@bypass /mm m s 法老 1 world,1147,113,1397'
+    790,78,1568:
+    - Author:Azathoth_Yaths/Builder
+    - '@bypass /warp de'
+    790,78,1569:
+    - Author:Azathoth_Yaths/Builder
+    - '@bypass /warp de'
+    828,77,1568:
+    - Author:Azathoth_Yaths/Builder
+    - '@bypass /fix'
+    919,64,1471:
+    - Author:Azathoth_Yaths/Builder
+    - $item:2263 1
+    - '@bypass /mm m s 混沌尸王 1 world,928,66,1482'

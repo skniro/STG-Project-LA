@@ -1,0 +1,12 @@
+projectile-type: Snowball
+projectile-velocity: 2
+projectile-hit-effect: Potion_Break
+cooldown: 15
+heal:
+  direct-heal-amount: 0
+  aoe-heal-amount: 0
+  aoe-heal-range: 0
+damage:
+  direct-damage-amount: 8
+  aoe-damage-amount: 5
+  aoe-damage-range: 2

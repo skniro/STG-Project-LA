@@ -1,0 +1,544 @@
+world:
+    1240,20,1515:
+    - Author:yyfart/Builder
+    - '@bypass /spawn'
+    1239,14,1579:
+    - Author:yyfart/Builder
+    - '@bypass /spawn'
+    1180,15,1372:
+    - Author:Connor/Builder
+    - '@bypass /warp mota1'
+    - '@bypass /ping &e&l你进入了第一层'
+    1180,21,1384:
+    - Author:Connor/Builder
+    - '@bypass /warp dota2'
+    - '@bypass /ping &e&l你到达了&f&l第二层'
+    1180,27,1372:
+    - Author:Connor/Builder
+    - '@bypass /warp dota3'
+    - '@bypass /ping &e&l你到达了&f&l第三层'
+    1180,33,1384:
+    - Author:Connor/Builder
+    - '@bypass /warp dota4'
+    - '@bypass /ping &e&l你进入了&f&l第四层,下一层BOSS'
+    1286,68,1619:
+    - Author:Connor/Builder
+    - '@bypass /pvp on'
+    1286,68,1670:
+    - Author:Connor/Builder
+    - '@bypass /pvp on'
+    1286,68,1669:
+    - Author:Connor/Builder
+    - '@bypass /pvp on'
+    1287,68,1669:
+    - Author:Connor/Builder
+    - '@bypass /pvp on'
+    1287,68,1670:
+    - Author:Connor/Builder
+    - '@bypass /pvp on'
+    1287,68,1619:
+    - Author:Connor/Builder
+    - '@bypass /pvp on'
+    1287,68,1620:
+    - Author:Connor/Builder
+    - '@bypass /pvp on'
+    1286,68,1620:
+    - Author:Connor/Builder
+    - '@bypass /pvp on'
+    1334,68,1619:
+    - Author:Connor/Builder
+    - '@bypass /pvp on'
+    1334,68,1620:
+    - Author:Connor/Builder
+    - '@bypass /pvp on'
+    1333,68,1620:
+    - Author:Connor/Builder
+    - '@bypass /pvp on'
+    1333,68,1619:
+    - Author:Connor/Builder
+    - '@bypass /pvp on'
+    1334,68,1670:
+    - Author:Connor/Builder
+    - '@bypass /pvp on'
+    1333,68,1670:
+    - Author:Connor/Builder
+    - '@bypass /pvp on'
+    1333,68,1669:
+    - Author:Connor/Builder
+    - '@bypass /pvp on'
+    1334,68,1669:
+    - Author:Connor/Builder
+    - '@bypass /pvp on'
+    1180,39,1372:
+    - Author:Connor/Builder
+    - '@bypass /warp data5'
+    - '@bypass /ping &e&l你进入了&f&l第五层&4！'
+    1255,14,1574:
+    - Author:yyfart/Builder
+    - '@bypass /repair all'
+    1180,45,1384:
+    - Author:Connor/Builder
+    - '@bypass /warp dota6'
+    - '@bypass /ping &f&l你进入了&e&l第六层 &d&l这里是兑换层'
+    1044,131,1566:
+    - Author:Yue_Love/Builder
+    - '@bypass /warp YYSB'
+    1178,34,1637:
+    - Author:yyfart/Builder
+    - '@bypass /warp x2'
+    1178,37,1637:
+    - Author:yyfart/Builder
+    - '@bypass /warp x3'
+    1190,137,1136:
+    - Author:Yue_Love/Builder
+    - '@bypass /warp CHIXIN'
+    1293,129,1208:
+    - Author:Yue_Love/Builder
+    - '@bypass /warp YYSB'
+    1199,85,1155:
+    - Author:Yue_Love/Builder
+    - '@bypass /spawn'
+    1187,85,1135:
+    - Author:Yue_Love/Builder
+    - '@bypass /warp L1'
+    1195,85,1145:
+    - Author:Yue_Love/Builder
+    - '@bypass /suicide'
+    1189,116,1140:
+    - Author:Yue_Love/Builder
+    - '@bypass /suicide'
+    1185,115,1140:
+    - Author:Yue_Love/Builder
+    - '@bypass /suicide'
+    1183,116,1138:
+    - Author:Yue_Love/Builder
+    - '@bypass /suicide'
+    1180,117,1140:
+    - Author:Yue_Love/Builder
+    - '@bypass /suicide'
+    1178,118,1145:
+    - Author:Yue_Love/Builder
+    - '@bypass /suicide'
+    1180,118,1145:
+    - Author:Yue_Love/Builder
+    - '@bypass /suicide'
+    1179,118,1145:
+    - Author:Yue_Love/Builder
+    - '@bypass /suicide'
+    1179,119,1146:
+    - Author:Yue_Love/Builder
+    - '@bypass /suicide'
+    1177,119,1148:
+    - Author:Yue_Love/Builder
+    - '@bypass /suicide'
+    1181,121,1150:
+    - Author:Yue_Love/Builder
+    - '@bypass /suicide'
+    1184,124,1151:
+    - Author:Yue_Love/Builder
+    - '@bypass /suicide'
+    1190,129,1150:
+    - Author:Yue_Love/Builder
+    - '@bypass /suicide'
+    1188,132,1146:
+    - Author:Yue_Love/Builder
+    - '@bypass /suicide'
+    1189,135,1143:
+    - Author:Yue_Love/Builder
+    - '@bypass /suicide'
+    1189,136,1140:
+    - Author:Yue_Love/Builder
+    - '@bypass /suicide'
+    1190,137,1137:
+    - Author:Yue_Love/Builder
+    - '@bypass /suicide'
+    1187,94,1148:
+    - Author:Yue_Love/Builder
+    - '@bypass /suicide'
+    1187,123,1155:
+    - Author:Yue_Love/Builder
+    - '@bypass /suicide'
+    1189,129,1150:
+    - Author:Yue_Love/Builder
+    - '@bypass /suicide'
+    1190,127,1153:
+    - Author:Yue_Love/Builder
+    - '@bypass /suicide'
+    1189,128,1152:
+    - Author:Yue_Love/Builder
+    - '@bypass /suicide'
+    1188,127,1152:
+    - Author:Yue_Love/Builder
+    - '@bypass /suicide'
+    1192,128,1151:
+    - Author:Yue_Love/Builder
+    - '@bypass /suicide'
+    1194,127,1149:
+    - Author:Yue_Love/Builder
+    - '@bypass /suicide'
+    1192,129,1146:
+    - Author:Yue_Love/Builder
+    - '@bypass /suicide'
+    1191,130,1146:
+    - Author:Yue_Love/Builder
+    - '@bypass /suicide'
+    1189,132,1146:
+    - Author:Yue_Love/Builder
+    - '@bypass /suicide'
+    1192,133,1143:
+    - Author:Yue_Love/Builder
+    - '@bypass /suicide'
+    1189,134,1144:
+    - Author:Yue_Love/Builder
+    - '@bypass /suicide'
+    1188,133,1144:
+    - Author:Yue_Love/Builder
+    - '@bypass /suicide'
+    1186,134,1142:
+    - Author:Yue_Love/Builder
+    - '@bypass /suicide'
+    1187,136,1140:
+    - Author:Yue_Love/Builder
+    - '@bypass /suicide'
+    1192,136,1138:
+    - Author:Yue_Love/Builder
+    - '@bypass /suicide'
+    1191,137,1135:
+    - Author:Yue_Love/Builder
+    - '@bypass /suicide'
+    1191,136,1133:
+    - Author:Yue_Love/Builder
+    - '@bypass /suicide'
+    1188,136,1134:
+    - Author:Yue_Love/Builder
+    - '@bypass /suicide'
+    1189,137,1135:
+    - Author:Yue_Love/Builder
+    - '@bypass /suicide'
+    1185,134,1140:
+    - Author:Yue_Love/Builder
+    - '@bypass /suicide'
+    1186,134,1138:
+    - Author:Yue_Love/Builder
+    - '@bypass /suicide'
+    1186,134,1137:
+    - Author:Yue_Love/Builder
+    - '@bypass /suicide'
+    1177,115,1140:
+    - Author:Yue_Love/Builder
+    - '@bypass /suicide'
+    1175,115,1144:
+    - Author:Yue_Love/Builder
+    - '@bypass /suicide'
+    1176,116,1151:
+    - Author:Yue_Love/Builder
+    - '@bypass /suicide'
+    1176,117,1150:
+    - Author:Yue_Love/Builder
+    - '@bypass /suicide'
+    1192,137,1136:
+    - Author:Yue_Love/Builder
+    - '@bypass /suicide'
+    1190,124,1154:
+    - Author:Yue_Love/Builder
+    - '@bypass /suicide'
+    1192,136,1134:
+    - Author:Yue_Love/Builder
+    - '@bypass /suicide'
+    1191,137,1137:
+    - Author:Yue_Love/Builder
+    - '@bypass /suicide'
+    1189,137,1137:
+    - Author:Yue_Love/Builder
+    - '@bypass /suicide'
+    1192,136,1137:
+    - Author:Yue_Love/Builder
+    - '@bypass /suicide'
+    1180,51,1384:
+    - Author:Connor/Builder
+    - '@bypass /warp dota5-1'
+    1180,45,1372:
+    - Author:Connor/Builder
+    - '@bypass /warp dota4-1'
+    1180,39,1384:
+    - Author:Connor/Builder
+    - '@bypass /warp dota3-1'
+    1180,33,1372:
+    - Author:Connor/Builder
+    - '@bypass /warp dota2-1'
+    1180,27,1384:
+    - Author:Connor/Builder
+    - '@bypass /warp mota1-1'
+    1180,21,1372:
+    - Author:Connor/Builder
+    - '@bypass /warp f'
+    1207,13,1466:
+    - Author:Yue_Love/Builder
+    - '@bypass /warp gjc'
+    1189,11,1495:
+    - Author:Connor/Builder
+    - '@bypass /pvp off'
+    - '@bypass /repair all'
+    - '@bypass /money'
+    - '@bypass /heal'
+    - '@bypass /ping &a&l赞助QQ&c1255506559'
+    1180,51,1372:
+    - Author:Connor/Builder
+    - '@bypass /warp dota7'
+    1180,57,1372:
+    - Author:Connor/Builder
+    - '@bypass /warp dota6-6'
+    1195,44,1472:
+    - Author:Connor/Builder
+    - '@bypass /warp gujian'
+    821,141,1455:
+    - Author:Connor/Builder
+    - '@bypass /chc open example3.yml'
+    1067,21,1449:
+    - Author:Connor/Builder
+    - '@bypass /warp dark1'
+    1067,21,1447:
+    - Author:Connor/Builder
+    - '@bypass /warp dark1-back'
+    1180,57,1384:
+    - Author:Bobe/Builder
+    - '@bypass /warp dota8'
+    1180,63,1384:
+    - Author:Bobe/Builder
+    - '@bypass /warp dota7-back'
+    1237,13,1409:
+    - Author:Bobe/Builder
+    - '@bypass /pvp on'
+    1231,13,1437:
+    - Author:Bobe/Builder
+    - '@bypass /pvp on'
+    1214,13,1435:
+    - Author:Bobe/Builder
+    - '@bypass /pvp on'
+    1215,13,1408:
+    - Author:Bobe/Builder
+    - '@bypass /pvp on'
+    1389,12,1736:
+    - Author:yyfart/Builder
+    - '@bypass /ping &6欢迎进入雪花帮,请注意你的言行'
+    1180,63,1372:
+    - Author:Bobe/Builder
+    - '@bypass /warp mota9'
+    1180,69,1372:
+    - Author:Bobe/Builder
+    - '@bypass /warp dota8-back'
+    1180,75,1384:
+    - Author:Bobe/Builder
+    - '@bypass /warp mota9-back'
+    1180,69,1384:
+    - Author:Bobe/Builder
+    - '@bypass /warp dota10'
+    1293,11,1605:
+    - Author:Bobe/Builder
+    - '@bypass /pvp on'
+    1307,16,1614:
+    - Author:Bobe/Builder
+    - '@bypass /pvp on'
+    1295,16,1609:
+    - Author:Bobe/Builder
+    - '@bypass /pvp on'
+    1294,20,1597:
+    - Author:Bobe/Builder
+    - '@bypass /pvp on'
+    841,138,1466:
+    - Author:Bobe/Builder
+    - '@bypass /chc open example.yml'
+    1127,56,1687:
+    - Author:Bobe/Builder
+    - '@bypass /market'
+    1127,56,1691:
+    - Author:Bobe/Builder
+    - '@bypass /market listings'
+    1125,56,1689:
+    - Author:Bobe/Builder
+    - '@bypass /market listings'
+    1129,56,1689:
+    - Author:Bobe/Builder
+    - '@bypass /market mail'
+    1170,26,1546:
+    - Author:Bobe/Builder
+    - '@bypass /market listings'
+    1172,26,1548:
+    - Author:Bobe/Builder
+    - '@bypass /market mail'
+    1172,26,1544:
+    - Author:Bobe/Builder
+    - '@bypass /market listings'
+    1174,26,1546:
+    - Author:Bobe/Builder
+    - '@bypass /market'
+    858,140,1447:
+    - Author:Bobe/Builder
+    - '@bypass /chc open ea.yml'
+    1181,13,1446:
+    - Author:Bobe/Builder
+    - '@bypass /warp fuben1'
+    1177,13,1446:
+    - Author:Bobe/Builder
+    - '@bypass /warp fuben1-1'
+    1143,13,1456:
+    - Author:Bobe/Builder
+    - '@bypass /warp cun1'
+    1139,13,1456:
+    - Author:Bobe/Builder
+    - '@bypass /warp cun1-back'
+    1136,13,1458:
+    - Author:Bobe/Builder
+    - '@bypass /setmyspawn'
+    - '@bypass /pvp off'
+    1210,15,1508:
+    - Author:Bobe/Builder
+    - '@bypass /pvp off'
+    - '@bypass /gm 2'
+    - '@bypass /money'
+    1106,13,1483:
+    - Author:Bobe/Builder
+    - '@bypass /warp star'
+    1102,13,1483:
+    - Author:Bobe/Builder
+    - '@bypass /warp star-1'
+    1097,13,1464:
+    - Author:Bobe/Builder
+    - '@bypass /warp dong1'
+    1097,13,1460:
+    - Author:Esummer_Connor/Builder
+    - '@bypass /warp dong12-1'
+    1089,13,1439:
+    - Author:Bobe/Builder
+    - '@bypass /warp dong2'
+    1089,13,1435:
+    - Author:Bobe/Builder
+    - '@bypass /warp dong2-1'
+    1059,1,1423:
+    - Author:Bobe/Builder
+    - '@bypass /warp dong3-1'
+    1063,1,1423:
+    - Author:Bobe/Builder
+    - '@bypass /warp dong3'
+    1026,1,1412:
+    - Author:Bobe/Builder
+    - '@bypass /warp dong4'
+    1022,1,1412:
+    - Author:Bobe/Builder
+    - '@bypass /warp dong4-1'
+    956,23,1389:
+    - Author:Bobe/Builder
+    - '@bypass /pvp off'
+    - '@bypass /setmyspawn'
+    959,23,1387:
+    - Author:Bobe/Builder
+    - '@bypass /warp cheng1-1'
+    1003,1,1422:
+    - Author:Bobe/Builder
+    - '@bypass /warp cheng1'
+    1024,39,1342:
+    - Author:Esummer_Connor/Builder
+    - '@bypass /warp sha1-1'
+    984,24,1399:
+    - Author:Esummer_Connor/Builder
+    - '@bypass /warp sha1'
+    786,18,1420:
+    - Author:Esummer_Connor/Builder
+    - '@bypass /warp shamo1-1'
+    976,24,1379:
+    - Author:Esummer_Connor/Builder
+    - '@bypass /warp shamo1'
+    810,22,1466:
+    - Author:Esummer_Connor/Builder
+    - '@bypass /warp feixu'
+    1040,77,1420:
+    - Author:Esummer_Connor/Builder
+    - '@bypass /warp shamo2-1'
+    796,34,1634:
+    - Author:Esummer_Connor/Builder
+    - '@bypass /warp feixu'
+    797,34,1634:
+    - Author:Esummer_Connor/Builder
+    - '@bypass /warp feixu'
+    807,34,1551:
+    - Author:Esummer_Connor/Builder
+    - '@bypass /warp shamo2-1'
+    1056,13,1477:
+    - Author:Esummer_Connor/Builder
+    - '@bypass /warp shui'
+    1007,23,1536:
+    - Author:Esummer_Connor/Builder
+    - '@bypass /warp shui1'
+    1060,78,1434:
+    - Author:Esummer_Connor/Builder
+    - '@bypass /warp fa'
+    1147,110,1376:
+    - Author:Esummer_Connor/Builder
+    - '@bypass /warp fa1'
+    847,75,1571:
+    - Author:Esummer_Connor/Builder
+    - '@bypass /warp de1'
+    1163,110,1408:
+    - Author:Esummer_Connor/Builder
+    - '@bypass /warp de'
+    844,75,1569:
+    - Author:Esummer_Connor/Builder
+    - '@bypass /setmyspawn'
+    - '@bypass /pvp off'
+    817,75,1577:
+    - Author:Azathoth_Yaths/Builder
+    - '@bypass /warp bd'
+    823,79,1556:
+    - Author:Connor/Builder
+    - '@bypass /warp db'
+    956,135,1464:
+    - Author:Esummer_Connor/Builder
+    - '@bypass /warp de'
+    826,75,1522:
+    - Author:Azathoth_Yaths/Builder
+    - '@bypass /warp dugu1'
+    955,134,1465:
+    - Author:Esummer_Connor/Builder
+    - '@bypass /ping &6&l没有拿到蛋的时候,前往别踩工作台！'
+    955,134,1466:
+    - Author:Esummer_Connor/Builder
+    - '@bypass /ping &6&l没有拿到蛋的时候,前往别踩工作台！'
+    954,134,1465:
+    - Author:Esummer_Connor/Builder
+    - '@bypass /ping &6&l没有拿到蛋的时候,前往别踩工作台！'
+    954,134,1466:
+    - Author:Esummer_Connor/Builder
+    - '@bypass /ping &6&l没有拿到蛋的时候,前往别踩工作台！'
+    834,82,1506:
+    - Author:Esummer_Connor/Builder
+    - '@bypass /warp dugu'
+    1152,53,1193:
+    - Author:Esummer_Connor/Builder
+    - '@bypass /pvp off'
+    1153,53,1193:
+    - Author:Esummer_Connor/Builder
+    - '@bypass /pvp off'
+    827,75,1495:
+    - Author:Azathoth_Yaths/Builder
+    - '@bypass /warp shoumu'
+    900,64,1542:
+    - Author:Azathoth_Yaths/Builder
+    - '@bypass /warp shoumu1'
+    1128,59,1149:
+    - Author:Esummer_Connor/Builder
+    - '@bypass /warp dong1-1'
+    1159,59,1195:
+    - Author:Esummer_Connor/Builder
+    - '@bypass /warp dong12'
+    917,62,1472:
+    - Author:Azathoth_Yaths/Builder
+    - '@bypass /warp yiji1'
+    951,63,1554:
+    - Author:Azathoth_Yaths/Builder
+    - '@bypass /warp yiji'
+    1098,19,1531:
+    - Author:Esummer_Connor/Builder
+    - '@bypass /warp wan1'
+    1174,59,1152:
+    - Author:Esummer_Connor/Builder
+    - '@bypass /warp wan'

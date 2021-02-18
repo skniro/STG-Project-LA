@@ -1,0 +1,17 @@
+Item:
+  ==: org.bukkit.inventory.ItemStack
+  type: STONE_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: "\xa7f\u810f\u5203\xa73[\u5347\u9636]"
+    lore:
+    - "\xa7a\u7269\u7406\u4f24\u5bb3\xa7f>>\xa7b20-40"
+    - "\xa7a\u51cf\u901f\u51e0\u7387\xa7f>>\xa7b10%"
+    - "\xa7a"
+    - "\xa7a\u4e2d\u6bd2\u51e0\u7387\xa7f>>\xa7b10%"
+    - "\xa7a"
+    - "\xa77\u201c\u8fd9\u79cd\u810f\u516e\u516e\u7684\u5251,\u8ba9\u4f7f\u7528\u8005\
+      \u6709\u6709\u70b9\u4e0d\u9002\u5e94\u201d"
+    - "\xa77"
+    - "\xa76\u5386\u7ec3\u503c: \xa7b15"

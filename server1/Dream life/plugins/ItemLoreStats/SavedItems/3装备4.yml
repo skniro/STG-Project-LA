@@ -1,0 +1,15 @@
+Item:
+  ==: org.bukkit.inventory.ItemStack
+  type: GOLD_BOOTS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: "\xa7f\u643d\u6b8b\u91d1\u9774\xa7d[\u53f2\u8bd7]"
+    lore:
+    - "\xa7e\u81ea\u8eab\u8840\u91cf\xa7f>>\xa7630"
+    - "\xa7e\u81ea\u8eab\u9632\u5fa1\xa7f>>\xa763"
+    - "\xa7e\u79fb\u52a8\u901f\u5ea6\xa7f>>\xa7610%"
+    - "\xa76"
+    - "\xa77\u201c\u643d\u6b8b\u503c\u5343\u91d1\u201d"
+    - "\xa77"
+    - "\xa76\u5386\u7ec3\u503c: \xa7b120"

@@ -1,0 +1,30 @@
+Forceful:
+  name: Forceful
+  desc: Damages and knocks away opponents on attack
+Gravity:
+  name: Gravity
+  desc: Damages and pulls in enemies on attack
+Knockup:
+  name: Knockup
+  desc: Has a chance to knock the target into the air on attack
+Life:
+  name: Life
+  desc: Passively grants bonus health while equipped
+Lifesteal:
+  name: Lifesteal
+  desc: Steals health on attack
+Lightning:
+  name: Lightning
+  desc: Has a chance to strike lightning on attack
+Rapid:
+  name: Rapid
+  desc: Fires projectiles faster than normal
+Reflection:
+  name: Reflection
+  desc: Reflects damage taken back at attackers
+Regenerative:
+  name: Regenerative
+  desc: Restores health slowly over time
+Shadow Shift:
+  name: Shadow Shift
+  desc: Has a chance to blind enemies and blink nearby when hit

@@ -1,0 +1,44 @@
+'40':
+  '1':
+    itemId: 261
+    nameColour: '&6&l'
+    prefix: random
+    suffix: random
+    properties:
+      damage: '&b1-6-player+1-7'
+      critChanceRandomApply: true
+      critChance: '&b1-5'
+      critDamageRandomApply: true
+      critDamage: '&b8-14'
+      lifeStealRandomApply: true
+      lifeSteal: '&23-5'
+      fireRandomApply: true
+      fire: '&44-8'
+      movementSpeedRandomApply: true
+      movementSpeed: '&e1-4'
+      xpLevelRandomApply: true
+      xpLevel: '&b3-player+2'
+      durability: '&7900-1350'
+      droppedXp: '2'
+'25':
+  '1':
+    itemId: 309
+    nameColour: '&6&l'
+    prefix: random
+    suffix: random
+    properties:
+      armour: '&b3-7'
+      healthRandomApply: true
+      health: '&b40-player+80'
+      healthRegenRandomApply: true
+      healthRegen: '&b2-5'
+      fireRandomApply: true
+      fire: '&42-6'
+      movementSpeedRandomApply: true
+      movementSpeed: '&e2-3'
+      xpLevelRandomApply: true
+      xpLevel: '&b3-player+2'
+      durability: '&7350-650'
+      fireballRandomApply: true
+      spells:
+        fireball: true

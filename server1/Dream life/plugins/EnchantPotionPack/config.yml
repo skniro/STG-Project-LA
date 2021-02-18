@@ -1,0 +1,183 @@
+language: en
+Adrenaline:
+  pvp: true
+  pve: true
+  chanceBase: 100
+  chanceBonus: 0
+  durationBase: 1
+  durationBonus: 0.5
+  max: 5
+  tierBase: 1
+  tierBonus: 0
+Berserking:
+  pvp: true
+  pve: true
+  chanceBase: 100
+  chanceBonus: 0
+  durationBase: 1
+  durationBonus: 0.5
+  max: 5
+  tierBase: 1
+  tierBonus: 0
+Blind:
+  pvp: true
+  pve: true
+  chanceBase: 100
+  chanceBonus: 0
+  durationBase: 1
+  durationBonus: 0.5
+  max: 5
+  tierBase: 2
+  tierBonus: 0
+Brilliance:
+  pvp: true
+  pve: true
+  chanceBase: 100
+  chanceBonus: 0
+  durationBase: 1
+  durationBonus: 0.5
+  max: 5
+  tierBase: 2
+  tierBonus: 0
+Cursed:
+  pvp: true
+  pve: true
+  chanceBase: 100
+  chanceBonus: 0
+  durationBase: 1
+  durationBonus: 0.5
+  max: 5
+  tierBase: 2
+  tierBonus: 0
+Demoralizing:
+  pvp: true
+  pve: true
+  chanceBase: 100
+  chanceBonus: 0
+  durationBase: 1
+  durationBonus: 0.5
+  max: 5
+  tierBase: 1
+  tierBonus: 0
+Distortion:
+  pvp: true
+  pve: true
+  chanceBase: 100
+  chanceBonus: 0
+  durationBase: 1
+  durationBonus: 0.5
+  max: 5
+  tierBase: 2
+  tierBonus: 0
+Fervor:
+  pvp: true
+  pve: true
+  chanceBase: 100
+  chanceBonus: 0
+  durationBase: 1
+  durationBonus: 0.5
+  max: 5
+  tierBase: 2
+  tierBonus: 0
+Frost:
+  pvp: true
+  pve: true
+  chanceBase: 100
+  chanceBonus: 0
+  durationBase: 1
+  durationBonus: 0.5
+  max: 5
+  tierBase: 2
+  tierBonus: 0
+Jump:
+  pvp: true
+  pve: true
+  max: 2
+  tierBase: 1
+  tierBonus: 1
+Lively:
+  pvp: true
+  pve: true
+  chanceBase: 100
+  chanceBonus: 0
+  durationBase: 1
+  durationBonus: 0.5
+  max: 5
+  tierBase: 2
+  tierBonus: 0
+Molten:
+  pvp: true
+  pve: true
+  chanceBase: 100
+  chanceBonus: 0
+  durationBase: 1
+  durationBonus: 0.5
+  max: 5
+  tierBase: 2
+  tierBonus: 0
+NightVision:
+  pvp: true
+  pve: true
+  max: 2
+  tierBase: 1
+  tierBonus: 1
+Phantom:
+  pvp: true
+  pve: true
+  chanceBase: 100
+  chanceBonus: 0
+  durationBase: 1
+  durationBonus: 0.5
+  max: 5
+  tierBase: 2
+  tierBonus: 0
+Poison:
+  pvp: true
+  pve: true
+  chanceBase: 100
+  chanceBonus: 0
+  durationBase: 1
+  durationBonus: 0.5
+  max: 5
+  tierBase: 2
+  tierBonus: 0
+Slowing:
+  pvp: true
+  pve: true
+  chanceBase: 100
+  chanceBonus: 0
+  durationBase: 1
+  durationBonus: 0.5
+  max: 5
+  tierBase: 2
+  tierBonus: 0
+Toxic:
+  pvp: true
+  pve: true
+  chanceBase: 100
+  chanceBonus: 0
+  durationBase: 1
+  durationBonus: 0.5
+  max: 5
+  tierBase: 2
+  tierBonus: 0
+Weakness:
+  pvp: true
+  pve: true
+  chanceBase: 100
+  chanceBonus: 0
+  durationBase: 1
+  durationBonus: 0.5
+  max: 5
+  tierBase: 1
+  tierBonus: 0
+Wither:
+  pvp: true
+  pve: true
+  chanceBase: 100
+  chanceBonus: 0
+  durationBase: 1
+  durationBonus: 0.5
+  max: 5
+  tierBase: 2
+  tierBonus: 0

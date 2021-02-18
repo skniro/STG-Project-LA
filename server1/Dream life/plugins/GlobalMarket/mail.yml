@@ -1,0 +1,1248 @@
+index:
+  Run_T: 7
+  D_Feng: 7
+  wadda4: 1
+  hwjaln: 2
+  makelot: 1
+  shangcai: 0
+  Beca: 6
+  '95671': 3
+  zhangquan: 2
+  Time_: 1
+  a847533488: 1
+  Selina: 1
+  jiangfangzheng: 5
+  wang_wei: 3
+  Dream__________: 1
+  Allure_rtyu: 3
+  beifangdada: 6
+  wudi: 1
+  Maskcat: 2
+  z_ero: 1
+  mo_creeper: 2
+  as13b13b25o: 3
+  _MuNian: 7
+  sbliusu: 13
+  cloc: 0
+  TOSA: 1
+  as138138250: 1
+  xiao_lai: 4
+  GB_DanShu_: 18
+  banxia: 16
+  dongdong2: 4
+  _XiaMu: 2
+  Aren_H: 1
+  ZSYZSYZSYTNT: 3
+  MC__chuying: 23
+  DBoss_gui: 4
+  Blank_: 1
+Run_T:
+  '4':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: BOOK
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧瀵挸缂夐崚鏈电稊娑斘诧拷9[閺嬵亝顫玗
+    time: 1549166675
+  '5':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: CLAY_BRICK
+      amount: 26
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧闁炬粌鍩楃拹褍绔垫悅a[缂佸繑绁筣\
+        lore:
+        - 鎼俧闁插洨鏁ら柧婊冨煑闁姷娈戠拹褍绔�
+    time: 1549166675
+  '6':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: WOOD_PICKAXE
+      damage: 6
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧瀵挸缂夋悅3[閸楀洭妯乚鎼�5鎼�5 閳伙拷 鑺�4绂�
+        lore:
+        - 鎼俛閹佃儻娴囩粻顓熸殶鎼俧>>鎼俠5
+        - 鎼俛鐏忓嫬鍤导銈咁唺鎼俧>>鎼俠40
+        - 鎼俛
+        - '鎼�6鐞氼偄濮�-缂傛椽娅�: 鎼俧鐟佸懎锝為弮鏈电窗閻绗夌憴浣告噯閸ワ拷,鐞涘矁铔嬮柅鐔峰閹憋拷'
+        - 鎼�6
+        - 鎼�7閳ユ粈绗夌憰渚�锟藉啳鍔�,娴ｇ姵妫亸杈劥娴滃棌锟斤拷
+        - 鎼�6
+        - '鎼�6閸樺棛绮岄崐锟�: 鎼俠10'
+        - '鎼俠鐎涙劕鑴�: 鎼俧缁狅拷'
+    time: 1549166676
+  '7':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: ARROW
+      amount: 47
+    time: 1549166676
+D_Feng:
+  '3':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: RECORD_8
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧閸忓顤勯崬杈╁鎼俥[BOSS-濞ｉ攱鐭婄亸鍝ュ竾]
+    time: 1549166676
+  '4':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: RECORD_8
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧閸忓顤勯崬杈╁鎼俥[BOSS-濞ｉ攱鐭婄亸鍝ュ竾]
+    time: 1549166676
+  '5':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: RECORD_8
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧閸忓顤勯崬杈╁鎼俥[BOSS-濞ｉ攱鐭婄亸鍝ュ竾]
+    time: 1549166676
+  '6':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: RECORD_8
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧閸忓顤勯崬杈╁鎼俥[BOSS-濞ｉ攱鐭婄亸鍝ュ竾]
+    time: 1549166676
+  '7':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: RECORD_8
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧閸忓顤勯崬杈╁鎼俥[BOSS-濞ｉ攱鐭婄亸鍝ュ竾]
+    time: 1549166676
+wadda4: {}
+hwjaln: {}
+makelot: {}
+'95671':
+  '1':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: WOOD_SWORD
+      damage: 2
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧濡楀啯婀崜鎳э拷7[缁纭籡
+        lore:
+        - 鎼俛閻椻晝鎮婃导銈咁唺鎼俧>>鎼俠4-5
+        - 鎼俛缁夎濮╅柅鐔峰鎼俧>>鎼俠+5%
+        - 鎼俛
+        - 鎼�7閳ユ粈绔撮幎濠傜发閺咁噣锟芥氨娈戦崜鎴旓拷锟�
+        - 鎼�7
+        - '鎼�6閸樺棛绮岄崐锟�: 鎼俠0'
+    time: 1471918616
+  '2':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: GOLD_RECORD
+    time: 1471918617
+  '3':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: WOOD_SWORD
+      damage: 35
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧闁句胶顣抽悧娅湩[娴兼顫匽
+        lore:
+        - 鎼俛閻椻晝鎮婃导銈咁唺鎼俧>>鎼俠15-20
+        - 鎼俛閺嗘潙鍤崙鐘靛芳鎼俧>>鎼俠10%
+        - 鎼俛閺嗘潙鍤导銈咁唺鎼俧>>鎼俠15%
+        - 鎼俛
+        - 鎼�7閳ユ粈缍樻禒銉よ礋鐠囩顕╃亸鍙樼啊娴滃绨℃稊鍫氾拷锟�
+        - 鎼�7
+        - '鎼�6閸樺棛绮岄崐锟�: 鎼俠5'
+    time: 1471918617
+zhangquan: {}
+Time_: {}
+a847533488: {}
+Selina: {}
+jiangfangzheng: {}
+wang_wei:
+  '2':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: LEATHER_LEGGINGS
+      damage: 18
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        display-name: 鎼俧妤︹剝鐦洪梹鑳骏鎼俧[閺咁噣锟芥瓥
+        lore:
+        - 鎼俢閼奉亣闊╃悰锟介柌寰涱湰>>鎼俠6
+        - 鎼俢
+        - 鎼�7閳ユ粓娴В娑樹粵閻ㄥ嫪绔存禒璺侯殰閳ワ拷
+        - 鎼�7
+        - '鎼�6閸樺棛绮岄崐锟�: 鎼俠2'
+    time: 1549166676
+  '3':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: LEATHER_BOOTS
+      damage: 18
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        display-name: 鎼俧妤︹剝鐦洪梹鍧楁緤鎼俧[閺咁噣锟芥瓥
+        lore:
+        - 鎼俢閼奉亣闊╃悰锟介柌寰涱湰>>鎼俠3
+        - 鎼俢缁夎濮╅柅鐔峰鎼俧>>鎼俠+5%
+        - 鎼俢
+        - 鎼�7閳ユ粓娴В娑樹粵閻ㄥ嫪绔存禒璺侯殰閳ワ拷
+        - 鎼�7
+        - '鎼�6閸樺棛绮岄崐锟�: 鎼俠2'
+    time: 1549166676
+Dream__________: {}
+Allure_rtyu:
+  '3':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: GHAST_TEAR
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧濞夘亜鍏辨悅6[閺夋劖鏋
+        lore:
+        - 鎼俧娑旂喕顔忔潻娆愭Ц娑擃亣袙閼达拷.
+    time: 1472065822
+beifangdada:
+  '4':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: PAPER
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧閻楃懓浼�47.娴ｇ姳绮栨径鈺冩畱娴犺濮熸悅6[濮ｅ繑妫
+        lore:
+        - 鎼俠鎼俶-----鎼俥閳斤拷 鎼俤娑擄拷缂佸嫰娴懖锟�
+    time: 1549166676
+  '5':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: PAPER
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧閻楃懓浼�47.娴ｇ姳绮栨径鈺冩畱娴犺濮熸悅6[濮ｅ繑妫
+        lore:
+        - 鎼俠鎼俶-----鎼俥閳斤拷 鎼俤娑擄拷缂佸嫬鍘扮�涙劘鍊�
+    time: 1549166676
+  '6':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: GHAST_TEAR
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧濞夘亜鍏辨悅6[閺夋劖鏋
+        lore:
+        - 鎼俧娑旂喕顔忔潻娆愭Ц娑擃亣袙閼达拷.
+    time: 1549166676
+wudi: {}
+Maskcat:
+  '2':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: BOOK
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧瀵挸缂夐崚鏈电稊娑斘诧拷9[閺嬵亝顫玗
+    time: 1549166676
+z_ero: {}
+mo_creeper:
+  '2':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: INK_SACK
+      damage: 6
+      amount: 10
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧閻ュ懏鐦ㄩ弲鏈电秼鎼�6[閺夋劖鏋
+        lore:
+        - 鎼俧鐠佲晜鍨滈幎濠佺稑閸欐ɑ鍨氭稉褍妗堥崥锟�
+    time: 1549166676
+as13b13b25o:
+  '2':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: WOOD_SWORD
+      damage: 28
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧濡楀啯婀崜鎳э拷7[缁纭籡
+        lore:
+        - '鎼俢鎼俶鎼俵  鎼�6鎼俶鎼俵  鎼俥鎼俶鎼俵  鎼俛鎼俶鎼俵  鎼俠鎼俶鎼俵  鎼俥鎼俵鐎规繄鐓堕梹璺虹サ鎼俠鎼俶鎼俵  鎼俛鎼俶鎼俵  鎼俥鎼俶鎼俵  鎼�6鎼俶鎼俵  鎼俢鎼俶鎼俵  '
+        - 鎼�3鎼�2鎼�1鎼俠鎼俵娑擄拷缁狙囨綒妲岀偟鐓舵悅7  -  鎼俛闂勫嫬濮炴导銈咁唺+鎼�65
+        - 鎼俛閻椻晝鎮婃导銈咁唺鎼俧>>鎼俠4-5
+        - 鎼俛缁夎濮╅柅鐔峰鎼俧>>鎼俠+5%
+        - 鎼俛
+        - 鎼�7閳ユ粈绔撮幎濠傜发閺咁噣锟芥氨娈戦崜鎴旓拷锟�
+        - 鎼�7
+        - '鎼�6閸樺棛绮岄崐锟�: 鎼俠0'
+    time: 1549166676
+  '3':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: WOOD_SWORD
+      damage: 11
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧濞撳憡纭ラ崜鎳ь湰[閺咁噣锟芥瓥
+        lore:
+        - 鎼俛閻椻晝鎮婃导銈咁唺鎼俧>>鎼俠10-11
+        - 鎼俛缂佸繘鐛欓崝鐘冲灇鎼俧>>鎼俠10%
+        - 鎼俛
+        - 鎼�7閳ユ粈姹夐崷銊ユ憿闁插矉绱濆▔澶婃躬閸濐亪鍣烽垾锟�
+        - 鎼�7
+        - '鎼�6閸樺棛绮岄崐锟�: 鎼俠2'
+    time: 1549166676
+sbliusu:
+  '6':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: GHAST_TEAR
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧濞夘亜鍏辨悅6[閺夋劖鏋
+        lore:
+        - 鎼俧娑旂喕顔忔潻娆愭Ц娑擃亣袙閼达拷.
+    time: 1472067006
+  '7':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: BOOK
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼�2Anvil Components
+        lore:
+        - 鎼俤Place components
+        - 鎼俤over here!
+    time: 1549166676
+  '8':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: BOOK
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼�2Anvil Components
+        lore:
+        - 鎼俤Place components
+        - 鎼俤over here!
+    time: 1549166676
+  '9':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: BOOK
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼�2Anvil Book
+        lore:
+        - 鎼俤<- Components
+        - 鎼�8------------
+        - 鎼俤Results ->
+    time: 1549166676
+  '10':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: BOOK
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼�2Anvil Result
+        lore:
+        - 鎼俤Results will
+        - 鎼俤show up over
+        - 鎼俤here!
+    time: 1549166676
+  '11':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: BOOK
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼�2Anvil Result
+        lore:
+        - 鎼俤Results will
+        - 鎼俤show up over
+        - 鎼俤here!
+    time: 1549166676
+  '12':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: BOOK
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼�2Anvil Components
+        lore:
+        - 鎼俤Place components
+        - 鎼俤over here!
+    time: 1549166676
+  '13':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: BOOK
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼�2Anvil Result
+        lore:
+        - 鎼俤Results will
+        - 鎼俤show up over
+        - 鎼俤here!
+    time: 1549166676
+Beca: {}
+TOSA: {}
+as138138250: {}
+xiao_lai: {}
+GB_DanShu_:
+  '1':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: EMERALD
+    time: 1549166675
+  '2':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: EMERALD
+    time: 1549166675
+  '3':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: EMERALD
+    time: 1549166675
+  '4':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: EMERALD
+    time: 1549166675
+  '5':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: EMERALD
+    time: 1549166675
+  '6':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: EMERALD
+    time: 1549166675
+  '7':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: EMERALD
+    time: 1549166675
+  '8':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: EMERALD
+    time: 1549166675
+  '9':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: EMERALD
+    time: 1549166675
+  '10':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: WOOD_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧濡楀啯婀崜鎳э拷7[缁纭籡
+        lore:
+        - 鎼俛閻椻晝鎮婃导銈咁唺鎼俧>>鎼俠4-5
+        - 鎼俛缁夎濮╅柅鐔峰鎼俧>>鎼俠+5%
+        - 鎼俛
+        - 鎼�7閳ユ粈绔撮幎濠傜发閺咁噣锟芥氨娈戦崜鎴旓拷锟�
+        - 鎼�7
+        - '鎼�6閸樺棛绮岄崐锟�: 鎼俠0'
+    time: 1549166675
+  '11':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: STONE_PICKAXE
+      damage: 72
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧閻灝浼愰幇蹇撶箶鎼�3[閸楀洭妯乚
+        lore:
+        - 鎼俧閻椻晝鎮婃导銈咁唺鎼俛>>鎼俠40-50
+        - 鎼俧閹炬洝顥囬崙鐘靛芳鎼俛>>鎼俠10%
+        - 鎼俧缂佸繘鐛欓崝鐘冲灇鎼俛>>鎼俠10%
+        - 鎼俥
+        - 鎼�7閳ユ粎鐖弫灞兼眽婵″倸鎮撻幐鏍唵娑擄拷閺嶅皝锟斤拷
+        - 鎼�7
+        - '鎼�6閸樺棛绮岄崐锟�: 鎼俠30'
+    time: 1549166675
+  '12':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: RECORD_4
+    time: 1549166675
+  '13':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: RECORD_4
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧閸忓顤勯崬杈╁鎼俥[BOSS-濞夋洝锟戒箽
+    time: 1549166675
+  '14':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: RECORD_4
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧閸忓顤勯崬杈╁鎼俥[BOSS-濞夋洝锟戒箽
+    time: 1549166675
+  '15':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: RECORD_4
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧閸忓顤勯崬杈╁鎼俥[BOSS-濞夋洝锟戒箽
+    time: 1549166675
+  '16':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: RECORD_4
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧閸忓顤勯崬杈╁鎼俥[BOSS-濞夋洝锟戒箽
+    time: 1549166675
+  '17':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: GHAST_TEAR
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧濞夘亜鍏辨悅6[閺夋劖鏋
+        lore:
+        - 鎼俧娑旂喕顔忔潻娆愭Ц娑擃亣袙閼达拷.
+    time: 1549166675
+  '18':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: SUGAR
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧闁姐垽鎼ф鐐靛鎼俥[閺夋劖鏋
+        lore:
+        - 鎼俧鐎瑰牆顣搁懓鍛伴煩娑撳﹦娈戞鐐靛
+        - 鎼俧閺堝娼冮崸姘扁�栭惃鍕Щ瀵扳�冲
+    time: 1549166675
+banxia:
+  '1':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: EMERALD
+    time: 1549166675
+  '2':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: EMERALD
+    time: 1549166675
+  '3':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: EMERALD
+    time: 1549166675
+  '4':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: EMERALD
+    time: 1549166675
+  '5':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: BONE
+      amount: 8
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧妤犮劌銇旀悅6[閺夋劖鏋
+        lore:
+        - 鎼俧閹存牞顔忔潻娆撳櫡閻ㄥ嫪姹夋禒顒佹纯閹拷.
+    time: 1549166675
+  '6':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: CHAINMAIL_LEGGINGS
+      damage: 46
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧閻娊鎽肩紒鎴ｅ悪鎼�3[閸楀洭妯乚
+        lore:
+        - 鎼�7閼奉亣闊╃悰锟介柌寰涱湰>>鎼�815
+        - 鎼�7
+        - 鎼�7閳ユ粎鐓剁喊搴′粵閸戠儤娼甸惃鍕磮閻㈣弓绔存總妞伙拷锟�
+        - 鎼俛
+        - '鎼�6閸樺棛绮岄崐锟�: 鎼俠30'
+    time: 1549166675
+  '7':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: CHAINMAIL_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧閻娊鎽奸棃鏉戠摍鎼�3[閸楀洭妯乚
+        lore:
+        - 鎼�7閼奉亣闊╃悰锟介柌寰涱湰>>鎼�88
+        - 鎼�7缁夎濮╅柅鐔峰鎼俧>>鎼�810%
+        - 鎼�7
+        - 鎼�7閳ユ粎鐓剁喊搴′粵閸戠儤娼甸惃鍕磮閻㈣弓绔存總妞伙拷锟�
+        - 鎼俛
+        - '鎼�6閸樺棛绮岄崐锟�: 鎼俠30'
+    time: 1549166675
+  '8':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: GHAST_TEAR
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧濞夘亜鍏辨悅6[閺夋劖鏋
+        lore:
+        - 鎼俧娑旂喕顔忔潻娆愭Ц娑擃亣袙閼达拷.
+    time: 1549166675
+  '9':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: EMERALD
+    time: 1549166675
+  '10':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: EMERALD
+    time: 1549166675
+  '11':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: EMERALD
+    time: 1549166675
+  '12':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: INK_SACK
+      damage: 11
+      amount: 28
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧閹间粙绮嶆悅6[閺夋劖鏋\
+        lore:
+        - 鎼俧娑斿啰绨挎鎾舵畱娑擄拷闁劌鍨�.
+    time: 1549166675
+  '13':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: PAPER
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧濞戝牆銇戦惃鍕幇婢堆嗐�傛悅6[閺�顖滃殠]\
+        lore:
+        - 鎼俧閹存垵褰ч懗鐣屸敍娑撳﹥鍨滈弮褏娈戠悰锝嗘箛娴滐拷
+    time: 1549166675
+  '14':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: ROTTEN_FLESH
+      amount: 2
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧閼垫劕瀵查悪鑹板�濇悅e[閺夋劖鏋
+        lore:
+        - 鎼俧鐞氼偆姊惧В鎺嶉暅閾擄拷閻ㄥ嫮瀚鹃懖锟�
+    time: 1549166675
+  '15':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: INK_SACK
+      damage: 6
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧閻ュ懏鐦ㄩ弲鏈电秼鎼�6[閺夋劖鏋
+        lore:
+        - 鎼俧鐠佲晜鍨滈幎濠佺稑閸欐ɑ鍨氭稉褍妗堥崥锟�
+    time: 1549166675
+  '16':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: RECORD_8
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧閸忓顤勯崬杈╁鎼俥[BOSS-濞ｉ攱鐭婄亸鍝ュ竾]
+    time: 1549166675
+dongdong2:
+  '1':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: LEATHER_BOOTS
+      damage: 62
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        display-name: 鎼俧妤︹剝鐦洪梹鍧楁緤鎼俧[閺咁噣锟芥瓥
+        lore:
+        - 鎼俢閼奉亣闊╃悰锟介柌寰涱湰>>鎼俠3
+        - 鎼俢缁夎濮╅柅鐔峰鎼俧>>鎼俠+5%
+        - 鎼俢
+        - 鎼�7閳ユ粓娴В娑樹粵閻ㄥ嫪绔存禒璺侯殰閳ワ拷
+        - 鎼�7
+        - '鎼�6閸樺棛绮岄崐锟�: 鎼俠2'
+    time: 1549166675
+  '2':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: LEATHER_LEGGINGS
+      damage: 18
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        display-name: 鎼俧妤︹剝鐦洪梹鑳骏鎼俧[閺咁噣锟芥瓥
+        lore:
+        - 鎼俢閼奉亣闊╃悰锟介柌寰涱湰>>鎼俠6
+        - 鎼俢
+        - 鎼�7閳ユ粓娴В娑樹粵閻ㄥ嫪绔存禒璺侯殰閳ワ拷
+        - 鎼�7
+        - '鎼�6閸樺棛绮岄崐锟�: 鎼俠2'
+    time: 1549166675
+  '3':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: WOOD_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧濡楀啯婀崜鎳э拷7[缁纭籡
+        lore:
+        - 鎼俛閻椻晝鎮婃导銈咁唺鎼俧>>鎼俠4-5
+        - 鎼俛缁夎濮╅柅鐔峰鎼俧>>鎼俠+5%
+        - 鎼俛
+        - 鎼�7閳ユ粈绔撮幎濠傜发閺咁噣锟芥氨娈戦崜鎴旓拷锟�
+        - 鎼�7
+        - '鎼�6閸樺棛绮岄崐锟�: 鎼俠0'
+    time: 1549166675
+  '4':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: WOOD_SPADE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧閹垫﹢鈹堥弬顖涘閺嬵�★拷7[缁纭籡鎼俧鎼俧 閳伙拷 鑺�4绂�
+        lore:
+        - 鎼俛鐎涙劕鑴婃导銈咁唺鎼俧>>鎼俠5
+        - 鎼俛鐎涙劕鑴婂鐟般仚鎼俧>>鎼俠4
+        - 鎼俛
+        - 鎼�7閳ユ粍钖勫Ч鈩冭杽閻ㄥ嫬鐨悘顐ユ簠閳ワ拷
+        - 鎼�6
+        - '鎼�6閸樺棛绮岄崐锟�: 鎼俠0'
+        - '鎼俠鐎涙劕鑴�: 鎼俧閺冪娀妾�'
+    time: 1549166675
+_XiaMu:
+  '1':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: GOLD_RECORD
+    time: 1549166675
+  '2':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: WOOD_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧濡楀啳濮抽崜鎳э拷7[缁纭籡
+        lore:
+        - 鎼俛閻椻晝鎮婃导銈咁唺鎼俧>>鎼俠5-8
+        - 鎼俛缂佸繘鐛欓崝鐘冲灇鎼俧>>鎼俠10%
+        - 鎼俛
+        - 鎼�7閳ユ粏绻栭幎濠冾攬閼哄崬澧ょ紒娆庣啊鐠佺顦块崟鍥э紜娣団�崇妇閳ワ拷
+        - 鎼�7
+        - '鎼�6閸樺棛绮岄崐锟�: 鎼俠1'
+    time: 1549166675
+Aren_H:
+  '1':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: IRON_SWORD
+      damage: 246
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧閻т粙顎囨悅b[缁崘澹嘳
+        lore:
+        - '鎼俢鎼俶鎼俵  鎼�6鎼俶鎼俵  鎼俥鎼俶鎼俵  鎼俛鎼俶鎼俵  鎼俠鎼俶鎼俵  鎼俥鎼俵鐎规繄鐓堕梹璺虹サ鎼俠鎼俶鎼俵  鎼俛鎼俶鎼俵  鎼俥鎼俶鎼俵  鎼�6鎼俶鎼俵  鎼俢鎼俶鎼俵  '
+        - 鎼�3鎼�2鎼�1鎼俠鎼俵娴滃瞼楠囬棃鎺楃閻檲锟�7  -  鎼俛闂勫嫬濮炴导銈咁唺+鎼�610
+        - 鎼俛閻椻晝鎮婃导銈咁唺鎼俧>>鎼俠50-68
+        - 鎼俛閸戝繘锟界喎鍤戦悳鍤额湰>>鎼俠20%
+        - 鎼俛
+        - 鎼�7閳ユ粍甯夋稉濠佺閻椻晪绱濋幎鍨皡娑撳秳缍囬垾锟�
+        - 鎼�6
+        - '鎼�6閸樺棛绮岄崐锟�: 鎼俠40'
+        - '鎼�5閻秴鍤竟浼寸叾: 鎼俧閹炬洝顥�'
+    time: 1549166675
+ZSYZSYZSYTNT:
+  '1':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: BOOK
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧瀵挸缂夐崚鏈电稊娑斘诧拷9[閺嬵亝顫玗
+    time: 1549166675
+  '2':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: WOOD_SPADE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧閹垫﹢鈹堥弬顖涘閺嬵�★拷7[缁纭籡鎼俧鎼俧 閳伙拷 鑺�4绂�
+        lore:
+        - 鎼俛鐎涙劕鑴婃导銈咁唺鎼俧>>鎼俠5
+        - 鎼俛鐎涙劕鑴婂鐟般仚鎼俧>>鎼俠4
+        - 鎼俛
+        - 鎼�7閳ユ粍钖勫Ч鈩冭杽閻ㄥ嫬鐨悘顐ユ簠閳ワ拷
+        - 鎼�6
+        - '鎼�6閸樺棛绮岄崐锟�: 鎼俠0'
+        - '鎼俠鐎涙劕鑴�: 鎼俧閺冪娀妾�'
+    time: 1549166676
+  '3':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: INK_SACK
+      damage: 11
+      amount: 2
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧閹间粙绮嶆悅6[閺夋劖鏋
+        lore:
+        - 鎼俧娑斿啰绨挎鎾舵畱娑擄拷闁劌鍨�.
+    time: 1549166676
+_MuNian:
+  '1':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: RECORD_8
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧閸忓顤勯崬杈╁鎼俥[BOSS-濞ｉ攱鐭婄亸鍝ュ竾]
+    time: 1549166676
+  '2':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: RECORD_8
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧閸忓顤勯崬杈╁鎼俥[BOSS-濞ｉ攱鐭婄亸鍝ュ竾]
+    time: 1549166676
+  '3':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: RECORD_8
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧閸忓顤勯崬杈╁鎼俥[BOSS-濞ｉ攱鐭婄亸鍝ュ竾]
+    time: 1549166676
+  '4':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: RECORD_4
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧閸忓顤勯崬杈╁鎼俥[BOSS-濞夋洝锟戒箽
+    time: 1549166676
+  '5':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: RECORD_4
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧閸忓顤勯崬杈╁鎼俥[BOSS-濞夋洝锟戒箽
+    time: 1549166676
+  '6':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: RECORD_4
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧閸忓顤勯崬杈╁鎼俥[BOSS-濞夋洝锟戒箽
+    time: 1549166676
+  '7':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: GOLD_RECORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧閸忓顤勯崬杈╁鎼俥[BOSS-閻灝鍚擼
+    time: 1549166676
+MC__chuying:
+  '1':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: RECORD_8
+    time: 1549166676
+  '2':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: RECORD_4
+    time: 1549166676
+  '3':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: GOLD_RECORD
+    time: 1549166676
+  '4':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: RECORD_8
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧閸忓顤勯崬杈╁鎼俥[BOSS-濞ｉ攱鐭婄亸鍝ュ竾]
+    time: 1549166676
+  '5':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: GOLD_NUGGET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧濞夋洝锟戒線銆嶉柧闊拷6[閺夋劖鏋
+        lore:
+        - 鎼俧閸戝闃块惃鍕紦閻忛潧鍘撶槐锟�.
+    time: 1549166676
+  '6':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: RECORD_8
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧閸忓顤勯崬杈╁鎼俥[BOSS-濞ｉ攱鐭婄亸鍝ュ竾]
+    time: 1549166676
+  '7':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: RECORD_8
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧閸忓顤勯崬杈╁鎼俥[BOSS-濞ｉ攱鐭婄亸鍝ュ竾]
+    time: 1549166676
+  '8':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: GHAST_TEAR
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧濞夘亜鍏辨悅6[閺夋劖鏋
+        lore:
+        - 鎼俧娑旂喕顔忔潻娆愭Ц娑擃亣袙閼达拷.
+    time: 1549166676
+  '9':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: PAPER
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧閻楃懓浼�47.娴ｇ姳绮栨径鈺冩畱娴犺濮熸悅6[濮ｅ繑妫
+        lore:
+        - 鎼俠鎼俶-----鎼俥閳斤拷 鎼俤娑擄拷缂佸嫰鐡熼惌锟�
+    time: 1549166676
+  '10':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: PAPER
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧閻楃懓浼�47.娴ｇ姳绮栨径鈺冩畱娴犺濮熸悅6[濮ｅ繑妫
+        lore:
+        - 鎼俠鎼俶-----鎼俥閳斤拷 鎼俤娑擄拷缂佸嫰鐡熼惌锟�
+    time: 1549166676
+  '11':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: ENCHANTED_BOOK
+      meta:
+        ==: ItemMeta
+        meta-type: ENCHANTED
+        display-name: 鎼俧閻ュ懏鐦ㄦ悅6[娑撹崵鍤庢禒璇插]
+        lore:
+        - 鎼俧鏉╂瑤閲滅痪璺ㄥ偍缂佹瑦鍨滈幓鎰返娴滃棔绔存禍娑樺彠娴滃簶锟芥粍锟筋亜鍚旈垾锟�
+        - 鎼俧閻ㄥ嫰鍣哥憰浣蜂繆閹拷,鐎瑰啩婊戦崢鐔告降閺勵垱娼欏锟�
+        - 鎼俧缂佹挻鐏夐幇鐔哥厠娑撳﹣绨￠惀鍛槰,鏉╂瑨顔�閹存垳婊戦幆鍛秿闂呮儳鐗氶崯锟�
+        - 鎼俧
+        - '鎼俛闂囷拷濮癸拷: 鎼俢閸椾椒閲滈懙鎰��'
+    time: 1549166676
+  '12':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: BROWN_MUSHROOM
+      amount: 64
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧濮ｆ帟寮存悅e[閺夋劖鏋
+        lore:
+        - 鎼俧鐞氼偆姊惧В鎺撴珷娴ｆ挷闀滈摀锟介惃鍕閼匡拷
+        - 鎼俧缂佸繗绻冮懣宀冩儰缁讳浇顢掗柅鐔峰鐡掑懎鎻�
+    time: 1549166676
+  '13':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: BROWN_MUSHROOM
+      amount: 64
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧濮ｆ帟寮存悅e[閺夋劖鏋
+        lore:
+        - 鎼俧鐞氼偆姊惧В鎺撴珷娴ｆ挷闀滈摀锟介惃鍕閼匡拷
+        - 鎼俧缂佸繗绻冮懣宀冩儰缁讳浇顢掗柅鐔峰鐡掑懎鎻�
+    time: 1549166676
+  '14':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: BROWN_MUSHROOM
+      amount: 8
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧濮ｆ帟寮存悅e[閺夋劖鏋
+        lore:
+        - 鎼俧鐞氼偆姊惧В鎺撴珷娴ｆ挷闀滈摀锟介惃鍕閼匡拷
+        - 鎼俧缂佸繗绻冮懣宀冩儰缁讳浇顢掗柅鐔峰鐡掑懎鎻�
+    time: 1549166676
+  '15':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: RED_MUSHROOM
+      amount: 64
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧濮ｆ帟寮存悅e[閺夋劖鏋
+        lore:
+        - 鎼俧鐞氼偆姊惧В鎺撴珷娴ｆ挷闀滈摀锟介惃鍕閼匡拷
+        - 鎼俧缂佸繗绻冮懣宀冩儰缁讳浇顢掗柅鐔峰鐡掑懎鎻�
+    time: 1549166676
+  '16':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: RED_MUSHROOM
+      amount: 42
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧濮ｆ帟寮存悅e[閺夋劖鏋
+        lore:
+        - 鎼俧鐞氼偆姊惧В鎺撴珷娴ｆ挷闀滈摀锟介惃鍕閼匡拷
+        - 鎼俧缂佸繗绻冮懣宀冩儰缁讳浇顢掗柅鐔峰鐡掑懎鎻�
+    time: 1549166676
+  '17':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: BROWN_MUSHROOM
+      amount: 64
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧濮ｆ帟寮存悅e[閺夋劖鏋
+        lore:
+        - 鎼俧鐞氼偆姊惧В鎺撴珷娴ｆ挷闀滈摀锟介惃鍕閼匡拷
+        - 鎼俧缂佸繗绻冮懣宀冩儰缁讳浇顢掗柅鐔峰鐡掑懎鎻�
+    time: 1549166676
+  '18':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: RED_MUSHROOM
+      amount: 64
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧濮ｆ帟寮存悅e[閺夋劖鏋
+        lore:
+        - 鎼俧鐞氼偆姊惧В鎺撴珷娴ｆ挷闀滈摀锟介惃鍕閼匡拷
+        - 鎼俧缂佸繗绻冮懣宀冩儰缁讳浇顢掗柅鐔峰鐡掑懎鎻�
+    time: 1549166676
+  '19':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: BROWN_MUSHROOM
+      amount: 2
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧濮ｆ帟寮存悅e[閺夋劖鏋
+        lore:
+        - 鎼俧鐞氼偆姊惧В鎺撴珷娴ｆ挷闀滈摀锟介惃鍕閼匡拷
+        - 鎼俧缂佸繗绻冮懣宀冩儰缁讳浇顢掗柅鐔峰鐡掑懎鎻�
+    time: 1549166676
+  '20':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: BROWN_MUSHROOM
+      amount: 64
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧濮ｆ帟寮存悅e[閺夋劖鏋
+        lore:
+        - 鎼俧鐞氼偆姊惧В鎺撴珷娴ｆ挷闀滈摀锟介惃鍕閼匡拷
+        - 鎼俧缂佸繗绻冮懣宀冩儰缁讳浇顢掗柅鐔峰鐡掑懎鎻�
+    time: 1549166676
+  '21':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: RED_MUSHROOM
+      amount: 6
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧濮ｆ帟寮存悅e[閺夋劖鏋
+        lore:
+        - 鎼俧鐞氼偆姊惧В鎺撴珷娴ｆ挷闀滈摀锟介惃鍕閼匡拷
+        - 鎼俧缂佸繗绻冮懣宀冩儰缁讳浇顢掗柅鐔峰鐡掑懎鎻�
+    time: 1549166676
+  '22':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: BROWN_MUSHROOM
+      amount: 64
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧濮ｆ帟寮存悅e[閺夋劖鏋
+        lore:
+        - 鎼俧鐞氼偆姊惧В鎺撴珷娴ｆ挷闀滈摀锟介惃鍕閼匡拷
+        - 鎼俧缂佸繗绻冮懣宀冩儰缁讳浇顢掗柅鐔峰鐡掑懎鎻�
+    time: 1549166676
+  '23':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: RED_MUSHROOM
+      amount: 64
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧濮ｆ帟寮存悅e[閺夋劖鏋
+        lore:
+        - 鎼俧鐞氼偆姊惧В鎺撴珷娴ｆ挷闀滈摀锟介惃鍕閼匡拷
+        - 鎼俧缂佸繗绻冮懣宀冩儰缁讳浇顢掗柅鐔峰鐡掑懎鎻�
+    time: 1549166676
+DBoss_gui:
+  '1':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: RECORD_8
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧閸忓顤勯崬杈╁鎼俥[BOSS-濞ｉ攱鐭婄亸鍝ュ竾]
+    time: 1549166676
+  '2':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: RECORD_8
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧閸忓顤勯崬杈╁鎼俥[BOSS-濞ｉ攱鐭婄亸鍝ュ竾]
+    time: 1549166676
+  '3':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: RECORD_8
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧閸忓顤勯崬杈╁鎼俥[BOSS-濞ｉ攱鐭婄亸鍝ュ竾]
+    time: 1549166676
+  '4':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: RECORD_8
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧閸忓顤勯崬杈╁鎼俥[BOSS-濞ｉ攱鐭婄亸鍝ュ竾]
+    time: 1549166676
+Blank_:
+  '1':
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: WOOD_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: 鎼俧闁句胶顣抽悧娅湩[娴兼顫匽
+        lore:
+        - 鎼俛閻椻晝鎮婃导銈咁唺鎼俧>>鎼俠15-20
+        - 鎼俛閺嗘潙鍤崙鐘靛芳鎼俧>>鎼俠10%
+        - 鎼俛閺嗘潙鍤导銈咁唺鎼俧>>鎼俠15%
+        - 鎼俛
+        - 鎼�7閳ユ粈缍樻禒銉よ礋鐠囩顕╃亸鍙樼啊娴滃绨℃稊鍫氾拷锟�
+        - 鎼�7
+        - '鎼�6閸樺棛绮岄崐锟�: 鎼俠5'
+    time: 1549166676

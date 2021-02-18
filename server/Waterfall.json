@@ -1,0 +1,21 @@
+{
+    "__filename__": "./server/Waterfall.json",
+    "name": "Waterfall",
+    "createDate": "2018-9-15 21:54:02",
+    "lastDate": "2018-10-4 22:28:16",
+    "ie": "GBK",
+    "oe": "GBK",
+    "autoRestart": false,
+    "schedule": [],
+    "addCmd": [
+        ""
+    ],
+    "java": "java",
+    "jarName": "Waterfall.jar",
+    "Xmx": "",
+    "Xms": "",
+    "cwd": "./server1/中转/Waterfall",
+    "highCommande": "java -Xmx100M -Xms100M -Dfile.encoding=UTF-8 -jar Waterfall.jar ",
+    "run": true,
+    "serverName": "Waterfall"
+}

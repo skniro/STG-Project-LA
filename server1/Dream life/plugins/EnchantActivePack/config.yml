@@ -1,0 +1,85 @@
+language: en
+Angler:
+  pvp: true
+  pve: true
+  max: 4
+Dash:
+  pvp: true
+  pve: true
+  cooldownBase: 5
+  cooldownBonus: 0
+  damageBase: 1
+  damageBonus: 1
+  max: 5
+  speedBase: 3
+  speedBonus: 0
+Fireball:
+  pvp: true
+  pve: true
+  cooldownBase: 20
+  cooldownBonus: 1.6
+  max: 10
+Fried:
+  pvp: true
+  pve: true
+  max: 1
+Grapple:
+  pvp: true
+  pve: true
+  max: 5
+  rangeBase: 10
+  rangeBonus: 2
+  speedBase: 0.4
+  speedBonus: 0
+Heal:
+  pvp: true
+  pve: true
+  cooldownBase: 15
+  cooldownBonus: 0
+  healthBase: 2
+  healthBonus: 2
+  max: 5
+Pull:
+  pvp: true
+  pve: true
+  cooldownBase: 10
+  cooldownBonus: 1
+  max: 5
+  speedBase: 0.3
+  speedBonus: 0
+Rejuvenating:
+  pvp: true
+  pve: true
+  healthBase: 1
+  healthBonus: 1
+  max: 5
+Repulse:
+  pvp: true
+  pve: true
+  cooldownBase: 10
+  cooldownBonus: 1
+  max: 5
+  rangeBase: 10
+  rangeBonus: 0
+  speedBase: 8
+  speedBonus: 0
+Toss:
+  pvp: true
+  pve: true
+  cooldownBase: 15
+  cooldownBonus: 0
+  durationBase: 5
+  durationBonus: 0
+  max: 5
+  speedBase: 1
+  speedBonus: 0.5
+Vortex:
+  pvp: true
+  pve: true
+  cooldownBase: 10
+  cooldownBonus: 1
+  max: 5
+  rangeBase: 10
+  rangeBonus: 0
+  speedBase: 0.3
+  speedBonus: 0

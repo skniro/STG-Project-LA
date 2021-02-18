@@ -1,0 +1,41 @@
+Builder;0;0
+i:WOOD_SWORD:1:24:;§f铁碎牙§a[优秀]\*§6历练值: §b5%newline%
+i:WOOD_HOE:1:0:;§f木制花洒§a[优秀]§3§3 ? ?10?\*§b子弹: §f无限%newline%
+i:WOOD_SWORD:1:0:;§f桃木剑§7[粗糙]\*§6历练值: §b0%newline%
+i:ROTTEN_FLESH:20:0:;§f腐肉§6[材料]§7[低级食物]\*§f这个更不能吃,吃了更容易死%newline%
+i:AIR:0:0:;\*
+i:AIR:0:0:;\*
+i:BREAD:57:0:;§f方便面包§9[§b★§9]\*
+i:AIR:0:0:;\*
+i:WATCH:1:0:;§8§l[§e§l维护者领域快捷菜单§8§l]\*§4无法丢弃%newline%
+i:RABBIT_HIDE:15:0:;§f兔子皮§6[材料]\*§f活生生拽下来的皮.%newline%
+i:RABBIT:18:0:;§f生兔子肉§6[材料]§7[低级食物]\*§f至少比鸡肉好多了.%newline%
+i:CLAY_BRICK:29:0:;§f铜制货币§a[经济]\*§f采用铜制造的货币%newline%
+i:RAW_CHICKEN:1:0:;§f生鸡肉§6[材料]§7[低级食物]\*§f血淋淋的,需要一次性袋子装着.%newline%
+i:MELON_SEEDS:31:0:;§f石碎§6[材料]\*§f矿工挖的石头碎片,还留在裤裆里面%newline%
+i:IRON_INGOT:9:0:;§f铁制货币§a[经济]\*§f采用铁制成此货币%newline%
+i:PUMPKIN_SEEDS:24:0:;§f变种鳞片§6[材料]\*§f脏兮兮的,不知道为什么他们还喜欢留在手中%newline%
+i:AIR:0:0:;\*
+i:PAPER:1:0:;§f特工47.你今天的任务§6[每日]\*§b§m-----§e★ §d一组兔子肉%newline%
+i:AIR:0:0:;\*
+i:AIR:0:0:;\*
+i:AIR:0:0:;\*
+i:AIR:0:0:;\*
+i:AIR:0:0:;\*
+i:FEATHER:27:0:;§f鸡羽毛§6[材料]\*§f活生生拽下来的鸡毛.%newline%
+i:AIR:0:0:;\*
+i:AIR:0:0:;\*
+i:AIR:0:0:;\*
+i:AIR:0:0:;\*
+i:AIR:0:0:;\*
+i:WOOD_SPADE:1:0:;§f托马斯手枪§7[粗糙]§f§f ? ?3?\*§b子弹: §f无限%newline%
+i:AIR:0:0:;\*
+i:AIR:0:0:;\*
+i:AIR:0:0:;\*
+i:AIR:0:0:;\*
+i:AIR:0:0:;\*
+i:AIR:0:0:;\*
+w:LEATHER_BOOTS:1:41:;§f鸡毛长靴§f[普通]\*§6历练值: §b2%newline%
+w:LEATHER_LEGGINGS:1:0:;§f鸡毛长裤§f[普通]\*§6历练值: §b2%newline%
+w:LEATHER_CHESTPLATE:1:70:;§f鸡毛外套§f[普通]\*§6历练值: §b2%newline%
+w:AIR:0:-1:;\*

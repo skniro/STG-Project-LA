@@ -1,0 +1,18 @@
+"\u9518\u7e0etatsHologram":
+  Text:
+  - "&6&l\u6d63\u72b5\u6b91\u74a7\u5cf0\u7c25\u93b4\u6a3c\u54d7"
+  - "&fTotal \u9473\u6ec3\u57c4\u93c1\ufffd: &a<totalWins> \u9366\ufffd"
+  - "&fTotal \u9351\u7ed8\u6f43\u93c1\ufffd: &a<totalKills> \u6d93\ufffd"
+  - "&fTotal \u5a13\u544a\u5799\u9366\u70d8\ue0bc: &a<totalGamesPlayed> \u5a06\ufffd"
+  - "&fTotal \u6fb6\u8fab\u89e6\u9366\u70d8\ue0bc: &a<totalLosses> \u5a06\ufffd"
+  - "&fTotal \u93bd\u0444\u7609\u6434\u5a43\u669f: &a<totalBedsBroken> \u5bee\ufffd"
+  - "&fTotal \u6fb6\u535e\u5e53\u6434\u5a43\u669f: &a<totalBedsLost> \u5bee\ufffd"
+StatsHologram:
+  Text:
+  - '&6&lYour Bed Wars Profile'
+  - '&fTotal Wins: &a<totalWins>'
+  - '&fTotal Kills: &a<totalKills>'
+  - '&fTotal Games Played: &a<totalGamesPlayed>'
+  - '&fTotal Losses: &a<totalLosses>'
+  - '&fTotal Beds Broken: &a<totalBedsBroken>'
+  - '&fTotal Beds Lost: &a<totalBedsLost>'

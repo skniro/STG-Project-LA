@@ -1,0 +1,188 @@
+守卫者:
+  Mobtype: GUARDIAN 
+  Display: '&f远古守卫者&9[Lv.100]'
+  Health: 800
+  Damage: 1000 
+  Drops:
+  - exp 30
+  - money 30
+  - 钱1 5 0.1
+  - 血石1 3 0.5
+  - 矿骨1 1 0.4
+  - 矿工1 1 0.4
+  - 恶灵1 1 0.4
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.2
+    MaxCombatDistance: 25
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    
+感染的士兵:
+  Mobtype: zombie
+  Display: '&f感染的士兵&e[Lv.100]'
+  Health: 600
+  Damage: 120
+  Drops: 
+  - exp 20
+  - money 30 
+  - 钱1 5 0.1
+  - 病毒晶体1 1  0.3
+  Equipment: 
+  - 士兵帽子:4 
+  - 士兵胸甲:3 
+  - 士兵护腿:2 
+  - 士兵靴子:1 
+  - 士兵剑:0 
+  Options: 
+    AlwaysShowName: true
+    MovementSpeed: 0.2
+    MaxCombatDistance: 25
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    
+感染的狼:
+  Mobtype: wolf
+  Display: '&f感染的狼&e[Lv.70]'
+  Health: 500
+  Damage: 50
+  Drops: 
+  - exp 20
+  - money 30 
+  - 钱1 5 0.1
+  - 狼肉1 1 0.3
+  - 病毒晶体1 5 0.3
+  Options: 
+    AlwaysShowName: true
+    MovementSpeed: 0.2
+    MaxCombatDistance: 25
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    
+毒雾蜘蛛:
+  Type: cavespider
+  Display: '&f毒雾蜘蛛&e[Lv.100]'
+  Health: 500
+  Damage: 220
+  Skills: 
+  Drops: 
+  - exp 10 
+  - money 10 
+  - 蜘蛛眼1 1 0.3
+  Equipment: 
+  Options: 
+    AlwaysShowName: true
+    MovementSpeed: 0.2
+    MaxCombatDistance: 25
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+ 
+混沌尸王:
+  Type: witherskeleton
+  Display: '&f混沌尸王&e[BOSS]'
+  Health: 4000
+  Damage: 400
+  Skills:
+  - forcepull 5 <70% 0.3
+  Drops: 
+  - exp 60 
+  - money 90 
+  - 钱1 1 0.1
+  - 魂之碎片 1 1
+  Equipment: 
+  - 混沌剑:0 
+  - 士兵帽子:4 
+  - 士兵胸甲:3 
+  - 士兵护腿:2 
+  - 士兵靴子:1 
+  Options: 
+    AlwaysShowName: true
+    MovementSpeed: 0.3
+    MaxCombatDistance: 25
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    
+尸魂骨:
+  Type: skeleton
+  Display: '&f尸魂骨&e[Lv.150]'
+  Health: 1000
+  Damage: 100
+  Skills: 
+  Drops: 
+  - exp 10
+  - money 30
+  - 钱1 1 0.5
+  Equipment: 
+  - 混沌剑:0 
+  - 矿工裤子:2 
+  - 矿工靴子:1 
+  - 矿工帽子:4 
+  - 矿工衣服:3
+  Options: 
+    AlwaysShowName: true
+    MovementSpeed: 0.2
+    MaxCombatDistance: 25
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    
+毒菇尸1:
+  Type: zombie
+  Display: '&f毒菇尸&e[Lv.110]'
+  Health: 700
+  Damage: 80
+  Drops: 
+  - exp 25 
+  - money 30 
+  - 钱1 5 0.5 
+  - 毒菇1 5 0.3
+  Equipment: 
+  - 毒菇1:4 
+  - 士兵剑:0
+  - 士兵胸甲:3 
+  Options: 
+    AlwaysShowName: true
+    MovementSpeed: 0.3
+    MaxCombatDistance: 25
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    
+毒菇尸2:
+  Type: zombie
+  Display: '&f毒菇尸&e[Lv.110]'
+  Health: 700
+  Damage: 80 
+  Drops: 
+  - exp 25 
+  - money 30 
+  - 钱1 5 0.5 
+  - 毒菇2 5 0.3
+  Equipment: 
+  - 毒菇2:4 
+  - 士兵剑:0
+  - 士兵胸甲:3 
+  Options: 
+    AlwaysShowName: true
+    MovementSpeed: 0.3
+    MaxCombatDistance: 25
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    
+守墓者:
+  Type: irongolem
+  Display: '&f守墓者&e[LV.130]'
+  Health: 1000
+  Damage: 200
+  Skills: 
+  - explosion 5:50:false:false <50% 0.5
+  Drops: 
+  - exp 30
+  - money 30 
+  - 钱1 5 0.7
+  - 钢铁鳞片 1 0.3
+  Equipment: 
+  Options: 
+    AlwaysShowName: true
+    MovementSpeed: 0.3
+    MaxCombatDistance: 25
+    PreventOtherDrops: true
+    KnockbackResistance: 1

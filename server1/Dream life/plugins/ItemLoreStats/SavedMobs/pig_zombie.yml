@@ -1,0 +1,133 @@
+'15':
+  '1':
+    itemId: 298
+    nameColour: '&f&l'
+    prefix: random
+    suffix: random
+    properties:
+      armour: '&b3-7'
+      healthRandomApply: true
+      health: '&b10-player+30'
+      healthRegenRandomApply: true
+      healthRegen: '&b1-4'
+      durability: '&71350-1500'
+      soulboundRandomApply: true
+      soulbound: true
+      xpLevelRandomApply: true
+      xpLevel: '&b10-player+3'
+  '2':
+    itemId: 299
+    nameColour: '&f&l'
+    prefix: random
+    suffix: random
+    properties:
+      armour: '&b3-7'
+      healthRandomApply: true
+      health: '&b10-player+30'
+      healthRegenRandomApply: true
+      healthRegen: '&b1-4'
+      durability: '&71350-1500'
+      soulboundRandomApply: true
+      soulbound: true
+      xpLevelRandomApply: true
+      xpLevel: '&b10-player+3'
+  '3':
+    itemId: 300
+    nameColour: '&f&l'
+    prefix: random
+    suffix: random
+    properties:
+      armour: '&b3-7'
+      healthRandomApply: true
+      health: '&b10-player+30'
+      healthRegenRandomApply: true
+      healthRegen: '&b1-4'
+      durability: '&71350-1500'
+      soulboundRandomApply: true
+      soulbound: true
+      xpLevelRandomApply: true
+      xpLevel: '&b10-player+3'
+  '4':
+    itemId: 301
+    nameColour: '&f&l'
+    prefix: random
+    suffix: random
+    properties:
+      armour: '&b3-7'
+      healthRandomApply: true
+      health: '&b10-player+30'
+      healthRegenRandomApply: true
+      healthRegen: '&b1-4'
+      durability: '&71350-1500'
+      soulboundRandomApply: true
+      soulbound: true
+      xpLevelRandomApply: true
+      xpLevel: '&b10-player+3'
+  '5':
+    itemId: 268
+    nameColour: '&f&l'
+    prefix: random
+    suffix: random
+    properties:
+      weaponspeed: '&4Slow'
+      damage: '&b1-6-player+1-7'
+      poisonRandomApply: true
+      poison: '&a1-5'
+      witherRandomApply: true
+      wither: '&71-5'
+      durability: '&7200-325'
+      soulboundRandomApply: true
+      soulbound: true
+      xpLevelRandomApply: true
+      xpLevel: '&b10-player+3'
+  '6':
+    itemId: 271
+    nameColour: '&f&l'
+    prefix: random
+    suffix: random
+    properties:
+      weaponspeed: '&4Slow'
+      damage: '&b1-6-player+1-7'
+      poisonRandomApply: true
+      poison: '&a1-5'
+      witherRandomApply: true
+      wither: '&71-5'
+      durability: '&7200-325'
+      soulboundRandomApply: true
+      soulbound: true
+      xpLevelRandomApply: true
+      xpLevel: '&b10-player+3'
+  '7':
+    itemId: 270
+    nameColour: '&f&l'
+    prefix: random
+    suffix: random
+    properties:
+      weaponspeed: '&4Slow'
+      damage: '&b1-6-player+1-7'
+      poisonRandomApply: true
+      poison: '&a1-5'
+      witherRandomApply: true
+      wither: '&71-5'
+      durability: '&7200-325'
+      soulboundRandomApply: true
+      soulbound: true
+      xpLevelRandomApply: true
+      xpLevel: '&b10-player+3'
+  '8':
+    itemId: 261
+    nameColour: '&f&l'
+    prefix: random
+    suffix: random
+    properties:
+      weaponspeed: '&4Slow'
+      damage: '&b1-6-player+1-7'
+      poisonRandomApply: true
+      poison: '&a1-5'
+      witherRandomApply: true
+      wither: '&71-5'
+      durability: '&7200-325'
+      soulboundRandomApply: true
+      soulbound: true
+      xpLevelRandomApply: true
+      xpLevel: '&b10-player+3'

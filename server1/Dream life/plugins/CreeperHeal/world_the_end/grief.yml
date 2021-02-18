@@ -1,0 +1,19 @@
+# Anti-griefing settings
+prevent-fire-spread:
+  fire: false
+  lava: false
+warn:
+  TNT: false
+  PvP: false
+  spawn-eggs: false
+  blacklist: false
+  lava: false
+  flint-and-steel: false
+block:
+  TNT: false
+  spawn-eggs: false
+  lava: false
+  PvP: false
+  flint-and-steel: false
+  blacklist: false
+blacklist: '0'

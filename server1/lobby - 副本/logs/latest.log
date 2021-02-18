@@ -1,0 +1,222 @@
+[12:16:30] [Server thread/WARN]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+[12:16:30] [Server thread/INFO]: Loading properties
+[12:16:30] [Server thread/INFO]: Default game type: SURVIVAL
+[12:16:30] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-642f6d2-57ab4cf (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[12:16:30] [Server thread/INFO]: Debug logging is disabled
+[12:16:30] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:16:30] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:16:30] [Server thread/INFO]: Generating keypair
+[12:16:31] [Server thread/INFO]: Starting Minecraft server on 127.0.0.1:25566
+[12:16:31] [Server thread/INFO]: Using default channel type
+[12:16:32] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[12:16:33] [Server thread/INFO]: [ViaVersion] Hooking into ProtocolSupport, to prevent issues!
+[12:16:33] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v13.5-SNAPSHOT
+[12:16:33] [Server thread/INFO]: [ProtectWorld] Loading ProtectWorld v17.728
+[12:16:33] [Server thread/INFO]: [Essentials] Loading Essentials v2.0.1-b604
+[12:16:33] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.0.1-b604
+[12:16:33] [Server thread/INFO]: [ProtocolSupport] Loading ProtocolSupport v4.28
+[12:16:33] [Server thread/INFO]: [ProtocolSupport] Detected Spigot server implementation type
+[12:16:33] [Server thread/INFO]: [ProtocolSupport] Allocator: PooledByteBufAllocator(directByDefault: true), direct: true
+[12:16:34] [Server thread/INFO]: [ProtocolSupport] Compression level: 3
+[12:16:34] [Server thread/INFO]: [ProtocolSupport] Assume 1.5.2 ping delay: 100
+[12:16:34] [Server thread/INFO]: [ProtocolSupport] Assume legacy ping delay: 200
+[12:16:34] [Server thread/INFO]: [ProtocolSupport] Login threads keep alive time: 60
+[12:16:35] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.0.1-b604
+[12:16:35] [Server thread/INFO]: [LaggRemover] Loading LaggRemover v2.0.4
+[12:16:35] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v1.5.2
+[12:16:36] [Server thread/INFO]: [ViaVersion] ViaVersion 1.5.2 is now loaded, injecting!
+[12:16:36] [Server thread/INFO]: [ViaVersion] Loading block mapping...
+[12:16:36] [Server thread/INFO]: [ViaVersion] Loading item mapping...
+[12:16:36] [Server thread/INFO]: [ViaVersion] Loading new tags...
+[12:16:36] [Server thread/INFO]: [ViaVersion] Loading enchantments...
+[12:16:36] [Server thread/INFO]: [ViaVersion] Loading sound mapping...
+[12:16:36] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v4.4.0
+[12:16:36] [Server thread/INFO]: [ColorMOTD] Loading ColorMOTD v1.5.3
+[12:16:36] [Server thread/INFO]: [NeverLag] Loading NeverLag v1.3.0
+[12:16:36] [Server thread/INFO]: [ProtocolSupport] Enabling ProtocolSupport v4.28
+[12:16:36] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v4.4.0
+[12:16:37] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
+[12:16:37] [Server thread/INFO]: [ColorMOTD] Enabling ColorMOTD v1.5.3
+[12:16:37] [Server thread/INFO]: [ColorMOTD] ├使用 ProtocolLib 4.4.0 作为前置
+[12:16:37] [Server thread/INFO]: [ColorMOTD] │├正在载入配置文件..
+[12:16:37] [Server thread/INFO]: [ColorMOTD] │├配置文件编码为UTF-8...
+[12:16:37] [Server thread/INFO]: [ColorMOTD] │├正在加载图标...
+[12:16:37] [Server thread/INFO]: [ColorMOTD] ││├成功加载图标"12312.png"
+[12:16:37] [Server thread/INFO]: [ColorMOTD] ││├成功加载维护模式下的图标
+[12:16:37] [Server thread/INFO]: [ColorMOTD] │├载入成功
+[12:16:37] [Server thread/INFO]: [ColorMOTD] │├软前置加载...
+[12:16:37] [Server thread/INFO]: [ColorMOTD] │├找到Essentials,建立连接...
+[12:16:37] [Server thread/INFO]: [ColorMOTD] ├正在注册MOTD监听器...
+[12:16:37] [Server thread/INFO]: ColorMOTD v1.5.3加载完成,用时191毫秒
+[12:16:37] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12:16:37] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[12:16:37] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[12:16:37] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[12:16:37] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[12:16:37] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[12:16:37] [Server thread/INFO]: Preparing level "world"
+[12:16:37] [Server thread/INFO]: -------- World Settings For [world] --------
+[12:16:37] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:16:37] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:16:37] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[12:16:37] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:16:37] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:16:37] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:16:37] [Server thread/INFO]: View Distance: 10
+[12:16:37] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:16:37] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[12:16:37] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:16:37] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:16:37] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:16:37] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:16:37] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:16:37] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:16:37] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:16:37] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:16:37] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:16:37] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:16:37] [Server thread/INFO]: Mob Spawn Range: 4
+[12:16:37] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:16:37] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:16:37] [Server thread/INFO]: Random Lighting Updates: false
+[12:16:37] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[12:16:37] [Server thread/INFO]: Max TNT Explosions: 100
+[12:16:37] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[12:16:37] [Server thread/INFO]: Structure Info Saving: true
+[12:16:37] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[12:16:37] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:16:37] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:16:37] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[12:16:37] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:16:37] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:16:37] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:16:37] [Server thread/INFO]: View Distance: 10
+[12:16:37] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:16:37] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[12:16:37] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:16:37] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:16:37] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:16:37] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:16:37] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:16:37] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:16:37] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:16:37] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:16:37] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:16:37] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:16:37] [Server thread/INFO]: Mob Spawn Range: 4
+[12:16:37] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:16:37] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:16:37] [Server thread/INFO]: Random Lighting Updates: false
+[12:16:37] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[12:16:37] [Server thread/INFO]: Max TNT Explosions: 100
+[12:16:37] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[12:16:37] [Server thread/INFO]: Structure Info Saving: true
+[12:16:37] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[12:16:37] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:16:37] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:16:37] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[12:16:37] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:16:37] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:16:37] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:16:37] [Server thread/INFO]: View Distance: 10
+[12:16:37] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:16:37] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[12:16:37] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:16:37] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:16:37] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:16:37] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:16:37] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:16:37] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:16:37] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:16:37] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:16:37] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:16:37] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:16:37] [Server thread/INFO]: Mob Spawn Range: 4
+[12:16:37] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:16:37] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:16:37] [Server thread/INFO]: Random Lighting Updates: false
+[12:16:37] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[12:16:37] [Server thread/INFO]: Max TNT Explosions: 100
+[12:16:37] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[12:16:37] [Server thread/INFO]: Structure Info Saving: true
+[12:16:37] [Server thread/INFO]: Preparing start region for level 0 (Seed: 1772835215)
+[12:16:38] [Server thread/INFO]: Preparing spawn area: 14%
+[12:16:39] [Server thread/INFO]: Preparing spawn area: 85%
+[12:16:40] [Server thread/INFO]: Preparing start region for level 1 (Seed: -7378677815776138515)
+[12:16:41] [Server thread/INFO]: Preparing spawn area: 90%
+[12:16:41] [Server thread/INFO]: Preparing start region for level 2 (Seed: -7378677815776138515)
+[12:16:41] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v13.5-SNAPSHOT
+[12:16:41] [Server thread/INFO]: [SkinsRestorer] Detected Minecraft v1_12_R1, using UniversalSkinFactory.
+[12:16:41] [Server thread/INFO]: [ProtectWorld] Enabling ProtectWorld v17.728
+[12:16:41] [Server thread/INFO]: [特殊世界保护] > 已运行 定制+Q962389099
+[12:16:41] [Server thread/INFO]: [Essentials] Enabling Essentials v2.0.1-b604
+[12:16:41] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[12:16:41] [Server thread/INFO]: No kits found to migrate.
+[12:16:42] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
+[12:16:42] [Server thread/INFO]: [Essentials] Using Reflection based provider as spawn egg provider.
+[12:16:42] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
+[12:16:42] [Server thread/INFO]: Using locale zh_CN
+[12:16:42] [Server thread/INFO]: [Essentials] Using Spigot 1.7.10+ ServerListPingEvent iterator
+[12:16:42] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[12:16:42] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[12:16:42] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.0.1-b604
+[12:16:42] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.0.1-b604
+[12:16:42] [Server thread/INFO]: [LaggRemover] Enabling LaggRemover v2.0.4
+[12:16:42] [Server thread/INFO]: 
+    __                      ____                                         _    _____
+   / /   ____ _____ _____ _/ __ \___  ____ ___  ____ _   _____  _____   | |  / /__ \
+  / /   / __ `/ __ `/ __ `/ /_/ / _ \/ __ `__ \/ __ \ | / / _ \/ ___/   | | / /__/ /
+ / /___/ /_/ / /_/ / /_/ / _, _/  __/ / / / / / /_/ / |/ /  __/ /       | |/ // __/
+/_____/\__,_/\__, /\__, /_/ |_|\___/_/ /_/ /_/\____/|___/\___/_/        |___//____/
+            /____//____/
+
+[12:16:42] [Server thread/INFO]: [LaggRemover] Loaded 0 module(s)
+[12:16:42] [Server thread/INFO]: [LaggRemover] The LaggRemover AI is now active!
+[12:16:42] [Server thread/INFO]: [LaggRemover] LaggRemover has been enabled!
+[12:16:42] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v1.5.2
+[12:16:42] [Server thread/INFO]: [NeverLag] Enabling NeverLag v1.3.0
+[12:16:42] [Server thread/WARN]: [ProtocolLib] [PacketFilterManager] [NeverLag] Unsupported client packet in current Minecraft version: Dynamic-cb9048ee-7349-4621-8d10-63fd06f567fd[LEGACY, CLIENT, -1, classNames: [] (unregistered)]
+[12:16:42] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:16:42] [Server thread/INFO]: Done (5.564s)! For help, type "help" or "?"
+[12:16:42] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.12.2(340)
+[12:16:44] [Server thread/WARN]: [ViaVersion] There is a newer version available: 1.6.0, you're on: 1.5.2
+[12:16:45] [Craft Scheduler Thread - 1/WARN]: [SpigetUpdate] Invalid SemVer versions specified [135-SNAPSHOT] [1352]
+[12:16:45] [Craft Scheduler Thread - 1/INFO]: [SkinsRestorer] ----------------------------------------------
+[12:16:45] [Craft Scheduler Thread - 1/INFO]: [SkinsRestorer]     +===============+
+[12:16:45] [Craft Scheduler Thread - 1/INFO]: [SkinsRestorer]     | SkinsRestorer |
+[12:16:45] [Craft Scheduler Thread - 1/INFO]: [SkinsRestorer]     |---------------|
+[12:16:45] [Craft Scheduler Thread - 1/INFO]: [SkinsRestorer]     |  Bungee Mode  |
+[12:16:45] [Craft Scheduler Thread - 1/INFO]: [SkinsRestorer]     +===============+
+[12:16:45] [Craft Scheduler Thread - 1/INFO]: [SkinsRestorer] ----------------------------------------------
+[12:16:45] [Craft Scheduler Thread - 1/INFO]: [SkinsRestorer]     Current version: 13.5-SNAPSHOT
+[12:16:45] [Craft Scheduler Thread - 1/INFO]: [SkinsRestorer]     This is the latest version!
+[12:16:45] [Craft Scheduler Thread - 1/INFO]: [SkinsRestorer] ----------------------------------------------
+[12:17:31] [LoginProcessingThread/INFO]: UUID of player YuukiSkniro is 9fa3a992-90a2-3e98-8124-1c0a3159b2d0
+[12:17:32] [Server thread/INFO]: YuukiSkniro[/127.0.0.1:50777] logged in with entity id 759 at ([world]603.1402461651298, 230.0, -526.2315376052833)
+[12:19:27] [Server thread/INFO]: YuukiSkniro issued server command: /gamerule keepInventory
+[12:19:43] [Server thread/INFO]: YuukiSkniro issued server command: /gamerule keepInventory true
+[12:19:43] [Server thread/INFO]: [YuukiSkniro: Game rule keepInventory has been updated to true]
+[12:20:24] [Server thread/INFO]: YuukiSkniro lost connection: Disconnected
+[12:20:24] [Server thread/INFO]: YuukiSkniro left the game
+[12:23:19] [Server thread/INFO]: Stopping the server
+[12:23:19] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[12:23:19] [Server thread/INFO]: Stopping server
+[12:23:19] [Server thread/INFO]: [NeverLag] Disabling NeverLag v1.3.0
+[12:23:19] [Server thread/INFO]: [ColorMOTD] Disabling ColorMOTD v1.5.3
+[12:23:19] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v4.4.0
+[12:23:19] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v1.5.2
+[12:23:19] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[12:23:19] [Server thread/INFO]: [LaggRemover] Disabling LaggRemover v2.0.4
+[12:23:19] [Server thread/INFO]: [LaggRemover] LaggRemover has been disabled!
+[12:23:19] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.0.1-b604
+[12:23:19] [Server thread/INFO]: [ProtocolSupport] Disabling ProtocolSupport v4.28
+[12:23:19] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.0.1-b604
+[12:23:19] [Server thread/INFO]: [Essentials] Disabling Essentials v2.0.1-b604
+[12:23:19] [Server thread/INFO]: [ProtectWorld] Disabling ProtectWorld v17.728
+[12:23:19] [Server thread/INFO]: [特殊世界保护] > 已关闭
+[12:23:19] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v13.5-SNAPSHOT
+[12:23:19] [Server thread/INFO]: Saving players
+[12:23:19] [Server thread/INFO]: Saving worlds
+[12:23:19] [Server thread/INFO]: Saving chunks for level 'world'/overworld
+[12:23:19] [Server thread/INFO]: Saving chunks for level 'world_nether'/the_nether
+[12:23:19] [Server thread/INFO]: Saving chunks for level 'world_the_end'/the_end

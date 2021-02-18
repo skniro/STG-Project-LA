@@ -1,0 +1,20 @@
+Item:
+  ==: org.bukkit.inventory.ItemStack
+  type: STONE_AXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: "\xa7f\u96f7\u795e\u4e4b\u9524\xa76[\u4f20\u8bf4]"
+    lore:
+    - "\xa76\u7269\u7406\u4f24\u5bb3\xa7f>>\xa7b200-260"
+    - "\xa76\u79fb\u52a8\u901f\u5ea6\xa7f>>\xa7b-20%"
+    - "\xa76\u6d41\u8840\u51e0\u7387\xa7f>>\xa7b20%"
+    - "\xa76"
+    - "\xa76\u88ab\u52a8-\u96f7\u516c\u60e9\u6212: \xa7f\u653b\u51fb\u51e0\u7387\u91ca\
+      \u653e\u5f3a\u529b\u96f7\u7535"
+    - "\xa70Lightning II"
+    - "\xa77\xa7o\u201c\u6258\u5c14\u4e4b\u529b\uff01\u201d"
+    - "\xa76"
+    - "\xa76\u5386\u7ec3\u503c: \xa7b100"
+    enchants:
+      DURABILITY: 3

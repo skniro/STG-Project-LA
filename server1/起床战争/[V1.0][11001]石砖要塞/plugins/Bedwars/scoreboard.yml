@@ -1,0 +1,24 @@
+YouDisplay: " &7\u6d63\ufffd"
+StartingDisplay: "&f\u5a13\u544a\u5799\u704f\u55d7\u6e6a in &a<time> \u7ec9\ufffd\
+  &f\u935a\u5ea1\u7d11\u6fee\ufffd"
+SearchingDisplay: "&f\u7edb\u590a\u7ddf\u941c\u2541\ue18dxD..."
+EventDisplay:
+  DiamondUpgrade: "&f\u95bd\u8364\u7176\u9410\u7470\u5d0c\u7efe\u044d\u7d12"
+  EmeraldUpgrade: "&f\u7f01\u57ae\u7582\u942d\u5d07\u5063\u9357\u56e9\u9a87\u951b\ufffd"
+  DiamondMaxed: "&f\u95bd\u8364\u7176\u9410\u89c4\u5f27\u7efe\u044d\u7d12"
+  EmeraldMaxed: "&f\u7f01\u57ae\u7582\u942d\u5d07\u5063\u5a4a\uff04\u9a87\u951b\ufffd"
+  BedDestruction: "&f\u6434\u5a42\u5673\u9351\u5909\u7c21xD!"
+  TimeLeft: "&f\u9353\u2540\u7d91\u93c3\u5815\u68ff"
+InWaiting-Enabled: true
+InWaiting-Title: "&e \u74a7\u5cf0\u7c25\u93b4\u6a39\u7c24"
+InWaiting:
+  Lines:
+  - ''
+  - "&f\u9366\u677f\u6d58: &a<mapName>"
+  - "&f\u941c\u2541\ue18d: &a<inGame>/<max>"
+  - ''
+  - <statusDisplay>
+  - ' '
+  - "&f\u93c8\u5d85\u59df\u9363\ufffd: &aBedWarsTS_8G"
+  - ''
+  - '&Made by MingCPS'

@@ -1,0 +1,195 @@
+# MoreSounds声音文件
+# 汉化by--东方末曲
+- ambience-cave #一种很恐怖的音乐
+- ambience-rain  #下雨的声音
+- ambience-thunder  #打雷的声音
+- anvil-break  #铁砧坏掉的声音
+- anvil-land  #放下铁砧的声音
+- anvil-use  #使用铁砧的声音
+- arrow-hit  #弓箭落到地上的声音
+- burp  #打嗝的声音
+- chest-close  #关闭箱子的声音
+- chest-open  #关闭的声音
+- click  #主菜单点击的声音
+- door-close  #关门的声音
+- door-open  #开门的声音
+- drink  #喝水的声音
+- eat  #吃东西的声音
+- explode  #爆炸的声音
+- fall-big  #从高处摔下来的声音
+- fall-small  从低处摔下来的声音
+- fire  #火焰燃烧的声音
+- fire-ignite  #打火石的声音
+- fizz  #熄灭火焰的声音
+- fuse  #TNT要爆炸的声音
+- glass  #挖掘玻璃之类的声音
+- hurt-flesh  #玩家撸玩家的声音
+- item-break  #东西坏掉的声音
+- item-pickup  #捡起东西的声音
+- lava  #岩浆的声音
+- lava-pop  #岩浆流动的声音
+- level-up  #等级提升的声音
+- minecart-base  #矿车移动的声音
+- minecart-inside  #矿车移动且生物坐在里面的声音
+- note-bass  #普通的音乐盒的声音
+- note-piano  #音乐盒的声音-钢琴声
+- note-bass-drum  #音乐盒的声音-鼓声
+- note-sticks  #音乐盒的声音-击棒声
+- note-bass-guitar  #音乐盒的声音-吉他声
+- note-snare-drum  #音乐盒的声音-鼓声
+- note-pling  #叮的一声
+- orb-pickup  #捡起节操啊呸，捡起经验的声音
+- piston-extend  #活塞伸出去的声音
+- piston-retract  #活塞拉回来的声音
+- portal  #通过地狱门传送的声音
+- portal-travel  #通过地狱门的传送到另一个世界后声音
+- portal-trigger  #地狱门正在传送的声音
+- shoot-arrow  #射箭的声音的声音
+- splash  #从高处跳水的的声音
+- splash2  #从低处跳水的声音
+- step-grass  #走在草地上的的声音
+- step-gravel  #走在砂砾上的声音
+- step-ladder  #爬梯子的声音
+- step-sand  #走在沙子的声音
+- step-snow  #走在雪上的声音
+- step-stone  #走在石头上的声音
+- step-wood  #走在木头上的的声音
+- step-wool  #走在羊毛上的声音
+- swim  #水中游动的声音
+- water  #水流的声音的声音
+- wood-click  #点击木头的声音
+- bat-death  #蝙蝠噶屁的声音
+- bat-hurt  #蝙蝠受伤的声音
+- bat-idle  #蝙蝠??的声音
+- bat-loop  #蝙蝠飞行的声音
+- bat-takeoff  #蝙蝠停下来的声音
+- blaze-breath  #烈焰人的呼吸声???
+- blaze-death  #烈焰人噶屁的声音
+- blaze-hit  #拿拳头揍烈焰人的声音
+- cat-hiss  #猫发出的丝丝的声音
+- cat-hit  #猫被揍的声音
+- cat-meow  #猫发出的喵喵的声音
+- cat-purr  #猫发出的咕噜的声音
+- cat-purreow  #猫发出的呜呜的声音
+- chicken-idle  #鸡乱跑的声音
+- chicken-hurt  #鸡收到伤害的声音
+- chicken-egg-pop  #公鸡下蛋的声音
+- chicken-walk  #鸡行走的声音
+- cow-idle  #牛儿乱跑的声音
+- cow-hurt  #牛儿受伤的声音
+- cow-walk  #牛儿受伤的声音
+- creeper-hiss  #JJ怪发出的丝丝的声音
+- creeper-death  #JJ怪噶屁的声音
+- enderdragon-death  #末影龙死亡的声音(比较高能,慎用!)
+- enderdragon-hit  #末影龙被揍的声音
+- enderdragon-wings  #末影龙飞行的声音
+- enderman-death  #小黑噶屁的声音 (太他妈吓人了)
+- enderman-hit  #小黑被揍的声音 (太他妈吓人了)
+- enderman-idle  #小黑乱跑的声音
+- enderman-teleport  #小黑瞬移的声音
+- enderman-scream  #小黑别激怒的声音 (太他妈吓人了)
+- enderman-stare  #你盯着小黑眼睛的声音 (太他妈吓人了)
+- ghast-scream  #恶魂尖叫的声音 (太他妈吓人了)
+- ghast-scream2  #恶魂尖叫的声音 (太他妈吓人了)
+- ghast-charge   #恶魂准备发射炸弹的声音 (太他妈吓人了)
+- ghast-death  #恶魂噶屁的声音 (太他妈吓人了)
+- ghast-fireball  #恶魂发射炸弹的声音
+- ghast-moan  #恶魂飞的声音
+- irongolem-death  #铁傀儡噶屁的声音
+- irongolem-hit  #铁傀儡被揍的声音
+- irongolem-throw  #铁傀儡投掷的声音
+- irongolem-walk  #铁傀儡行走的声音
+- magmacube-walk  #岩浆怪行走的声音
+- magmacube-walk2  #岩浆怪行走的声音
+- magmacube-jump  #岩浆怪跳动的声音
+- pig-idle  #Ruben乱跑的声音
+- pig-death  #Ruben噶屁的声音
+- pig-walk  #Ruben行走的声音
+- sheep-idle  #羊羊君乱跑的声音
+- sheep-shear  #羊羊君被剃毛的声音 (好污)
+- sheep-walk  #羊羊君行走的声音
+- silverfish-hit  #蠢虫被揍的的声音
+- silverfish-kill  #蠢虫干掉的声音
+- silverfish-idle  #蠢虫??的声音
+- silverfish-walk  #蠢虫行走的声音
+- skeleton-idle  #小白游走的声音??? (LOL吗?)
+- skeleton-death  #小白噶屁的声音
+- skeleton-hurt  #小白受伤的声音
+- skeleton-walk  #小白行走的声音
+- slime-attack  #史莱姆攻击的声音
+- slime-walk  #史莱姆行走的声音
+- slime-walk2  #史莱姆行走的声音
+- spider-death  #蜘蛛噶屁的声音
+- spider-walk  #蜘蛛行走的声音
+- wither-death  #凋零噶屁的声音
+- wither-hurt  #凋零受伤的声音 (略恐怖)
+- wither-idle  #凋零???的声音
+- wither-shoot  #凋零扔脑袋的声音
+- wither-spawn  #凋零出生的声音
+- wolf-bark  #狼在吼的声音
+- wolf-death  #狼噶屁的声音
+- wolf-growl  #狼生气的声音
+- wolf-howl  #狼在月光下吼的声音 (表示从未听到过)
+- wolf-hurt  #浪受伤的声音
+- wolf-pant  #狼呼吸的声音
+- wolf-shake  #狼抖动身上水的声音
+- wolf-walk  #狼行走的声音
+- wolf-whine  #狼哀叫的声音
+- zombie-metal  #僵尸破坏铁门的声音
+- zombie-wood  #僵尸撞门的声音
+- zombie-woodbreak  #僵尸破门而入的声音
+- zombie-idle  #僵尸乱跑的的声音
+- zombie-death  #僵尸噶屁的声音
+- zombie-hurt  #僵尸受伤的声音
+- zombie-infect  #僵尸咬村民的声音
+- zombie-unfect  #僵尸飞翔使被治疗后的声音
+- zombie-remedy  #僵尸飞翔使被治疗的声音
+- zombie-walk  #僵尸行走的声音
+- zombie-pig-angry  #僵尸猪人愤怒的声音
+- zombie-pig-death  #僵尸猪人噶屁的声音
+- zombie-pig-hurt  #僵尸猪人受伤的声音
+- dig-wool  #挖羊毛的声音的声音
+- dig-grass  #挖草方块的声音
+- dig-gravel  #挖???的声音
+- dig-sand  #挖沙子的声音
+- dig-snow  #挖雪的声音
+- dig-stone  #挖石头的声音
+- dig-wood  #砍木头的声音
+- firework-blast  #烟花的声音
+- firework-blast2  #烟花的声音
+- firework-large-blast  #烟花的声音
+- firework-large-blast2  #烟花的声音
+- firework-twinkle  #烟花的声音
+- firework-twinkle2  #烟花的声音
+- firework-launch  #烟花的声音
+- successful-hit  #成功攻击的声音???
+- horse-angry  #马生气的声音
+- horse-armor  #马穿上护甲的声音
+- horse-breathe  #马的呼吸的声???
+- horse-death  #马噶屁的声音
+- horse-gallop  #马???的声音
+- horse-hit  #马被揍的声音
+- horse-idle  #马游走的声音???
+- horse-jump  #马跳跃的声音
+- horse-land  #马掉下来的声音
+- horse-saddle  #马???的声音
+- horse-soft  #马???的声音
+- horse-wood  #马???的声音
+- donkey-angry
+- donkey-death
+- donkey-hit
+- donkey-idle
+- horse-skeleton-death  #骷髅马噶屁的声音
+- horse-skeleton-hit  #骷髅马被揍的声音
+- horse-skeleton-idle  #骷髅马走的声音
+- horse-zombie-death  #僵尸马噶屁的声音
+- horse-zombie-hit  #僵尸马被揍的声音
+- horse-zombie-idle  #僵尸马走的声音
+- villager-death  #飞翔使噶屁的声音
+- villager-haggle  #飞翔使嗯哼的声音
+- villager-hit  #飞翔使被揍的声音
+- villager-idle  #飞翔使乱跑的声音
+- villager-no  #飞翔使成功交易的声音
+- villager-yes  #飞翔使没成功交易的声音
+
+#类似老夫了，写了这么久，你麻麻啊！！！！！！！

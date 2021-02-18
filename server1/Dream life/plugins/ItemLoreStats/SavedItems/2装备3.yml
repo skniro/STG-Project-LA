@@ -1,0 +1,15 @@
+Item:
+  ==: org.bukkit.inventory.ItemStack
+  type: IRON_LEGGINGS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: "\xa7f\u5316\u6708\xa7b[\u7cbe\u826f]"
+    lore:
+    - "\xa7b\u81ea\u8eab\u8840\u91cf\xa7f>>\xa7e35"
+    - "\xa7b\u81ea\u8eab\u9632\u5fa1\xa7f>>\xa7e3"
+    - "\xa7b\u95ea\u907f\u51e0\u7387\xa7f>>\xa7e10%"
+    - "\xa7b"
+    - "\xa77\u201c\u6765\u4e0d\u53ca\u8eb2\u85cf\u6211\u53ea\u80fd\u9003\u8dd1\u201d"
+    - "\xa77"
+    - "\xa76\u5386\u7ec3\u503c: \xa7b50"

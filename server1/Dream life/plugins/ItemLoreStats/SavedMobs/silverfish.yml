@@ -1,0 +1,37 @@
+'45':
+  '1':
+    itemId: 299
+    nameColour: '&c&l'
+    prefix: random
+    suffix: random
+    properties:
+      armour: '&b1-3'
+      healthRandomApply: true
+      health: '&b30-player+60'
+      healthRegenRandomApply: true
+      healthRegen: '&b1-3'
+      movementSpeedRandomApply: true
+      movementSpeed: '&e2-5'
+      durability: '&7500-950'
+      soulboundRandomApply: true
+      soulbound: true
+      xpLevelRandomApply: true
+      xpLevel: '&b3-player+2'
+'20':
+  '1':
+    itemId: 301
+    nameColour: '&c&l'
+    prefix: random
+    suffix: random
+    properties:
+      armour: '&b2-4'
+      healthRandomApply: true
+      health: '&b50-player+30'
+      healthRegenRandomApply: true
+      healthRegen: '&b1-1'
+      movementSpeedRandomApply: true
+      movementSpeed: '&e4-7'
+      xpLevelRandomApply: true
+      xpLevel: '&b3-player+2'
+      durability: '&7600-1100'
+      droppedXp: '3'

@@ -1,0 +1,97 @@
+Cloaks:
+  Superhero:
+    Name: "&6\u8d85\u4eba\u6597\u7bf7"
+    Mystery Dust: 65
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - "&7\u6765\u81ea\u4e8e\u6f2b\u753b\u7684\u8d85\u4eba"
+    - "&7\u62e5\u6709\u4e86\u4ed6\uff0c\u8ba9\u4f60\u6000\u7740\u6b63\u4e49\u611f"
+    - "&7\u8d85\u4eba!"
+  Mystical:
+    Name: "&6\u795e\u79d8\u6597\u7bf7"
+    Mystery Dust: 85
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - "&7\u7b3c\u7f69\u4e8e\u795e\u79d8\u4e4b\u4e2d"
+    - "&7\u6709\u5f88\u591a\u5173\u4e8e\u5b83\u7684\u795e\u79d8\u4e4b\u4f20\u8bf4"
+    - "&7\u9ed1\u6697!"
+  Firewings:
+    Name: "&6\u51e4\u51f0\u706b\u795e\u7fbd\u7ffc"
+    Mystery Dust: 72
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - "&7\u51e4\u51f0\u95ee\u4e16"
+    - "&7\u706b\u795e\u7684\u964d\u4e34\uff0c\u70b9\u4eae\u4e86\u5468\u56f4\u4e00\u5207"
+    - "&7\u706b\u7684\u8c61\u5f81!"
+  Vampire Wings:
+    Name: "&6\u5438\u8840\u9b3c\u7fc5\u8180"
+    Mystery Dust: 78
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - "&7\u5de8\u5927\u7684\u9ed1\u6697\u7fc5\u8180"
+    - "&7\u4ece\u4f60\u7684\u80cc\u90e8\u5ef6\u4f38\u5230"
+    - "&7\u5f62\u6210\u53ef\u6015\u7684"
+    - "&7\u5438\u8840\u7fc5\u8180!"
+  Icewings:
+    Name: "&6\u51b0\u7ffc"
+    Mystery Dust: 72
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - "&7\u51b0\u51b0\u51b7\u51b7\u7684\u7b11\u5bb9"
+    - "&7\u5317\u6781\u89c9\u9192!"
+  Shaman:
+    Name: "&6\u5929\u4f7f\u4e4b\u73af"
+    Mystery Dust: 85
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - "&7\u8bf7\u4e0d\u8981\u4fb5\u72af\u6211"
+    - "&7\u5426\u5219\u6211\u4ee3\u8868\u9f99\u5377\u98ce\u6765\u60e9\u7f5a\u4f60"
+    - "&7\u5929\u4f7f!"
+  Firerings:
+    Name: "&6\u5723\u706b\u4e4b\u73af"
+    Mystery Dust: 50
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - "&7\u706b\u7130\u5305\u56f4\u7740\u6211 "
+    - "&7\u78b0\u6211\u8005\u5fc5\u88ab\u70e7\u5230\u7070\u70ec"
+    - "&7\u62a4\u7b26!"
+  Frosty:
+    Name: "&6\u51b0\u971c\u6597\u7bf7"
+    Mystery Dust: 78
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - "&7\u65e0\u8bba\u5982\u4f55"
+    - "&7\u5bd2\u51b7\u4ece\u6765\u4e0d\u4f1a\u56f0\u6270\u6211"
+  Scanner:
+    Name: "&6\u626b\u63cf\u73af"
+    Mystery Dust: 65
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - "&7\u54d7\u54d7\u54d4\u53fd..."

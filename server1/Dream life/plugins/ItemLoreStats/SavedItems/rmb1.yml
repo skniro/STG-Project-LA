@@ -1,0 +1,16 @@
+Item:
+  ==: org.bukkit.inventory.ItemStack
+  type: GOLD_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: "\xa7f\u795e\u7b14\xa7e[\u6668\u5149]"
+    lore:
+    - "\xa7e\u6d41\u8840\u51e0\u7387\xa7f>>\xa7c20%"
+    - "\xa7e\u51cf\u901f\u51e0\u7387\xa7f>>\xa7c20%"
+    - "\xa7e"
+    - "\xa77\u201c\u597d\u5947\u5fc3\u5bb3\u6b7b\u55b5\u554a\u201d"
+    - "\xa7e"
+    - "\xa76\u5386\u7ec3\u503c: \xa7b130"
+    enchants:
+      DURABILITY: 10

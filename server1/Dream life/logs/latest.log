@@ -1,0 +1,1089 @@
+[13:29:10] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[13:29:10] [Server thread/WARN]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+[13:29:10] [Server thread/INFO]: Loading properties
+[13:29:10] [Server thread/INFO]: Default game type: SURVIVAL
+[13:29:10] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-db6de12-18fbb24 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[13:29:10] [Server thread/INFO]: Debug logging is disabled
+[13:29:10] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:29:10] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:29:10] [Server thread/INFO]: Generating keypair
+[13:29:10] [Server thread/INFO]: Starting Minecraft server on 127.0.0.1:30001
+[13:29:10] [Server thread/INFO]: Using default channel type
+[13:29:11] [Server thread/ERROR]: Ambiguous plugin name `CreeperHeal' for files `plugins\CreeperHeal苦力怕爆炸保护.jar' and `plugins\CreeperHeal-1.7.2防爆.jar' in `plugins'
+[13:29:11] [Server thread/ERROR]: Could not load 'plugins\FarmProtect.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:162) ~[spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:133) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:292) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:198) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:525) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_171]
+Caused by: java.util.zip.ZipException: zip file is empty
+	at java.util.zip.ZipFile.open(Native Method) ~[?:1.8.0_171]
+	at java.util.zip.ZipFile.<init>(Unknown Source) ~[?:1.8.0_171]
+	at java.util.zip.ZipFile.<init>(Unknown Source) ~[?:1.8.0_171]
+	at java.util.jar.JarFile.<init>(Unknown Source) ~[?:1.8.0_171]
+	at java.util.jar.JarFile.<init>(Unknown Source) ~[?:1.8.0_171]
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:150) ~[spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	... 5 more
+[13:29:11] [Server thread/ERROR]: Could not load 'plugins\LaggRemover-0.2.2【汉化】.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:162) ~[spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:133) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:292) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:198) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:525) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_171]
+Caused by: java.util.zip.ZipException: zip file is empty
+	at java.util.zip.ZipFile.open(Native Method) ~[?:1.8.0_171]
+	at java.util.zip.ZipFile.<init>(Unknown Source) ~[?:1.8.0_171]
+	at java.util.zip.ZipFile.<init>(Unknown Source) ~[?:1.8.0_171]
+	at java.util.jar.JarFile.<init>(Unknown Source) ~[?:1.8.0_171]
+	at java.util.jar.JarFile.<init>(Unknown Source) ~[?:1.8.0_171]
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:150) ~[spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	... 5 more
+[13:29:11] [Server thread/ERROR]: Ambiguous plugin name `ProtocolLib' for files `plugins\[前置插件]ProtocolLib.jar' and `plugins\ProtocolLib.jar' in `plugins'
+[13:29:11] [Server thread/ERROR]: Could not load 'plugins\掉落物品清理.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:162) ~[spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:133) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:292) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:198) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:525) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_171]
+Caused by: java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method) ~[?:1.8.0_171]
+	at java.util.zip.ZipFile.<init>(Unknown Source) ~[?:1.8.0_171]
+	at java.util.zip.ZipFile.<init>(Unknown Source) ~[?:1.8.0_171]
+	at java.util.jar.JarFile.<init>(Unknown Source) ~[?:1.8.0_171]
+	at java.util.jar.JarFile.<init>(Unknown Source) ~[?:1.8.0_171]
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:150) ~[spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	... 5 more
+[13:29:11] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[13:29:11] [Server thread/INFO]: [DoubleExp] Loading DoubleExp v0.2.3
+[13:29:11] [Server thread/INFO]: [ItemDurability] Loading ItemDurability v1.0
+[13:29:11] [Server thread/INFO]: [SaveMySpawn] Loading SaveMySpawn v1.0
+[13:29:11] [Server thread/INFO]: [GroupManager] Loading GroupManager v2.0 (2.12.1) (Phoenix)
+[13:29:11] [Server thread/INFO]: [AntiSpam] Loading AntiSpam v0.3.2
+[13:29:11] [Server thread/INFO]: [TigerSigns] Loading TigerSigns v1.0.0
+[13:29:11] [Server thread/INFO]: [RPGDrop] Loading RPGDrop v1.4
+[13:29:11] [Server thread/INFO]: [AntiDrops] Loading AntiDrops v2.2
+[13:29:11] [Server thread/INFO]: [tpLogin] Loading tpLogin v1.5.1
+[13:29:11] [Server thread/INFO]: [ArmorStandTweak] Loading ArmorStandTweak v1.0
+[13:29:11] [Server thread/INFO]: [EnchantmentAPI] Loading EnchantmentAPI v4.2
+[13:29:11] [Server thread/INFO]: [Lockette] Loading Lockette v1.7.12
+[13:29:11] [Server thread/INFO]: [PvPToggle] Loading PvPToggle v3.0.0
+[13:29:11] [Server thread/INFO]: [CloudTrade] Loading CloudTrade v1.5
+[13:29:11] [Server thread/INFO]: [MobHealth] Loading MobHealth v8.2.2
+[13:29:11] [Server thread/INFO]: [ItemTime] Loading ItemTime v1.0
+[13:29:11] [Server thread/INFO]: [BossBarAPI] Loading BossBarAPI v1.0.6
+[13:29:11] [Server thread/INFO]: [BanItem] Loading BanItem v2.8
+[13:29:11] [Server thread/INFO]: [MakeGas] Loading MakeGas v1.0.0
+[13:29:11] [Server thread/INFO]: [CreeperHeal] Loading CreeperHeal v6.5
+[13:29:11] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v1.5.2
+[13:29:11] [Server thread/INFO]: [ViaVersion] ViaVersion 1.5.2 is now loaded, injecting!
+[13:29:11] [Server thread/INFO]: [ViaVersion] Loading block mapping...
+[13:29:11] [Server thread/INFO]: [ViaVersion] Loading item mapping...
+[13:29:11] [Server thread/INFO]: [ViaVersion] Loading new tags...
+[13:29:11] [Server thread/INFO]: [ViaVersion] Loading enchantments...
+[13:29:11] [Server thread/INFO]: [ViaVersion] Loading sound mapping...
+[13:29:11] [Server thread/INFO]: [FrameProtect] Loading FrameProtect v2.5
+[13:29:11] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v5.5.9-SNAPSHOT:2942-b3f2c10,master
+[13:29:11] [Server thread/INFO]: [EasyCommand] Loading EasyCommand v1.0
+[13:29:11] [Server thread/INFO]: [Essentials] Loading Essentials vTeamCity
+[13:29:11] [Server thread/INFO]: [AutoMessage] Loading AutoMessage v2.4.0
+[13:29:11] [Server thread/INFO]: [CrackShot] Loading CrackShot v0.97.5
+[13:29:11] [Server thread/INFO]: [NoBreak-Ms] Loading NoBreak-Ms v1.0.3
+[13:29:11] [Server thread/INFO]: [EnchantPotionPack] Loading EnchantPotionPack v1.0
+[13:29:11] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v3.6.4
+[13:29:11] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.8.8) has not yet been tested! Proceed with caution.
+[13:29:12] [Server thread/INFO]: [NoCheatPlus] Loading NoCheatPlus v3.11.1-RC-sMD5NET-b743
+[13:29:12] [Server thread/INFO]: [宝石] Loading baoshi v1.0
+[13:29:12] [Server thread/INFO]: [NoSpawnChunks] Loading NoSpawnChunks v0.3
+[13:29:12] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat vTeamCity
+[13:29:12] [Server thread/INFO]: [EnchantActivePack] Loading EnchantActivePack v1.0
+[13:29:12] [Server thread/INFO]: [RandomBox] Loading RandomBox v2.5.1
+[13:29:12] [Server thread/INFO]: [CustomJoinItems] Loading CustomJoinItems v1.5.1
+[13:29:12] [Server thread/INFO]: [Vault] Loading Vault v1.2.27-b349
+[13:29:12] [Server thread/INFO]: [MyTeam] Loading MyTeam v1.2
+[13:29:12] [Server thread/INFO]: [Lores] Loading Lores v1.4.1
+[13:29:12] [Server thread/INFO]: [ScriptBlock] Loading ScriptBlock v0.8.7
+[13:29:12] [Server thread/INFO]: [EnchantTrapPack] Loading EnchantTrapPack v1.0
+[13:29:12] [Server thread/INFO]: [EnchantPassivePack] Loading EnchantPassivePack v1.0
+[13:29:12] [Server thread/INFO]: [LevelSuffix_2] Loading LevelSuffix_2 v1.2
+[13:29:12] [Server thread/INFO]: [MythicMobs] Loading MythicMobs v2.0.4
+[13:29:12] [Server thread/INFO]: [ChestCommands] Loading ChestCommands v2.0
+[13:29:12] [Server thread/INFO]: [EssentialsProtect] Loading EssentialsProtect vTeamCity
+[13:29:12] [Server thread/INFO]: [EssentialsAntiBuild] Loading EssentialsAntiBuild vTeamCity
+[13:29:12] [Server thread/INFO]: [JoinMessage] Loading JoinMessage v2.4.2
+[13:29:12] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn vTeamCity
+[13:29:12] [Server thread/INFO]: [MoreSounds] Loading MoreSounds v1.5.1
+[13:29:12] [Server thread/INFO]: [TreasureChest] Loading TreasureChest v8.4.4
+[13:29:12] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.16-SNAPSHOT (build 1247)
+[13:29:12] [Server thread/INFO]: [ColoredTags] Loading ColoredTags v2.1.1
+[13:29:12] [Server thread/INFO]: [Shopkeepers] Loading Shopkeepers v1.68
+[13:29:12] [Server thread/INFO]: [GlobalMarket] Loading GlobalMarket v1.2.2
+[13:29:12] [Server thread/INFO]: [ItemLoreStats] Loading ItemLoreStats v5.49
+[13:29:12] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v3.6.4
+[13:29:12] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
+[13:29:12] [Server thread/INFO]: [NoSpawnChunks] Enabling NoSpawnChunks v0.3
+[13:29:12] [Server thread/INFO]: [NoSpawnChunks] Enabled
+[13:29:12] [Server thread/INFO]: [Vault] Enabling Vault v1.2.27-b349
+[13:29:12] [Server thread/INFO]: [Vault][Economy] Essentials Economy found: Waiting
+[13:29:12] [Server thread/INFO]: [Vault][Permission] GroupManager found: Waiting
+[13:29:12] [Server thread/INFO]: [Vault][Permission] SuperPermissions loaded as backup permission system.
+[13:29:12] [Server thread/INFO]: [Vault][Chat] GroupManager found: Waiting
+[13:29:12] [Server thread/INFO]: [Vault] Enabled Version 1.2.27-b349
+[13:29:12] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13:29:12] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[13:29:12] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[13:29:12] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[13:29:12] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[13:29:12] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[13:29:12] [Server thread/INFO]: Preparing level "world"
+[13:29:12] [Server thread/INFO]: -------- World Settings For [world] --------
+[13:29:12] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[13:29:12] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[13:29:12] [Server thread/INFO]: Experience Merge Radius: 3.0
+[13:29:12] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[13:29:12] [Server thread/INFO]: Clear tick list: false
+[13:29:12] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[13:29:12] [Server thread/INFO]: View Distance: 10
+[13:29:12] [Server thread/INFO]: Item Merge Radius: 2.5
+[13:29:12] [Server thread/INFO]: Item Despawn Rate: 6000
+[13:29:12] [Server thread/INFO]: Anti X-Ray: true
+[13:29:12] [Server thread/INFO]: 	Engine Mode: 1
+[13:29:12] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[13:29:12] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[13:29:12] [Server thread/INFO]: Mob Spawn Range: 4
+[13:29:12] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[13:29:12] [Server thread/INFO]: Structure Info Saving: true
+[13:29:12] [Server thread/INFO]: Max TNT Explosions: 100
+[13:29:12] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[13:29:12] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[13:29:12] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[13:29:12] [Server thread/INFO]: Sending up to 10 chunks per packet
+[13:29:12] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[13:29:12] [Server thread/INFO]: Cane Growth Modifier: 100%
+[13:29:12] [Server thread/INFO]: Melon Growth Modifier: 100%
+[13:29:12] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[13:29:12] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[13:29:12] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[13:29:12] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[13:29:12] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[13:29:12] [Server thread/INFO]: Random Lighting Updates: false
+[13:29:12] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[13:29:12] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[13:29:12] [Server thread/INFO]: Max Entity Collisions: 8
+[13:29:12] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[13:29:12] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[13:29:12] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[13:29:12] [Server thread/INFO]: Experience Merge Radius: 3.0
+[13:29:12] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[13:29:12] [Server thread/INFO]: Clear tick list: false
+[13:29:12] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[13:29:12] [Server thread/INFO]: View Distance: 10
+[13:29:12] [Server thread/INFO]: Item Merge Radius: 2.5
+[13:29:12] [Server thread/INFO]: Item Despawn Rate: 6000
+[13:29:12] [Server thread/INFO]: Anti X-Ray: true
+[13:29:12] [Server thread/INFO]: 	Engine Mode: 1
+[13:29:12] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[13:29:12] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[13:29:12] [Server thread/INFO]: Mob Spawn Range: 4
+[13:29:12] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[13:29:12] [Server thread/INFO]: Structure Info Saving: true
+[13:29:12] [Server thread/INFO]: Max TNT Explosions: 100
+[13:29:12] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[13:29:12] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[13:29:12] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[13:29:12] [Server thread/INFO]: Sending up to 10 chunks per packet
+[13:29:12] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[13:29:12] [Server thread/INFO]: Cane Growth Modifier: 100%
+[13:29:12] [Server thread/INFO]: Melon Growth Modifier: 100%
+[13:29:12] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[13:29:12] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[13:29:12] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[13:29:12] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[13:29:12] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[13:29:12] [Server thread/INFO]: Random Lighting Updates: false
+[13:29:12] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[13:29:12] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[13:29:12] [Server thread/INFO]: Max Entity Collisions: 8
+[13:29:12] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[13:29:12] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[13:29:12] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[13:29:12] [Server thread/INFO]: Experience Merge Radius: 3.0
+[13:29:12] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[13:29:12] [Server thread/INFO]: Clear tick list: false
+[13:29:12] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[13:29:12] [Server thread/INFO]: View Distance: 10
+[13:29:12] [Server thread/INFO]: Item Merge Radius: 2.5
+[13:29:12] [Server thread/INFO]: Item Despawn Rate: 6000
+[13:29:12] [Server thread/INFO]: Anti X-Ray: true
+[13:29:12] [Server thread/INFO]: 	Engine Mode: 1
+[13:29:12] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[13:29:12] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[13:29:12] [Server thread/INFO]: Mob Spawn Range: 4
+[13:29:12] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[13:29:12] [Server thread/INFO]: Structure Info Saving: true
+[13:29:12] [Server thread/INFO]: Max TNT Explosions: 100
+[13:29:12] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[13:29:12] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[13:29:12] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[13:29:12] [Server thread/INFO]: Sending up to 10 chunks per packet
+[13:29:12] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[13:29:12] [Server thread/INFO]: Cane Growth Modifier: 100%
+[13:29:12] [Server thread/INFO]: Melon Growth Modifier: 100%
+[13:29:12] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[13:29:12] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[13:29:12] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[13:29:12] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[13:29:12] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[13:29:12] [Server thread/INFO]: Random Lighting Updates: false
+[13:29:12] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[13:29:12] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[13:29:12] [Server thread/INFO]: Max Entity Collisions: 8
+[13:29:12] [Server thread/INFO]: Preparing start region for level 0 (Seed: 2971183287837085975)
+[13:29:12] [Server thread/INFO]: Preparing start region for level 1 (Seed: 2971183287837085975)
+[13:29:12] [Server thread/INFO]: Preparing start region for level 2 (Seed: 2971183287837085975)
+[13:29:12] [Server thread/INFO]: [DoubleExp] Enabling DoubleExp v0.2.3
+[13:29:12] [Server thread/INFO]: 梦梦家高性能服务器出租
+[13:29:12] [Server thread/INFO]: 淘宝店 http://shop105595113.taobao.com
+[13:29:12] [Server thread/INFO]: [ItemDurability] Enabling ItemDurability v1.0
+[13:29:12] [Server thread/INFO]: [SaveMySpawn] Enabling SaveMySpawn v1.0
+[13:29:12] [Server thread/INFO]: [SaveMySpawn] 已加载！v1.0 
+[13:29:12] [Server thread/INFO]: [SaveMySpawn] 接受小型插件定制 qq914554688
+[13:29:12] [Server thread/INFO]: [GroupManager] Enabling GroupManager v2.0 (2.12.1) (Phoenix)
+[13:29:12] [Server thread/INFO]: GroupManager - INFO - World Found: world
+[13:29:12] [Server thread/INFO]: GroupManager - INFO - Superperms support enabled.
+[13:29:12] [Server thread/INFO]: GroupManager - INFO - Scheduled Data Saving is set for every 10 minutes!
+[13:29:12] [Server thread/INFO]: GroupManager - INFO - Backups will be retained for 24 hours!
+[13:29:12] [Server thread/INFO]: GroupManager version 2.0 (2.12.1) (Phoenix) is enabled!
+[13:29:12] [Server thread/INFO]: [Vault][Permission] GroupManager hooked.
+[13:29:12] [Server thread/INFO]: [Vault][Chat] GroupManager - Chat hooked.
+[13:29:12] [Server thread/INFO]: [AntiSpam] Enabling AntiSpam v0.3.2
+[13:29:12] [Server thread/INFO]: 梦梦家高性能服务器出租店
+[13:29:12] [Server thread/INFO]: shop105595113.taobao.com
+[13:29:12] [Server thread/INFO]: [TigerSigns] Enabling TigerSigns v1.0.0
+[13:29:12] [Server thread/INFO]: [RPGDrop] Enabling RPGDrop v1.4
+[13:29:12] [Server thread/ERROR]: [RPGDrop] Plugin RPGDrop v1.4 has failed to register events for class me.baks.rpgdrop.MythicEvents because net/elseland/xikage/MythicMobs/API/Bukkit/Events/MythicMobDeathEvent does not exist.
+[13:29:12] [Server thread/INFO]: [AntiDrops] Enabling AntiDrops v2.2
+[13:29:12] [Server thread/INFO]: [tpLogin] Enabling tpLogin v1.5.1
+[13:29:16] [Thread-10/INFO]: UUID of player YuukiSkniro is c32ab6d0-8673-47c8-b2a3-7df48ce221f4
+[13:29:18] [Thread-9/WARN]: [tpLogin] The updater could not contact dev.bukkit.org for updating.
+[13:29:18] [Thread-9/WARN]: [tpLogin] If you have not recently modified your configuration and this is the first time you are seeing this message, the site may be experiencing temporary downtime.
+[13:29:18] [Thread-9/WARN]: java.net.UnknownHostException: servermods.forgesvc.net
+[13:29:18] [Thread-9/WARN]: 	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+[13:29:18] [Thread-9/WARN]: 	at java.net.PlainSocketImpl.connect(Unknown Source)
+[13:29:18] [Thread-9/WARN]: 	at java.net.SocksSocketImpl.connect(Unknown Source)
+[13:29:18] [Thread-9/WARN]: 	at java.net.Socket.connect(Unknown Source)
+[13:29:18] [Thread-9/WARN]: 	at sun.security.ssl.SSLSocketImpl.connect(Unknown Source)
+[13:29:18] [Thread-9/WARN]: 	at sun.net.NetworkClient.doConnect(Unknown Source)
+[13:29:18] [Thread-9/WARN]: 	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+[13:29:18] [Thread-9/WARN]: 	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+[13:29:18] [Thread-9/WARN]: 	at sun.net.www.protocol.https.HttpsClient.<init>(Unknown Source)
+[13:29:18] [Thread-9/WARN]: 	at sun.net.www.protocol.https.HttpsClient.New(Unknown Source)
+[13:29:18] [Thread-9/WARN]: 	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(Unknown Source)
+[13:29:18] [Thread-9/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+[13:29:18] [Thread-9/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+[13:29:18] [Thread-9/WARN]: 	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+[13:29:18] [Thread-9/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.followRedirect0(Unknown Source)
+[13:29:18] [Thread-9/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.followRedirect(Unknown Source)
+[13:29:18] [Thread-9/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+[13:29:18] [Thread-9/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+[13:29:18] [Thread-9/WARN]: 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(Unknown Source)
+[13:29:18] [Thread-9/WARN]: 	at com.volcanicplaza.tpLogin.Updater.read(Updater.java:488)
+[13:29:18] [Thread-9/WARN]: 	at com.volcanicplaza.tpLogin.Updater.access$1(Updater.java:476)
+[13:29:18] [Thread-9/WARN]: 	at com.volcanicplaza.tpLogin.Updater$UpdateRunnable.run(Updater.java:526)
+[13:29:18] [Thread-9/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[13:29:18] [Server thread/INFO]: 
+[13:29:18] [Server thread/INFO]: tpLogin v1.5.1 has been enabled!
+[13:29:18] [Server thread/INFO]: [ArmorStandTweak] Enabling ArmorStandTweak v1.0
+[13:29:18] [Server thread/INFO]: [EnchantmentAPI] Enabling EnchantmentAPI v4.2
+[13:29:18] [Server thread/INFO]: [EnchantmentAPI] Loaded enchantments from plugin: EnchantPotionPack
+[13:29:18] [Server thread/INFO]: [EnchantmentAPI] Loaded enchantments from plugin: EnchantActivePack
+[13:29:18] [Server thread/INFO]: [EnchantmentAPI] Loaded enchantments from plugin: EnchantTrapPack
+[13:29:18] [Server thread/INFO]: [EnchantmentAPI] Loaded enchantments from plugin: EnchantPassivePack
+[13:29:18] [Server thread/INFO]: [Lockette] Enabling Lockette v1.7.12
+[13:29:18] [Server thread/INFO]: [Lockette] Version 1.7.12 is being enabled!  Yay!  (Core version 1.3.7)
+[13:29:18] [Server thread/WARN]: [Lockette] Craftbukkit build unrecognized, please be sure you have build [2771] or greater.
+[13:29:18] [Server thread/INFO]: [Lockette] Custom lockable block list: [116, 84, 57, 145, 154]
+[13:29:18] [Server thread/INFO]: [Lockette] Ignoring linked plugins: [mcMMO]
+[13:29:18] [Server thread/INFO]: [Lockette] Loading strings file for Simplified chinese by Acru
+[13:29:18] [Server thread/INFO]: [Lockette] Enabled link to plugin GroupManager for Groups, version 2.0 (2.12.1) (Phoenix)
+[13:29:18] [Server thread/INFO]: [Lockette] Using ops file for admin permissions.
+[13:29:18] [Server thread/INFO]: [Lockette] Ready to protect your containers.
+[13:29:18] [Server thread/INFO]: [PvPToggle] Enabling PvPToggle v3.0.0
+[13:29:18] [Server thread/INFO]: [PvPToggle] Loading...
+[13:29:18] [Server thread/INFO]: [PvPToggle] found and loaded world world
+[13:29:18] [Server thread/INFO]: [PvPToggle] found and loaded world world_nether
+[13:29:18] [Server thread/INFO]: [PvPToggle] found and loaded world world_the_end
+[13:29:18] [Server thread/INFO]: [PvPToggle] Using SuperPerms for permissions checking
+[13:29:18] [Server thread/INFO]: [PvPToggle] Citizens Plugin detected
+[13:29:18] [Server thread/INFO]: [PvPToggle] v3.0.0 enabled!
+[13:29:18] [Server thread/INFO]: [CloudTrade] Enabling CloudTrade v1.5
+[13:29:18] [Server thread/ERROR]: Cannot load plugins\CloudTrade\lang.yml
+org.bukkit.configuration.InvalidConfigurationException: unacceptable character '?' (0xD8BE) special characters are not allowed
+in "'string'", position 1372
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:57) ~[spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:226) ~[spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:169) ~[spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:180) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at com.solarcloud7.cloudtrade.CloudTrade.reloadLangFile(CloudTrade.java:68) [%5B交易系统%5DCloudTrade-1.5.jar:?]
+	at com.solarcloud7.cloudtrade.CloudTrade.onEnable(CloudTrade.java:54) [%5B交易系统%5DCloudTrade-1.5.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:340) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:405) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:357) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:317) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.s(MinecraftServer.java:414) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.k(MinecraftServer.java:378) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.a(MinecraftServer.java:333) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:263) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:525) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_171]
+Caused by: org.yaml.snakeyaml.reader.ReaderException: special characters are not allowed
+	at org.yaml.snakeyaml.reader.StreamReader.checkPrintable(StreamReader.java:67) ~[spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.yaml.snakeyaml.reader.StreamReader.<init>(StreamReader.java:47) ~[spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:369) ~[spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:55) ~[spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	... 16 more
+[13:29:18] [Server thread/INFO]: [CloudTrade] Loaded Language File: Default English
+[13:29:18] [Server thread/INFO]: [MobHealth] Enabling MobHealth v8.2.2
+[13:29:18] [Server thread/INFO]: [MobHealth] healthPrefix is:§r§f§r
+[13:29:18] [Server thread/INFO]: [MobHealth] Example monster bar:§fMob§r§f§r: [§a||§c|||§f]
+[13:29:18] [Server thread/INFO]: [MobHealth] Permissions Disabled.
+[13:29:18] [Server thread/INFO]: [MobHealth] Spout Enabled.
+[13:29:18] [Server thread/INFO]: [MobHealth] Player Notifications Enabled.
+[13:29:18] [Server thread/INFO]: [MobHealth] Monster Notifications Enabled.
+[13:29:18] [Server thread/INFO]: [MobHealth] Animals Notifications Enabled.
+[13:29:18] [Server thread/INFO]: [MobHealth] Pet Notifications Enabled.
+[13:29:18] [Server thread/INFO]: [MobHealth] Auto updater enable disabled.
+[13:29:22] [Thread-11/ERROR]: [MobHealth] The updater could not contact dev.bukkit.org for updating.
+[13:29:22] [Thread-11/ERROR]: [MobHealth] If you have not recently modified your configuration and this is the first time you are seeing this message, the site may be experiencing temporary downtime.
+[13:29:22] [Thread-11/ERROR]: [MobHealth] null
+java.net.UnknownHostException: servermods.forgesvc.net
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_171]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_171]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[?:1.8.0_171]
+	at java.net.Socket.connect(Unknown Source) ~[?:1.8.0_171]
+	at sun.security.ssl.SSLSocketImpl.connect(Unknown Source) ~[?:1.8.0_171]
+	at sun.net.NetworkClient.doConnect(Unknown Source) ~[?:1.8.0_171]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[?:1.8.0_171]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[?:1.8.0_171]
+	at sun.net.www.protocol.https.HttpsClient.<init>(Unknown Source) ~[?:1.8.0_171]
+	at sun.net.www.protocol.https.HttpsClient.New(Unknown Source) ~[?:1.8.0_171]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(Unknown Source) ~[?:1.8.0_171]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source) ~[?:1.8.0_171]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source) ~[?:1.8.0_171]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source) ~[?:1.8.0_171]
+	at sun.net.www.protocol.http.HttpURLConnection.followRedirect0(Unknown Source) ~[?:1.8.0_171]
+	at sun.net.www.protocol.http.HttpURLConnection.followRedirect(Unknown Source) ~[?:1.8.0_171]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[?:1.8.0_171]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[?:1.8.0_171]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(Unknown Source) ~[?:1.8.0_171]
+	at main.java.me.sablednah.MobHealth.Updater.read(Updater.java:541) [MobHealth.jar:?]
+	at main.java.me.sablednah.MobHealth.Updater.access$200(Updater.java:35) [MobHealth.jar:?]
+	at main.java.me.sablednah.MobHealth.Updater$UpdateRunnable.run(Updater.java:578) [MobHealth.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_171]
+[13:29:22] [Server thread/WARN]: [MobHealth] Error during version check - FAIL_DBO
+[13:29:22] [Server thread/INFO]: [ItemTime] Enabling ItemTime v1.0
+[13:29:22] [Server thread/ERROR]: [ItemTime] Cannot load configuration from jar
+org.bukkit.configuration.InvalidConfigurationException: unacceptable character '?' (0xDBB6) special characters are not allowed
+in "'string'", position 168
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:57) ~[spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.java.JavaPlugin.reloadConfig(JavaPlugin.java:214) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at com.github.a810587921.ItemTime.ItemTime.onEnable(ItemTime.java:39) [ItemTime1.0.1.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:340) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:405) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:357) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:317) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.s(MinecraftServer.java:414) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.k(MinecraftServer.java:378) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.a(MinecraftServer.java:333) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:263) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:525) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_171]
+Caused by: org.yaml.snakeyaml.reader.ReaderException: special characters are not allowed
+	at org.yaml.snakeyaml.reader.StreamReader.checkPrintable(StreamReader.java:67) ~[spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.yaml.snakeyaml.reader.StreamReader.<init>(StreamReader.java:47) ~[spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:369) ~[spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:55) ~[spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	... 13 more
+[13:29:22] [Server thread/INFO]: [BossBarAPI] Enabling BossBarAPI v1.0.6
+[13:29:22] [Server thread/INFO]: [BossBarAPI] Metrics started
+[13:29:22] [Server thread/INFO]: [BanItem] Enabling BanItem v2.8
+[13:29:22] [Server thread/INFO]: [BanItem] BanItem is now Enabled!
+[13:29:22] [Server thread/INFO]: [BanItem] made by: [abcalvin]
+[13:29:22] [Server thread/INFO]: BanItem's config.yml detected
+[13:29:22] [Server thread/INFO]: [MakeGas] Enabling MakeGas v1.0.0
+[13:29:22] [Server thread/INFO]: [CreeperHeal] Enabling CreeperHeal v6.5
+[13:29:22] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v1.5.2
+[13:29:22] [Server thread/INFO]: [FrameProtect] Enabling FrameProtect v2.5
+[13:29:22] [Server thread/INFO]: [FrameProtect] enabled.
+[13:29:22] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v5.5.9-SNAPSHOT:2942-b3f2c10,master
+[13:29:22] [Server thread/INFO]: WEPIF: GroupManager detected! Using GroupManager for permissions.
+[13:29:22] [Server thread/INFO]: [EasyCommand] Enabling EasyCommand v1.0
+[13:29:22] [Server thread/INFO]: [EasyCmd V1.2]插件已加载8个快捷指令！
+[13:29:22] [Server thread/INFO]: [Essentials] Enabling Essentials vTeamCity
+[13:29:22] [Server thread/INFO]: Bukkit version format changed. Version not checked.
+[13:29:22] [Server thread/INFO]: git-Spigot-db6de12-18fbb24 (MC: 1.8.8)
+[13:29:22] [Server thread/INFO]: 1.8.8-R0.1-SNAPSHOT
+[13:29:22] [Server thread/INFO]: Using locale zh
+[13:29:22] [Server thread/INFO]: Using locale zh
+[13:29:22] [Server thread/INFO]: [Vault][Economy] Essentials Economy hooked.
+[13:29:22] [Server thread/INFO]: Essentials: Using GroupManager based permissions.
+[13:29:22] [Server thread/INFO]: [AutoMessage] Enabling AutoMessage v2.4.0
+[13:29:22] [Server thread/INFO]: [CrackShot] Enabling CrackShot v0.97.5
+[13:29:22] [Server thread/WARN]: org.bukkit.configuration.InvalidConfigurationException: unacceptable character '?' (0xD88F) special characters are not allowed
+in "'string'", position 159
+[13:29:22] [Server thread/WARN]: 	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:57)
+[13:29:22] [Server thread/WARN]: 	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:226)
+[13:29:22] [Server thread/WARN]: 	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:169)
+[13:29:22] [Server thread/WARN]: 	at com.shampaggon.crackshot.CSMinion.loadConfig(CSMinion.java:485)
+[13:29:22] [Server thread/WARN]: 	at com.shampaggon.crackshot.CSMinion.loadWeapons(CSMinion.java:443)
+[13:29:22] [Server thread/WARN]: 	at com.shampaggon.crackshot.CSDirector.onEnable(CSDirector.java:161)
+[13:29:22] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321)
+[13:29:22] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:340)
+[13:29:22] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:405)
+[13:29:22] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:357)
+[13:29:22] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:317)
+[13:29:22] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.s(MinecraftServer.java:414)
+[13:29:22] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.k(MinecraftServer.java:378)
+[13:29:22] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.a(MinecraftServer.java:333)
+[13:29:22] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:263)
+[13:29:22] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:525)
+[13:29:22] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[13:29:22] [Server thread/WARN]: Caused by: unacceptable character '?' (0xD88F) special characters are not allowed
+in "'string'", position 159
+[13:29:22] [Server thread/WARN]: 	at org.yaml.snakeyaml.reader.StreamReader.checkPrintable(StreamReader.java:67)
+[13:29:22] [Server thread/WARN]: 	at org.yaml.snakeyaml.reader.StreamReader.<init>(StreamReader.java:47)
+[13:29:22] [Server thread/WARN]: 	at org.yaml.snakeyaml.Yaml.load(Yaml.java:369)
+[13:29:22] [Server thread/WARN]: 	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:55)
+[13:29:22] [Server thread/WARN]: 	... 16 more
+[13:29:22] [Server thread/WARN]: org.bukkit.configuration.InvalidConfigurationException: unacceptable character '?' (0xDB87) special characters are not allowed
+in "'string'", position 129
+[13:29:22] [Server thread/WARN]: 	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:57)
+[13:29:22] [Server thread/WARN]: 	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:226)
+[13:29:22] [Server thread/WARN]: 	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:169)
+[13:29:22] [Server thread/WARN]: 	at com.shampaggon.crackshot.CSMinion.loadConfig(CSMinion.java:485)
+[13:29:22] [Server thread/WARN]: 	at com.shampaggon.crackshot.CSMinion.loadWeapons(CSMinion.java:443)
+[13:29:22] [Server thread/WARN]: 	at com.shampaggon.crackshot.CSDirector.onEnable(CSDirector.java:161)
+[13:29:22] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321)
+[13:29:22] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:340)
+[13:29:22] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:405)
+[13:29:22] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:357)
+[13:29:22] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:317)
+[13:29:22] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.s(MinecraftServer.java:414)
+[13:29:22] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.k(MinecraftServer.java:378)
+[13:29:22] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.a(MinecraftServer.java:333)
+[13:29:22] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:263)
+[13:29:22] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:525)
+[13:29:22] [Server thread/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[13:29:22] [Server thread/WARN]: Caused by: unacceptable character '?' (0xDB87) special characters are not allowed
+in "'string'", position 129
+[13:29:22] [Server thread/WARN]: 	at org.yaml.snakeyaml.reader.StreamReader.checkPrintable(StreamReader.java:67)
+[13:29:22] [Server thread/WARN]: 	at org.yaml.snakeyaml.reader.StreamReader.<init>(StreamReader.java:47)
+[13:29:22] [Server thread/WARN]: 	at org.yaml.snakeyaml.Yaml.load(Yaml.java:369)
+[13:29:22] [Server thread/WARN]: 	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:55)
+[13:29:22] [Server thread/WARN]: 	... 16 more
+[13:29:22] [Server thread/INFO]: [CrackShot] Gun-mode activated. Boop!
+[13:29:22] [Server thread/INFO]: [NoBreak-Ms] Enabling NoBreak-Ms v1.0.3
+[13:29:22] [Server thread/INFO]: [NoBreak-Ms] NoBreak-Ms 已经启动了！
+[13:29:22] [Server thread/INFO]: [EnchantPotionPack] Enabling EnchantPotionPack v1.0
+[13:29:22] [Server thread/INFO]: [NoCheatPlus] Enabling NoCheatPlus v3.11.1-RC-sMD5NET-b743
+[13:29:22] [Server thread/WARN]: [NoCheatPlus]  Check for updates and support at BukkitDev: http://dev.bukkit.org/server-mods/nocheatplus/
+[13:29:22] [Server thread/WARN]: [NoCheatPlus]  Development builds (unsupported by the Bukkit Staff, at your own risk): http://ci.md-5.net/job/NoCheatPlus/changes
+[13:29:22] [Server thread/WARN]: [NoCheatPlus] Could not set up native access for the server-mod (git-Spigot-db6de12-18fbb24 (MC: 1.8.8)). Please check for updates and consider to request support.
+[13:29:22] [Server thread/WARN]: [NoCheatPlus] Bukkit-API-only access: Some features will likely not function properly, performance might suffer.
+[13:29:22] [Server thread/INFO]: [NoCheatPlus] McAccess set to: 1.4.6|1.4.7|1.5.x|1.6.x|1.7.x / Bukkit-API
+[13:29:22] [Server thread/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.5 blocks.
+[13:29:22] [Server thread/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.6.1 blocks.
+[13:29:22] [Server thread/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.7.2 blocks.
+[13:29:22] [Server thread/INFO]: [NoCheatPlus] Inventory checks: FastConsume is available, disabled InstantEat.
+[13:29:22] [Server thread/INFO]: Adding packet level hooks for ProtocolLib (MC 1.8.8)...
+[13:29:22] [Server thread/INFO]: [NoCheatPlus] Available (and activated) packet level hooks: FlyingFrequency | SoundDistance
+[13:29:22] [Server thread/INFO]: [NoCheatPlus] Version 3.11.1-RC-sMD5NET-b743 is enabled.
+[13:29:22] [Server thread/INFO]: [宝石] Enabling baoshi v1.0
+[13:29:22] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat vTeamCity
+[13:29:22] [Server thread/INFO]: [EnchantActivePack] Enabling EnchantActivePack v1.0
+[13:29:22] [Server thread/INFO]: [RandomBox] Enabling RandomBox v2.5.1
+[13:29:22] [Server thread/INFO]: [RandomBox] Parsing box 9901...
+[13:29:22] [Server thread/INFO]: [RandomBox] Parsing box 9902...
+[13:29:22] [Server thread/INFO]: [RandomBox] Parsing box 9903...
+[13:29:22] [Server thread/INFO]: [RandomBox] 3 boxes has been loaded, time = 39 ms
+[13:29:22] [Server thread/INFO]: [RandomBox] Plugin enabled.
+[13:29:22] [Server thread/INFO]: [CustomJoinItems] Enabling CustomJoinItems v1.5.1
+[13:29:22] [Server thread/INFO]: [MyTeam] Enabling MyTeam v1.2
+[13:29:22] [Server thread/INFO]: [Lores] Enabling Lores v1.4.1
+[13:29:22] [Server thread/INFO]: [Lores] Lores 1.4.1 (Build 45) is enabled!
+[13:29:22] [Server thread/INFO]: [ScriptBlock] Enabling ScriptBlock v0.8.7
+[13:29:22] [Server thread/INFO]: [ScriptBlock] GroupManager found !
+[13:29:22] [Server thread/INFO]: [ScriptBlock] Essentials Economy found !
+[13:29:22] [Server thread/INFO]: [ScriptBlock] interact_Config.yml loaded !
+[13:29:22] [Server thread/INFO]: [ScriptBlock] interact_Scripts.yml loaded !
+[13:29:22] [Server thread/INFO]: [ScriptBlock] interact_Cooldowns.dat File Loaded !!!
+[13:29:22] [Server thread/INFO]: [ScriptBlock] walk_Config.yml loaded !
+[13:29:22] [Server thread/INFO]: [ScriptBlock] walk_Scripts.yml loaded !
+[13:29:22] [Server thread/INFO]: [ScriptBlock] walk_Cooldowns.dat File Loaded !!!
+[13:29:22] [Server thread/INFO]: [ScriptBlock] Enabled !!!
+[13:29:22] [Server thread/INFO]: [EnchantTrapPack] Enabling EnchantTrapPack v1.0
+[13:29:22] [Server thread/INFO]: [EnchantPassivePack] Enabling EnchantPassivePack v1.0
+[13:29:22] [Server thread/INFO]: [LevelSuffix_2] Enabling LevelSuffix_2 v1.2
+[13:29:22] [Server thread/INFO]: [LevelSuffix] Plugin has been successfully loaded.
+[13:29:22] [Server thread/INFO]: [MythicMobs] Enabling MythicMobs v2.0.4
+[13:29:22] [Server thread/INFO]: [MythicMobs] Loading MythicMobs...
+[13:29:22] [Server thread/INFO]: [MythicMobs] MythicMobs Vault Support has been enabled!
+[13:29:22] [Server thread/ERROR]: Cannot load plugins\MythicMobs\Mobs\VanillaMobs.yml
+org.bukkit.configuration.InvalidConfigurationException: unacceptable character '?' (0xDBA6) special characters are not allowed
+in "'string'", position 1948
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:57) ~[spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:226) ~[spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:169) ~[spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:180) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at net.elseland.xikage.MythicMobs.IO.IOLoader.reloadCustomConfig(IOLoader.java:65) [MythicMobs-2.0.4.jar:?]
+	at net.elseland.xikage.MythicMobs.IO.IOLoader.<init>(IOLoader.java:40) [MythicMobs-2.0.4.jar:?]
+	at net.elseland.xikage.MythicMobs.IO.Load.Configuration.LoadAll(Configuration.java:80) [MythicMobs-2.0.4.jar:?]
+	at net.elseland.xikage.MythicMobs.MythicMobs.onEnable(MythicMobs.java:132) [MythicMobs-2.0.4.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:340) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:405) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:357) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:317) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.s(MinecraftServer.java:414) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.k(MinecraftServer.java:378) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.a(MinecraftServer.java:333) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:263) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:525) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_171]
+Caused by: org.yaml.snakeyaml.reader.ReaderException: special characters are not allowed
+	at org.yaml.snakeyaml.reader.StreamReader.checkPrintable(StreamReader.java:67) ~[spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.yaml.snakeyaml.reader.StreamReader.<init>(StreamReader.java:47) ~[spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:369) ~[spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:55) ~[spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	... 18 more
+[13:29:22] [Server thread/ERROR]: Cannot load plugins\MythicMobs\Items\ExampleItems.yml
+org.bukkit.configuration.InvalidConfigurationException: unacceptable character '?' (0xDBA6) special characters are not allowed
+in "'string'", position 602
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:57) ~[spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:226) ~[spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:169) ~[spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:180) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at net.elseland.xikage.MythicMobs.IO.IOLoader.reloadCustomConfig(IOLoader.java:65) [MythicMobs-2.0.4.jar:?]
+	at net.elseland.xikage.MythicMobs.IO.IOLoader.<init>(IOLoader.java:40) [MythicMobs-2.0.4.jar:?]
+	at net.elseland.xikage.MythicMobs.IO.Load.Configuration.LoadAll(Configuration.java:82) [MythicMobs-2.0.4.jar:?]
+	at net.elseland.xikage.MythicMobs.MythicMobs.onEnable(MythicMobs.java:132) [MythicMobs-2.0.4.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:340) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:405) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:357) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:317) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.s(MinecraftServer.java:414) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.k(MinecraftServer.java:378) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.a(MinecraftServer.java:333) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:263) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:525) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_171]
+Caused by: org.yaml.snakeyaml.reader.ReaderException: special characters are not allowed
+	at org.yaml.snakeyaml.reader.StreamReader.checkPrintable(StreamReader.java:67) ~[spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.yaml.snakeyaml.reader.StreamReader.<init>(StreamReader.java:47) ~[spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:369) ~[spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:55) ~[spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	... 18 more
+[13:29:22] [Server thread/ERROR]: Cannot load plugins\MythicMobs\Items\ExampleItems.yml
+org.bukkit.configuration.InvalidConfigurationException: unacceptable character '?' (0xDBA6) special characters are not allowed
+in "'string'", position 602
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:57) ~[spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:226) ~[spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:169) ~[spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:180) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at net.elseland.xikage.MythicMobs.IO.IOLoader.reloadCustomConfig(IOLoader.java:65) [MythicMobs-2.0.4.jar:?]
+	at net.elseland.xikage.MythicMobs.IO.IOLoader.<init>(IOLoader.java:48) [MythicMobs-2.0.4.jar:?]
+	at net.elseland.xikage.MythicMobs.IO.IOHandler.getSaveLoad(IOHandler.java:39) [MythicMobs-2.0.4.jar:?]
+	at net.elseland.xikage.MythicMobs.IO.Load.Configuration.LoadAll(Configuration.java:109) [MythicMobs-2.0.4.jar:?]
+	at net.elseland.xikage.MythicMobs.MythicMobs.onEnable(MythicMobs.java:132) [MythicMobs-2.0.4.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:340) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:405) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:357) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:317) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.s(MinecraftServer.java:414) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.k(MinecraftServer.java:378) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.a(MinecraftServer.java:333) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:263) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:525) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_171]
+Caused by: org.yaml.snakeyaml.reader.ReaderException: special characters are not allowed
+	at org.yaml.snakeyaml.reader.StreamReader.checkPrintable(StreamReader.java:67) ~[spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.yaml.snakeyaml.reader.StreamReader.<init>(StreamReader.java:47) ~[spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:369) ~[spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:55) ~[spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	... 19 more
+[13:29:22] [Server thread/ERROR]: Cannot load plugins\MythicMobs\Mobs\ee.yml
+org.bukkit.configuration.InvalidConfigurationException: unacceptable character '?' (0xDBA6) special characters are not allowed
+in "'string'", position 931
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:57) ~[spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:226) ~[spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:169) ~[spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:180) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at net.elseland.xikage.MythicMobs.IO.IOLoader.reloadCustomConfig(IOLoader.java:65) [MythicMobs-2.0.4.jar:?]
+	at net.elseland.xikage.MythicMobs.IO.IOLoader.<init>(IOLoader.java:48) [MythicMobs-2.0.4.jar:?]
+	at net.elseland.xikage.MythicMobs.IO.IOHandler.getSaveLoad(IOHandler.java:39) [MythicMobs-2.0.4.jar:?]
+	at net.elseland.xikage.MythicMobs.IO.Load.Configuration.LoadAll(Configuration.java:111) [MythicMobs-2.0.4.jar:?]
+	at net.elseland.xikage.MythicMobs.MythicMobs.onEnable(MythicMobs.java:132) [MythicMobs-2.0.4.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:340) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:405) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:357) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:317) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.s(MinecraftServer.java:414) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.k(MinecraftServer.java:378) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.a(MinecraftServer.java:333) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:263) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:525) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_171]
+Caused by: org.yaml.snakeyaml.reader.ReaderException: special characters are not allowed
+	at org.yaml.snakeyaml.reader.StreamReader.checkPrintable(StreamReader.java:67) ~[spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.yaml.snakeyaml.reader.StreamReader.<init>(StreamReader.java:47) ~[spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:369) ~[spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:55) ~[spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	... 19 more
+[13:29:22] [Server thread/ERROR]: Cannot load plugins\MythicMobs\Mobs\VanillaMobs.yml
+org.bukkit.configuration.InvalidConfigurationException: unacceptable character '?' (0xDBA6) special characters are not allowed
+in "'string'", position 1948
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:57) ~[spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:226) ~[spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:169) ~[spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:180) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at net.elseland.xikage.MythicMobs.IO.IOLoader.reloadCustomConfig(IOLoader.java:65) [MythicMobs-2.0.4.jar:?]
+	at net.elseland.xikage.MythicMobs.IO.IOLoader.<init>(IOLoader.java:48) [MythicMobs-2.0.4.jar:?]
+	at net.elseland.xikage.MythicMobs.IO.IOHandler.getSaveLoad(IOHandler.java:39) [MythicMobs-2.0.4.jar:?]
+	at net.elseland.xikage.MythicMobs.IO.Load.Configuration.LoadAll(Configuration.java:111) [MythicMobs-2.0.4.jar:?]
+	at net.elseland.xikage.MythicMobs.MythicMobs.onEnable(MythicMobs.java:132) [MythicMobs-2.0.4.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:340) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:405) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:357) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:317) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.s(MinecraftServer.java:414) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.k(MinecraftServer.java:378) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.a(MinecraftServer.java:333) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:263) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:525) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_171]
+Caused by: org.yaml.snakeyaml.reader.ReaderException: special characters are not allowed
+	at org.yaml.snakeyaml.reader.StreamReader.checkPrintable(StreamReader.java:67) ~[spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.yaml.snakeyaml.reader.StreamReader.<init>(StreamReader.java:47) ~[spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:369) ~[spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:55) ~[spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	... 19 more
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner 'dugu1-3' - MobType '毒菇尸1' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner dugu1-3: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner 'dugu2-1' - MobType '毒菇尸2' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner dugu2-1: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner 'dugu2-2' - MobType '毒菇尸2' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner dugu2-2: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner 'lang3' - MobType '感染的狼' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner lang3: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner 'lang4' - MobType '感染的狼' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner lang4: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner 'shibing3' - MobType '感染的士兵' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner shibing3: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner 'shibing4' - MobType '感染的士兵' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner shibing4: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner 'shihun' - MobType '尸魂骨' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner shihun: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner 'shihun1' - MobType '尸魂骨' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner shihun1: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner 'shoumu' - MobType '守墓者' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner shoumu: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner 'shoumu1' - MobType '守墓者' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner shoumu1: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner 'shoumu2' - MobType '守墓者' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner shoumu2: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner 'shoumu3' - MobType '守墓者' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner shoumu3: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner 'shoumu4' - MobType '守墓者' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner shoumu4: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner '僵尸1' - MobType '僵尸' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner 僵尸1: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner '僵尸2' - MobType '僵尸' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner 僵尸2: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner '僵尸21' - MobType '僵尸2' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner 僵尸21: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner '僵尸22' - MobType '僵尸2' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner 僵尸22: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner '僵尸23' - MobType '僵尸2' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner 僵尸23: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner '僵尸24' - MobType '僵尸2' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner 僵尸24: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner '僵尸3' - MobType '僵尸' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner 僵尸3: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner '僵尸4' - MobType '僵尸' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner 僵尸4: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner '僵尸5' - MobType '僵尸' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner 僵尸5: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner '僵尸6' - MobType '僵尸' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner 僵尸6: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner '僵尸7' - MobType '僵尸' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner 僵尸7: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner '僵尸8' - MobType '僵尸' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner 僵尸8: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner '僵尸9' - MobType '僵尸' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner 僵尸9: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner '兔子1' - MobType '兔子' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner 兔子1: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner '兔子2' - MobType '兔子' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner 兔子2: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner '兔子3' - MobType '兔子' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner 兔子3: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner '兔子4' - MobType '兔子' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner 兔子4: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner '兔子5' - MobType '兔子' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner 兔子5: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner '兔子6' - MobType '兔子' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner 兔子6: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner '守卫者1' - MobType '守卫者' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner 守卫者1: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner '守卫者2' - MobType '守卫者' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner 守卫者2: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner '守卫者3' - MobType '守卫者' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner 守卫者3: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner '守卫者4' - MobType '守卫者' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner 守卫者4: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner '守卫者5' - MobType '守卫者' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner 守卫者5: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner '恶灵骷髅1' - MobType '恶灵骷髅' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner 恶灵骷髅1: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner '恶灵骷髅2' - MobType '恶灵骷髅' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner 恶灵骷髅2: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner '恶灵骷髅3' - MobType '恶灵骷髅' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner 恶灵骷髅3: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner '恶灵骷髅4' - MobType '恶灵骷髅' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner 恶灵骷髅4: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner '恶灵骷髅5' - MobType '恶灵骷髅' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner 恶灵骷髅5: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner '残骨1' - MobType '残骨' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner 残骨1: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner '残骨2' - MobType '残骨' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner 残骨2: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner '残骨3' - MobType '残骨' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner 残骨3: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner '残骨4' - MobType '残骨' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner 残骨4: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner '矿工1' - MobType '矿工' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner 矿工1: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner '矿工10' - MobType '矿工' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner 矿工10: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner '矿工2' - MobType '矿工' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner 矿工2: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner '矿工3' - MobType '矿工' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner 矿工3: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner '矿工4' - MobType '矿工' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner 矿工4: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner '矿工5' - MobType '矿工' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner 矿工5: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner '矿工6' - MobType '矿工' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner 矿工6: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner '矿工7' - MobType '矿工' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner 矿工7: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner '矿工8' - MobType '矿工' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner 矿工8: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner '矿工9' - MobType '矿工' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner 矿工9: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner '矿骨1' - MobType '矿骨' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner 矿骨1: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner '矿骨2' - MobType '矿骨' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner 矿骨2: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner '矿骨3' - MobType '矿骨' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner 矿骨3: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner '矿骨4' - MobType '矿骨' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner 矿骨4: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner '矿骨5' - MobType '矿骨' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner 矿骨5: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner '矿骨6' - MobType '矿骨' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner 矿骨6: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner '精髓1' - MobType '精髓' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner 精髓1: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner '精髓2' - MobType '精髓' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner 精髓2: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner '精髓3' - MobType '精髓' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner 精髓3: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner '精髓4' - MobType '精髓' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner 精髓4: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner '精髓5' - MobType '精髓' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner 精髓5: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner '饥荒1' - MobType '饥荒' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner 饥荒1: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner '饥荒2' - MobType '饥荒' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner 饥荒2: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner '饥荒3' - MobType '饥荒' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner 饥荒3: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner '饥荒4' - MobType '饥荒' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner 饥荒4: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner '鸡1' - MobType '鸡' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner 鸡1: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner '鸡10' - MobType '鸡' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner 鸡10: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner '鸡2' - MobType '鸡' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner 鸡2: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner '鸡4' - MobType '鸡' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner 鸡4: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner '鸡5' - MobType '鸡' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner 鸡5: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner '鸡6' - MobType '鸡' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner 鸡6: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner '鸡7' - MobType '鸡' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner 鸡7: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner '鸡8' - MobType '鸡' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner 鸡8: enable debugging for stacktrace.
+[13:29:22] [Server thread/WARN]: [MythicMobs] Error enabling spawner '鸡9' - MobType '鸡' is invalid! Spawner cannot initialize. Disabling.
+[13:29:22] [Server thread/ERROR]: [MythicMobs] Error loading MythicSpawner 鸡9: enable debugging for stacktrace.
+[13:29:22] [Server thread/INFO]: [MythicMobs] Loaded 5 mobs.
+[13:29:22] [Server thread/INFO]: [MythicMobs] Loaded 0 vanilla mob overrides.
+[13:29:22] [Server thread/INFO]: [MythicMobs] Loaded 0 mob stacks.
+[13:29:22] [Server thread/INFO]: [MythicMobs] Loaded 3 skills.
+[13:29:22] [Server thread/INFO]: [MythicMobs] Loaded 1 random spawns.
+[13:29:22] [Server thread/INFO]: [MythicMobs] Loaded 0 mythic items.
+[13:29:22] [Server thread/INFO]: [MythicMobs] Loaded 0 drop tables.
+[13:29:22] [Server thread/INFO]: [MythicMobs] Loaded 0 mob spawners.
+[13:29:22] [Server thread/INFO]: [MythicMobs] v2.0.4 has been successfully loaded!
+[13:29:27] [Thread-13/WARN]: [CustomJoinItems] The updater could not contact dev.bukkit.org for updating.
+[13:29:27] [Thread-13/WARN]: [CustomJoinItems] If you have not recently modified your configuration and this is the first time you are seeing this message, the site may be experiencing temporary downtime.
+[13:29:27] [Thread-13/WARN]: java.net.SocketTimeoutException: connect timed out
+[13:29:27] [Thread-13/WARN]: 	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+[13:29:27] [Thread-13/WARN]: 	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+[13:29:27] [Thread-13/WARN]: 	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+[13:29:27] [Thread-13/WARN]: 	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+[13:29:27] [Thread-13/WARN]: 	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+[13:29:27] [Thread-13/WARN]: 	at java.net.PlainSocketImpl.connect(Unknown Source)
+[13:29:27] [Thread-13/WARN]: 	at java.net.SocksSocketImpl.connect(Unknown Source)
+[13:29:27] [Thread-13/WARN]: 	at java.net.Socket.connect(Unknown Source)
+[13:29:27] [Thread-13/WARN]: 	at sun.security.ssl.SSLSocketImpl.connect(Unknown Source)
+[13:29:27] [Thread-13/WARN]: 	at sun.net.NetworkClient.doConnect(Unknown Source)
+[13:29:27] [Thread-13/WARN]: 	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+[13:29:27] [Thread-13/WARN]: 	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+[13:29:27] [Thread-13/WARN]: 	at sun.net.www.protocol.https.HttpsClient.<init>(Unknown Source)
+[13:29:27] [Thread-13/WARN]: 	at sun.net.www.protocol.https.HttpsClient.New(Unknown Source)
+[13:29:27] [Thread-13/WARN]: 	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(Unknown Source)
+[13:29:27] [Thread-13/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+[13:29:27] [Thread-13/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+[13:29:27] [Thread-13/WARN]: 	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+[13:29:27] [Thread-13/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+[13:29:27] [Thread-13/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+[13:29:27] [Thread-13/WARN]: 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(Unknown Source)
+[13:29:27] [Thread-13/WARN]: 	at com.gmail.filoghost.customjoinitems.Updater.read(Updater.java:576)
+[13:29:27] [Thread-13/WARN]: 	at com.gmail.filoghost.customjoinitems.Updater.access$1(Updater.java:564)
+[13:29:27] [Thread-13/WARN]: 	at com.gmail.filoghost.customjoinitems.Updater$UpdateRunnable.run(Updater.java:614)
+[13:29:27] [Thread-13/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[13:29:27] [Thread-14/ERROR]: [MythicMobs] The updater could not contact dev.bukkit.org for updating.
+[13:29:27] [Thread-14/ERROR]: [MythicMobs] If you have not recently modified your configuration and this is the first time you are seeing this message, the site may be experiencing temporary downtime.
+[13:29:27] [Thread-14/ERROR]: [MythicMobs] null
+java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[?:1.8.0_171]
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source) ~[?:1.8.0_171]
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source) ~[?:1.8.0_171]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source) ~[?:1.8.0_171]
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_171]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[?:1.8.0_171]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[?:1.8.0_171]
+	at java.net.Socket.connect(Unknown Source) ~[?:1.8.0_171]
+	at sun.security.ssl.SSLSocketImpl.connect(Unknown Source) ~[?:1.8.0_171]
+	at sun.net.NetworkClient.doConnect(Unknown Source) ~[?:1.8.0_171]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[?:1.8.0_171]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[?:1.8.0_171]
+	at sun.net.www.protocol.https.HttpsClient.<init>(Unknown Source) ~[?:1.8.0_171]
+	at sun.net.www.protocol.https.HttpsClient.New(Unknown Source) ~[?:1.8.0_171]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(Unknown Source) ~[?:1.8.0_171]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source) ~[?:1.8.0_171]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source) ~[?:1.8.0_171]
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source) ~[?:1.8.0_171]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[?:1.8.0_171]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[?:1.8.0_171]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(Unknown Source) ~[?:1.8.0_171]
+	at net.gravitydevelopment.updater.Updater.read(Updater.java:546) [MythicMobs-2.0.4.jar:?]
+	at net.gravitydevelopment.updater.Updater.access$200(Updater.java:41) [MythicMobs-2.0.4.jar:?]
+	at net.gravitydevelopment.updater.Updater$UpdateRunnable.run(Updater.java:584) [MythicMobs-2.0.4.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_171]
+[13:29:27] [Server thread/INFO]: [ChestCommands] Enabling ChestCommands v2.0
+[13:29:27] [Server thread/INFO]: [ChestCommands] Loading menu: CD.yml
+[13:29:27] [Server thread/INFO]: [ChestCommands] Loading menu: PVP.yml
+[13:29:27] [Server thread/INFO]: [ChestCommands] Economy plugin found, economy support enabled!
+[13:29:28] [Server thread/INFO]: [EssentialsProtect] Enabling EssentialsProtect vTeamCity
+[13:29:28] [Server thread/INFO]: [EssentialsAntiBuild] Enabling EssentialsAntiBuild vTeamCity
+[13:29:28] [Server thread/INFO]: [JoinMessage] Enabling JoinMessage v2.4.2
+[13:29:28] [Server thread/INFO]: [JoinMessage] Vault Detected!
+[13:29:28] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn vTeamCity
+[13:29:28] [Server thread/INFO]: [MoreSounds] Enabling MoreSounds v1.5.1
+[13:29:28] [Server thread/INFO]: [MoreSounds] Essentials hooked!
+[13:29:28] [Server thread/INFO]: [TreasureChest] Enabling TreasureChest v8.4.4
+[13:29:28] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.16-SNAPSHOT (build 1247)
+[13:29:28] [Server thread/ERROR]: [Citizens] Missing preferred location bundle.
+[13:29:28] [Server thread/INFO]: [ColoredTags] Enabling ColoredTags v2.1.1
+[13:29:28] [Server thread/INFO]: [Shopkeepers] Enabling Shopkeepers v1.68
+[13:29:28] [Server thread/INFO]: [Shopkeepers] Citizens found, enabling NPC shopkeepers.
+[13:29:28] [Server thread/INFO]: [GlobalMarket] Enabling GlobalMarket v1.2.2
+[13:29:28] [Server thread/ERROR]: Cannot load configuration from stream
+org.bukkit.configuration.InvalidConfigurationException: unacceptable character '?' (0xDBB7) special characters are not allowed
+in "'string'", position 1247
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:57) ~[spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:226) ~[spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:194) ~[spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:212) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at com.survivorserver.GlobalMarket.ConfigHandler.reloadLocaleYML(ConfigHandler.java:99) [GlobalMarket%201.7.x-1.6.x汉化.jar:?]
+	at com.survivorserver.GlobalMarket.ConfigHandler.getLocaleYML(ConfigHandler.java:108) [GlobalMarket%201.7.x-1.6.x汉化.jar:?]
+	at com.survivorserver.GlobalMarket.LocaleHandler.setSelected(LocaleHandler.java:14) [GlobalMarket%201.7.x-1.6.x汉化.jar:?]
+	at com.survivorserver.GlobalMarket.LocaleHandler.<init>(LocaleHandler.java:10) [GlobalMarket%201.7.x-1.6.x汉化.jar:?]
+	at com.survivorserver.GlobalMarket.Market.onEnable(Market.java:115) [GlobalMarket%201.7.x-1.6.x汉化.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:340) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:405) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:357) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:317) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.s(MinecraftServer.java:414) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.k(MinecraftServer.java:378) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.a(MinecraftServer.java:333) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:263) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:525) [spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_171]
+Caused by: org.yaml.snakeyaml.reader.ReaderException: special characters are not allowed
+	at org.yaml.snakeyaml.reader.StreamReader.checkPrintable(StreamReader.java:67) ~[spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.yaml.snakeyaml.reader.StreamReader.<init>(StreamReader.java:47) ~[spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:369) ~[spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:55) ~[spigot-1.8.8-R0.1-SNAPSHOT-latest.jar:git-Spigot-db6de12-18fbb24]
+	... 19 more
+[13:29:28] [Server thread/INFO]: [ItemLoreStats] Enabling ItemLoreStats v5.49
+[13:29:28] [Server thread/INFO]: [ItemLoreStats] Unable to find WorldGuard!
+[13:29:28] [Server thread/INFO]: [ItemLoreStats] Unable to find Heroes!
+[13:29:28] [Server thread/INFO]: [ItemLoreStats] Unable to find BarAPI!
+[13:29:28] [Server thread/INFO]: [ItemLoreStats] Successfully found and hooked into BossBarAPI.
+[13:29:28] [Server thread/INFO]: [ItemLoreStats] Unable to find SkillAPI!
+[13:29:28] [Server thread/INFO]: [ItemLoreStats] Successfully found and hooked into Vault.
+[13:29:28] [Server thread/INFO]: [ItemLoreStats] Successfully found and hooked into Citizens.
+[13:29:28] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:29:28] [Server thread/INFO]: Done (16.562s)! For help, type "help" or "?"
+[13:29:28] [Server thread/WARN]: [NoCheatPlus] The block breaking data is incomplete, default to allow instant breaking:
+[13:29:28] [Server thread/WARN]: --- Missing entries -------------------------------
+[13:29:28] [Server thread/WARN]: * MISSING 165(SLIME_BLOCK / SOLID+GROUND) 
+[13:29:28] [Server thread/WARN]: * MISSING 166(BARRIER / SOLID+GROUND) 
+[13:29:28] [Server thread/WARN]: * MISSING 167(IRON_TRAPDOOR / SOLID+IGN_PASSABLE+GROUND+GROUND_HEIGHT) 
+[13:29:28] [Server thread/WARN]: * MISSING 168(PRISMARINE / SOLID+GROUND) 
+[13:29:28] [Server thread/WARN]: * MISSING 169(SEA_LANTERN / SOLID+IGN_PASSABLE+GROUND+GROUND_HEIGHT) 
+[13:29:28] [Server thread/WARN]: * MISSING 176(STANDING_BANNER / SOLID+IGN_PASSABLE+GROUND+GROUND_HEIGHT) 
+[13:29:28] [Server thread/WARN]: * MISSING 177(WALL_BANNER / SOLID+IGN_PASSABLE+GROUND+GROUND_HEIGHT) 
+[13:29:28] [Server thread/WARN]: * MISSING 178(DAYLIGHT_DETECTOR_INVERTED / SOLID+IGN_PASSABLE+GROUND+GROUND_HEIGHT) 
+[13:29:28] [Server thread/WARN]: * MISSING 179(RED_SANDSTONE / SOLID+GROUND) 
+[13:29:28] [Server thread/WARN]: * MISSING 180(RED_SANDSTONE_STAIRS / SOLID+IGN_PASSABLE+GROUND+GROUND_HEIGHT) 
+[13:29:28] [Server thread/WARN]: * MISSING 181(DOUBLE_STONE_SLAB2 / SOLID+GROUND) 
+[13:29:28] [Server thread/WARN]: * MISSING 182(STONE_SLAB2 / SOLID+IGN_PASSABLE+GROUND+GROUND_HEIGHT) 
+[13:29:28] [Server thread/WARN]: * MISSING 183(SPRUCE_FENCE_GATE / SOLID+IGN_PASSABLE+GROUND+GROUND_HEIGHT) 
+[13:29:28] [Server thread/WARN]: * MISSING 184(BIRCH_FENCE_GATE / SOLID+IGN_PASSABLE+GROUND+GROUND_HEIGHT) 
+[13:29:28] [Server thread/WARN]: * MISSING 185(JUNGLE_FENCE_GATE / SOLID+IGN_PASSABLE+GROUND+GROUND_HEIGHT) 
+[13:29:28] [Server thread/WARN]: * MISSING 186(DARK_OAK_FENCE_GATE / SOLID+IGN_PASSABLE+GROUND+GROUND_HEIGHT) 
+[13:29:28] [Server thread/WARN]: * MISSING 187(ACACIA_FENCE_GATE / SOLID+IGN_PASSABLE+GROUND+GROUND_HEIGHT) 
+[13:29:28] [Server thread/WARN]: * MISSING 188(SPRUCE_FENCE / SOLID+IGN_PASSABLE+GROUND+GROUND_HEIGHT) 
+[13:29:28] [Server thread/WARN]: * MISSING 189(BIRCH_FENCE / SOLID+IGN_PASSABLE+GROUND+GROUND_HEIGHT) 
+[13:29:28] [Server thread/WARN]: * MISSING 190(JUNGLE_FENCE / SOLID+IGN_PASSABLE+GROUND+GROUND_HEIGHT) 
+[13:29:28] [Server thread/WARN]: * MISSING 191(DARK_OAK_FENCE / SOLID+IGN_PASSABLE+GROUND+GROUND_HEIGHT) 
+[13:29:28] [Server thread/WARN]: * MISSING 192(ACACIA_FENCE / SOLID+IGN_PASSABLE+GROUND+GROUND_HEIGHT) 
+[13:29:28] [Server thread/WARN]: * MISSING 193(SPRUCE_DOOR / SOLID+IGN_PASSABLE+GROUND+GROUND_HEIGHT) 
+[13:29:28] [Server thread/WARN]: * MISSING 194(BIRCH_DOOR / SOLID+IGN_PASSABLE+GROUND+GROUND_HEIGHT) 
+[13:29:28] [Server thread/WARN]: * MISSING 195(JUNGLE_DOOR / SOLID+IGN_PASSABLE+GROUND+GROUND_HEIGHT) 
+[13:29:28] [Server thread/WARN]: * MISSING 196(ACACIA_DOOR / SOLID+IGN_PASSABLE+GROUND+GROUND_HEIGHT) 
+[13:29:28] [Server thread/WARN]: * MISSING 197(DARK_OAK_DOOR / SOLID+IGN_PASSABLE+GROUND+GROUND_HEIGHT) 
+[13:29:28] [Server thread/INFO]: [NoCheatPlus] Post-enable running...
+[13:29:28] [Server thread/INFO]: [NoCheatPlus] Post-enable finished.
+[13:29:28] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.8.x(47)
+[13:29:28] [Server thread/INFO]: GroupManager - INFO - Bukkit Permissions Updated!
+[13:29:28] [Server thread/INFO]: ----------------------------------------------------------
+[13:29:28] [Server thread/INFO]: [ChestCommands] Could not find a compatible NMS code for this bukkit version. Attributes will show up on items.If you're using a new version, expect an update soon. The plugin will still work.
+[13:29:28] [Server thread/INFO]: ----------------------------------------------------------
+[13:29:28] [Server thread/INFO]: [Citizens] Loaded 9 NPCs.
+[13:29:28] [Server thread/INFO]: Detected the PlayerJoinEvent of player YuukiSkniro
+[13:29:28] [Server thread/INFO]: Forced YuukiSkniro to defined location.
+[13:29:29] [Server thread/INFO]: YuukiSkniro[/127.0.0.1:59119] logged in with entity id 33 at ([world]1210.5204587625697, 16.0, 1508.1108507167744)
+[13:29:30] [Server thread/INFO]: [PvPToggle] Player §8[§7-§8] §7§eYuukiSkniro§8[§e3§8]§r disabled pvp
+[13:29:35] [Thread-16/WARN]: [ChestCommands] The updater could not contact dev.bukkit.org for updating.
+[13:29:35] [Thread-16/WARN]: [ChestCommands] If you have not recently modified your configuration and this is the first time you are seeing this message, the site may be experiencing temporary downtime.
+[13:29:35] [Thread-16/WARN]: java.net.SocketException: Connection reset
+[13:29:35] [Thread-16/WARN]: 	at java.net.SocketInputStream.read(Unknown Source)
+[13:29:35] [Thread-16/WARN]: 	at java.net.SocketInputStream.read(Unknown Source)
+[13:29:35] [Thread-16/WARN]: 	at sun.security.ssl.InputRecord.readFully(Unknown Source)
+[13:29:35] [Thread-16/WARN]: 	at sun.security.ssl.InputRecord.read(Unknown Source)
+[13:29:35] [Thread-16/WARN]: 	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+[13:29:35] [Thread-16/WARN]: 	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(Unknown Source)
+[13:29:35] [Thread-16/WARN]: 	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+[13:29:35] [Thread-16/WARN]: 	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+[13:29:35] [Thread-16/WARN]: 	at sun.net.www.protocol.https.HttpsClient.afterConnect(Unknown Source)
+[13:29:35] [Thread-16/WARN]: 	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+[13:29:35] [Thread-16/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+[13:29:35] [Thread-16/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+[13:29:35] [Thread-16/WARN]: 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(Unknown Source)
+[13:29:35] [Thread-16/WARN]: 	at com.gmail.filoghost.chestcommands.Updater.read(Updater.java:585)
+[13:29:35] [Thread-16/WARN]: 	at com.gmail.filoghost.chestcommands.Updater.access$1(Updater.java:573)
+[13:29:35] [Thread-16/WARN]: 	at com.gmail.filoghost.chestcommands.Updater$UpdateRunnable.run(Updater.java:623)
+[13:29:35] [Thread-16/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[13:29:36] [Thread-21/WARN]: [tpLogin] The updater could not contact dev.bukkit.org for updating.
+[13:29:36] [Thread-21/WARN]: [tpLogin] If you have not recently modified your configuration and this is the first time you are seeing this message, the site may be experiencing temporary downtime.
+[13:29:36] [Thread-21/WARN]: java.net.SocketTimeoutException: connect timed out
+[13:29:36] [Thread-21/WARN]: 	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+[13:29:36] [Thread-21/WARN]: 	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+[13:29:36] [Thread-21/WARN]: 	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+[13:29:36] [Thread-21/WARN]: 	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+[13:29:36] [Thread-21/WARN]: 	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+[13:29:36] [Thread-21/WARN]: 	at java.net.PlainSocketImpl.connect(Unknown Source)
+[13:29:36] [Thread-21/WARN]: 	at java.net.SocksSocketImpl.connect(Unknown Source)
+[13:29:36] [Thread-21/WARN]: 	at java.net.Socket.connect(Unknown Source)
+[13:29:36] [Thread-21/WARN]: 	at sun.security.ssl.SSLSocketImpl.connect(Unknown Source)
+[13:29:36] [Thread-21/WARN]: 	at sun.net.NetworkClient.doConnect(Unknown Source)
+[13:29:36] [Thread-21/WARN]: 	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+[13:29:36] [Thread-21/WARN]: 	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+[13:29:36] [Thread-21/WARN]: 	at sun.net.www.protocol.https.HttpsClient.<init>(Unknown Source)
+[13:29:36] [Thread-21/WARN]: 	at sun.net.www.protocol.https.HttpsClient.New(Unknown Source)
+[13:29:36] [Thread-21/WARN]: 	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(Unknown Source)
+[13:29:36] [Thread-21/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+[13:29:36] [Thread-21/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+[13:29:36] [Thread-21/WARN]: 	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+[13:29:36] [Thread-21/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+[13:29:36] [Thread-21/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+[13:29:36] [Thread-21/WARN]: 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(Unknown Source)
+[13:29:36] [Thread-21/WARN]: 	at com.volcanicplaza.tpLogin.Updater.read(Updater.java:488)
+[13:29:36] [Thread-21/WARN]: 	at com.volcanicplaza.tpLogin.Updater.access$1(Updater.java:476)
+[13:29:36] [Thread-21/WARN]: 	at com.volcanicplaza.tpLogin.Updater$UpdateRunnable.run(Updater.java:526)
+[13:29:36] [Thread-21/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[13:29:36] [Server thread/WARN]: [ViaVersion] There is a newer version available: 1.6.0, you're on: 1.5.2
+[13:29:36] [Server thread/INFO]: [ColoredTags] Found an update: v2.1.3   (Your version: v2.1.1)
+[13:29:36] [Server thread/INFO]: [ColoredTags] Type "/ctags update" or download it from:
+[13:29:36] [Server thread/INFO]: [ColoredTags] dev.bukkit.org/bukkit-plugins/colored-tags
+[13:29:42] [Craft Scheduler Thread - 22/INFO]: [PvPToggle] Found new version: 3.0.0 (you have [v3.0.0])
+[13:29:42] [Craft Scheduler Thread - 22/INFO]: [PvPToggle] Visit http://dev.bukkit.org/server-mods/PvPToggle/ to download!
+[13:29:43] [Server thread/INFO]: YuukiSkniro issued server command: /yum
+[13:29:46] [Server thread/INFO]: [PvPToggle] Player §8[§7-§8] §7§eYuukiSkniro§8[§e3§8]§r disabled pvp
+[13:29:48] [Server thread/INFO]: [PvPToggle] Player §8[§7-§8] §7§eYuukiSkniro§8[§e3§8]§r disabled pvp
+[13:29:52] [Thread-18/WARN]: [MoreSounds] The updater could not contact dev.bukkit.org for updating.
+[13:29:52] [Thread-18/WARN]: [MoreSounds] If you have not recently modified your configuration and this is the first time you are seeing this message, the site may be experiencing temporary downtime.
+[13:29:52] [Thread-18/WARN]: java.net.SocketTimeoutException: connect timed out
+[13:29:52] [Thread-18/WARN]: 	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+[13:29:52] [Thread-18/WARN]: 	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+[13:29:52] [Thread-18/WARN]: 	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+[13:29:52] [Thread-18/WARN]: 	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+[13:29:52] [Thread-18/WARN]: 	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+[13:29:52] [Thread-18/WARN]: 	at java.net.PlainSocketImpl.connect(Unknown Source)
+[13:29:52] [Thread-18/WARN]: 	at java.net.SocksSocketImpl.connect(Unknown Source)
+[13:29:52] [Thread-18/WARN]: 	at java.net.Socket.connect(Unknown Source)
+[13:29:52] [Thread-18/WARN]: 	at sun.security.ssl.SSLSocketImpl.connect(Unknown Source)
+[13:29:52] [Thread-18/WARN]: 	at sun.net.NetworkClient.doConnect(Unknown Source)
+[13:29:52] [Thread-18/WARN]: 	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+[13:29:52] [Thread-18/WARN]: 	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+[13:29:52] [Thread-18/WARN]: 	at sun.net.www.http.HttpClient.parseHTTPHeader(Unknown Source)
+[13:29:52] [Thread-18/WARN]: 	at sun.net.www.http.HttpClient.parseHTTP(Unknown Source)
+[13:29:52] [Thread-18/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+[13:29:52] [Thread-18/WARN]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+[13:29:52] [Thread-18/WARN]: 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(Unknown Source)
+[13:29:52] [Thread-18/WARN]: 	at com.gmail.filoghost.moresounds.Updater.read(Updater.java:576)
+[13:29:52] [Thread-18/WARN]: 	at com.gmail.filoghost.moresounds.Updater.access$1(Updater.java:564)
+[13:29:52] [Thread-18/WARN]: 	at com.gmail.filoghost.moresounds.Updater$UpdateRunnable.run(Updater.java:614)
+[13:29:52] [Thread-18/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[13:29:54] [Server thread/INFO]: YuukiSkniro lost connection: Disconnected
+[13:29:54] [Server thread/INFO]: [ά��������] YuukiSkniro ��ʱ�뿪�˷�����.

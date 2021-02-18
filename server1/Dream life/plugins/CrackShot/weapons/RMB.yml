@@ -1,0 +1,63 @@
+accelerator:
+    Item_Information:
+        Item_Name: "&f尘埃之光&e[Accelerator]&7"
+        Item_Type: 271
+        Item_Lore: "&e畜备光量&f>>&c25|&e范围伤害&f>>&c200|&a|&7“利用未知陨石物质的特性,通过光能射线··”|&6|&6历练值: &b0|&b子弹: &f无限|&e-===&cAccelerator&e===-"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 4
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: energy
+        Projectile_Speed: 10
+        Projectile_Subtype: 2-2-1-2
+        Projectile_Damage: 200
+        Bullet_Spread: 2
+        Sounds_Shoot: ANVIL_LAND-1-1-0
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: FIZZ-2-1-0
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: block_break-155
+    Reload:
+        Enable: true
+        Reload_Amount: 25
+        Reload_Duration: 40
+        Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
+        Sounds_Reloading: FIZZ-1-1-4
+        
+timeriver:
+    Item_Information:
+        Item_Name: "&f损坏的发动机&e[Time_river]&7"
+        Item_Type: 271
+        Item_Lore: "&b畜备电量&f>>&a25|&b范围伤害&f>>&a200|&a|&7“我轰死你吧！”|&6|&6历练值: &b0|&b子弹: &f无限|&e-===&cTime_river&e===-"
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 4
+        Recoil_Amount: 0
+        Projectile_Amount: 1
+        Projectile_Type: energy
+        Projectile_Speed: 10
+        Projectile_Subtype: 2-2-1-2
+        Projectile_Damage: 200
+        Bullet_Spread: 2
+        Sounds_Shoot: IRONGOLEM_HIT-1-1-0
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: FIZZ-2-1-0
+    Particles:
+        Enable: true
+        Particle_Player_Shoot: smoke
+    Reload:
+        Enable: true
+        Reload_Amount: 25
+        Reload_Duration: 40
+        Sounds_Out_Of_Ammo: ITEM_BREAK-1-1-0
+        Sounds_Reloading: FIZZ-1-1-4

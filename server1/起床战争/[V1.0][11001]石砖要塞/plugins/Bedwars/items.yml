@@ -1,0 +1,64 @@
+"\u9518\u7e22ame-leave":
+  Enabled: true
+  Material: BED
+  Data: 0
+  Slot: 8
+  Amount: 1
+  DisplayName: "&a\u95ab\ufffd\u9351\u9e3f\ue1da\u93b4\u5757\u68ff"
+  Lore:
+  - ''
+spectator-leave:
+  Enabled: true
+  Material: BED
+  Data: 0
+  Slot: 8
+  Amount: 1
+  DisplayName: "&a\u95ab\ufffd\u9351\u9e3f\ue1da\u93b4\u5757\u68ff"
+  Lore:
+  - ''
+team-selector:
+  Enabled: true
+  Material: COMPASS
+  Data: 0
+  Slot: 0
+  Amount: 1
+  DisplayName: "&a\u95ab\u590b\u5ae8\u6d93\ufffd\u6d93\ue048\u69e6\u6d7c\ufffd"
+  Lore:
+  - ''
+kit-selector:
+  Enabled: true
+  Material: REDSTONE_COMPARATOR
+  Data: 0
+  Slot: 0
+  Amount: 1
+  DisplayName: "&e\u95ab\u590b\u5ae8\u6d93\ufffd\u6d93\ue047\u4eb4\u6d93\ufffd"
+  Lore:
+  - ''
+teleporter:
+  Enabled: true
+  Material: COMPASS
+  Data: 0
+  Slot: 0
+  Amount: 1
+  DisplayName: "&a\u6d7c\u72bb\ufffd\u4f78\u57cc\u941c\u2541\ue18d"
+  Lore:
+  - ''
+spectator-settings:
+  Enabled: true
+  Material: REDSTONE_COMPARATOR
+  Data: 0
+  Slot: 4
+  Amount: 1
+  DisplayName: "&b\u7459\u509a\u7642\u9470\u5470\ue195\u7f03\ufffd&7[\u9359\u62bd\u656d\
+    ]"
+  Lore:
+  - ''
+game-leave:
+  Enabled: true
+  Material: BED
+  Data: 0
+  Slot: 8
+  Amount: 1
+  DisplayName: '&aLeave from arena'
+  Lore:
+  - ''

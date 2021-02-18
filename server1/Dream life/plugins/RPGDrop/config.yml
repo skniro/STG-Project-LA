@@ -1,0 +1,5 @@
+Time: 100 #保护时间。单位20=1s
+PlayerDropProtect: true #玩家掉落保护
+MobDropProtect: true #怪物掉落保护
+MythicDropProtect: true #MythicMobs怪物掉落保护(需MythicMobs插件作为前置)
+PartySystemDropSupport: true #组队掉落保护(需Party插件作为前置)

@@ -1,0 +1,38 @@
+R:
+    Item_Information:
+        Item_Name: "&f &f暗杀之刃&d(cos)&b"
+        Item_Type: 276
+        Item_Lore: "&b物理伤害&f>>&e10000|&b减速几率&f>>&e+30%|&6被动-背刺: &f背后攻击会加强&e4000&f伤害|&6被动-暗杀之心: &f背刺后会隐形数秒|&f历练值&b: &e0|&7&o“给你来个杀身之祸”"
+        Melee_Mode: true
+        Sounds_Acquired: BAT_TAKEOFF-1-1-0
+    Shooting:
+        Right_Click_To_Shoot: true
+        Cancel_Left_Click_Block_Damage: true
+        Cancel_Right_Click_Interactions: true
+        Delay_Between_Shots: 0
+        Projectile_Amount: 1
+        Projectile_Type: snowball
+        Recoil_Amount: 0
+        Projectile_Speed: 5
+        Projectile_Damage: 10000
+        Bullet_Spread: 0
+        Sounds_Shoot: STEP_WOOL-8-2-0,IRONGOLEM_HIT-8-9-0,ANVIL_BREAK-9-2-0,IRONGOLEM_HIT-9-1-1
+    Backstab:
+        Enable: true
+        Bonus_Damage: 4000
+        Message_Shooter: "&b&l[&f&l武器系统&b&l] &f&l背刺！"
+        Message_Victem: "&b&l[&f&l武器系统&b&l] &f&l你被别人背后捅了一刀！"
+        Sounds_Shooter: LEVEL_UP-1-2-7,IRONGOLEM_HIT-1-2-5,PISTON_EXTEND-1-1-5,ANVIL_BREAK-9-2-0
+    Abilities:
+        Reset_Hit_Cooldown: true
+        Knockback: 0
+    Potion_Effects:
+        Activation: back
+        Potion_Effect_Shooter: INVISIBILITY-100-5
+    Hit_Events:
+        Enable: true
+        Sounds_Shooter: STEP_WOOL-8-2-0,IRONGOLEM_HIT-8-9-0,IRONGOLEM_HIT-9-1-1
+    Particles:
+        Enable: true
+        Particle_Backstab: block_break-138
+        Particle_Hit: block_break-79

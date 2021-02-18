@@ -1,0 +1,23 @@
+YouDisplay: ' &7(You)'
+StartingDisplay: '&fStarting in &a<time>'
+SearchingDisplay: '&fSearching players...'
+EventDisplay:
+  DiamondUpgrade: '&fDiamond Upgrade'
+  EmeraldUpgrade: '&fEmerald Maxed'
+  DiamondMaxed: '&fDiamond Maxed'
+  EmeraldMaxed: '&fEmerald Maxed'
+  BedDestruction: '&fBed Destruction'
+  TimeLeft: '&fTime Left'
+InWaiting-Enabled: true
+InWaiting-Title: '&e BED WARS'
+InWaiting:
+  Lines:
+  - ''
+  - '&fMap: &a<mapName>'
+  - '&fPlayers: &a<inGame>/<max>'
+  - ''
+  - <statusDisplay>
+  - ' '
+  - '&fServer: &aBedWars122G'
+  - ''
+  - '&ewww.spigotmc.org'

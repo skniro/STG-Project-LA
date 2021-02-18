@@ -1,0 +1,21 @@
+ShowConsole:
+    Options:
+        bypass_perm: false
+        group_remove: false
+        permission: false
+        cost: false
+        cooldown: false
+        perm_add: false
+        amount: false
+        toplayer: false
+        console: false
+        bypass_group: false
+        say: false
+        command: false
+        group_add: false
+        delay: false
+        perm_remove: false
+        group: false
+        itemcost: false
+        bypass_op: false
+    Trigger: false

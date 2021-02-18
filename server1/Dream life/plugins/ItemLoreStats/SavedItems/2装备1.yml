@@ -1,0 +1,14 @@
+Item:
+  ==: org.bukkit.inventory.ItemStack
+  type: IRON_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: "\xa7f\u795e\u5b54\xa7b[\u7cbe\u826f]"
+    lore:
+    - "\xa7b\u81ea\u8eab\u8840\u91cf\xa7f>>\xa7e35"
+    - "\xa7b\u81ea\u8eab\u9632\u5fa1\xa7f>>\xa7e4"
+    - "\xa7a"
+    - "\xa77\u201c\u6211\u53ef\u4e0d\u60f3\u8ba9\u751f\u547d\u5782\u5371\u201d"
+    - "\xa77"
+    - "\xa76\u5386\u7ec3\u503c: \xa7b45"

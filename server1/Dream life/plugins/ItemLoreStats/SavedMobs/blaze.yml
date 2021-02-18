@@ -1,0 +1,156 @@
+'5':
+  '1':
+    itemId: 306
+    nameColour: '&9&l'
+    prefix: random
+    suffix: random
+    properties:
+      armour: '&b8-16'
+      healthRandomApply: true
+      health: '&b30-player+40'
+      healthRegenRandomApply: true
+      healthRegen: '&b2-5'
+      blockRandomApply: true
+      block: '&b1-2'
+      movementSpeedRandomApply: true
+      movementSpeed: '&e1-3'
+      durability: '&71800-2400'
+      soulboundRandomApply: true
+      soulbound: true
+      xpLevelRandomApply: true
+      xpLevel: '&b10-player+3'
+  '2':
+    itemId: 307
+    nameColour: '&d&l'
+    prefix: random
+    suffix: random
+    properties:
+      armour: '&b8-16'
+      healthRandomApply: true
+      health: '&b30-player+40'
+      healthRegenRandomApply: true
+      healthRegen: '&b2-5'
+      blockRandomApply: true
+      block: '&b1-2'
+      movementSpeedRandomApply: true
+      movementSpeed: '&e1-3'
+      durability: '&71800-2400'
+      soulboundRandomApply: true
+      soulbound: true
+      xpLevelRandomApply: true
+      xpLevel: '&b10-player+3'
+  '3':
+    itemId: 308
+    nameColour: '&d&l'
+    prefix: random
+    suffix: random
+    properties:
+      armour: '&b8-16'
+      healthRandomApply: true
+      health: '&b30-player+40'
+      healthRegenRandomApply: true
+      healthRegen: '&b2-5'
+      blockRandomApply: true
+      block: '&b1-2'
+      movementSpeedRandomApply: true
+      movementSpeed: '&e1-3'
+      durability: '&71800-2400'
+      soulboundRandomApply: true
+      soulbound: true
+      xpLevelRandomApply: true
+      xpLevel: '&b10-player+3'
+  '4':
+    itemId: 309
+    nameColour: '&d&l'
+    prefix: random
+    suffix: random
+    properties:
+      armour: '&b8-16'
+      healthRandomApply: true
+      health: '&b30-player+40'
+      healthRegenRandomApply: true
+      healthRegen: '&b2-5'
+      blockRandomApply: true
+      block: '&b1-2'
+      movementSpeedRandomApply: true
+      movementSpeed: '&e1-3'
+      durability: '&71800-2400'
+      soulboundRandomApply: true
+      soulbound: true
+      xpLevelRandomApply: true
+      xpLevel: '&b10-player+3'
+  '5':
+    itemId: 276
+    nameColour: '&d&l'
+    prefix: random
+    suffix: random
+    properties:
+      weaponspeed: '&2Fast'
+      damage: '&b40-50-player+60-70'
+      critChanceRandomApply: true
+      critChance: '&b3-9'
+      critDamageRandomApply: true
+      critDamage: '&b8-23'
+      lifeStealRandomApply: true
+      lifeSteal: '&23-7'
+      blindRandomApply: true
+      blind: '&f2-5'
+      iceRandomApply: true
+      ice: '&b1-4'
+      movementSpeedRandomApply: true
+      movementSpeed: '&e1-4'
+      durability: '&7600-725'
+      soulboundRandomApply: true
+      soulbound: true
+      xpLevelRandomApply: true
+      xpLevel: '&b2-player+5'
+  '6':
+    itemId: 279
+    nameColour: '&d&l'
+    prefix: random
+    suffix: random
+    properties:
+      weaponspeed: '&2Fast'
+      damage: '&b40-50-player+60-70'
+      critChanceRandomApply: true
+      critChance: '&b3-9'
+      critDamageRandomApply: true
+      critDamage: '&b8-23'
+      lifeStealRandomApply: true
+      lifeSteal: '&23-7'
+      blindRandomApply: true
+      blind: '&f2-5'
+      iceRandomApply: true
+      ice: '&b1-4'
+      movementSpeedRandomApply: true
+      movementSpeed: '&e1-4'
+      durability: '&7600-725'
+      soulboundRandomApply: true
+      soulbound: true
+      xpLevelRandomApply: true
+      xpLevel: '&b2-player+5'
+  '7':
+    itemId: 261
+    nameColour: '&d&l'
+    prefix: random
+    suffix: random
+    properties:
+      weaponspeed: '&2Fast'
+      damage: '&b40-50-player+60-70'
+      critChanceRandomApply: true
+      critChance: '&b3-9'
+      critDamageRandomApply: true
+      critDamage: '&b8-23'
+      lifeStealRandomApply: true
+      lifeSteal: '&23-7'
+      blindRandomApply: true
+      blind: '&f2-5'
+      iceRandomApply: true
+      ice: '&b1-4'
+      movementSpeedRandomApply: true
+      movementSpeed: '&e1-4'
+      durability: '&7600-725'
+      soulboundRandomApply: true
+      soulbound: true
+      xpLevelRandomApply: true
+      xpLevel: '&b2-player+5'

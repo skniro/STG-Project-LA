@@ -1,0 +1,604 @@
+Suits:
+  Frog:
+    Name: '&6青蛙套装'
+    Enabled: true
+    Lore:
+    - ''
+    - '&7绿色的青蛙的套装'
+    - '&7你可以选择穿全套或其中一件'
+    - ''
+    - '&7当你穿这个全套会获得效果'
+    - '&7跳跃'
+    Equipments:
+      Frog Helmet:
+        Name: '&6青蛙头盔'
+        Mystery Dust: 80
+        Rarity: Legendary
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Frog Chestplate:
+        Name: '&5青蛙衣服'
+        Mystery Dust: 32
+        Rarity: Epic
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Frog Leggings:
+        Name: '&9青蛙裤子'
+        Mystery Dust: 18
+        Rarity: Rare
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Frog Boots:
+        Name: '&a青蛙鞋子'
+        Mystery Dust: 7
+        Rarity: Common
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+    Cooldown: 0
+  Ninja:
+    Name: '&6忍者套装'
+    Enabled: true
+    Lore:
+    - ''
+    - '&7超级忍者的套装'
+    - '&7你可以选择穿全套或其中一件'
+    - ''
+    - '&7当你穿这个全套会获得效果'
+    - '&7点击扔出飞镖'
+    Equipments:
+      Ninja Helmet:
+        Name: '&6忍者头盔'
+        Mystery Dust: 80
+        Rarity: Legendary
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Ninja Chestplate:
+        Name: '&5忍者衣服'
+        Mystery Dust: 35
+        Rarity: Epic
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Ninja Leggings:
+        Name: '&9忍者裤子'
+        Mystery Dust: 20
+        Rarity: Rare
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Ninja Boots:
+        Name: '&a忍者鞋子'
+        Mystery Dust: 10
+        Rarity: Common
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+    Cooldown: 0
+  Speedster:
+    Name: '&6快侠套装'
+    Enabled: true
+    Lore:
+    - ''
+    - '&7光速的速度的大侠套装'
+    - '&7你可以选择穿全套或其中一件'
+    - ''
+    - '&7当你穿这个全套会获得效果'
+    - '&7加速'
+    Equipments:
+      Speedster Helmet:
+        Name: '&6快侠头盔'
+        Mystery Dust: 80
+        Rarity: Legendary
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Speedster Chestplate:
+        Name: '&5快侠衣服'
+        Mystery Dust: 25
+        Rarity: Epic
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Speedster Leggings:
+        Name: '&9快侠裤子'
+        Mystery Dust: 13
+        Rarity: Rare
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Speedster Boots:
+        Name: '&a快侠鞋子'
+        Mystery Dust: 5
+        Rarity: Common
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+    Cooldown: 0
+  Ghostly:
+    Name: '&6骷髅套装'
+    Enabled: true
+    Lore:
+    - ''
+    - '&7全身骨头的套装'
+    - '&7你可以选择穿全套或其中一件'
+    - ''
+    - '&7当你穿这个全套会获得效果'
+    - '&7隐身/但是会看到衣服哈哈'
+    Equipments:
+      Ghostly Helmet:
+        Name: '&6骷髅头盔'
+        Mystery Dust: 80
+        Rarity: Legendary
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Ghostly Chestplate:
+        Name: '&5骷髅衣服'
+        Mystery Dust: 25
+        Rarity: Epic
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Ghostly Leggings:
+        Name: '&9骷髅裤子'
+        Mystery Dust: 13
+        Rarity: Rare
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Ghostly Boots:
+        Name: '&a骷髅鞋子'
+        Mystery Dust: 5
+        Rarity: Common
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+    Cooldown: 0
+  Disco:
+    Name: '&6彩色套装'
+    Enabled: true
+    Lore:
+    - ''
+    - '&7奇妙的动态彩色套装'
+    - '&7你可以选择穿全套或其中一件'
+    - ''
+    - '&7当你穿这个全套会获得效果'
+    - '&7动态彩色变色'
+    Equipments:
+      Disco Helmet:
+        Name: '&6彩色头盔'
+        Mystery Dust: 80
+        Rarity: Legendary
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Disco Chestplate:
+        Name: '&5彩色衣服'
+        Mystery Dust: 25
+        Rarity: Epic
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Disco Leggings:
+        Name: '&9彩色裤子'
+        Mystery Dust: 13
+        Rarity: Rare
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Disco Boots:
+        Name: '&a彩色鞋子'
+        Mystery Dust: 5
+        Rarity: Common
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+    Cooldown: 0
+  Mermaid:
+    Name: '&6美人鱼套装'
+    Enabled: false
+    Lore:
+    - ''
+    - '&7传说中的美人鱼穿的套装'
+    - '&7你可以选择穿全套或其中一件'
+    - ''
+    - '&7当你穿这个全套会获得效果'
+    - '&7当你下水后变身美丽的鱼'
+    Equipments:
+      Mermaid Helmet:
+        Name: '&6美人鱼头盔'
+        Mystery Dust: 70
+        Rarity: Legendary
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Mermaid Chestplate:
+        Name: '&5美人鱼衣服'
+        Mystery Dust: 30
+        Rarity: Epic
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Mermaid Leggings:
+        Name: '&9美人鱼裤子'
+        Mystery Dust: 16
+        Rarity: Rare
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Mermaid Boots:
+        Name: '&a美人鱼鞋子'
+        Mystery Dust: 6
+        Rarity: Common
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+    Cooldown: 0
+  Baker:
+    Name: '&6厨师套装'
+    Enabled: true
+    Lore:
+    - ''
+    - '&7饿了可以煮个吃的厨师必备套装'
+    - '&7你可以选择穿全套或其中一件'
+    - ''
+    - '&7当你穿这个全套会获得效果'
+    - '&7点击扔食物'
+    Equipments:
+      Baker Helmet:
+        Name: '&6厨师头盔'
+        Mystery Dust: 70
+        Rarity: Legendary
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Baker Chestplate:
+        Name: '&5厨师衣服'
+        Mystery Dust: 25
+        Rarity: Epic
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Baker Leggings:
+        Name: '&9厨师裤子'
+        Mystery Dust: 13
+        Rarity: Rare
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Baker Boots:
+        Name: '&a厨师鞋子'
+        Mystery Dust: 5
+        Rarity: Common
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+    Cooldown: 0
+  Spooderman:
+    Name: '&6蜘蛛侠套装'
+    Enabled: true
+    Lore:
+    - ''
+    - '&7漫威超级英雄'
+    - '&7英雄级的超级蜘蛛侠'
+    - ''
+    - '&7当你穿上蜘蛛侠套装'
+    - '&7做好准备左键发射飞跃起来吧'
+    Equipments:
+      Spooderman Helmet:
+        Name: '&6蜘蛛侠头套'
+        Mystery Dust: 75
+        Rarity: Legendary
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Spooderman Chestplate:
+        Name: '&5蜘蛛侠紧身衣'
+        Mystery Dust: 33
+        Rarity: Epic
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Spooderman Leggings:
+        Name: '&9蜘蛛侠紧身裤'
+        Mystery Dust: 17
+        Rarity: Rare
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Spooderman Boots:
+        Name: '&a蜘蛛侠紧身鞋'
+        Mystery Dust: 8
+        Rarity: Common
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+    Cooldown: 0
+  Warrior:
+    Name: '&6劈天大力士'
+    Enabled: true
+    Lore:
+    - ''
+    - '&7具有坚韧魅力的肌肉'
+    - '&7无比的强大力量'
+    - ''
+    - '&7全套效果:'
+    - '&7左键点击方块'
+    - '&7将其周围方块震飞起来'
+    Equipments:
+      Warrior Helmet:
+        Name: '&6劈天大力士头套'
+        Mystery Dust: 75
+        Rarity: Legendary
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Warrior Chestplate:
+        Name: '&5劈天大力士衣服'
+        Mystery Dust: 30
+        Rarity: Epic
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Warrior Leggings:
+        Name: '&9劈天大力士裤子'
+        Mystery Dust: 16
+        Rarity: Rare
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Warrior Boots:
+        Name: '&a劈天大力士鞋子'
+        Mystery Dust: 6
+        Rarity: Common
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+    Cooldown: 0
+  Necromancer:
+    Name: '&6鬼神套装'
+    Enabled: true
+    Lore:
+    - ''
+    - '&7潜行于坟墓...'
+    - '&7弥漫着恐怖的气息...'
+    - ''
+    - '&7全套效果:'
+    - '&7左键点击释放成群幽灵'
+    Equipments:
+      Necromancer Helmet:
+        Name: '&6鬼神头'
+        Mystery Dust: 80
+        Rarity: Legendary
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Necromancer Chestplate:
+        Name: '&5鬼神服'
+        Mystery Dust: 35
+        Rarity: Epic
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Necromancer Leggings:
+        Name: '&9鬼神裤'
+        Mystery Dust: 20
+        Rarity: Rare
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Necromancer Boots:
+        Name: '&a鬼神鞋'
+        Mystery Dust: 10
+        Rarity: Common
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+    Cooldown: 0
+  Thor:
+    Name: '&6雷神套装'
+    Enabled: true
+    Lore:
+    - ''
+    - '&7"雷神赐予我闪电力量"'
+    - '&7我是雷神之王'
+    - ''
+    - '&7全套效果:'
+    - '&7点击方块释放雷电'
+    Equipments:
+      Thor Helmet:
+        Name: '&6雷神头盔'
+        Mystery Dust: 70
+        Rarity: Legendary
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Thor Chestplate:
+        Name: '&5雷神服'
+        Mystery Dust: 25
+        Rarity: Epic
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Thor Leggings:
+        Name: '&9雷神裤'
+        Mystery Dust: 13
+        Rarity: Rare
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Thor Boots:
+        Name: '&a雷神鞋'
+        Mystery Dust: 5
+        Rarity: Common
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+    Cooldown: 0
+  Bumblebee:
+    Name: '&6大黄蜂套装'
+    Enabled: true
+    Lore:
+    - ''
+    - '&7听到吗? 嗡嗡的声音'
+    - '&7就是这套装发出来的'
+    - ''
+    - '&7全套效果:'
+    - '&7当你飞起来或左键点击时会发出声音'
+    Equipments:
+      Bumblebee Helmet:
+        Name: '&6大黄蜂头'
+        Mystery Dust: 70
+        Rarity: Legendary
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Bumblebee Chestplate:
+        Name: '&5大黄蜂服'
+        Mystery Dust: 25
+        Rarity: Epic
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Bumblebee Leggings:
+        Name: '&9大黄蜂裤'
+        Mystery Dust: 13
+        Rarity: Rare
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Bumblebee Boots:
+        Name: '&a大黄蜂鞋'
+        Mystery Dust: 5
+        Rarity: Common
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+    Cooldown: 0
+  Plumber:
+    Name: '&6马里奥火之套装'
+    Enabled: true
+    Lore:
+    - ''
+    - '&7公主需要你的拯救'
+    - '&7神赐予你火球的力量,去拯救吧'
+    - ''
+    - '&7全套效果:'
+    - '&7左键发射火球超能力'
+    Equipments:
+      Plumber Helmet:
+        Name: '&6马里奥头像'
+        Mystery Dust: 73
+        Rarity: Legendary
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Plumber Chestplate:
+        Name: '&5火服'
+        Mystery Dust: 32
+        Rarity: Epic
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Plumber Leggings:
+        Name: '&9火裤'
+        Mystery Dust: 18
+        Rarity: Rare
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Plumber Boots:
+        Name: '&a火鞋'
+        Mystery Dust: 7
+        Rarity: Common
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+    Cooldown: 0
+  Ice Walker:
+    Name: '&6冬天的老爷套装'
+    Enabled: true
+    Lore:
+    - ''
+    - '&7雪,白色的'
+    - '&7美丽而又寒冰刺骨'
+    - '&7不过,老爷更爱滑冰了'
+    - ''
+    - '&7全套效果:'
+    - '&7释放雪之粒子效果'
+    - '&7走路会有雪地轨迹'
+    Equipments:
+      Ice Walker Helmet:
+        Name: '&6老爷头像'
+        Mystery Dust: 70
+        Rarity: Legendary
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Ice Walker Chestplate:
+        Name: '&5雪服'
+        Mystery Dust: 25
+        Rarity: Epic
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Ice Walker Leggings:
+        Name: '&9雪裤'
+        Mystery Dust: 13
+        Rarity: Rare
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Ice Walker Boots:
+        Name: '&a雪鞋'
+        Mystery Dust: 5
+        Rarity: Common
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+    Cooldown: 0
+  Vampire:
+    Name: '&6吸血鬼套装'
+    Enabled: false
+    Lore:
+    - ''
+    - '&7血,我喜欢这个味道'
+    - '&7哈哈哈...'
+    - ''
+    - '&7全套效果:'
+    - '&7飞行时会变成蝙蝠'
+    Equipments:
+      Vampire Helmet:
+        Name: '&6吸血鬼头像'
+        Mystery Dust: 74
+        Rarity: Legendary
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Vampire Chestplate:
+        Name: '&5吸血鬼服'
+        Mystery Dust: 34
+        Rarity: Epic
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Vampire Leggings:
+        Name: '&9吸血鬼裤'
+        Mystery Dust: 18
+        Rarity: Rare
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+      Vampire Boots:
+        Name: '&a吸血鬼鞋'
+        Mystery Dust: 7
+        Rarity: Common
+        CanBeFound: true
+        Purchasable: true
+        Lore: ''
+    Cooldown: 0

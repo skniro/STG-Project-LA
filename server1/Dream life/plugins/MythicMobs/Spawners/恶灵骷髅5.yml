@@ -1,0 +1,24 @@
+"\u6076\u7075\u9ab7\u9ac55":
+  MobName: "\u6076\u7075\u9ab7\u9ac5"
+  World: world
+  X: 1071
+  Y: 81
+  Z: 1420
+  Radius: 0
+  UseTimer: true
+  MaxMobs: 1
+  MobLevel: 1
+  MobsPerSpawn: 1
+  Cooldown: 0
+  CooldownTimer: 0
+  Warmup: 4
+  WarmupTimer: 0
+  ActivationRange: 40
+  LeashRange: 32
+  HealOnLeash: false
+  ResetThreatOnLeash: false
+  ShowFlames: false
+  Breakable: false
+  Conditions: []
+  AssociatedMobs:
+  - 7dbede84-2aa9-4eab-9ae3-2ec824f5ca34

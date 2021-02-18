@@ -1,0 +1,43 @@
+# Translation author: chengzi
+# www.chengzi.xyz
+# - - - - - - - - - - - - - - - - - - - - -
+# 聊天信息中的消息.
+# 可以用 &<颜色代码> 给消息增加颜色.
+# 颜色代码:
+# minecraft.gamepedia.com/Formatting_codes
+# 你可以用 & 代替 §
+# - - - - - - - - - - - - - - - - - - - - -
+itemsToDrop: '奖品列表:'
+# - - - - - - - - - - - - - - - - - - - - -
+# 消息前缀
+prefix: ''
+# - - - - - - - - - - - - - - - - - - - - -
+# 消息
+configReloaded: '&7配置文件已重载.'
+boxGiven: '&7成功给予箱子.'
+multipleBoxesGiven: '&7%amount% boxes given.'
+itemsDropped: '&7你获得了: '
+boxList: '&7已配置的奖励箱:'
+enteringCreatingMode: 'To create RandomBlock, click by right mouse button on some block.'
+randomBlockCreated: 'RandomBlock has been succesfully created.'
+randomBlockRemoved: 'RandomBlock has been succesfully removed.'
+enteringRemovalMode: 'You are now in RandomBlock removal mode. Right-click: remove block, Left-click: exit mode.'
+exitingRemovalMode: 'You have exited from removal mode.'
+notARandomBlock: 'This block is not a RandomBlock.'
+# - - - - - - - - - - - - - - - - - - - - -
+# 综合错误
+noPermissions: '&7你没有权限这么做.'
+boxOpenError: '&7在打开箱子时发生了错误'
+boxGiveError: '&7在给予箱子时发生了错误'
+blockCreateError: '&7RandomBlock create error'
+# - - - - - - - - - - - - - - - - - - - - -
+# 详细错误
+playerNotFound: '&7找不到玩家.'
+idMustBeNumerical: '&7箱子id必须是一个数字.'
+notEnoughSpace: '&7你的背包没有足够的大小!'
+noSuchBox: '&7配置文件里不存在此id的箱子.'
+#
+notABox: '&7这不是一个箱子.'
+notAPlayer: '&7你不是一个玩家!'
+noPermissionsToOpen: '&7你没有权限来打开这个箱子.'
+notEnoughMoney: '&7You have not enough money.'

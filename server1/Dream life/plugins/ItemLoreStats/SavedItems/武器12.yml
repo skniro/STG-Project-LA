@@ -1,0 +1,20 @@
+Item:
+  ==: org.bukkit.inventory.ItemStack
+  type: BOW
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: "\xa7f\u7cbe\u9ad3\u5f2f\u5f13\xa7d[\u53f2\u8bd7]"
+    lore:
+    - "\xa7d\u7269\u7406\u4f24\u5bb3\xa7f>>\xa76125-140"
+    - "\xa7d\u79fb\u52a8\u901f\u5ea6\xa7f>>\xa7615%"
+    - "\xa76"
+    - "\xa77\u201c\u5f2f\u5f13\u4e0d\u7f8e,\u4f46\u7bad\u5230\u4e86\u654c\u4eba\u7684\
+      \u5934,\u90a3\u5c31\u5982\u540c\u7f8e\u666f\u4e00\u6837\u4e86\u201d"
+    - "\xa76"
+    - "\xa76\u5386\u7ec3\u503c: \xa7b100"
+    - "\xa7b\u5b50\u5f39: \xa7f\u7bad"
+    enchants:
+      ARROW_INFINITE: 1
+      DURABILITY: 3
+      ARROW_DAMAGE: 1

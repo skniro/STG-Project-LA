@@ -1,0 +1,5 @@
+cfg:
+  version: 2.0
+whitelist-all: true
+whitelist:
+- world

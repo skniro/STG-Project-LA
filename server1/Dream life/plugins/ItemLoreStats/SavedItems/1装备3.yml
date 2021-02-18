@@ -1,0 +1,13 @@
+Item:
+  ==: org.bukkit.inventory.ItemStack
+  type: CHAINMAIL_LEGGINGS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: "\xa7f\u77f3\u94fe\u7ed1\u817f\xa73[\u5347\u9636]"
+    lore:
+    - "\xa77\u81ea\u8eab\u8840\u91cf\xa7f>>\xa7815"
+    - "\xa77"
+    - "\xa77\u201c\u77f3\u788e\u505a\u51fa\u6765\u7684\u76d4\u7532\u4e00\u5957\u201d"
+    - "\xa7a"
+    - "\xa76\u5386\u7ec3\u503c: \xa7b30"
