@@ -1,4 +1,0 @@
-#
-#Wed Sep 06 00:46:17 CST 2017
-LinkedWorlds=
-ServerName=play.hypixel.net

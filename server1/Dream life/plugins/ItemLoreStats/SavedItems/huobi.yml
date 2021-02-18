@@ -1,9 +1,0 @@
-Item:
-  ==: org.bukkit.inventory.ItemStack
-  type: SKULL_ITEM
-  meta:
-    ==: ItemMeta
-    meta-type: SKULL
-    display-name: "\xa7f\u9ab7\u9ac5\u5e01\xa7e[\u901a\u884c\u5e01]"
-    lore:
-    - "\xa7f\u7528\u4e8e\u8d2d\u4e70\u6b66\u5668\u548c\u67aa\u652f\u7684\u8d27\u5e01"
